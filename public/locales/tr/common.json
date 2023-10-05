@@ -1,0 +1,141 @@
+{"Header": {
+  "button": "Giriş Yap"
+},
+"Titles": {
+  "features": "Özellikler"
+},
+  "HeaderNav": [
+    { "title": "Fiyatlandırma", "id": "/#prices" },
+    { "title": "Özellikler", "id": "/#features" },
+    { "title": "Destek" },
+    { "title": "İletişim", "id": "/#contact" }
+  ],
+
+  "Hero": {
+    "title": "Pos.al: Satışları Basitleştirme Noktanız.",
+    "desc": "POS sistemimiz, fiscalizasyon ve vergi yönetimi için özelleştirilmiş bir çözümdür. Bu sistem, fiscalizasyon sürecinin düzenli ve güvenli olmasını sağlamak amacıyla Maliye ve Ekonomi Bakanlığı tarafından lisanslanmıştır.    .",
+    "heroButton": "Şimdi Deneyin..."
+  },
+  "FirstAd": {
+    "header": "POS Sistemi"
+  },
+  "FirstAdInfo": [
+    { "title": "Sertifika Kaydı", "image": "/certificate.png" },
+    { "title": "Cihaz Kaydı", "image": "/fiscal.png" },
+    { "title": "Fiskalizasyon Programı", "image": "/engine.png" }
+  ],
+  "AboutSection": {
+    "header": "Hakkımızda",
+    "title": "Biz Kimiz?",
+    "desc": "Pos.al'a hoş geldiniz ! Biz, kafe, restoran ve sipariş yönetimi için programlar konusunda uzmanlaşmış bir teknoloji şirketiyiz. İnovasyona ve müşteri memnuniyetine adanmışız, bu alanlardaki işletmelerin işleyişlerini geliştirmek ve müşteri deneyimini artırmak isteyen işletmeler için güvenilir bir ortak olarak önemli bir rol oynuyoruz.Misyonumuz, işletmelerin kafe, restoran ve sipariş yönetiminde işleyişlerini değiştirmektir. Gelişmiş teknoloji ve kullanıcı dostu bir arayüz kullanarak güçlü bir platform oluşturuyoruz ve işletmelerin bu sektörlerde rekabetçi bir pazarda başarılı olmalarına yardımcı oluyoruz.",
+    "button": "About Sayfasına Git",
+    "headerYoutube": "Youtube üzerinde videolarımız var.",
+    "descYoutube": "Pos Al'ı nasıl kullanacağınızı öğrenebilirsiniz."
+  },
+  "Price": {
+    "title": "Fiyatlandırma ve Planlama"
+  },
+  "PriceInfo": [
+    {
+      "monthly": "Muaj",
+      "header": "Pos",
+      "title": "Çfarë përfshihet",
+      "desc": "Akses në platformën Pos.",
+      "priceButton": "Provoni Pos",
+      "price": "400"
+    },
+    {
+      "monthly": "Muaj",
+      "header": "Pos + Cash",
+      "title": "Çfarë përfshihet",
+      "desc": "Akses në Pos + fiskalizimin cash.",
+      "price": "200",
+      "priceButton": "Provoni Pos"
+    },
+    {
+      "monthly": "Muaj",
+      "header": "Pos + E-Invoice",
+      "title": "Çfarë përfshihet",
+      "desc": "Akses në Pos, cash dhe e-invoice.",
+      "price": "200",
+      "priceButton": "Provoni Pos"
+    },
+    {
+      "monthly": "Muaj",
+      "header": "Fiskalizim Rest API",
+      "title": "Çfarë përfshihet",
+      "desc": "Akses në shërbimet Rest API, cash, jo-cash, e-invoice",
+      "price": "500",
+      "priceButton": "Provoni Pos"
+    }
+  ],
+  "SecondAd": {
+    "header": "Bar, Kafe, Restoran için Program",
+    "title": "Merkezi Fatura Platformu"
+  },
+
+  "Features": [
+    {
+      "header": "KOLAY ÜRÜN YÖNETİMİ",
+      "title": "Pos.al ürün yönetimini kolaşlayştırır",
+      "desc": "Pos.al ile işletmeler, hızlıca kataloglarını gezinebilir, ürünleri arayabilir ve özel ürünleri hızlıca bulmak için filtreler uygulayabilir, böylece sorunsuz ve verimli bir satış sürecini sağlayabilirler",
+      "category1": "Anlaşılabilir katalog",
+      "category2": "Verimli Yönetim",
+      "image": "/laptop-hand.png",
+      "imagePositionLeft": true
+    },
+    {
+      "header": "ESNEK ÖDEME SEÇENEKLERİ",
+      "title": "Pos.al esnek ödeme seçenekleri sunar",
+      "desc": "Pos.al ile özelleştirilebilir makbuzlar ve faturalar oluşturabilirsiniz, işletmelere finansal işlemlere profesyonel ve düzenli bir yaklaşım sunar.",
+      "category1": "Çoklu ödeme yöntemleri",
+      "category2": "Güvenli işlemler",
+      "image": "/mobile-hand.png",
+      "imagePositionLeft": false
+    },
+    {
+      "header": "MÜŞTERİ DESTEĞİ VE CANLI YARDIM",
+      "title": "Pos.al  müşteri desteği ve canlı yardım özellikleri sunar",
+      "desc": "Platform, bilet sistemleri, canlı sohbet desteği ve yaygın soruları veya endişeleri ele almak için bir bilgi tabanını içerir. Özel müşteri desteği ve canlı destek özelliği ile müşteri memnuniyetini artırabilir, güven inşa edebilir ve güçlü ilişkileri sürdürebilirsiniz",
+      "category1": "Müşteri desteği",
+      "category2": "Canlı yardım hizmeti",
+      "image": "/tablet-hand.png",
+      "imagePositionLeft": true
+    }
+  ],
+  "Blog": [
+    {
+      "title": "Fiskalizasyon Programı Nedir ?",
+      "desc": "Teknolojinin hayatımızın ayrılmaz bir parçası haline geldiği bir dünyada, fiskalizasyon programı Arnavutluk'taki işletmeler için zorunlu bir gerekliliktir. POS.AL, işletmenizin büyümesine ve başarılı olmasına yardımcı olacak bu programı kullanma yolunda güvenebileceğiniz bir ortaktır.....",
+      "image" : "/blog1.png",
+      "location": "/fiskalizimi",
+      "button": "Daha Fazla Oku..."
+    },
+    {
+      "title": "Elektronik Fatura: İş Dünyasındaki Dijital Dönüşüm",
+      "desc": "Elektronik fatura, günümüz iş dünyasında hızla yayılan ve geleneksel kağıt faturaların yerini almaya başlayan bir uygulamadır. Şirketinizin web tabanlı POS.AL hizmetinin bu dönüşümdeki rolünü göz önünde bulundurarak, iş dünyasındaki bu önemli kavramı....",
+      "image" : "/blog2.png",
+      "location": "/fatura-elektronike",
+      "button": "Daha Fazla Oku..."
+    },
+    {
+      "title": "POS.AL Kullanmanın Avantajları: Müşteri Desteği, Kalite",
+      "desc": "POS.AL, işletmeler için vazgeçilmez bir araç olmanın ötesine geçiyor. Müşterilerimize sunduğumuz avantajlarla, iş süreçlerinizi kolaylaştırıyor ve rekabette öne çıkmanıza yardımcı oluyoruz. İşte POS.AL kullanmanın sizin için sağlayacağı bazı önemli avantajlar:...",
+      "image" : "/blog3.png",
+      "location": "/advanteges",
+      "button": "Daha Fazla Oku..."
+    }
+  ],
+  "Contact": {
+    "title": "Bizimle İletişime Geçin",
+    "desc": "Herhangi bir sorunuz varsa veya herhangi bir konuda yardıma ihtiyacınız varsa, bize ulaşmaktan çekinmeyin:",
+    "phone": "Mobil",
+    "contactYoutube": "Bizi YouTube'da takip edin",
+    "contactMail": "Bize e-posta gönderin"
+  }, "Footer": [
+    {"title": "ANASAYFA" , "location": "/tr"},
+    {"title": "KOŞULLAR", "location": "/tr/terms"},
+    {"title": "HAKKIMIZDA", "location": "/tr/about"},
+    {"title": "FAQ", "location": "/tr/faq"}
+  ]
+}

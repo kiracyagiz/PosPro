@@ -1,0 +1,146 @@
+{
+  "Header": {
+    "button": "Hyr"
+  },
+  "Titles": {
+    "features": "Risitë"
+  },
+  "HeaderNav": [
+    { "title": "Çmimet", "id": "/#pricing" },
+    { "title": "Risitë", "id": "/#features" },
+    { "title": "Ndihma Online" },
+    { "title": "Kontakti", "id": "/#contact" }
+  ],
+
+  "FirstAd": {
+    "header": "Sistemin POS"
+  },
+  "FirstAdInfo": [
+    {
+      "title": "Regjistrim Çertifikate",
+      "image": "/certificate.png"
+    },
+    { "title": "Regjistrim Paisje", "image": "/fiscal.png" },
+    { "title": "Program Fiskalizmi", "image": "/engine.png" }
+  ],
+  "Hero": {
+    "title": "Program Fiskalizimi në Sistemin POS",
+    "desc": "Program Fiskalizimi dhe Platforma Qendrore e Faturave në Sistemin POS Sistemi ynë POS është një zgjidhje e specializuar për fiskalizimin dhe administratën tatimore. Ky sistem është licencuar nga Ministria e Financave dhe Ekonomisë për të siguruar që procesi i fiskalizimit të jetë i rregullt dhe i sigurt.",
+    "heroButton": "Provo Pos.."
+  },
+  "AboutSection": {
+    "header": "Rreth Nesh",
+    "title": "Kush jemi?",
+    "desc": "Mirësevini në Pos.al! Ne jemi një kompani teknologjie e specializuar në programet për kafene, restorante, dhe menaxhimin e porosive. Jemi përkushtuar ndaj inovacionit dhe kënaqësisë së klientëve dhe kemi një rol kyç si partner i besueshëm për bizneset që duan të përmirësojnë operacionet e tyre në këto fusha dhe përvojën e klientëve.Misioni ynë është të ndryshojmë mënyrën se si bizneset menaxhojnë operacionet e tyre në kafene, restorante, dhe menaxhimin e porosive. Përdorim teknologjinë e përparuar dhe ndërfaqen e lehtë për përdoruesit për të krijuar një platformë të fuqishme, duke ndihmuar kështu bizneset të dalin më mirë në tregun konkurrues të sotëm në këto sektore.",
+    "button": "Shkoni te Rreth Nesh.",
+    "headerYoutube": "Videot tona në youtube",
+    "descYoutube": "Mund të mësoni si të përdorni Pos Al në YouTube."
+  },
+  "Price": {
+    "title": "Çmimet në platformë"
+  },
+  "PriceInfo": [
+    {
+      "monthly": "Muaj",
+      "header": "Pos",
+      "title": "Çfarë përfshihet",
+      "desc": "Akses në platformën Pos.",
+      "priceButton": "Provoni Pos",
+      "price": "400"
+    },
+    {
+      "monthly": "Muaj",
+      "header": "Pos + Cash",
+      "title": "Çfarë përfshihet",
+      "desc": "Akses në Pos + fiskalizimin cash.",
+      "price": "200",
+      "priceButton": "Provoni Pos"
+    },
+    {
+      "monthly": "Muaj",
+      "header": "Pos + E-Invoice",
+      "title": "Çfarë përfshihet",
+      "desc": "Akses në Pos, cash dhe e-invoice.",
+      "price": "200",
+      "priceButton": "Provoni Pos"
+    },
+    {
+      "monthly": "Muaj",
+      "header": "Fiskalizim Rest API",
+      "title": "Çfarë përfshihet",
+      "desc": "Akses në shërbimet Rest API, cash, jo-cash, e-invoice",
+      "price": "500",
+      "priceButton": "Provoni Pos"
+    }
+  ],
+  "SecondAd": {
+    "header": "Programme për Bar Kafe Restorant",
+    "title": "Platforma qendrore e faturave"
+  },
+
+  "Features": [
+    {
+      "header": "MENAXHIM I THJESHTË I PRODUKTEVE",
+      "title": "Pos.al e bën menaxhimin e produkteve më të lehtë",
+      "desc": "Me Pos.al bizneset mund të navigojnë me shpejtësi nëpër kataloget e tyre, të kërkojnë artikuj dhe të vendosin filtra për të gjetur shpejt produkte specifike, duke siguruar një proces të qetë dhe efikas të shitjeve.",
+      "category1": "Katalog i thjeshtë",
+      "category2": "Menaxhim efikas",
+      "image": "/laptop-hand.png",
+      "imagePositionLeft": true
+    },
+    {
+      "header": "PAGESA FLEKSIBËL",
+      "title": "Pos. al ofron mënyra pagesash fleksibël",
+      "desc": "Me Pos.al ju mund të gjeneroni fatura të personalizuara, duke u ofruar bizneseve një qasje profesionale dhe të organizuar ndaj transaksioneve financiare",
+      "category1": "Mënyra pagesash të ndryshme",
+      "category2": "Transaksione të sigurta",
+      "image": "/mobile-hand.png",
+      "imagePositionLeft": false
+    },
+    {
+      "header": "SHËRBIM KLIENTI DHE LIVE CHAT",
+      "title": "Pos.al ofron shërbim klienti dhe live chat",
+      "desc": "Platforma përfshin krijimin e 'tickets', suport live me agjentët tanë dhe një bazë njohurish për të adresuar pyetjet ose problemet e zakonshme. Me një suport të dedikuar, ju mund të përmirësoni kënaqësinë e klientit, të krijoni besim dhe të mbani marrëdhënie të forta.",
+      "category1": "Shërbim klienti",
+      "category2": "Integrim me live chat",
+      "image": "/tablet-hand.png",
+      "imagePositionLeft": true
+    }
+  ],
+  "Blog": [
+    {
+      "title": "Çfarë është Program Fiskalizmi?",
+      "desc": "Në një botë ku teknologjia ka bërë një pjesë të pamohueshme të jetës sonë, programi i fiskalizmit është një obligim i domosdoshëm për bizneset në Shqipëri. POS.AL është partneri juaj i besuar në rrugën drejt modernizimit të biznesit tuaj dhe në përdorimin e këtij programi për të menaxhuar transparencën, të ardhurat dhe shpenzimet me efikasitet...",
+      "image": "/blog1.png",
+      "button": "Lexo më shumë...",
+      "location": "/fiskalizmi"
+    },
+    {
+      "title": "Elektronik Fatura: Dijital Transformimin",
+      "desc": "Në botën e sotme të shpejtësisë së rritur të digitalizimit, koncepti i faturës elektronike luajti një rol të rëndësishëm në botën e biznesit. Kompanitë po kalojnë nga faturat e zakonshme të printuara në formatin dixhital, duke ndjekur një qasje më të bashkuar dhe të modernizuar në menaxhimin...",
+      "image": "/blog2.png",
+      "button": "Lexo më shumë...",
+      "location": "/fatura-elektronike"
+    },
+    {
+      "title": "Avantazhet e Përdorimit të POS.AL:Cilësia dhe Çmimet Konkurruese",
+      "desc": "POS.AL shkon përtej të qenit thjesht një mjet i nevojshëm për bizneset. Me avantazhet që ofrojmë klientëve tanë, lehtësojmë proceset tuaja të biznesit dhe ju ndihmojmë të dalin në krye në konkurrencën e tregut. Ja disa prej avantazheve kryesore të përdorimit të...",
+      "image": "/blog3.png",
+      "button": "Lexo më shumë...",
+      "location": "/advanteges"
+    }
+  ],
+  "Contact": {
+    "title": "Na kontaktoni",
+    "desc": "Nëse keni ndonjë pyetje ose keni nevojë për ndihmë mos hezitoni të na kontaktoni:",
+    "phone": "Telefon",
+    "contactYoutube": "Na ndiqni në Youtube",
+    "contactMail": "Na shkruani në Email"
+  },
+  "Footer": [
+    {"title": "FAQJA KRYESORE" , "location": "/sq"},
+    {"title": "TERMAT", "location": "/sq/terms"},
+    {"title": "RRETH NESH", "location": "/sq/about"},
+    {"title": "FAQ", "location": "/sq/faq"}
+  ]
+}

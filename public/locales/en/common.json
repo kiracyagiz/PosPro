@@ -1,0 +1,145 @@
+{"Header": {
+  "button": "Login"
+},
+"Titles": {
+  "features": "Features"
+},
+  "HeaderNav": [
+    { "title": "Pricing", "id": "/#pricing" },
+    { "title": "Features", "id": "/#features" },
+    { "title": "Support" },
+    { "title": "Contact", "id": "/#contact" }
+  ],
+  "FirstAd": {
+    "header": "POS System"
+  },
+  "FirstAdInfo": [
+    {
+      "title": "Certificate Registration",
+      "image": "/certificate.png"
+    },
+    { "title": "Device Registration", "image": "/fiscal.png" },
+    { "title": "Fiscalization Program", "image": "/engine.png" }
+  ],
+
+  "Hero": {
+    "title": "Pos.al: Fiscalization Program in the POS System",
+    "desc": "Program Fiscalization and Central Invoice Platform in the POS System Our POS system is a specialized solution for fiscalization and tax administration. This system is licensed by the Ministry of Finance and Economy to ensure that the fiscalization process is regular and secure.",
+    "heroButton": "Try Now..."
+  },
+  "AboutSection": {
+    "header": "About Us",
+    "title": "Who we are?",
+    "desc": "Welcome to Pos.al! We are a technology company specializing in programs for cafes, restaurants, and order management. We are dedicated to innovation and customer satisfaction, playing a key role as a trusted partner for businesses looking to improve their operations in these fields and enhance the customer experience.Our mission is to change the way businesses manage their operations in cafes, restaurants, and order management. We use advanced technology and a user-friendly interface to create a powerful platform, helping businesses excel in today's competitive market in these sectors.",
+    "button": "Go To About Page",
+    "headerYoutube": "Our videos on Youtube",
+    "descYoutube": "You can learn how to use Pos Al on Youtube."
+  },
+  "Price": {
+    "title": "Price"
+  },
+
+  "PriceInfo": [
+    {
+      "monthly": "Muaj",
+      "header": "Pos",
+      "title": "Çfarë përfshihet",
+      "desc": "Akses në platformën Pos.",
+      "priceButton": "Provoni Pos",
+      "price": "400"
+    },
+    {
+      "monthly": "Muaj",
+      "header": "Pos + Cash",
+      "title": "Çfarë përfshihet",
+      "desc": "Akses në Pos + fiskalizimin cash.",
+      "price": "200",
+      "priceButton": "Provoni Pos"
+    },
+    {
+      "monthly": "Muaj",
+      "header": "Pos + E-Invoice",
+      "title": "Çfarë përfshihet",
+      "desc": "Akses në Pos, cash dhe e-invoice.",
+      "price": "200",
+      "priceButton": "Provoni Pos"
+    },
+    {
+      "monthly": "Muaj",
+      "header": "Fiskalizim Rest API",
+      "title": "Çfarë përfshihet",
+      "desc": "Akses në shërbimet Rest API, cash, jo-cash, e-invoice",
+      "price": "500",
+      "priceButton": "Provoni Pos"
+    }
+  ],
+  "SecondAd": {
+    "header": "Program for Bar, Cafe, Restaurant",
+    "title": "Central Invoice Platform"
+  },
+  "Features": [
+    {
+      "header": "EASY PRODUCT MANAGEMENT",
+      "title": "Pos.al simplifies the management of products",
+      "desc": "With Pos.al businesses can swiftly navigate through their catalog, search for items, and apply filters to quickly find specific products, ensuring a smooth and efficient sales process.",
+      "category1": "Intuitive Catalag",
+      "category2": "Efficient management",
+      "image": "/laptop-hand.png",
+      "imagePositionLeft": true
+    },
+    {
+      "header": "FLEXIBLE PAYMENT OPTIONS",
+      "title": "Pos.al offers flexible payment options",
+      "desc": "With Pos.al you can generate customizable receipts and invoices, providing businesses with a professional and organized approach to financial transactions.",
+      "category1": "Multiple payment methods",
+      "category2": "Secure transactions",
+      "image": "/mobile-hand.png",
+      "imagePositionLeft": false
+    },
+    {
+      "header": "CUSTOMER SUPPORT AND HELPDESK",
+      "title": "Pos.al offers integrated customer support and helpdesk features",
+      "desc": "The platform includes ticketing systems, live chat support, and a knowledge base to address common questions or concerns. With a dedicated customer support and helpdesk feature, you can improve customer satisfaction, build trust, and maintain strong relationships.",
+      "category1": "Customer support",
+      "category2": "Helpdesk integration",
+      "image": "/tablet-hand.png",
+      "imagePositionLeft": true
+    }
+  ],
+  "Blog": [
+    {
+      "title": "What is the Fiscalism Program?",
+      "desc": "In a world where technology has become an integral part of our lives, the fiscalization program is a necessary obligation for Albanian businesses. POS.AL is your trusted partner on the path to utilizing this program to manage transparency, income, and expenditures efficiently....",
+      "image": "/blog1.png",
+      "button": "Read more...",
+      "location": "/fiskalizmi"
+    },
+    {
+      "title": "Electronic Invoice: Reflection of Digital Transformation",
+      "desc": "Electronic invoicing is a rapidly spreading practice in today's business world, gradually replacing traditional paper invoices. Considering the role of your web-based POS.AL service in this transformation, we will examine this significant concept in the business...",
+      "image": "/blog2.png",
+      "button": "Read more...",
+      "location": "/fatura-elektronike"
+    },
+    {
+      "title": "Advantages of Using POS.AL: Customer Support, Quality",
+      "desc": "POS.AL goes beyond being just a necessary tool for businesses. With the advantages we offer to our clients, we streamline your business processes and help you excel in the market competition. Here are some of the key advantages of using POS.AL:...",
+      "image": "/blog3.png",
+      "button": "Read more...",
+      "location" :"/advanteges"
+    }
+  ],
+  "Contact": {
+    "title": "Get in Touch with us",
+    "desc": "If you have any quesiton or need help with anything, don't hesitate to reach out to us:",
+    "phone": "Mobile",
+    "contactYoutube": "Follow us on Youtube",
+    "contactMail": "Email us"
+  },
+  "Footer": [
+    {"title": "HOME" , "location": "/en"},
+    {"title": "TERMS", "location": "/en/terms"},
+    {"title": "ABOUT", "location": "/en/about"},
+    {"title": "FAQ", "location": "/en/faq"}
+  ]
+}

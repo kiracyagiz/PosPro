@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-20%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.animate-slide-down {
+  animation: slideDown 0.3s ease-out;
+}
+
+#yagiz {
+  box-shadow: inset 0 -0.5em #ffbe0b;
+  transition: box-shadow 0.3s ease;
+}
+
+#yagiz:hover {
+  box-shadow: inset 0 -1.1em #ffbe0b;
+}
+.robot-regular {
+  font-family: "Inconsolata", monospace;
+  font-weight: 400;
+}
+
+.robot-bold {
+  font-family: "Inconsolata", monospace;
+  font-weight: 700;
+}
+
+.roboto900 {
+  font-family: "Roboto", sans-Arial, sans-serif, Inconsolata;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.roboto700 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.roboto400 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.active {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.passive {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.heroRoboto {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 34px;
+}
+
+.aboutTitle {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+}
