@@ -1,9 +1,10 @@
-{"Header": {
-  "button": "Login"
-},
-"Titles": {
-  "features": "Features"
-},
+{
+  "Header": {
+    "button": "Login"
+  },
+  "Titles": {
+    "features": "Features"
+  },
   "HeaderNav": [
     { "title": "Pricing", "id": "/#pricing" },
     { "title": "Features", "id": "/#features" },
@@ -126,7 +127,7 @@
       "desc": "POS.AL goes beyond being just a necessary tool for businesses. With the advantages we offer to our clients, we streamline your business processes and help you excel in the market competition. Here are some of the key advantages of using POS.AL:...",
       "image": "/blog3.png",
       "button": "Read more...",
-      "location" :"/advanteges"
+      "location": "/advanteges"
     }
   ],
   "Contact": {
@@ -137,9 +138,121 @@
     "contactMail": "Email us"
   },
   "Footer": [
-    {"title": "HOME" , "location": "/en"},
-    {"title": "TERMS", "location": "/en/terms"},
-    {"title": "ABOUT", "location": "/en/about"},
-    {"title": "FAQ", "location": "/en/faq"}
+    { "title": "HOME", "location": "/en" },
+    { "title": "TERMS", "location": "/en/terms" },
+    { "title": "ABOUT", "location": "/en/about" },
+    { "title": "FAQ", "location": "/en/faq" }
+  ],
+  "AboutPage": {
+    "title": "About Us",
+    "desc1": "Welcome to Pos.al! We are a leading technology company specializing in providing cutting-edge point-of-sale (POS) solutions for businesses of all sizes. With a strong commitment to innovation and customer satisfaction, we have become a trusted partner for businesses looking to streamline their sales operations and enhance customer experiences.",
+    "desc2": "Our mission is to revolutionize the way businesses manage their sales processes. We combine advanced technology with user-friendly interfaces to create this powerful POS platform that empower businesses to thrive in today's competitive market.",
+    "desc4": "Services",
+    "category1": "Versatile packages",
+    "category2": "Customer Support and Helpdesk Services"
+  },
+  "Faq": [
+    {
+      "title": "What is the Pos platform?",
+      "desc": "The Pos platform is a modern solution to manage your sales. With simple yet advanced tools, it helps grow your business. Easily and efficiently manage products, inventory, and customer service."
+    },
+    {
+      "title": "How do I get started?",
+      "desc": "Getting started with our Pos platform is easy and efficient. Begin by registering with your information. After registration, add the necessary fiscalization certificate to ensure legal compliance. Next, input your product details like names, descriptions, and prices to establish a well-organized inventory in the Pos platform. Our user-friendly interface guides you throughout this process, ensuring a seamless setup. Once done, you'll unlock the full potential of the Pos platform for managing sales, tracking inventory, and offering excellent customer service. Experience the convenience and efficiency of our platform – start today!"
+    },
+    {
+      "title": "What's included in the Pos platform?",
+      "desc": "The Pos platform provides access to various features that empower your business. From efficient product management and flexible payment options to integrated customer support and helpdesk features, Pos platform equips you with the tools needed for smooth sales operations. It offers different plans with varying features and pricing to suit your needs, and ensures the security of your personal information through our privacy policy. Additionally, it simplifies processes like cash fiscalization, e-invoice fiscalization, and Rest API fiscalization, allowing you to focus on growth and exceptional customer service."
+    },
+    {
+      "title": "What payment options are available?",
+      "desc": "Pos.al offers a variety of convenient payment options to accommodate your customers. You can accept credit and debit cards, cash payments, mobile wallets, and even contactless payments. This diverse range of payment methods ensures that your customers can choose the option that suits them best, enhancing their shopping experience and contributing to increased sales."
+    },
+    {
+      "title": "How can I get customer support?",
+      "desc": "At Pos.al, we prioritize exceptional customer support. Our integrated helpdesk feature allows you to connect with our dedicated support team in real-time through live chat. If you have questions, need assistance, or encounter any issues, simply reach out to our support agents, who are ready to provide prompt and personalized help. We are committed to ensuring that your experience with Pos.al is smooth, efficient, and hassle-free."
+    },
+    {
+      "title": "What is the pricing for different plans?",
+      "desc": "Pos.al offers a range of plans tailored to meet your specific needs. Our pricing varies depending on the features and services included in each plan. Whether you're a small business looking for essential features or a larger enterprise seeking advanced capabilities, Pos.al has a plan to suit you. Visit our website to explore the different plans and their corresponding pricing details. We are committed to providing transparent and competitive pricing options to help your business thrive."
+    },
+    {
+      "title": "What is cash fiscalization?",
+      "desc": "Cash fiscalization is a crucial process that ensures transparency and compliance with tax regulations. It involves the registration of cash transactions with the tax authorities in real-time, allowing accurate reporting and monitoring. With cash fiscalization, each sale is recorded, and a unique fiscal code is generated for the transaction. This code is then printed on the receipt, verifying that the transaction has been properly documented and reported to the tax authorities"
+    },
+    {
+      "title": "What is e-invoice fiscalization?",
+      "desc": "E-invoice fiscalization is a modern method of ensuring accurate and accountable financial transactions. It involves the electronic issuance and reporting of invoices to the tax authorities. With e-invoice fiscalization, businesses generate digital invoices with specific fiscal codes and transmit them directly to the tax authorities. This streamlines the invoicing process, reduces paperwork, and enhances transparency. By adopting e-invoice fiscalization, businesses contribute to a more efficient and digitally advanced economy."
+    },
+    {
+      "title": "What is Rest API fiscalization?",
+      "desc": "Rest API fiscalization offers businesses the ability to integrate their point of sale systems with tax authorities using a modern and standardized interface. It enables seamless communication between the POS system and the tax authority's database, ensuring that all relevant fiscal data is accurately and securely transmitted. This integration simplifies the fiscalization process and minimizes the risk of errors or discrepancies. Rest API fiscalization enhances efficiency and compliance while providing a reliable and automated way to fulfill fiscal obligations."
+    },
+    {
+      "title": "What are the benefits of using Pos.al?",
+      "desc": "Pos.al offers a wide range of benefits that can significantly impact your business. It simplifies product management by providing intuitive tools for organizing your inventory. The flexible payment options cater to your customers' preferences, enhancing their shopping experience. Integrated customer support and helpdesk features ensure that you can provide timely assistance to your customers. Additionally, Pos.al's security measures protect customer data and help you comply with privacy regulations. Its compatibility with various hardware devices ensures seamless operations, and the platform's comprehensive plans provide you with choices that suit your needs and budget."
+    },
+    {
+      "title": "Is my personal information secure?",
+      "desc": "Yes, the security of your personal information is of utmost importance to us. At Pos.al, we employ advanced security measures to safeguard your data during transactions and interactions with our platform. Our system utilizes encryption protocols and follows industry best practices to ensure the confidentiality and integrity of your information. You can trust that your personal and financial data is handled with the highest level of care and protection"
+    },
+    {
+      "title": "What if I have more questions?",
+      "desc": "We welcome your questions and are here to assist you every step of the way. If you have additional inquiries or need further guidance, our dedicated customer support team is readily available to provide prompt and helpful assistance. You can reach out to us through various channels, including live chat, email, and our website's contact form. Your satisfaction and understanding are our priorities, and we are committed to ensuring that you have a seamless and productive experience with Pos.al."
+    }
+  ],
+  "Terms": [
+    {
+      "title": "Introduction",
+      "desc": "Welcome to our Point of Sale (POS) website. These terms and conditions (hereafter 'Terms') apply to all users of the website and its services. By accessing or using our website, you agree to be bound by these Terms. If you do not agree with these Terms, you may not use the website."
+    },
+    {
+      "title": "Use of website",
+      "desc": "You are granted permission to use our website and services for lawful purposes only. You may not use the website in any way that breaches any applicable local, or national law or regulations."
+    },
+    {
+      "title": "Intellectual property",
+      "desc": "All elements used on this website, including but not limited to text, graphics, logos, images, and software, are protected by copyright. They are owned by Pos.al. This site is used as determined on the terms here. The customer has the right to use this site only for his personal use and any copying, unauthorized use of the elements used on this site is prohibited."
+    },
+    {
+      "title": "Privacy policy",
+      "desc": "Pos.al reserves the right to process personal data in order to improve the management of the relationship with its customers and promote the services offered on the site, without sharing them with third parties.\nPos.al collects the following data from the user Name, Surname, NUIS, Address, City, Phone number, E-mail address.\nThe purposes for which we process customer data are as follows--\n1. Sending information about purchased subscriptions and general notifications via email or phone call.\n2. Sending personalized notifications on actions taken on the site.\nIn cases as shown below-\n1.Uploading the fiscalization certificate in order to fiscalize your invoices, the data is not shared with third parties.\n2.Subscription payments on the platform, sensitive data of the used bank account, debit and credit cards are not collected and shared with third parties.\n3.Saving a bank account in the program by setting IBAN, Bank name, SWIFT, is not shared with third parties."
+    },
+    {
+      "title": "User responsibility for account credentials",
+      "desc": "You acknowledge and agree that you are solely responsible for maintaining the confidentiality and security of your username, email, and password associated with your account. Any activities performed under your account will be considered your responsibility"
+    },
+    {
+      "title": "User conduct",
+      "desc": "You agree to use our site in a manner that is legal, ethical and respectful of the rights of others. You may not use our website to harass, threaten or intimidate others, to engage in any activity that is fraudulent, illegal or harmful, or to transmit any virus or other harmful code."
+    },
+    {
+      "title": "Subscriptions and financial responsibilities",
+      "desc": "When you purchase a subscription(s) to our services, you understand and accept full responsibility for all transactions and actions performed on your account. You agree to promptly address any payment-related issues and ensure the accuracy of billing information. Our company is not responsible for any financial loss caused by the use of our services.\n\nIt's important to note that with paid subscriptions or any financial interactions, we do not provide indemnification. You are solely responsible for any decisions, transactions, or financial implications that may arise from the use of our platform. Any actions taken with your account, including paid subscriptions, are undertaken at your own risk."
+    },
+    {
+      "title": "Live chat and customer support",
+      "desc": "We are dedicated to providing excellent customer support to enhance your experience with our Point of Sale (POS) website. Our customer care team is available to assist you during our regular working hours, Monday to Friday, from 7:00 AM to 21:00 PM and Saturday from 9:00 AM to 16:00 PM.\n\nDuring working hours---If you require assistance or have any inquiries, our customer care representatives are ready to help you. You can reach out to us through our online chat support system available on the website.\n\nAfter Hours - Email Support---For your convenience, even after regular business hours, you can contact us for support. If you encounter any problems or have questions, you can leave us an email at the address provided on our homepage. When leaving an email, please be sure to include your name, email address, and a detailed description of the problem you are experiencing. Our team will respond to your email within the next business day. You can always refer to our basic knowledge page at the link https://posal.tawk.help/.\n\nHigh priority support---In case of high priority matters that require immediate attention such as you cannot log in into your profile or the documents or receipts are being saved, outside of our regular business hours, you have access to quick assistance.\n\nYou can send an email directly to the following address [info@pos.al].\n\nMoreover, in case of a high priority situation, you can call our helpline at [+355672014274] for immediate help and support. \n\n We are committed to ensuring that you receive the necessary assistance and support for a seamless experience while using our POS software platform."
+    },
+    {
+      "title": "User responsibility for fiscalization",
+      "desc": "It is important to note that fiscalization, including the proper handling of invoices and related legal requirements, is the sole responsibility of the user. Our platform provides the necessary tools and features to facilitate fiscalization processes, but ultimate compliance with tax regulations and accurate reporting rests with the user.\n\nWhile we strive to offer a seamless experience and support in using our platform's fiscalization features, it's essential for users to understand and adhere to the legal obligations of their jurisdiction. We encourage users to stay informed about the relevant laws and regulations pertaining to fiscalization and to seek professional advice if needed.\n\nAs part of our commitment to transparency and user empowerment, we provide resources and guidance to assist users in understanding and fulfilling their fiscalization obligations. However, users are responsible for ensuring the accuracy and completeness of their fiscalization activities while using our platform.\n\nBy using our Point of Sale (POS) software platform, users acknowledge and agree to undertake their fiscalization duties in accordance with the applicable laws and regulations.\n\nWe are here to provide support and assistance, but the ultimate responsibility for fiscalization lies with each user."
+    },
+    {
+      "title": "Limitation of liability",
+      "desc": "Our company is not responsible for any damages resulting from the incorrect use or inability to use our site or our services. This includes but is not limited to direct, indirect, incidental, punitive and consequential damages. We take no responsibility for any loss or damage that may be caused by unauthorized access using our servers or disrupting our services."
+    },
+    {
+      "title": "Modifications",
+      "desc": "We reserve the right to make changes or revisions to these Terms at any time without prior notice. Your continued use of the Site following any changes to these Terms constitutes your acceptance of the new Terms."
+    },
+    {
+      "title": "Governing law",
+      "desc": "These Terms will be subject to and interpreted in accordance with the laws of the Republic of Albania, without affecting the principles of conflict of law."
+    },
+    {
+      "title": "Contact us",
+      "desc": "If you have any questions or comments about these Terms, please contact us at +355672014274 or send an email to info@pos.al."
+    }
   ]
 }

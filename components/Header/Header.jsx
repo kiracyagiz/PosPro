@@ -7,7 +7,7 @@ import Language from "./Language";
 import Link from "next/link";
 
 const Header = (props) => {
-  const { header, navButton, locale } = props;
+  const { header, navButton, locale ,href} = props;
   const [panelOpen, setPanelOpen] = useState(false);
 
 
@@ -43,10 +43,10 @@ const Header = (props) => {
 
           <div className="w-full">
             <Language
-              locale={"/sq"}
-              localeEn={"/en"}
+              locale={`/sq${href }`}
+              localeEn={`/en${href}`}
               param={locale}
-              localeTr={"/tr"}
+              localeTr={`/tr${href}`}
             />
           </div>
         </nav>

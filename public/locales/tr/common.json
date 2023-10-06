@@ -1,9 +1,10 @@
-{"Header": {
-  "button": "Giriş Yap"
-},
-"Titles": {
-  "features": "Özellikler"
-},
+{
+  "Header": {
+    "button": "Giriş Yap"
+  },
+  "Titles": {
+    "features": "Özellikler"
+  },
   "HeaderNav": [
     { "title": "Fiyatlandırma", "id": "/#prices" },
     { "title": "Özellikler", "id": "/#features" },
@@ -107,21 +108,21 @@
     {
       "title": "Fiskalizasyon Programı Nedir ?",
       "desc": "Teknolojinin hayatımızın ayrılmaz bir parçası haline geldiği bir dünyada, fiskalizasyon programı Arnavutluk'taki işletmeler için zorunlu bir gerekliliktir. POS.AL, işletmenizin büyümesine ve başarılı olmasına yardımcı olacak bu programı kullanma yolunda güvenebileceğiniz bir ortaktır.....",
-      "image" : "/blog1.png",
+      "image": "/blog1.png",
       "location": "/fiskalizimi",
       "button": "Daha Fazla Oku..."
     },
     {
       "title": "Elektronik Fatura: İş Dünyasındaki Dijital Dönüşüm",
       "desc": "Elektronik fatura, günümüz iş dünyasında hızla yayılan ve geleneksel kağıt faturaların yerini almaya başlayan bir uygulamadır. Şirketinizin web tabanlı POS.AL hizmetinin bu dönüşümdeki rolünü göz önünde bulundurarak, iş dünyasındaki bu önemli kavramı....",
-      "image" : "/blog2.png",
+      "image": "/blog2.png",
       "location": "/fatura-elektronike",
       "button": "Daha Fazla Oku..."
     },
     {
       "title": "POS.AL Kullanmanın Avantajları: Müşteri Desteği, Kalite",
       "desc": "POS.AL, işletmeler için vazgeçilmez bir araç olmanın ötesine geçiyor. Müşterilerimize sunduğumuz avantajlarla, iş süreçlerinizi kolaylaştırıyor ve rekabette öne çıkmanıza yardımcı oluyoruz. İşte POS.AL kullanmanın sizin için sağlayacağı bazı önemli avantajlar:...",
-      "image" : "/blog3.png",
+      "image": "/blog3.png",
       "location": "/advanteges",
       "button": "Daha Fazla Oku..."
     }
@@ -132,10 +133,123 @@
     "phone": "Mobil",
     "contactYoutube": "Bizi YouTube'da takip edin",
     "contactMail": "Bize e-posta gönderin"
-  }, "Footer": [
-    {"title": "ANASAYFA" , "location": "/tr"},
-    {"title": "KOŞULLAR", "location": "/tr/terms"},
-    {"title": "HAKKIMIZDA", "location": "/tr/about"},
-    {"title": "FAQ", "location": "/tr/faq"}
+  },
+  "Footer": [
+    { "title": "ANASAYFA", "location": "/tr" },
+    { "title": "KOŞULLAR", "location": "/tr/terms" },
+    { "title": "HAKKIMIZDA", "location": "/tr/about" },
+    { "title": "FAQ", "location": "/tr/faq" }
+  ],
+  "AboutPage": {
+    "title": "Hakkımızda",
+    "desc1": "Pos.al'a hoş geldiniz! Biz, her büyüklükteki işletmeler için son teknoloji satış noktası (POS) çözümleri sunan önde gelen bir teknoloji şirketiyiz. İnovasyon ve müşteri memnuniyetine güçlü bir bağlılıkla, satış operasyonlarını düzenlemek ve müşteri deneyimlerini geliştirmek isteyen işletmeler için güvenilir bir ortak haline geldik.",
+    "desc2": "Misyonumuz, işletmelerin satış süreçlerini yönetme şeklini devrimleştirmektir. Gelişmiş teknolojiyi kullanıcı dostu arayüzlerle birleştirerek, işletmelerin bugünün rekabetçi pazarında başarılı olmalarını sağlayan güçlü bir POS platformu oluşturuyoruz.",
+    "desc3": "Hizmetler",
+    "category1": "Çeşitli paketler",
+    "category2": "Müşteri Desteği ve Canlı Yardım Hizmetleri"
+  },
+  "Faq": [
+    {
+      "title": "Pos platformu nedir?",
+      "desc": "Pos platformu, satış işlemlerini yönetmek için modern bir çözümdür. Kullanıcı dostu bir arayüz ve gelişmiş araçlarla verimli ürün yönetimi, envanter kontrolü ve olağanüstü müşteri hizmeti sağlar."
+    },
+    {
+      "title": "Nasıl başlayabilirim?",
+      "desc": "Pos platformumuzla başlamak oldukça kolaydır. İlk olarak bilgilerinizle kaydolun, ardından yasal uyum için gereken fiskalizasyon sertifikasını ekleyin. Ürün adları, açıklamaları ve fiyatlarınızı etkili bir şekilde düzenlemek için envanterinizi organize edin. Sorunsuz bir kurulum sağlamak için sizi adım adım yönlendiren kullanıcı dostu arayüzümüzü kullanın. Pos platformunun sunduğu satışları yönetme, envanteri takip etme ve mükemmel müşteri hizmeti sunma yeteneklerinin tadını çıkarın."
+    },
+    {
+      "title": "Pos platformunda neler bulunur?",
+      "desc": "Pos platformu işletmenizi güçlendirmek için kapsamlı özellikler sunar. Verimli ürün yönetiminden esnek ödeme seçeneklerine, entegre müşteri desteğinden yardım masası özelliklerine kadar size sorunsuz satış operasyonları için gerekli araçları sunar. İhtiyacınıza uygun farklı planlar ve fiyatlandırmalarla kişisel bilgilerinizi gizlilik politikamızla korur. Ayrıca, nakit fiskalizasyon, e-fatura fiskalizasyonu ve Rest API fiskalizasyon gibi süreçleri basitleştirir, böylece büyüme ve olağanüstü müşteri hizmetine odaklanabilirsiniz."
+    },
+    {
+      "title": "Hangi ödeme seçenekleri mevcut?",
+      "desc": "Pos.al, müşterilerinizin tercihlerine uygun birçok kullanışlı ödeme seçeneği sunar. Kredi kartları, banka kartları, nakit ödemeler, mobil cüzdanlar ve hatta temasız ödemeleri kabul edebilirsiniz. Bu çeşitlilik, müşterilerinizin kendileri için en uygun seçeneği seçmelerini sağlar ve alışveriş deneyimlerini geliştirerek artan satışlara katkı sağlar."
+    },
+    {
+      "title": "Müşteri desteği nasıl alabilirim?",
+      "desc": "Pos.al olarak olağanüstü müşteri desteğini önceliklendiriyoruz. Entegre yardım masamız, canlı sohbet aracılığıyla gerçek zamanlı olarak destek ekibimize bağlanmanıza olanak tanır. Sorularınız, yardıma ihtiyacınız veya karşılaştığınız herhangi bir sorun olursa, destek temsilcilerimize ulaşarak hızlı ve kişiselleştirilmiş yardım alabilirsiniz. Pos.al ile deneyiminizin sorunsuz, verimli ve sorunsuz olmasını sağlamak için taahhütte bulunuyoruz."
+    },
+    {
+      "title": "Farklı planlar için fiyatlandırma nedir?",
+      "desc": "Pos.al, ihtiyacınıza uygun bir dizi plan sunar. Fiyatlandırmamız, her planın içerdiği özelliklere ve hizmetlere bağlı olarak değişir. Temel özelliklere sahip küçük işletmelerden gelişmiş yeteneklere sahip büyük işletmelere kadar herkes için bir planımız bulunmaktadır. Farklı planları ve ilgili fiyatlandırmaları keşfetmek için web sitemizi ziyaret edebilirsiniz. İşletmenizin başarısına katkı sağlamak için şeffaf ve rekabetçi fiyat seçenekleri sunma taahhüdündeyiz."
+    },
+    {
+      "title": "Nakit fiskalizasyon nedir?",
+      "desc": "Nakit fiskalizasyon, vergi düzenlemelerine uygunluk ve şeffaflık sağlayan kritik bir süreçtir. Bu süreç, nakit işlemleri vergi otoritelerine gerçek zamanlı olarak kaydetmeyi içerir, böylece doğru raporlama ve izleme yapılabilir. Nakit fiskalizasyon sayesinde her satış kaydedilir ve işlem için benzersiz bir fiskal kod oluşturulur. Bu kod daha sonra makbuzda yazdırılır ve işlemin düzgün bir şekilde belgelendiğini ve vergi otoritelerine bildirildiğini doğrular."
+    },
+    {
+      "title": "E-fatura fiskalizasyon nedir?",
+      "desc": "E-fatura fiskalizasyonu, doğru ve hesap verebilir finansal işlemleri sağlamanın modern bir yoludur. Bu süreç, faturaların elektronik olarak düzenlenmesini ve vergi otoritelerine bildirilmesini içerir. İşletmeler, belirli fiskal kodlarla dijital faturalar üretir ve bunları doğrudan vergi otoritelerine iletir. Bu, fatura düzenleme işlemini basitleştirir, kağıt işini azaltır ve şeffaflığı artırır. E-fatura fiskalizasyonunu benimseyerek, işletmeler daha verimli ve dijital olarak gelişmiş bir ekonomiye katkı sağlarlar."
+    },
+    {
+      "title": "Rest API fiskalizasyon nedir?",
+      "desc": "Rest API fiskalizasyonu, işletmelere nokta satış sistemlerini modern ve standart bir arabirim kullanarak vergi otoriteleri ile entegre etme yeteneği sunar. Bu entegrasyon, POS sistemi ile vergi otoritesinin veritabanı arasında sorunsuz iletişim sağlar, böylece ilgili tüm fiskal verilerin doğru ve güvenli bir şekilde iletilmesini sağlar. Bu entegrasyon, fiskalizasyon sürecini basitleştirir ve hataların veya uyumsuzlukların riskini en aza indirir. Rest API fiskalizasyonu, verimliliği artırırken, fiskal yükümlülüklerini yerine getirmenin güvenilir ve otomatik bir yolunu sunar."
+    },
+    {
+      "title": "Pos.al kullanmanın faydaları nelerdir?",
+      "desc": "Pos.al, işletmenizi önemli ölçüde etkileyebilecek bir dizi fayda sunar. Ürün yönetimini basitleştiren sezgisel araçlar sunar. Esnek ödeme seçenekleri, müşterilerinizin tercihlerine uygun olarak alışveriş deneyimlerini geliştirir. Entegre müşteri desteği ve yardım masası özellikleri, müşterilerinize zamanında yardım sunmanızı sağlar. Ayrıca, Pos.al'ın güvenlik önlemleri müşteri verilerini korur ve gizlilik düzenlemelerine uymanıza yardımcı olur. Çeşitli donanım cihazları ile uyumluluğu, sorunsuz işlemleri sağlar ve platformun kapsamlı planları, ihtiyaçlarınıza ve bütçenize uygun seçenekler sunar."
+    },
+    {
+      "title": "Kişisel bilgilerim güvende mi?",
+      "desc": "Evet, kişisel bilgilerinizin güvenliği bizim için en önemli önceliklerden biridir. Pos.al'da, işlemler sırasında ve platformumuzla etkileşimde bulunurken verilerinizi korumak için gelişmiş güvenlik önlemleri kullanıyoruz. Sistemimiz, bilgilerinizin gizliliğini ve bütünlüğünü sağlamak için şifreleme protokollerini kullanır ve endüstri en iyi uygulamalarını takip eder. Kişisel ve finansal verilerinizin en yüksek düzeyde özen ve koruma ile işlendiğine güvenebilirsiniz."
+    },
+    {
+      "title": "Daha fazla sorum varsa ne yapmalıyım?",
+      "desc": "Sorularınızı bekliyoruz ve her adımda size yardımcı olmaktan memnuniyet duyarız. Ek sorularınız veya daha fazla rehberlik ihtiyacınız varsa, özel müşteri destek ekibimiz hızlı ve yardımcı olmaya hazırdır. Canlı sohbet, e-posta ve web sitemizin iletişim formu dahil olmak üzere çeşitli iletişim kanalları aracılığıyla bizimle iletişime geçebilirsiniz. Memnuniyetiniz ve anlayışınız bizim önceliğimizdir ve Pos.al ile sorunsuz ve üretken bir deneyim yaşamanızı sağlama taahhüdümüzün arkasındayız."
+    }
+  ],
+  "Terms": [
+    {
+      "title": "Giriş",
+      "desc": "Point of Sale (POS) web sitemize hoş geldiniz. Bu terimler ve koşullar (bundan sonra 'Koşullar' olarak anılacaktır), web sitemizin ve hizmetlerinin tüm kullanıcıları için geçerlidir. Web sitemize eriştiğiniz veya kullandığınızda, bu Koşullar ile bağlı olmayı kabul edersiniz. Bu Koşullar ile anlaşmıyorsanız, web sitesini kullanamazsınız."
+    },
+    {
+      "title": "Web Sitesi Kullanımı",
+      "desc": "Web sitemizi ve hizmetlerimizi sadece yasal amaçlarla kullanma izni verilir. Web sitesini, geçerli yerel veya ulusal yasayı veya düzenlemeyi ihlal eden herhangi bir şekilde kullanamazsınız."
+    },
+    {
+      "title": "Fikri Mülkiyet",
+      "desc": "Bu web sitesinde kullanılan tüm unsurlar, metin, grafikler, logolar, resimler ve yazılım dahil olmak üzere telif hakkı ile korunmaktadır. Bunlar Pos.al tarafından sahiplenilmektedir. Bu site, burada belirtilen koşullara göre kullanılır. Müşteri, bu siteyi yalnızca kişisel kullanımı için kullanma hakkına sahiptir ve bu sitede kullanılan unsurların kopyalanması, izinsiz kullanımı yasaktır."
+    },
+    {
+      "title": "Gizlilik Politikası",
+      "desc": "Pos.al, müşterileri ile olan ilişkiyi yönetmeyi iyileştirmek ve web sitesinde sunulan hizmetleri tanıtmak amacıyla kişisel verileri işleme hakkını saklar ve bu verileri üçüncü taraflarla paylaşmadan toplar. Pos.al, kullanıcıdan şu verileri toplar: Ad, Soyad, NUIS, Adres, Şehir, Telefon numarası, E-posta adresi. Müşteri verilerini işlediğimiz amaçlar aşağıdaki gibidir:\n1. Satın alınan abonelikler hakkında bilgi ve genel bildirimleri e-posta veya telefon aracılığıyla gönderme.\n2. Sitede yapılan işlemler hakkında kişiselleştirilmiş bildirimleri gönderme. Aşağıda gösterilen durumlarda:\n1. Faturalarınızı fiskalize etmek için fiskalizasyon sertifikasını yüklerken, veriler üçüncü taraflarla paylaşılmaz.\n2. Platformdaki abonelik ödemeleri, kullanılan banka hesabının hassas verileri, banka kartları toplanmaz ve üçüncü taraflarla paylaşılmaz.\n3. IBAN, Banka adı, SWIFT belirleyerek programda bir banka hesabı kaydetmek, üçüncü taraflarla paylaşılmaz."
+    },
+    {
+      "title": "Hesap Bilgileri İçin Kullanıcı Sorumluluğu",
+      "desc": "Kullanıcı adınızın, e-posta adresinizin ve hesabınıza ilişkilendirilen şifrenizin gizliliğini ve güvenliğini sadece sizin sorumlu olduğunuzu kabul edersiniz. Hesabınız altında gerçekleştirilen tüm faaliyetler sizin sorumluluğunuzda kabul edilecektir."
+    },
+    {
+      "title": "Kullanıcı Davranışı",
+      "desc": "Sitemizi, yasal, etik ve diğerlerinin haklarına saygılı bir şekilde kullanmayı kabul edersiniz. Sitemizi diğerlerini rahatsız etmek, tehdit etmek veya korkutmak, sahtekarlık, yasa dışı veya zararlı herhangi bir faaliyeti gerçekleştirmek veya herhangi bir virüs veya diğer zararlı kodu iletmek için kullanamazsınız."
+    },
+    {
+      "title": "Abonelikler ve Mali Sorumluluklar",
+      "desc": "Hizmetlerimiz için bir abonelik(ler) satın aldığınızda, hesabınız üzerinde gerçekleştirilen tüm işlemler ve faaliyetlerin tam sorumluluğunu anladığınızı ve kabul ettiğinizi kabul edersiniz. Ödeme ile ilgili herhangi bir sorunu hızlı bir şekilde çözme ve fatura bilgilerinin doğruluğunu sağlama konusunda anlaşırsınız. Şirketimiz, hizmetlerimizin kullanımından kaynaklanan herhangi bir mali kayıptan sorumlu değildir. Önemli bir not olarak, ücretli abonelikler veya herhangi bir mali etkileşim ile ilgili olarak tazminat sağlamıyoruz. Hesabınızla ilgili alınan herhangi bir eylem, ödeme abonelikleri dahil, kendi riskiniz altında gerçekleştirilir."
+    },
+    {
+      "title": "Canlı Sohbet ve Müşteri Desteği",
+      "desc": "Point of Sale (POS) web sitemizle deneyiminizi geliştirmek için mükemmel müşteri desteği sağlamaya adanmışızdır. Müşteri hizmetleri ekibimiz, düzenli iş saatlerimiz içinde Pazartesi'den Cuma'ya, 07:00'den 21:00'e ve Cumartesi günleri 09:00'dan 16:00'ya kadar size yardımcı olmak için hazır bulunmaktadır.\n\nİş saatlerinde --- Yardıma ihtiyacınız varsa veya herhangi bir sorunuz varsa, müşteri hizmetleri temsilcilerimiz size yardımcı olmaya hazırdır. Web sitemizde bulunan çevrimiçi sohbet destek sistemimiz aracılığıyla bize ulaşabilirsiniz.\n\nÇalışma saatleri sonrası - E-posta Desteği --- İş saatleri sonrasında bile kolaylık sağlamak amacıyla destek için bizimle iletişime geçebilirsiniz. Herhangi bir sorunla karşılaşırsanız veya sorularınız varsa, ana sayfamızda verilen e-posta adresine bir e-posta gönderebilirsiniz. Bir e-posta gönderirken, adınızı, e-posta adresinizi ve yaşadığınız sorunun detaylı bir açıklamasını eklediğinizden emin olun. Ekibimiz e-postanıza bir sonraki iş günü içinde yanıt verecektir. Her zaman temel bilgi sayfamıza [https://posal.tawk.help/](https://posal.tawk.help/) bağlantısından başvurabilirsiniz.\n\nYüksek öncelikli destek --- Profilinize giriş yapamama veya belgelerinizin veya makbuzlarınızın kaydediliyor olması gibi acil durumlar için, düzenli iş saatlerimizin dışında hızlı yardım erişiminiz vardır.\n\nAşağıdaki adrese [info@pos.al](mailto:info@pos.al) doğrudan bir e-posta gönderebilirsiniz.\n\nAyrıca, yüksek öncelikli bir durumda hemen yardım ve destek için helpline'ımızı [+355672014274] arayabilirsiniz.\n\nPOS yazılım platformumuzu kullanırken sorunsuz bir deneyim yaşamanız için gerekli yardım ve destek sağlama konusundaki taahhüdümüzü sürdürüyoruz."
+    },
+    {
+      "title": "Fiskalizasyon İçin Kullanıcı Sorumluluğu",
+      "desc": "Fiskalizasyon dahil olmak üzere faturaların uygun şekilde işlenmesi ve ilgili yasal gereksinimlerin sorumluluğunun kullanıcıya ait olduğunu belirtmek önemlidir. Platformumuz, fiskalizasyon süreçlerini kolaylaştırmak için gerekli araçları ve özellikleri sunar, ancak vergi düzenlemelerine uyum ve doğru raporlama kullanıcının sorumluluğundadır. Platformumuzun fiskalizasyon özelliklerini kullanmada sorun yaşamamızı sağlamak için çaba sarf ederken, kullanıcıların kendi yargı alanlarına ilişkin yasal yükümlülükleri anlamaları ve uymaları önemlidir. Kullanıcıları, fiskalizasyon ve ilgili yasal düzenlemelere dair relevant yasaları ve yönetmelikleri bilmeye ve gerektiğinde profesyonel tavsiye almak için teşvik ederiz. Kullanıcıların, platformumuzu kullanırken fiskalizasyon faaliyetlerinin doğruluğunu ve eksiksizliğini sağlamak için sorumlu olduğunu anlamaları önemlidir. Point of Sale (POS) yazılım platformumuzu kullanarak, kullanıcılar, geçerli yasalara ve düzenlemelere uygun olarak fiskalizasyon görevlerini yerine getirmeyi kabul ederler. Biz buradayız, destek ve yardım sağlamak için, ancak fiskalizasyonun nihai sorumluluğu her kullanıcıya aittir."
+    },
+    {
+      "title": "Sorumluluk Sınırlaması",
+      "desc": "Şirketimiz, web sitemizi veya hizmetlerimizi yanlış kullanım veya kullanamama kaynaklı herhangi bir zarardan sorumlu değildir. Bu, doğrudan, dolaylı, tesadüfi, cezai ve sonuç olarak meydana gelebilecek zararları içerir. Sunucularımızı izinsiz erişim veya hizmetlerimizi kesme yoluyla meydana gelebilecek herhangi bir kaybı veya zararı üstlenmiyoruz."
+    },
+    {
+      "title": "Değişiklikler",
+      "desc": "Bu Koşulları herhangi bir önceden bildirim yapmaksızın her zaman değiştirme veya revize etme hakkını saklı tutarız. Bu Koşullar'da yapılan herhangi bir değişikliği takiben Site'yi kullanımınız, yeni Koşulları kabul ettiğiniz anlamına gelir."
+    },
+    {
+      "title": "Uygulanabilir Hukuk",
+      "desc": "Bu Koşullar, çatışma hukuku prensiplerini etkilemeden Arnavutluk Cumhuriyeti'nin yasalarına tabi olacaktır."
+    },
+    {
+      "title": "Bizimle İletişime Geçin",
+      "desc": "Bu Koşullar ile ilgili herhangi bir sorunuz veya yorumunuz varsa, lütfen +355672014274 numarasından bizi arayın veya info@pos.al adresine bir e-posta gönderin."
+    }
   ]
 }

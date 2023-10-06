@@ -14,7 +14,7 @@ const About = () => {
     <div className="bg-gray-100">
       <FirstAd />
       <div className="flex flex-col md:flex-row mt-28  items-center  py-8 gap-x-8 justify-between mx-10 md:mx-36 lg:mx-24">
-        <div className="hidden relative lg:block w-1/2 bg-white overflow-hidden">
+        <div className="hidden relative lg:block w-1/2 h-[350px] bg-white overflow-hidden">
           <div
             aria-hidden="true"
             className="absolute -top-16 -left-12 w-[200px] h-[200px] bg-primaryYellow rounded-full grid place-items-center"

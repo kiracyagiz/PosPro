@@ -7,7 +7,7 @@ const Contact = () => {
   const contact= t("Contact", { returnObjects: true });
 
   return (
-    <div className="flex flex-col lg:flex-row md:justify-around md:mx-48 items-center bg-gray-100 ">
+    <div className="flex flex-col  lg:flex-row md:justify-around md:mx-48 items-center bg-gray-100 ">
       <div
         className="w-1/2 flex flex-col  mb-12 p-8 md:p-0 md:mx-auto mt-20 md:mt-36  gap-y-8"
         id="contact"

@@ -138,9 +138,121 @@
     "contactMail": "Na shkruani në Email"
   },
   "Footer": [
-    {"title": "FAQJA KRYESORE" , "location": "/sq"},
-    {"title": "TERMAT", "location": "/sq/terms"},
-    {"title": "RRETH NESH", "location": "/sq/about"},
-    {"title": "FAQ", "location": "/sq/faq"}
+    { "title": "FAQJA KRYESORE", "location": "/sq" },
+    { "title": "TERMAT", "location": "/sq/terms" },
+    { "title": "RRETH NESH", "location": "/sq/about" },
+    { "title": "FAQ", "location": "/sq/faq" }
+  ],
+  "AboutPage": {
+    "title": "Rreth Nesh",
+    "desc1": "Mirësevini në Pos.al! Jemi një kompani teknologjie që specializohet në ofrimin e zgjidhjeve të fundit të teknologjisë mbi sistemet e shitjes (POS) për biznese të të gjitha madhësive. Me një përkushtim të fortë ndaj inovacionit dhe kënaqësisë së klientëve, jemi një partner i besueshëm për bizneset që kërkojnë të përmirësojnë operacionet e tyre të shitjes dhe të përmirësojnë përvojën e klientëve",
+    "desc2": "Misioni ynë është të revolucionarizojmë mënyrën se si bizneset menaxhojnë mbi shitjet e tyre. Kombinojmë teknologjinë e avancuar me ndërfaqe të lehtë për përdoruesit për të sjellë platformën e fuqishme POS që fuqizojnë bizneset për të shkëlqyer në tregun konkurrues të sotëm.",
+    "desc3": "Shërbimet",
+    "category1": "Paketa të Ndryshme",
+    "category2": "Shërbim për Klientët dhe Helpdesk"
+  },
+  "Faq": [
+    {
+      "title": "Çfarë është platforma Pos?",
+      "desc": "Platforma Pos është një zgjidhje moderne për të menaxhuar shitjet tuaja. Me mjete të thjeshta dhe të avancuara, ajo ndihmon në rritjen e biznesit tuaj. Menaxho produkte, inventarin, dhe shërbimin ndaj klientëve në një mënyrë të lehtë dhe efikase."
+    },
+    {
+      "title": "Si të filloj?",
+      "desc": "Nisja me platformën tonë të Pos-it është e lehtë. Filloni duke u regjistruar me të dhënat tuaja. Pas regjistrimit, shtoni certifikatën e fiskalizimit për të siguruar përputhjen me kërkesat ligjore. Më pas, vendosni detajet e produkteve tuaja si emrat, përshkrimet dhe çmimet për të krijuar një inventar të organizuar në platformë. Ndërfaqja jonë e thjeshtë do t'ju udhëheq gjatë këtij procesi, duke garantuar një setup të lehtë. Kur të keni përfunduar, do të hapni tërë potencialin e platformës Pos për menaxhimin e shitjeve, ndjekjen e inventarit dhe ofrimin e shërbimit të shkëlqyer ndaj klientëve. Përjetoni lehtësinë dhe efikasitetin e platformës sonë - filloni sot!"
+    },
+    {
+      "title": "Çfarë përfshihet në platformën Pos?",
+      "desc": "Platforma Pos ofron qasje në shumë veçori që fuqizojnë biznesin tuaj. Nga menaxhimi efikas i produkteve dhe opsionet fleksibël të pagesave, deri te shërbimi i integruar i ndihmës së klientit, platforma Pos ju pajis me mjetet që ju nevojiten për operacione të qeta të shitjeve. Ajo ofron plane të ndryshme me veçori dhe çmime të ndryshme për të përshtatur nevojat tuaja, dhe ofron sigurinë e të dhënave tuaja personale përmes politikave tona të privatësisë. Përveç kësaj, ajo thjeshton proceset si fiskalizimi cash, fiskalizimi e-invoice dhe fiskalizimi Rest API, duke ju lejuar të përqëndroheni në rritje dhe shërbim të shkëlqyer ndaj klientëve."
+    },
+    {
+      "title": "Çfarë mundësish pagesash janë në dispozicion?",
+      "desc": "Pos.al ofron një gamë të ndryshme opsionesh pagesash të rehatshme për të akomoduar klientët tuaj. Mund të pranoni karta krediti ose debiti, pagesa në dorë, dhe madje edhe pagesat pa kontakt. Kjo gamë e gjërë e metodave të pagesës siguron që klientët tuaj të zgjedhin opsionin që i përshtatet më mirë, duke përmirësuar përvojën e tyre të blerjeve dhe duke kontribuar në rritjen e shitjeve."
+    },
+    {
+      "title": "Si mund të marr ndihmë nga shërbimi për klientët",
+      "desc": "Tek Pos.al, ne i japim prioritet të veçantë ndihmës për klientët. Veçoritë e integruara të ndihmës online ju lejojnë të lidheni me ekipin tonë të posaçëm të ndihmës në kohë reale përmes live chat. Nëse keni pyetje, keni nevojë për ndihmë, ose hasni ndonjë problem, thjesht lidhuni me agjentët tanë të ndihmës, të cilët janë të gatshëm të ofrojnë ndihmë menjëherë dhe të personalizuar. Ne jemi të angazhuar të sigurojmë që përvoja juaj me Pos.al të jetë e qetë, efikase dhe pa vështirësi."
+    },
+    {
+      "title": "Cili është çmimi për planet e ndryshme?",
+      "desc": "Pos.al ofron një sërë planesh të përshtatura për të përmbushur nevojat tuaja specifike. Çmimet tona ndryshojnë në varësi të veçorive dhe shërbimeve të përfshira në çdo plan. Pavarësisht nëse jeni një biznes i vogël që kërkon veçoritë themelore ose një korporatë më e madhe që kërkon aftësi të avancuara, Pos.al ka një plan që i përshtatet juve. Vizitoni faqen tonë të internetit për të eksploruar planet e ndryshme dhe detajet e cmimeve të tyre korresponduese. Ne jemi të përkushtuar të sigurojmë opsione transparente dhe konkurruese të çmimeve për të ndihmuar biznesin tuaj të zhvillohet."
+    },
+    {
+      "title": "Çfarë është fiskalizimi cash?",
+      "desc": "Fiskalizimi cash është një proces thelbësor që siguron transparencën dhe përputhjen me rregulloret tatimore. Kjo përfshin regjistrimin e transaksioneve cash me autoritetet tatimore në kohë reale, duke lejuar raportimin dhe monitorimin e saktë. Me fiskalizimin cash, çdo shitje regjistrohet dhe gjenerohet një kod fiskal unik për transaksionin. Ky kod pastaj printohet në faturë, duke verifikuar se transaksioni është dokumentuar dhe raportuar siç duhet te autoritetet tatimore."
+    },
+    {
+      "title": "Çfarë është fiskalizimi e-invoice?",
+      "desc": "Fiskalizimi e-invoice është një metodë moderne për të siguruar transaksione financiare të sakta. Ky përfshin dhënien dhe raportimin elektronik të faturave te autoritetet tatimore. Me fiskalizimin e-invoice, bizneset gjenerojnë fatura digjitale me kode specifikë fiskale dhe i transmetojnë ato drejtpërdrejt autoriteteve tatimore. Kjo e thjeshton procesin e faturimit, redukton punën me dokumentacion dhe përmirëson transparencën. Duke marrë në përdorim fiskalizimin e-invoice, bizneset kontribuojnë në një ekonomi më efikase dhe më të avancuar digjitale."
+    },
+    {
+      "title": "Çfarë është fiskalizimi Rest API?",
+      "desc": "Fiskalizimi Rest API ofron bizneseve aftësinë për të integruar sistemet e tyre të pikave të shitjes me autoritetet tatimore përmes një ndërfaqeje moderne dhe të standardizuar. Ai mundëson komunikim të thjeshtë midis sistemit të pikës së shitjes dhe bazës së të dhënave të autoritetit tatimor, duke siguruar që të gjitha të dhënat fiskale të transmetohen me saktësi dhe siguri. Ky integrim e thjeshton procesin e fiskalizimit dhe minimizon rrezikun e gabimeve ose ndryshimeve. Fiskalizimi Rest API përmirëson efikasitetin dhe përputhshmërinë ndërsa ofron një mënyrë të besueshme dhe të automatizuar dhe plotësuar detyrimet fiskale"
+    },
+    {
+      "title": "Cilat janë përfitimet e përdorimit të Pos.al?",
+      "desc": "Pos.al ofron një gamë të gjerë të përfitimeve që mund të ndikojnë ndjeshëm në biznesin tuaj. Ajo thjeshton menaxhimin e produkteve duke ofruar mjetet intuitive për organizimin e inventarit tuaj. Opsionet fleksibël të pagesave plotësojnë preferencat e klientëve tuaj, duke përmirësuar përvojën e tyre të blerjeve. Veçoritë e integruara të ndihmës së klientit dhe ndihmësit sigurojnë që mund të ofroni ndihmë kohëpaskohore për klientët tuaj. Për më tepër, masat e sigurisë së Pos.al mbrojnë të dhënat e klientit dhe ju ndihmojnë të përputheni me rregulloret e privatësisë. Kompatibiliteti i saj me pajisje të ndryshme hardueri siguron operime të paqëndrueshme, dhe planet komprehensive të platformës ofrojnë zgjedhje që përshtaten me nevojat dhe buxhetin tuaj."
+    },
+    {
+      "title": "A është i sigurt informacioni im personal?",
+      "desc": "Po, siguria e informacionit tuaj personal është shumë e rëndësishme për ne. Tek Pos.al, ne përdorim masa të avancuara të sigurisë për të ruajtur të dhënat tuaja gjatë transaksioneve dhe ndërveprimeve me platformën tonë. Sistemi ynë përdor protokolle të kodifikimit dhe ndjek praktikat më të mira të industrisë për të siguruar konfidencialitetin dhe integritetin e të dhënave tuaja. Mund të keni besim që të dhënat tuaja personale dhe financiare trajtohen me nivelin më të lartë të kujdesit dhe mbrojtjes"
+    },
+    {
+      "title": "Po nëse kam më shumë pyetje?",
+      "desc": "Ne mirëpresim pyetjet tuaja dhe jemi këtu për t'ju ndihmuar në çdo hap të rrugës. Nëse keni pyetje shtesë ose keni nevojë për ndihmë të mëtejshme, ekipi ynë i posaçëm i shërbimit për klientët është gati gjithmonë të ofrojë ndihmë të menjëhershme. Mund të na kontaktoni përmes kanaleve të ndryshme, duke përfshirë bisedën live, emailin dhe formën e kontaktit të faqes sonë të internetit. Kënaqësia dhe kuptimi juaj janë prioritetet tona dhe jemi të angazhuar të sigurojmë që të keni një përvojë të përsosur dhe të produktshme me Pos.al."
+    }
+  ],
+  "Terms": [
+    {
+      "title": "Hyrje",
+      "desc": "Mirësevini në faqen tonë të Pikës së Shitjes (POS). Këto terma dhe kushte zbatohen për të gjithë përdoruesit e faqes sonë dhe shërbimeve që ofron. Duke hyrë ose duke përdorur faqen tonë, ju pranoni të jeni të bini dakort me këto Kushte. Nëse nuk jeni dakord me këto Kushte, nuk mund të përdorni faqen dhe shërbimet e saj."
+    },
+    {
+      "title": "Përdorimi i faqes",
+      "desc": "Juve ju jepet e drejta për të përdorur faqen dhe shërbimet tona vetëm për qëllime të ligjshme. Ju nuk mund ta përdorni faqen në asnjë mënyrë që shkel çdo ligj ose rregullore të zbatueshme vendore ose kombëtare."
+    },
+    {
+      "title": "Prona intelektuale",
+      "desc": "Të gjithë elementet e përdorur në këtë faqe, duke përfshirë elementët vizualë apo zanorë, dhe softuer, janë të mbrojtura nga e drejta e autorit. Ato janë në pronësinë e Pos.al. Kjo faqe përdoret sipas kushteve të përgjithshme që përcaktohen këtu. Klienti ka të drejtë ta përdorë këtë faqe vetëm për përdorimin e tij personal dhe çdo kopjim, përdorim i paautorizuar i elementeve të përdorura në këtë faqe është i ndaluar."
+    },
+    {
+      "title": "Politikat e privatësisë",
+      "desc": "Pos.al ka të drejtën të përpunojë të dhënat personale në mënyrë që të përmirësojë menaxhimin e marrëdhënies me klientët e saj dhe të promovojë shërbimet e ofruara në faqe, pa i ndarë ato me palë të treta.\nPos.al mbledh nga përdoruesi të dhënat e mëposhtme: Emër, Mbiemër, NIPT, Adresa, Qyteti, Numër telefoni, Adresë e-mail.\n\nQëllimet për të cilat ne përpunojmë të dhënat e klientëve janë si më poshtë:\n1. Dërgim të informacioneve në lidhje me abonimet e blera dhe njoftimet e përgjithshme nëpërmjet email ose thirrjes telefonike.\n2. Dërgim të njoftimeve të personalizuara mbi veprimet e marra në faqe.\nNë rastet si më poshtë:\n1.Ngarkimi i certifikatës së fiskalizimit në mënyrë që të fiskalizoni faturat tuaj, të dhënat nuk ndahen me palët e treta.\n2.Pagesat e abonimeve në platformë, të dhënat sensitive të llogarisë bankare të përdorur, kartave të debitit, kreditit nuk mblidhen dhe të ndahen me palët e treta.\n3.Ruajtjes së një llogarie bankare në program duke vendosur: IBAN, Emrin e bankës, SWIFT, nuk ndahen me palët e treta."
+    },
+    {
+      "title": "Përgjegjësia e përdoruesit mbi kredencialet e llogarisë",
+      "desc": "Ju e kuptoni dhe pranoni se jeni vetë përgjegjës për ruajtjen e konfidencialitetit dhe sigurisë së emrit tuaj të përdoruesit(username), emailit dhe fjalëkalimit të lidhur me llogarinë tuaj. Çdo aktivitet i kryer nën llogarinë tuaj do të konsiderohet përgjegjësia juaj."
+    },
+    {
+      "title": "Sjellja e përdoruesit",
+      "desc": "Ju pranoni të përdorni faqen tonë në një mënyrë që është ligjore, etike dhe respektuese e të drejtave të të tjerëve. Ju nuk mund të përdorni faqen tonë të internetit për të ngacmuar, kërcënuar ose frikësuar të tjerët, për t'u përfshirë në ndonjë aktivitet që është mashtrues, ilegal ose i dëmshëm, ose për të transmetuar ndonjë virus ose kod tjetër të dëmshëm."
+    },
+    {
+      "title": "Abonimet dhe përgjegjësitë financiare",
+      "desc": "Kur bleni një/disa abonim/e mbi shërbimet tona, ju kuptoni dhe pranoni përgjegjësinë e plota për të gjitha transaksionet dhe veprimet e kryera në llogarinë tuaj. Ju pranoni të adresoni menjëherë çdo çështje që lidhet me pagesat dhe të siguroni saktësinë e informacionit të faturimit. Kompania jonë nuk është përgjegjëse për ndonjë humbje financiare të shkaktuar nga përdorimi i shërbimeve tona.\n\nËshtë e rëndësishme të theksohet se për abonimet e paguara ose ndonjë ndërveprim tjetër financiar, ne nuk ofrojmë dëmshpërblime. Ju jeni vetë përgjegjës për çdo vendim, transaksion ose implikim financiar që mund të lind nga përdorimi i platformës sonë. Çdo veprim i ndërmarrë në llogarinë tuaj, duke përfshirë dhe abonimet, ndërmerren me rrezikun tuaj."
+    },
+    {
+      "title": "Live chat dhe Shërbimi i klientit",
+      "desc": "Ne jemi të përkushtuar për të ofruar mbështetje të shkëlqyer ndaj klientit për të përmirësuar përvojën tuaj me faqen tonë të Pikave të Shitjes (POS). Ekipi ynë i kujdesit ndaj klientit është në dispozicion për t'ju ndihmuar gjatë orarit tonë të rregullt të punës, nga e hëna në të premte, nga ora 7:00 deri në orën 21:00 dhe ditën e shtunë nga ora 9:00 deri në orën 16:00.\n\nGjatë orarit të punës---Nëse keni nevojë për ndihmë ose keni ndonjë pyetje, përfaqësuesit tanë të kujdesit ndaj klientit janë të gatshëm t'ju ndihmojnë. Mund të na kontaktoni përmes sistemit tonë të mbështetjes live-chat, i disponueshëm në faqe.\n\nPas orarit të punës - Mbështetje me email---Për lehtësinë tuaj, edhe pas orarit të rregullt të punës, mund të na kontaktoni për mbështetje. Nëse hasni ndonjë problem ose keni pyetje, mund të na lini një email në adresën e dhënë në faqen tone kryesore. Kur lini një email, ju lutemi sigurohuni që të përfshini emrin tuaj, adresën e emailit dhe një përshkrim të detajuar të problemit me të cilin po përballeni. Ekipi ynë do t'i përgjigjet emailit tuaj brenda ditës së ardhshme të punës. Gjithmonë mund të referoheni edhe në faqen tone të njohurive bazë në linkun: https://posal.tawk.help/\n\nNdihma në çështjet me prioritet të lartë ---Në rast të çështjeve që kërkojnë vëmendje të menjëhershme jashtë orarit tonë të rregullt të punës si: dokumentet e shitjes nuk ruhen në sistem, e keni të pamundur të logoheni në profilin tuaj , ju keni mundësi për ndihmë të shpejtë.\n\nJu mund të dërgoni një email direkt në adresën e mëposhtme: [info@pos.al].\n\nPër më tepër ju mund të telefononi linjën tonë të ndihmës në [+355672014274] për mbështetje të menjëhershme.\n\nNe jemi të përkushtuar të sigurojmë që ju të merrni ndihmën dhe mbështetjen e nevojshme për një përvojë të qetë gjatë përdorimit të platformës sonë të softuerit POS."
+    },
+    {
+      "title": "Përgjegjësia e përdoruesit mbi fiskalizimin",
+      "desc": "Është e rëndësishme të theksohet se fiskalizimi, duke përfshirë trajtimin e duhur të faturave dhe kërkesave ligjore përkatëse, është përgjegjësi e vetë përdoruesit. Platforma jonë ofron mjetet dhe risitë e nevojshme për të lehtësuar proceset e fiskalizimit, por pajtueshmëria përfundimtare me rregulloret tatimore dhe raportimi i saktë i takon përdoruesit.\n\nNdërsa ne përpiqemi të ofrojmë një përvojë dhe mbështetje pa probleme në përdorimin e risive mbi fiskalizimin në platformën tonë, është thelbësore që përdoruesit të kuptojnë dhe t'u përmbahen detyrimeve ligjore të juridiksionit të tyre. Ne inkurajojmë përdoruesit të qëndrojnë të informuar për ligjet dhe rregulloret përkatëse që kanë të bëjnë me fiskalizimin dhe të kërkojnë këshilla profesionale nëse është e nevojshme.\n\nSi pjesë e angazhimit tonë për transparencë dhe fuqizim të përdoruesve, ne ofrojmë burime dhe udhëzime për të ndihmuar përdoruesit në kuptimin dhe përmbushjen e detyrimeve të tyre mbi fiskalizimin. Megjithatë, përdoruesit janë vetë përgjegjës për të siguruar saktësinë dhe plotësinë e aktiviteteve të tyre të fiskalizimit gjatë përdorimit të platformës sonë.\n\nDuke përdorur platformën tonë të softuerit POS, përdoruesit kuptojnë dhe pranojnë të ndërmarrin detyrat e tyre të fiskalizimit në përputhje me ligjet dhe rregulloret në fuqi.\n\nNe jemi këtu për të ofruar mbështetje dhe ndihmë, por përgjegjësia përfundimtare për fiskalizimin i takon çdo përdoruesi."
+    },
+    {
+      "title": "Kufizimi i përgjegjësisë",
+      "desc": "Kompania jonë nuk është përgjegjëse për ndonjë dëm që rezulton nga përdorimit të gabuar ose pamundësisë për të përdorur faqen tonë ose shërbimet tona. Kjo përfshin, por nuk kufizohet në dëmet direkte, dëmet ndërmjetëse, rastësore, ndëshkuese dhe dëmet pasojore. Ne nuk marrim përgjegjësi për humbjet ose dëmet që mund të shkaktohen nga akses i paautorizuar që përdor serverat tanë ose ndërpret shërbimet tona."
+    },
+    {
+      "title": "Modifikimet",
+      "desc": "Ne rezervojmë të drejtën për të bërë ndryshime ose rishikime në këto Kushte në çdo kohë pa njohfrim paraprak. Përdorimi i vazhdueshëm i faqes pas çdo ndryshimi në këto Kushte përbën pranimin tuaj të Kushteve të reja."
+    },
+    {
+      "title": "Ligji në fuqi",
+      "desc": "Këto Kushte do të nënshtrohen dhe do të interpretohen në përputhje me ligjet e Republikës së Shqipërisë, pa prekur parimet e konfliktit të ligjit."
+    },
+    {
+      "title": "Na kontaktoni",
+      "desc": "Nëse keni ndonjë pyetje ose koment në lidhje me këto Kushte, ju lutemi na kontaktoni në +355672014274 ose dërgoni email në info@pos.al."
+    }
   ]
 }

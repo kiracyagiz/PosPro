@@ -27,6 +27,7 @@ const Home = () => {
         header={header}
         navButton={headerB.button}
         locale={currentLocale}
+        href={'/'}
       />
       <Hero  />
       <About/>
