@@ -10,7 +10,7 @@ const FaqPage = ({faqData}) => {
 
       <div className="container items-center mt-4 bg-gray-100 py-4 pb-14  mx-auto ">
         {faqData.map((dt,i)=> (
-            <FaqCard text={dt.title} desc={dt.desc}/>
+            <FaqCard text={dt.title} desc={dt.desc} key={i}/>
         ))}
       </div>
       <Footer/>
