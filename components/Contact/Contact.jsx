@@ -7,9 +7,9 @@ const Contact = () => {
   const contact= t("Contact", { returnObjects: true });
 
   return (
-    <div className="flex flex-col  lg:flex-row md:justify-around md:mx-48 items-center bg-gray-100 ">
+    <div className="flex flex-col  lg:flex-row lg:justify-around lg:mx-48 items-center bg-gray-100 ">
       <div
-        className="w-1/2 flex flex-col  mb-12 p-8 md:p-0 md:mx-auto mt-20 md:mt-36  gap-y-8"
+        className="lg:w-1/2 flex flex-col  mb-12 p-8  lg:mx-auto md:mt-0 mt-20 lg:mt-36  md:gap-y-8"
         id="contact"
       >
         <div>
@@ -33,16 +33,16 @@ const Contact = () => {
           </p>
         </div>
 
-        <div className="flex flex-col items-center text-center md:items-start roboto400 gap-y-4 gap-x-4">
+        <div className="flex flex-col  mt-8 text-center  roboto400 gap-y-4 gap-x-4">
           <Link
             href={"https://www.youtube.com/channel/UCuR5SmYAHoXONCGUSwlqRSg"}
           >
-            <button className="bg-black text-white flex items-center gap-x-2 px-3 py-1 rounded-lg text-sm lg:text-md   hover:scale-105 hover:shadow-md  hover:shadow-black  transition-transform duration-300 ">
+            <button className="bg-black text-white flex items-center md:gap-x-2 pr-10 md:px-3 md:py-1 rounded-lg text-sm lg:text-md   hover:scale-105 hover:shadow-md  hover:shadow-black  transition-transform duration-300 ">
               <AiFillYoutube className='w-[50px] h-[50px] md:w-[30px] md:h-[30px]' /> {contact.contactYoutube}
             </button>
           </Link>
 
-          <button className="bg-black w-full md:w-fit text-white flex items-center gap-x-2 px-4 py-1 rounded-lg  text-sm lg:text-md  hover:scale-105 hover:shadow-md  hover:shadow-black  transition-transform duration-300">
+          <button className="bg-black w-3/4  md:w-fit lg:fit text-white flex  items-center gap-x-2   md:px-4 md:py-1 rounded-lg  text-sm lg:text-md  hover:scale-105 hover:shadow-md  hover:shadow-black  transition-transform duration-300">
             <AiFillMail className='w-[55px] h-[45px] md:w-[25px] md:h-[25px]' />
             <a href="mailto:info@pos.al?subject=Post.al&body=">
               {contact.contactMail}

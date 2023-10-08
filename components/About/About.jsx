@@ -11,10 +11,10 @@ const About = () => {
     const about = t("AboutSection", { returnObjects: true });
 
   return (
-    <div className="bg-gray-100">
+    <div className="bg-gray-100  md:h-5/6">
       <FirstAd />
-      <div className="flex flex-col md:flex-row mt-28  items-center  py-8 gap-x-8 justify-between mx-10 md:mx-36 lg:mx-24">
-        <div className="hidden relative lg:block w-1/2 h-[350px] bg-white overflow-hidden">
+      <div className="flex flex-col md:flex-row   items-center  py-8 gap-x-8 justify-between mx-10 md:mx-36 lg:mx-24">
+        <div className="hidden relative  lg:block w-1/2 h-[350px] bg-white overflow-hidden">
           <div
             aria-hidden="true"
             className="absolute -top-16 -left-12 w-[200px] h-[200px] bg-primaryYellow rounded-full grid place-items-center"
@@ -75,7 +75,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className="flex flex-col gap-y-8">
+        <div className="flex flex-col gap-y-8 md:mt-14 py-14">
           <div>
             <h3 className="roboto700 text-4xl">{about.header}</h3>
             <h4 className="roboto700 mt-4">{about.title}</h4>

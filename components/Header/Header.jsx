@@ -27,7 +27,7 @@ const Header = (props) => {
         </div>
         <nav className="items-center hidden lg:flex justify-between  list-none roboto700 font-bold  gap-x-10 text-xl">
           {header.map((dt, i) => (
-            <a href={`${locale}${dt.id}`} key={i}>
+            <a href={`${dt.id}`} key={i}>
               {dt.title}
               <div className="w-0 bg-black h-under  opacity-0 group-hover:w-full group-hover:opacity-100 transition-all duration-300" />
             </a>
@@ -43,7 +43,7 @@ const Header = (props) => {
 
           <div className="w-full">
             <Language
-              locale={`/sq${href }`}
+              locale={`/sq${href}`}
               localeEn={`/en${href}`}
               param={locale}
               localeTr={`/tr${href}`}

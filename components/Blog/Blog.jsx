@@ -35,11 +35,11 @@ const Blog = () => {
         ))}
       </div>
 
-      <div className=" w-4/5 mx-auto p-20 block lg:hidden">
+      <div className="  mx-auto p-8 md:px-40 lg:p-20 block lg:hidden">
         <Slider {...settings}>
           {blogData.map((dt, i) => (
-              <div key={i} className="flex flex-col  border-2  rounded-lg border-black shadow-xl bg-white hover:scale-105 hover:shadow-md cursor-pointer hover:shadow-black  transition-transform duration-300">
-               <div className="w-4/5 mx-auto">
+              <div key={i} className="flex flex-col w-full  border-2  rounded-lg border-black shadow-xl bg-white hover:scale-105 hover:shadow-md cursor-pointer hover:shadow-black  transition-transform duration-300">
+               <div className="w-4/5 mx-auto ">
                <img src={dt.image} className="w-full p-4 mx-auto"  alt={dt.title} />
                </div>
                 <a href={dt.location}>
