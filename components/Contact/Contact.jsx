@@ -7,7 +7,7 @@ const Contact = () => {
   const contact= t("Contact", { returnObjects: true });
 
   return (
-    <div className="flex flex-col  lg:flex-row lg:justify-around lg:mx-48 items-center bg-gray-100 ">
+    <div className="flex flex-col   lg:flex-row lg:justify-around lg:mx-48 items-center bg-gray-100 ">
       <div
         className="lg:w-1/2 flex flex-col  mb-12 p-8  lg:mx-auto md:mt-0 mt-20 lg:mt-36  md:gap-y-8"
         id="contact"
@@ -33,21 +33,22 @@ const Contact = () => {
           </p>
         </div>
 
-        <div className="flex flex-col  mt-8 text-center  roboto400 gap-y-4 gap-x-4">
+        <div className="flex flex-col   mt-8 text-center  roboto400 gap-y-4 ">
           <Link
             href={"https://www.youtube.com/channel/UCuR5SmYAHoXONCGUSwlqRSg"}
           >
-            <button className="bg-black text-white flex items-center md:gap-x-2 pr-10 md:px-3 md:py-1 rounded-lg text-sm lg:text-md   hover:scale-105 hover:shadow-md  hover:shadow-black  transition-transform duration-300 ">
-              <AiFillYoutube className='w-[50px] h-[50px] md:w-[30px] md:h-[30px]' /> {contact.contactYoutube}
+            <button className="bg-black  text-white flex items-center gap-x-4 md:gap-x-2 pr-10 md:px-3 md:py-1 rounded-lg text-sm lg:text-md   hover:scale-105 hover:shadow-md  hover:shadow-black  transition-transform duration-300 ">
+              <AiFillYoutube className='w-[35px]  py-1 h-[35px]   md:w-[30px] md:h-[30px]' /> {contact.contactYoutube}
+            </button>
+          </Link>
+          <Link
+            href={"mailto:info@pos.al?subject=Post.al&body="}
+          >
+            <button className="bg-black text-white flex items-center gap-x-4 md:gap-x-2 pr-10 md:px-3 md: rounded-lg text-sm lg:text-md   hover:scale-105 hover:shadow-md  hover:shadow-black  transition-transform duration-300 ">
+              <AiFillMail className='w-[35px]   h-[35px]  py-1 md:w-[30px] md:h-[30px]' /> {contact.contactMail}
             </button>
           </Link>
 
-          <button className="bg-black w-3/4  md:w-fit lg:fit text-white flex  items-center gap-x-2   md:px-4 md:py-1 rounded-lg  text-sm lg:text-md  hover:scale-105 hover:shadow-md  hover:shadow-black  transition-transform duration-300">
-            <AiFillMail className='w-[55px] h-[45px] md:w-[25px] md:h-[25px]' />
-            <a href="mailto:info@pos.al?subject=Post.al&body=">
-              {contact.contactMail}
-            </a>
-          </button>
         </div>
       </div>
       <div>

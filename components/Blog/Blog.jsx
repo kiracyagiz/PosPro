@@ -36,23 +36,16 @@ const Blog = () => {
 
       <div className="  mx-auto p-8 md:px-40 lg:p-20 block lg:hidden">
         <Slider {...settings}>
-          {blogData.map((dt, i) => (
-              <div key={i} className="flex flex-col w-full  border-2  rounded-lg border-black shadow-xl bg-white hover:scale-105 hover:shadow-md cursor-pointer hover:shadow-black  transition-transform duration-300">
-               <div className="w-4/5 mx-auto ">
-               <img src={dt.image} className="w-full p-4 mx-auto"  alt={dt.title} />
-               </div>
-                <a href={dt.location}>
-                  <div className="p-4 flex flex-col gap-y-4">
-                    <p className="font-bold text-primaryYellow">
-                      Posted on 28/09/2023
-                    </p>
-                    <h3 className="roboto700 text-sm">{dt.title}</h3>
-                    <p className="max-w-lg text-sm">{dt.desc}</p>
-                    <ButtonSecondary text={dt.button} />
-                  </div>
-                </a>
-              </div>
-          ))}
+        {blogData.map((dt, i) => (
+          <BlogBox
+            image={dt.image}
+            title={dt.title}
+            desc={dt.desc}
+            location={dt.location}
+            key={i}
+            button={dt.button}
+          />
+        ))}
         </Slider>
       </div>
     </div>

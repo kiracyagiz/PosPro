@@ -11,7 +11,7 @@ const FirstAd = () => {
 
 
   return (
-    <div className="flex flex-col md:flex-row">
+    <div className="flex flex-col  py-4 md:flex-row">
       <div className="w-8/12 hidden md:hidden lg:block ">
         <Image src={firstadimg} alt="pos"/>
       </div>

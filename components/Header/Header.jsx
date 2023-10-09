@@ -72,11 +72,11 @@ const Header = (props) => {
           <ButtonPrimary text={navButton} />
 
           <Language
-            locale={"sq"}
-            localeEn={"en"}
-            param={locale}
-            localeTr={"tr"}
-          />
+              locale={`/sq${href}`}
+              localeEn={`/en${href}`}
+              param={locale}
+              localeTr={`/tr${href}`}
+            />
         </div>
       </div>
     </header>
