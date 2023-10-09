@@ -6,7 +6,7 @@ const FiskalizimiPage = ({ fiskalizimiData ,blogData}) => {
   return (
     <div className="bg-gray-100    overflow-hidden">
       {fiskalizimiData.map((dt, i) => (
-        <div className="flex flex-col p-10 px-0 lg:px-52 items-center md:items-center  lg:items-start gap-y-8 lg:justify-around lg:flex-row">
+        <div className="flex flex-col p-10 px-0 lg:px-52 items-center md:items-center  lg:items-start gap-y-8 lg:justify-around lg:flex-row" key={i}>
           <div className="w-1/2 flex flex-col gap-y-8">
             <h1 className="roboto700 text-3xl ">{dt.titleFirst}</h1>
             <Image src={blog1} />
@@ -20,7 +20,7 @@ const FiskalizimiPage = ({ fiskalizimiData ,blogData}) => {
           <div className="flex flex-col gap-y-8 ">
             <p className="roboto700 text-2xl text-center">{dt.titleThird}</p>
           {blogData.map((dt, i) => (
-           <div className="  w-4/6 items-center mx-auto text-center">
+           <div className="  w-4/6 items-center mx-auto text-center" key={i}>
               <BlogBox
             image={dt.image}
             title={dt.title}
