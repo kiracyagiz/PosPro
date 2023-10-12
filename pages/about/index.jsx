@@ -1,25 +1,26 @@
-import React from "react";
+import AboutPage from "../../components/AboutPage/AboutPage";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
-import Header from "../components/Header/Header";
-import Footer from "../components/Footer/Footer";
-import TermsPage from "../components/Terms/TermsPage";
-const Terms = () => {
+import Header from "../../components/Header/Header";
+import Footer from "../../components/Footer/Footer";
+
+const About = () => {
   const { t, i18n } = useTranslation("common");
   const header = t("HeaderNav", { returnObjects: true });
   const headerB = t("Header", { returnObjects: true });
   const currentLocale = i18n.language;
-  const termsData = t("Terms", { returnObjects: true });
+  const about = t("AboutPage",{returnObjects: true})
+
   return (
     <div>
       <Header
         header={header}
         navButton={headerB.button}
         locale={currentLocale}
-        href={"/terms"}
+        href={'/about'}
       />
-      <TermsPage termsData={termsData}/>
-      <Footer />
+      <AboutPage about={about} />
+      <Footer/>
     </div>
   );
 };
@@ -27,8 +28,9 @@ const Terms = () => {
 export async function getStaticProps({ locale }) {
   return {
     props: {
-      ...(await serverSideTranslations(locale, ["common", "Terms"])),
+      ...(await serverSideTranslations(locale, ["common", "AboutPage"])),
     },
   };
 }
-export default Terms;
+
+export default About;

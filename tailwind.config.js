@@ -51,6 +51,9 @@ module.exports = {
         featuresH: "22px",
         contactH: "34px",
       },
+      minWidth: {
+        '1/2': '50%',
+      }
     },
   },
   plugins: [],

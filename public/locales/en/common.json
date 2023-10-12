@@ -8,7 +8,7 @@
   "HeaderNav": [
     { "title": "Pricing", "id": "/#pricing" },
     { "title": "Features", "id": "/#features" },
-    { "title": "Support" },
+    { "title": "Support", "id": "https://posal.tawk.help" },
     { "title": "Contact", "id": "/#contact" }
   ],
   "FirstAd": {
@@ -135,7 +135,7 @@
     "desc": "If you have any quesiton or need help with anything, don't hesitate to reach out to us:",
     "phone": "Mobile",
     "contactYoutube": "Follow us on Youtube",
-    "contactMail": "Email us"
+    "contactMail": "Email us right now"
   },
   "Footer": [
     { "title": "HOME", "location": "/en" },
@@ -261,6 +261,37 @@
       "titleSecond": "Fiscalism in POS.AL: Care and Efficiency for Your Business",
       "titleThird": "Other articles",
       "desc": "In a world where technology has become an indispensable part of our lives, the fiscalization program is a necessary obligation for businesses in Albania. POS.AL is your trusted partner on the path to modernizing your business and using this program to manage transparency, income, and expenses efficiently.Fiscalization is a process that emphasizes transparency and helps collect the necessary revenue for the country's development. In a country like Albania, where the economy is growing, efficient tax and revenue collection are essential to ensure financial resources for public services. The fiscalization program in POS.AL ensures that the financial data of businesses are electronically recorded and that tax transactions are clear and traceable \n\n One of the principal advantages of the fiscalization program is its ability to boost transparency and combat tax evasion. By electronically recording transactions and invoices, businesses find it increasingly challenging to evade tax payments or underreport their actual income. This contributes to bolstering state budget revenues and securing funds for crucial public services, such as education, healthcare, and infrastructure development.Furthermore, the fiscalization program in POS.AL aids in reducing the shadow economy. Instead of relying on cash payments and irregular transactions, the fiscalization program mandates that all transactions be electronically recorded and reported to tax authorities. This process makes it arduous for individuals and businesses to conceal their income. Consequently, the fiscalization program in POS.AL plays a pivotal role in creating a fair and equitable tax system where everyone shares the tax burden equally. \n\n Nevertheless, the fiscalization program encounters its own set of challenges in Albania. One significant hurdle is educating and raising awareness among businesses and individuals about the importance of accurately recording transactions and reporting income. Frequently, there is resistance or a lack of cooperation in implementing the fiscalization program, particularly within informal sectors of the economy. To achieve comprehensive success, it is imperative for the government to invest in further educating and raising awareness among the public and businesses alike. \n\n  In conclusion, the fiscalization program within POS.AL represents a critical tool for the Albanian government in controlling the economy and ensuring the requisite revenue for public services. This process significantly enhances transparency, curbs tax evasion, and diminishes the informal economy. However, to fully realize its potential, the government must address these challenges and invest in the education and awareness of various economic stakeholders. Fiscalization within POS.AL is a potent instrument at the government's disposal, but its efficient and effective operation hinges on the commitment and collaboration of all stakeholders involved."
+    }
+  ],
+  "WhatWeOffer": {
+    "header": "Our Services",
+    "title": "What Do We Offer?",
+    "desc": "Our web POS system, built with new technologies, is here to provide you with all kinds of services, and we have customer support available 24/7."
+  },
+  "WhatWeOfferData": [
+    {
+      "header": "Fiscalization Program",
+      "title": "Store and Financial Management for Businesses",
+      "desc": "Discover our POS AL software designed to assist businesses in growing and optimizing their operations. We offer personalized solutions for stores, trade, restaurants, bars, and finance. Our POS AL software is created to facilitate your daily business operations, optimize inventory management, and enhance customer service. Speed, reliability, and user-friendly interface help in more efficient management of your business and ensure secure financial transactions.",
+      "image": "/fiscalizimi.jpg",
+      "location": "https://posal.tawk.help/category/fiskalizimi",
+      "button": "Visit Now"
+    },
+    {
+      "header": "Electronic Invoicing",
+      "title": "POS AL Solutions",
+      "desc": "Electronic invoicing offers significant advantages for businesses. POS AL company offers electronic invoicing solutions that comply with European standards. These solutions include digital confirmation and signature, process automation, and contribute to environmental sustainability. With electronic invoicing, businesses can improve their financial efficiency and reduce the cost of paper usage.",
+      "image": "/invoice.jpg",
+      "location": "https://posal.tawk.help/article/si-t%C3%AB-regjistrosh-nj%C3%AB-fatur%C3%AB-elektronike",
+      "button": "Visit Now"
+    },
+    {
+      "header": "Successful Management",
+      "title": "Order Management",
+      "desc": "POS AL is a versatile product aimed at improving business management. Product management is the key to its success. This product provides automation of sales processes, inventory tracking, and financial control. With POS AL, businesses increase efficiency and profits. Product management ensures that POS AL is adaptable to customer needs and market changes. ",
+      "image": "/productManagement.jpg",
+      "location": "https://posal.tawk.help/article/si-te-krijosh-nje-artikull-sherbimi",
+      "button": "Visit Now"
     }
   ]
 }

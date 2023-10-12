@@ -8,7 +8,7 @@
   "HeaderNav": [
     { "title": "Çmimet", "id": "/#pricing" },
     { "title": "Risitë", "id": "/#features" },
-    { "title": "Ndihma Online" },
+    { "title": "Ndihma Online", "id": "https://posal.tawk.help" },
     { "title": "Kontakti", "id": "/#contact" }
   ],
 
@@ -24,7 +24,7 @@
     { "title": "Program Fiskalizmi", "image": "/engine.png" }
   ],
   "Hero": {
-    "title": "Platforma POS",
+    "title": "Platforma POS: Platforma Fsikalizimi",
     "desc": "Menaxho lehtësisht pagesat me zgjidhjen tonë të POS online",
     "heroButton": "Provo Pos.."
   },
@@ -255,12 +255,40 @@
       "desc": "Nëse keni ndonjë pyetje ose koment në lidhje me këto Kushte, ju lutemi na kontaktoni në +355672014274 ose dërgoni email në info@pos.al."
     }
   ],
-  "Fiskalizimi": [
+  "WhatWeOffer": {
+    "header": "Shërbimet Tona",
+    "title": "Çfarë Ofrojmë ?",
+    "desc" : "Sistemi ynë web POS, i ndërtuar me teknologji të reja, është këtu për t'ju ofruar të gjitha llojet e shërbimeve, dhe kemi asistencë të klientëve në dispozicion 24/7."
+  },
+  "WhatWeOfferData": [
     {
-      "titleFirst": "What is the Fiscalism Program?",
-      "titleSecond": "Fiscalism in POS.AL: Care and Efficiency for Your Business",
-      "titleThird": "Other articles",
-      "desc": "In a world where technology has become an indispensable part of our lives, the fiscalization program is a necessary obligation for businesses in Albania. POS.AL is your trusted partner on the path to modernizing your business and using this program to manage transparency, income, and expenses efficiently.Fiscalization is a process that emphasizes transparency and helps collect the necessary revenue for the country's development. In a country like Albania, where the economy is growing, efficient tax and revenue collection are essential to ensure financial resources for public services. The fiscalization program in POS.AL ensures that the financial data of businesses are electronically recorded and that tax transactions are clear and traceable \n\n One of the principal advantages of the fiscalization program is its ability to boost transparency and combat tax evasion. By electronically recording transactions and invoices, businesses find it increasingly challenging to evade tax payments or underreport their actual income. This contributes to bolstering state budget revenues and securing funds for crucial public services, such as education, healthcare, and infrastructure development.Furthermore, the fiscalization program in POS.AL aids in reducing the shadow economy. Instead of relying on cash payments and irregular transactions, the fiscalization program mandates that all transactions be electronically recorded and reported to tax authorities. This process makes it arduous for individuals and businesses to conceal their income. Consequently, the fiscalization program in POS.AL plays a pivotal role in creating a fair and equitable tax system where everyone shares the tax burden equally. \n\n Nevertheless, the fiscalization program encounters its own set of challenges in Albania. One significant hurdle is educating and raising awareness among businesses and individuals about the importance of accurately recording transactions and reporting income. Frequently, there is resistance or a lack of cooperation in implementing the fiscalization program, particularly within informal sectors of the economy. To achieve comprehensive success, it is imperative for the government to invest in further educating and raising awareness among the public and businesses alike. \n\n  In conclusion, the fiscalization program within POS.AL represents a critical tool for the Albanian government in controlling the economy and ensuring the requisite revenue for public services. This process significantly enhances transparency, curbs tax evasion, and diminishes the informal economy. However, to fully realize its potential, the government must address these challenges and invest in the education and awareness of various economic stakeholders. Fiscalization within POS.AL is a potent instrument at the government's disposal, but its efficient and effective operation hinges on the commitment and collaboration of all stakeholders involved."
+      "header": "Program Fsikalizmi",
+      "title": "Dyqanet dhe Financat për Bizneset",
+      "desc": "Zbuloni softuerin tonë POS AL, i projektuar për të ndihmuar bizneset në Shqipëri të rriten dhe të optimizojnë proceset e tyre. Ne ofrojmë zgjidhje të personalizuara për dyqanet, tregtinë, restoranet, bar-et dhe financat. Softueri ynë POS AL është krijuar për të lehtësuar operacionet ditore të biznesit tuaj, për të optimizuar menaxhimin e stokut dhe për të përmirësuar shërbimin ndaj klientëve. Shpejtësia, besueshmëria dhe ndërfaqja e përdoruesit miqësore ndihmojnë në menaxhimin më efikas të biznesit tuaj dhe sigurojnë një mënyrë të sigurt për kryerjen e transaksioneve financiare.",
+      "image": "/fiscalizimi.jpg",
+      "location": "https://posal.tawk.help/category/fiskalizimi",
+      "button": "Vizitoni Tani"
+
+    },
+    {
+      "header": "Fatura Elektronike",
+      "title": "Zgjidhjet e POS AL",
+      "desc": "Fatura elektronike ofron përfitime të mëdha për bizneset. Kompania POS AL ofron zgjidhje fatura elektronike që janë në përputhje me standardet evropiane. Këto zgjidhje përfshijnë konfirmim dhe nënshkrim dixhital, automatizimin e proceseve, dhe ndihmojnë në respektimin e mjedisit. Me fatura elektronike, bizneset janë në gjendje të përmirësojnë efikasitetin e tyre financiar dhe të ulin koston e përdorimit të letërave.",
+      "image": "/invoice.jpg",
+      "location": "https://posal.tawk.help/article/si-t%C3%AB-regjistrosh-nj%C3%AB-fatur%C3%AB-elektronike",
+      "button": "Vizitoni Tani"
+
+    },
+    {
+      "header": " Menaxhimi i Suksesshëm",
+      "title": "Menaxhimin e porositë",
+      "desc": "POS AL është një produkt i ndryshueshëm që synon të përmirësojë menaxhimin e bizneseve. Menaxhimi i produktit është çelësi i suksesit të tij. Ky produkt siguron automatizim të proceseve të shitjes, ndjekjen e stokut dhe kontrollin financiar. Me POS AL, bizneset rrisin efikasitetin dhe fitimet.Menaxhimi i produktit siguron që POS AL të jetë i përshtatshëm për kërkesat e klientëve dhe ndryshimet në treg. ",
+      "image": "/productManagement.jpg",
+      "location": "https://posal.tawk.help/article/si-te-krijosh-nje-artikull-sherbimi",
+      "button": "Vizitoni Tani"
+
+
     }
   ]
+
 }

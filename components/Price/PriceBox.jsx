@@ -6,9 +6,9 @@ const PriceBox = ({ feature, price, desc ,button,title,month}) => {
 
   return (
     <div className="w-70 h-405 mt-8 bg-white border border-gray-500 rounded-lg mx-auto p-4 text-center flex flex-col justify-between items-center hover:scale-105 hover:shadow-md cursor-pointer hover:shadow-black  transition-transform duration-300">
-      <h3 className="font-bold text-xl mt-2 border-b-2 border-b-gray-500 w-full roboto700 pb-2">
+      <h2 className="font-bold text-xl mt-2 border-b-2 border-b-gray-500 w-full roboto700 pb-2">
         {feature}
-      </h3>
+      </h2>
 
       <h3 className="text-lg text-primaryYellow roboto700 ">{`${price}ALL/${month}`}</h3>
       <p className="text-xl font-bold roboto700">{title}</p>

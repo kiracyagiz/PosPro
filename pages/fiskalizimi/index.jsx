@@ -1,24 +1,30 @@
 import { useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
-import Header from "../components/Header/Header";
-import FaqPage from "../components/Faq/FaqPage";
-
-const Faq = () => {
+import Header from "../../components/Header/Header";
+import FiskalizimiPage from "../../components/BlogPage/FiskalizimiPage";
+import Footer from "../../components/Footer/Footer";
+import { useRouter } from "next/router";
+const Fiskalizimi = () => {
     const { t, i18n } = useTranslation("common");
     const header = t("HeaderNav", { returnObjects: true });
     const headerB = t("Header", { returnObjects: true });
     const currentLocale = i18n.language;
-    const faqData = t("Faq",{returnObjects: true})
+    const fiskalizimiData = t("Fiskalizimi",{returnObjects: true})
+    const blogData = t("common:Blog", { returnObjects: true });
+
+
+
+
   return (
     <div>
-      <Header
+        <Header
         header={header}
         navButton={headerB.button}
         locale={currentLocale}
-        href={'/faq'}
+        href={'/fiskalizimi'}
       />
-        <FaqPage faqData={faqData}/>
-        
+      <FiskalizimiPage fiskalizimiData={fiskalizimiData} blogData={blogData}/>
+      <Footer/>
     </div>
   )
 }
@@ -31,4 +37,4 @@ export async function getStaticProps({ locale }) {
     };
   }
 
-export default Faq
+export default Fiskalizimi

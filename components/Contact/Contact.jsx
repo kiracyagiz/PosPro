@@ -37,14 +37,14 @@ const Contact = () => {
           <Link
             href={"https://www.youtube.com/channel/UCuR5SmYAHoXONCGUSwlqRSg"}
           >
-            <button className="bg-black  text-white flex items-center gap-x-4 md:gap-x-2 pr-10 md:px-3 md:py-1 rounded-lg text-sm lg:text-md   hover:scale-105 hover:shadow-md  hover:shadow-black  transition-transform duration-300 ">
+            <button className="bg-black  text-white flex items-center gap-x-4 w-1/2 md:w-2/5 p-2 rounded-lg text-sm lg:text-md    hover:scale-105 hover:shadow-md  hover:shadow-black  transition-transform duration-300 ">
               <AiFillYoutube className='w-[35px]  py-1 h-[35px]   md:w-[30px] md:h-[30px]' /> {contact.contactYoutube}
             </button>
           </Link>
           <Link
             href={"mailto:info@pos.al?subject=Post.al&body="}
           >
-            <button className="bg-black text-white flex items-center gap-x-4 md:gap-x-2 pr-10 md:px-3 md: rounded-lg text-sm lg:text-md   hover:scale-105 hover:shadow-md  hover:shadow-black  transition-transform duration-300 ">
+            <button className="bg-black text-white flex items-center gap-x-4 w-1/2 md:w-2/5 p-1 rounded-lg text-sm lg:text-md    hover:scale-105 hover:shadow-md  hover:shadow-black  transition-transform duration-300 ">
               <AiFillMail className='w-[35px]   h-[35px]  py-1 md:w-[30px] md:h-[30px]' /> {contact.contactMail}
             </button>
           </Link>

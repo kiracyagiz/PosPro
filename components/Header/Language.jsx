@@ -63,15 +63,14 @@ const Language = (props) => {
   }, [param]);
 
   return (
-    <div className="group ">
-    <a href={languageInfo.current}>
+    <div className="group z-40">
+  
       <div className="bg-primaryYellow flex items-center gap-x-1 lg:group-hover:mt-28 ">
          <div className="w-8 m-2 flex items-center" >
             <Image src={languageInfo.images.current}  alt={languageInfo.current}/>
           </div>
         <p className="text-sm">{languageInfo.name}</p>
       </div>
-    </a>
     <a href={languageInfo.alt}>
       <div className="bg-white  items-center gap-x-1 w-20 hidden  group-hover:flex rounded-t-lg ">
         <div className="w-2 h-2 duration-0  absolute ml-6 mb-12 md:top-4.5 md:hidden lg:flex bg-white rotate-45"></div>

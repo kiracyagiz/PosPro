@@ -69,16 +69,16 @@ const About = () => {
             <p className="uppercase font-semibold text-xs text-primaryYellow tracking-wider roboto700">
               {about.headerYoutube}
             </p>
-            <h1 className="text-4xl  font-extrabold text-gray-900">
+            <h3 className="text-4xl  font-extrabold text-gray-900">
               {about.descYoutube}
-            </h1>
+            </h3>
           </div>
         </div>
 
         <div className="flex flex-col gap-y-8 md:mt-14 py-14">
           <div>
             <h3 className="roboto700 text-4xl">{about.header}</h3>
-            <h4 className="roboto700 mt-4">{about.title}</h4>
+            <h3 className="roboto700 mt-4">{about.title}</h3>
           </div>
           <p className="max-w-lg">{about.desc}</p>
           <ButtonPrimary text={about.button} />

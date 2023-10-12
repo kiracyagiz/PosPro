@@ -1,32 +1,30 @@
 import { useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
-import Header from "../components/Header/Header";
-import FiskalizimiPage from "../components/BlogPage/FiskalizimiPage";
-import Footer from "../components/Footer/Footer";
+import Header from "../../components/Header/Header";
+import FaqPage from "../../components/Faq/FaqPage";
 
-const Fiskalizimi = () => {
+const Faq = () => {
     const { t, i18n } = useTranslation("common");
     const header = t("HeaderNav", { returnObjects: true });
     const headerB = t("Header", { returnObjects: true });
     const currentLocale = i18n.language;
-    const fiskalizimiData = t("Fiskalizimi",{returnObjects: true})
-    const blogData = t("common:Blog", { returnObjects: true });
-
+    const faqData = t("Faq",{returnObjects: true})
   return (
     <div>
-        <Header
+      <Header
         header={header}
         navButton={headerB.button}
         locale={currentLocale}
-        href={'/fiskalizimi'}
+        href={'/faq'}
       />
-      <FiskalizimiPage fiskalizimiData={fiskalizimiData} blogData={blogData}/>
-      <Footer/>
+        <FaqPage faqData={faqData}/>
+        
     </div>
   )
 }
 
 export async function getStaticProps({ locale }) {
+  // console.log(locale)
     return {
       props: {
         ...(await serverSideTranslations(locale, ["common", "Faq"])),
@@ -34,4 +32,4 @@ export async function getStaticProps({ locale }) {
     };
   }
 
-export default Fiskalizimi
+export default Faq

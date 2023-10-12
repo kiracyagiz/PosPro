@@ -8,34 +8,36 @@ import Features from "../components/Features/Features";
 import Blog from "../components/Blog/Blog";
 import Contact from "../components/Contact/Contact";
 import Footer from "../components/Footer/Footer";
-
+import Head from "next/head";
 const Home = () => {
-  // const { t } = useTranslation("common");
-  // const blogData = t('common:blog', { returnObjects: true });
-
-  // const headerNav = t('common:HeaderNav', { returnObjects: true });
-
   const { t, i18n } = useTranslation("common");
   const currentLocale = i18n.language;
 
-  const header = t('common:HeaderNav', { returnObjects: true });
-  const headerB = t('Header', { returnObjects: true });
+  const header = t("common:HeaderNav", { returnObjects: true });
+  const headerB = t("Header", { returnObjects: true });
 
   return (
     <div className="bg-gray-100">
+      <Head>
+        <title>Pos.al</title>
+        <meta
+          name="description"
+          content="Jemi një kompani teknologjike që specializohet në programe për lokale dhe menaxhimin e porosive, me fokus te inovacioni dhe kënaqësia e klientit."
+        />
+      </Head>
       <Header
         header={header}
         navButton={headerB.button}
         locale={currentLocale}
-        href={'/'}
+        href={"/"}
       />
-      <Hero  />
-      <About/>
-      <Price/>
-      <Features/>
-      <Blog/>
-      <Contact/>
-      <Footer/>
+      <Hero />
+      <About />
+      <Price />
+      <Features />
+      <Blog />
+      <Contact />
+      <Footer />
     </div>
   );
 };
