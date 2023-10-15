@@ -25,7 +25,7 @@ const Header = (props) => {
             Pos.
           </a>
         </div>
-        <nav className="items-center hidden lg:flex justify-between  list-none roboto700 font-bold  gap-x-10 text-xl">
+        <nav className="items-center hidden md:hidden lg:flex justify-between  list-none roboto700 font-bold  gap-x-10 text-xl">
           {header.map((dt, i) => (
             <a href={`${dt.id}`} key={i}>
               {dt.title}
