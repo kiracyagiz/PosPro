@@ -9,7 +9,7 @@ class MyDocument extends Document {
             name="description"
             content="Jemi një kompani teknologjike që specializohet në programe për lokale dhe menaxhimin e porosive, me fokus te inovacioni dhe kënaqësia e klientit."
           />{" "}
-          <link rel="stylesheet" />
+            <link rel="icon" type="image/x-icon" href="/favicon.ico.png"/>
           <script
             async
             src="https://www.googletagmanager.com/gtag/js?id=GTM-WZ44XMQ7"
