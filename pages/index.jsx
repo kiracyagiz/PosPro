@@ -18,13 +18,7 @@ const Home = () => {
 
   return (
     <div className="bg-gray-100">
-      <Head>
-        <title>Pos.al</title>
-        <meta
-          name="description"
-          content="Jemi një kompani teknologjike që specializohet në programe për lokale dhe menaxhimin e porosive, me fokus te inovacioni dhe kënaqësia e klientit."
-        />
-      </Head>
+ 
       <Header
         header={header}
         navButton={headerB.button}
