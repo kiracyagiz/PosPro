@@ -1,6 +1,7 @@
 import React from "react";
 import FeaturesCard from "./FeaturesCard";
 import { useTranslation } from "next-i18next";
+import SecondAd from "../Ads/SecondAd";
 
 const Features = () => {
   const {t} = useTranslation("common");
@@ -18,17 +19,17 @@ const Features = () => {
       <div className="flex flex-col gap-y-32 mt-8 bg-gray-100">
         {featuresData.map((dt,i) => (
             <FeaturesCard 
-            ImagepositionLeft={dt.imagePositionLeft}
-            imagesrc={dt.image}
-            h2={dt.header}
-            h1={dt.title}
-            p={dt.desc}
-            primary1={dt.category1}
-            primary2={dt.category2}
+            dt={dt}
             key={i}
             />
         ))}
 
+      </div>
+      <SecondAd/>
+    
+
+      <div>
+     
       </div>
     </div>
   );

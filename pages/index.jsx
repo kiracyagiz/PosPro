@@ -32,9 +32,9 @@ const Home = () => {
         href={"/"}
       />
       <Hero />
-      <About />
       <Price />
       <Features />
+      <About />
       <Blog />
       <Contact />
       <Footer />

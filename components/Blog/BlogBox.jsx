@@ -27,15 +27,17 @@ const BlogBox = ({offerData}) => {
             </p>
           </div>
           
-          <div className="w-full lg:w-1/5 mt-6 lg:mt-0 lg:px-4 text-center md:text-left">
+          <div className="w-full  lg:w-1/5 mt-6 lg:mt-0 lg:px-4 text-center md:text-left">
             <Link href={offerData.location}>
-            <button className="roboto700 bg-white hover:bg-primaryYellow hover:text-white border-2 border-black border-grey w-1/3 lg:w-full py-2">{offerData.button}</button>
+            <button className="roboto700   bg-white hover:bg-primaryYellow hover:text-white border-2 border-black border-grey  px-2 lg:px-0 lg:w-full  py-2">{offerData.button}</button>
             </Link>
           </div>
         </div>
       </div>
     </div>
   </div>
+
+  
 </div>
 
   );

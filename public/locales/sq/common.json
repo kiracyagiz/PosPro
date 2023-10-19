@@ -25,7 +25,7 @@
   ],
   "Hero": {
     "title": "Program POS: Program Fsikalizimi",
-    "desc": "Menaxho lehtësisht pagesat me zgjidhjen tonë të POS online",
+    "desc": "Programi fiskalizm per cdo biznes",
     "heroButton": "Provo Pos.."
   },
   "AboutSection": {
@@ -34,77 +34,95 @@
     "desc": "Mirësevini në Pos.al! Ne jemi një kompani teknologjie e specializuar në programet për kafene, restorante, dhe menaxhimin e porosive. Jemi përkushtuar ndaj inovacionit dhe kënaqësisë së klientëve dhe kemi një rol kyç si partner i besueshëm për bizneset që duan të përmirësojnë operacionet e tyre në këto fusha dhe përvojën e klientëve.Misioni ynë është të ndryshojmë mënyrën se si bizneset menaxhojnë operacionet e tyre në kafene, restorante, dhe menaxhimin e porosive. Përdorim teknologjinë e përparuar dhe ndërfaqen e lehtë për përdoruesit për të krijuar një platformë të fuqishme, duke ndihmuar kështu bizneset të dalin më mirë në tregun konkurrues të sotëm në këto sektore.",
     "button": "Shkoni te Rreth Nesh.",
     "headerYoutube": "Videot tona në youtube",
-    "descYoutube": "Mund të mësoni si të përdorni Pos Al në YouTube."
+    "descYoutube": "Mund të mësoni si të përdorni Pos.Al në YouTube."
   },
   "Price": {
-    "title": "Çmimet në platformë"
+    "title": "Çmimet në Program"
   },
   "PriceInfo": [
     {
-      "monthly": "Muaj",
-      "header": "Pos",
+      "monthly": "Vit.",
+      "header": "Single",
       "title": "Çfarë përfshihet",
-      "desc": "Akses në platformën Pos.",
+      "desc": "1 përdorues",
       "priceButton": "Provoni Pos",
-      "price": "400"
+      "price": "4000",
+      "service": "Shërbimi Pos"
     },
     {
-      "monthly": "Muaj",
-      "header": "Pos + Cash",
+      "monthly": "Vit.",
+      "header": "Small",
       "title": "Çfarë përfshihet",
-      "desc": "Akses në Pos + fiskalizimin cash.",
-      "price": "200",
-      "priceButton": "Provoni Pos"
+      "desc": "3 përdorues.",
+      "price": "5900",
+      "priceButton": "Provoni Pos",
+      "service": "Shërbimi Pos"
     },
     {
-      "monthly": "Muaj",
-      "header": "Pos + E-Invoice",
+      "monthly": "Vit.",
+      "header": "Medium",
       "title": "Çfarë përfshihet",
-      "desc": "Akses në Pos, cash dhe e-invoice.",
-      "price": "200",
-      "priceButton": "Provoni Pos"
+      "desc": "9 përdorues.",
+      "price": "7800",
+      "priceButton": "Provoni Pos",
+      "service": "Shërbimi Pos"
     },
     {
-      "monthly": "Muaj",
-      "header": "Fiskalizim Rest API",
+      "monthly": "Vit.",
+      "header": "Business",
       "title": "Çfarë përfshihet",
-      "desc": "Akses në shërbimet Rest API, cash, jo-cash, e-invoice",
-      "price": "500",
-      "priceButton": "Provoni Pos"
+      "desc": "10 përdorues.",
+      "price": "9600",
+      "priceButton": "Provoni Pos",
+      "service": "Shërbimi Pos",
+      "extra": "Përdorues shtesë(500ALL/ për përdorues)"
     }
   ],
   "SecondAd": {
-    "header": "Programme për Bar Kafe Restorant",
+    "header": "Programe për Bar, Kafe, Restorant",
     "title": "Platforma qendrore e faturave"
   },
 
   "Features": [
     {
-      "header": "MENAXHIM I THJESHTË I PRODUKTEVE",
-      "title": "Pos.al e bën menaxhimin e produkteve më të lehtë",
-      "desc": "Me Pos.al bizneset mund të navigojnë me shpejtësi nëpër kataloget e tyre, të kërkojnë artikuj dhe të vendosin filtra për të gjetur shpejt produkte specifike, duke siguruar një proces të qetë dhe efikas të shitjeve.",
+      "header": "MENAXHIM I THJESHTË ",
+      "title": "Pos.al e bën menaxhimin ",
+      "desc": "Me Pos.al bizneset mund të ",
       "category1": "Katalog i thjeshtë",
       "category2": "Menaxhim efikas",
-      "image": "/laptop-hand.png",
-      "imagePositionLeft": true
-    },
+      "image": "/laptop-hand.jpg",
+      "imagePositionLeft": true,
+        "extraTitle": "Horeca",
+        "extraDesc": "Bar \n Restourant \n Hotel\n Plazh \n Sherbime Turistike",
+        "secondTitle": "Vecorite",
+        "secondDesc": "Table based orders \n Room based orders \n Table & Room reports"
+      },
     {
       "header": "PAGESA FLEKSIBËL",
       "title": "Pos. al ofron mënyra pagesash fleksibël",
-      "desc": "Me Pos.al ju mund të gjeneroni fatura të personalizuara, duke u ofruar bizneseve një qasje profesionale dhe të organizuar ndaj transaksioneve financiare",
+      "desc": "Me Pos.al ju mund të ",
       "category1": "Mënyra pagesash të ndryshme",
       "category2": "Transaksione të sigurta",
-      "image": "/mobile-hand.png",
-      "imagePositionLeft": false
+      "image": "/flexible-payment.jpg",
+      "imagePositionLeft": true,
+      "extraTitle": "Sherbime",
+      "extraDesc": "Profesionist te lire \n Ekonomist \n Jurist \n Inxhinier",
+      "secondTitle": "Vecorite",
+      "secondDesc": "Shitje me vlere totale  \n Pamje e thjeshtuar, minimaliste"
+
     },
     {
       "header": "SHËRBIM KLIENTI DHE LIVE CHAT",
       "title": "Pos.al ofron shërbim klienti dhe live chat",
-      "desc": "Platforma përfshin krijimin e 'tickets', suport live me agjentët tanë dhe një bazë njohurish për të adresuar pyetjet ose problemet e zakonshme. Me një suport të dedikuar, ju mund të përmirësoni kënaqësinë e klientit, të krijoni besim dhe të mbani marrëdhënie të forta.",
+      "desc": "Platforma përfshin krijimin e 'tickets",
       "category1": "Shërbim klienti",
       "category2": "Integrim me live chat",
-      "image": "/tablet-hand.png",
-      "imagePositionLeft": true
+      "image": "/live-chat.jpg",
+      "imagePositionLeft": true,
+      "extraTitle": "Estetika",
+      "extraDesc": "Qender estetike \n Berber \n Palester\n SPA \n ",
+      "secondTitle": "Vecorite",
+      "secondDesc": "Pune nga telefoni \n Pamje e thjeshtuar"
     }
   ],
   "Blog": [

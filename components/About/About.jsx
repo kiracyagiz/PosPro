@@ -12,7 +12,6 @@ const About = () => {
 
   return (
     <div className="bg-gray-100  md:h-5/6">
-      <FirstAd />
       <div className="flex flex-col md:flex-row   items-center  py-8 gap-x-8 justify-between mx-10 md:mx-36 lg:mx-24">
         <div className="hidden relative  lg:block w-1/2 h-[350px] bg-white overflow-hidden">
           <div
@@ -69,7 +68,7 @@ const About = () => {
             <p className="uppercase font-semibold text-xs text-primaryYellow tracking-wider roboto700">
               {about.headerYoutube}
             </p>
-            <h3 className="text-4xl  font-extrabold text-gray-900">
+            <h3 className="text-4xl  font-bold text-gray-900">
               {about.descYoutube}
             </h3>
           </div>
@@ -80,7 +79,7 @@ const About = () => {
             <h3 className="roboto700 text-4xl">{about.header}</h3>
             <h3 className="roboto700 mt-4">{about.title}</h3>
           </div>
-          <p className="max-w-lg">{about.desc}</p>
+          <p className="max-w-lg ">{about.desc}</p>
           <ButtonPrimary text={about.button} />
         </div>
       </div>
