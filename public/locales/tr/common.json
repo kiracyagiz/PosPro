@@ -83,7 +83,11 @@
       "category1": "Anlaşılabilir katalog",
       "category2": "Verimli Yönetim",
       "image": "/laptop-hand.png",
-      "imagePositionLeft": true
+      "imagePositionLeft": true,
+      "extraTitle": "Sherbime",
+      "extraDesc": "Profesionist te lire \n Ekonomist \n Jurist \n Inxhinier",
+      "secondTitle": "Vecorite",
+      "secondDesc": "Shitje me vlere totale  \n Pamje e thjeshtuar, minimaliste"
     },
     {
       "header": "ESNEK ÖDEME SEÇENEKLERİ",
@@ -92,7 +96,11 @@
       "category1": "Çoklu ödeme yöntemleri",
       "category2": "Güvenli işlemler",
       "image": "/mobile-hand.png",
-      "imagePositionLeft": false
+      "imagePositionLeft": false,
+      "extraTitle": "Sherbime",
+      "extraDesc": "Profesionist te lire \n Ekonomist \n Jurist \n Inxhinier",
+      "secondTitle": "Vecorite",
+      "secondDesc": "Shitje me vlere totale  \n Pamje e thjeshtuar, minimaliste"
     },
     {
       "header": "MÜŞTERİ DESTEĞİ VE CANLI YARDIM",
@@ -101,7 +109,11 @@
       "category1": "Müşteri desteği",
       "category2": "Canlı yardım hizmeti",
       "image": "/tablet-hand.png",
-      "imagePositionLeft": true
+      "imagePositionLeft": true,
+      "extraTitle": "Sherbime",
+      "extraDesc": "Profesionist te lire \n Ekonomist \n Jurist \n Inxhinier",
+      "secondTitle": "Vecorite",
+      "secondDesc": "Shitje me vlere totale  \n Pamje e thjeshtuar, minimaliste"
     }
   ],
   "Blog": [

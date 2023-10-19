@@ -86,7 +86,11 @@
       "category1": "Intuitive Catalag",
       "category2": "Efficient management",
       "image": "/laptop-hand.png",
-      "imagePositionLeft": true
+      "imagePositionLeft": true,
+      "extraTitle": "Sherbime",
+      "extraDesc": "Profesionist te lire \n Ekonomist \n Jurist \n Inxhinier",
+      "secondTitle": "Vecorite",
+      "secondDesc": "Shitje me vlere totale  \n Pamje e thjeshtuar, minimaliste"
     },
     {
       "header": "FLEXIBLE PAYMENT OPTIONS",
@@ -95,7 +99,11 @@
       "category1": "Multiple payment methods",
       "category2": "Secure transactions",
       "image": "/mobile-hand.png",
-      "imagePositionLeft": false
+      "imagePositionLeft": false,
+      "extraTitle": "Sherbime",
+      "extraDesc": "Profesionist te lire \n Ekonomist \n Jurist \n Inxhinier",
+      "secondTitle": "Vecorite",
+      "secondDesc": "Shitje me vlere totale  \n Pamje e thjeshtuar, minimaliste"
     },
     {
       "header": "CUSTOMER SUPPORT AND HELPDESK",
@@ -104,7 +112,11 @@
       "category1": "Customer support",
       "category2": "Helpdesk integration",
       "image": "/tablet-hand.png",
-      "imagePositionLeft": true
+      "imagePositionLeft": true,
+      "extraTitle": "Sherbime",
+      "extraDesc": "Profesionist te lire \n Ekonomist \n Jurist \n Inxhinier",
+      "secondTitle": "Vecorite",
+      "secondDesc": "Shitje me vlere totale  \n Pamje e thjeshtuar, minimaliste"
     }
   ],
   "Blog": [
