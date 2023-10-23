@@ -11,11 +11,9 @@ const FirstAd = () => {
 
 
   return (
-    <div className="flex flex-col  py-4 md:flex-row">
-      <div className="w-8/12 hidden md:hidden lg:block ">
-        <Image src={firstadimg} alt="pos"/>
-      </div>
-      <div className="w-full  flex  flex-col bg-primaryYellow items-center gap-y-8 text-center">
+    <div className="flex flex-col   py-4 md:flex-row">
+        <Image src={firstadimg} alt="pos" className="hidden lg:block"/>
+      <div className="w-full flex  flex-col bg-primaryYellow items-center gap-y-8 text-center">
         <div>
           <h3 className="roboto700 text-2xl mt-2">{firstAd.header}</h3>
         </div>
@@ -29,9 +27,7 @@ const FirstAd = () => {
    
         </div>
 
-        {/* {firstInfo.map((dt,i) => (
-            <p>{dt.title}</p>
-        ))} */}
+
 
       </div>
     </div>

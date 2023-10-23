@@ -3,7 +3,7 @@
     "button": "Hyr"
   },
   "Titles": {
-    "features": "Risitë"
+    "features": "Sipas llojit te biznesit"
   },
   "HeaderNav": [
     { "title": "Çmimet", "id": "#pricing" },
@@ -13,7 +13,7 @@
   ],
 
   "FirstAd": {
-    "header": "Sistemin POS"
+    "header": "Fizkalizimi"
   },
   "FirstAdInfo": [
     {
@@ -25,7 +25,7 @@
   ],
   "Hero": {
     "title": "Program POS: Program Fsikalizimi",
-    "desc": "Programi fiskalizm per cdo biznes",
+    "desc": "Program per shitje dhe fiskalizimi per cdo biznes",
     "heroButton": "Provo Pos.."
   },
   "AboutSection": {
@@ -83,11 +83,8 @@
   "Features": [
     {
       "header": "MENAXHIM I THJESHTË ",
-      "title": "Pos.al e bën menaxhimin ",
       "desc": "Me Pos.al bizneset mund të ",
-      "category1": "Katalog i thjeshtë",
-      "category2": "Menaxhim efikas",
-      "image": "/laptop-hand.jpg",
+      "image": "/restorant.jpg",
       "imagePositionLeft": true,
         "extraTitle": "Horeca",
         "extraDesc": "Bar \n Restourant \n Hotel\n Plazh \n Sherbime Turistike",
@@ -96,11 +93,8 @@
       },
     {
       "header": "PAGESA FLEKSIBËL",
-      "title": "Pos. al ofron mënyra pagesash fleksibël",
       "desc": "Me Pos.al ju mund të ",
-      "category1": "Mënyra pagesash të ndryshme",
-      "category2": "Transaksione të sigurta",
-      "image": "/flexible-payment.jpg",
+      "image": "/coffe.jpg",
       "imagePositionLeft": true,
       "extraTitle": "Sherbime",
       "extraDesc": "Profesionist te lire \n Ekonomist \n Jurist \n Inxhinier",
@@ -110,14 +104,11 @@
     },
     {
       "header": "SHËRBIM KLIENTI DHE LIVE CHAT",
-      "title": "Pos.al ofron shërbim klienti dhe live chat",
       "desc": "Platforma përfshin krijimin e 'tickets",
-      "category1": "Shërbim klienti",
-      "category2": "Integrim me live chat",
-      "image": "/live-chat.jpg",
+      "image": "/gym.jpg",
       "imagePositionLeft": true,
       "extraTitle": "Estetika",
-      "extraDesc": "Qender estetike \n Berber \n Palester\n SPA \n ",
+      "extraDesc": "Qender estetike \n Berber \n Palester\n SPA  ",
       "secondTitle": "Vecorite",
       "secondDesc": "Pune nga telefoni \n Pamje e thjeshtuar"
     }

@@ -9,6 +9,7 @@ import Blog from "../components/Blog/Blog";
 import Contact from "../components/Contact/Contact";
 import Footer from "../components/Footer/Footer";
 import Head from "next/head";
+import BackToTopButton from "../components/General/BackToTopButton";
 const Home = () => {
   const { t, i18n } = useTranslation("common");
   const currentLocale = i18n.language;
@@ -32,6 +33,7 @@ const Home = () => {
       <Blog />
       <Contact />
       <Footer />
+      <BackToTopButton/>
     </div>
   );
 };

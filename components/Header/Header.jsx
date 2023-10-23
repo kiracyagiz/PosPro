@@ -21,7 +21,7 @@ const Header = (props) => {
     >
       <div className="flex justify-between p-6  lg:mx-67 gap-x-44 animate-slide-down whitespace-nowrap ">
         <div className="items-center flex justify-between ">
-          <a className="heroRoboto" href={locale}>
+          <a className="heroRoboto" href={`/${locale}`}>
             Pos.
           </a>
         </div>

@@ -1,9 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import TextPrimary from "../General/TextPrimary";
-import Link from "next/link";
 import FeaturesDesc from "./FeaturesDesc";
 import {BsBoxArrowUpRight} from 'react-icons/bs'
+import Link from "next/link";
 const FeaturesCard = ({ dt }) => {
   return (
     <div>
@@ -22,25 +21,21 @@ const FeaturesCard = ({ dt }) => {
           ></Image>
         </div>
         <div className="flex flex-col ">
-          <p className="tracking-tighter roboto400">{dt.title}</p>
           <p className="text-featuresH font-bold  max-w-sm roboto700  mb-6">
+            
             {dt.desc}
           </p>
           <div className="flex gap-x-8">
             <FeaturesDesc title={dt.extraTitle} desc={dt.extraDesc} />
             <FeaturesDesc title={"Vecorite"} desc={dt.secondDesc} />
           </div>
-          <div
-            className={`flex flex-row gap-x-2 md:flex md:flex-row mt-4 roboto400`}
-          >
-            <TextPrimary font={"text-md"} text={dt.category1} />
-            <TextPrimary font={"text-md"} text={dt.category2} />
-          </div>
-          <p>
-            <Link href={"https://posal.tawk.help/"}>
+
+
+          <Link href={"https://posal.tawk.help/"}>
           <BsBoxArrowUpRight size={25} className='mt-8'/>
             </Link>
-          </p>
+
+
         </div>
       </div>
     </div>
