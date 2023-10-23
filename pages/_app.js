@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Component {...pageProps} />
       <Head>
-        <title>Pos Al</title>
+        <title>Pos.al program per shitje, fiskalizimi</title>
       </Head>
     </>
   );

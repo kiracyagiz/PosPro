@@ -7,7 +7,6 @@ import en from "../../public/en.png";
 
 import Image from "next/image";
 
-
 const Language = (props) => {
   const { locale, localeEn, param, localeTr } = props;
 
@@ -64,34 +63,32 @@ const Language = (props) => {
 
   return (
     <div className="group z-40">
-  
       <div className="bg-primaryYellow flex items-center gap-x-1 lg:group-hover:mt-28 ">
-         <div className="w-8 m-2 flex items-center" >
-            <Image src={languageInfo.images.current}  alt={languageInfo.current}/>
-          </div>
+        <div className="w-8 m-2 flex items-center">
+          <Image src={languageInfo.images.current} alt={languageInfo.current} />
+        </div>
         <p className="text-sm">{languageInfo.name}</p>
       </div>
-    <a href={languageInfo.alt}>
-      <div className="bg-white  items-center gap-x-1 w-20 hidden  group-hover:flex rounded-t-lg ">
-        <div className="w-2 h-2 duration-0  absolute ml-6 mb-12 md:top-4.5 md:hidden lg:flex bg-white rotate-45"></div>
-        <div className="w-8 m-2 flex items-center" >
+      <Link href={languageInfo.alt}>
+        <div className="bg-white  items-center gap-x-1 w-20 hidden  group-hover:flex rounded-t-lg ">
+          <div className="w-2 h-2 duration-0  absolute ml-6 mb-12 md:top-4.5 md:hidden lg:flex bg-white rotate-45"></div>
+          <div className="w-8 m-2 flex items-center">
             <Image src={languageInfo.images.alt} alt={languageInfo.alt} />
           </div>
-        <p className="text-sm ">{languageInfo.nameSecond} </p>
-      </div>
+          <p className="text-sm ">{languageInfo.nameSecond} </p>
+        </div>
+      </Link>
 
-    </a>
-    <a href={languageInfo.last}>
-      <div className="bg-white  items-center gap-x-1 w-20 hidden  py-2 group-hover:flex rounded-b-lg">
-      <div className="w-8 m-2 flex items-center" >
-            <Image src={languageInfo.images.last}  alt={languageInfo.alt}/>
+      <Link href={languageInfo.last}>
+        <div className="bg-white  items-center gap-x-1 w-20 hidden  py-2 group-hover:flex rounded-b-lg">
+          <div className="w-8 m-2 flex items-center">
+            <Image src={languageInfo.images.last} alt={languageInfo.alt} />
           </div>
-        <p className="text-sm ">{languageInfo.nameThird}</p>
-      </div>
-      </a>
-  </div>
-);
+          <p className="text-sm ">{languageInfo.nameThird}</p>
+        </div>
+      </Link>
+    </div>
+  );
 };
-
 
 export default Language;

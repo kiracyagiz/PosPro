@@ -9,9 +9,8 @@ const PriceBox = ({ dt}) => {
       </h2>
 
       <h3 className="text-lg text-primaryYellow roboto700 ">{`${dt.price} ALL / ${dt.monthly}`}</h3>
-      <p className="text-xl font-bold roboto700">{dt.title}</p>
       <div className="flex flex-col items-center gap-y-2 p-4">
-      <div className="flex p-4 text-md items-center gap-x-2 ">
+      <div className="flex p-4 text-md text-left  gap-x-2 ">
         <AiFillCheckCircle size={19} className='bg-black rounded-full text-primaryYellow'/>
         <p className="tracking-tighter roboto400">{dt.desc}</p>
       </div>

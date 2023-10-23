@@ -6,10 +6,10 @@
     "features": "Özellikler"
   },
   "HeaderNav": [
-    { "title": "Fiyatlandırma", "id": "/#prices" },
-    { "title": "Özellikler", "id": "/#features" },
+    { "title": "Fiyatlandırma", "id": "#prices" },
+    { "title": "Özellikler", "id": "#features" },
     { "title": "Destek" , "id": "https://posal.tawk.help"},
-    { "title": "İletişim", "id": "/#contact" }
+    { "title": "İletişim", "id": "#contact" }
   ],
 
   "Hero": {
@@ -40,7 +40,6 @@
     {
       "monthly": "Muaj",
       "header": "Pos",
-      "title": "Çfarë përfshihet",
       "desc": "Akses në platformën Pos.",
       "priceButton": "Provoni Pos",
       "price": "400"
@@ -48,7 +47,6 @@
     {
       "monthly": "Muaj",
       "header": "Pos + Cash",
-      "title": "Çfarë përfshihet",
       "desc": "Akses në Pos + fiskalizimin cash.",
       "price": "200",
       "priceButton": "Provoni Pos"
@@ -56,7 +54,6 @@
     {
       "monthly": "Muaj",
       "header": "Pos + E-Invoice",
-      "title": "Çfarë përfshihet",
       "desc": "Akses në Pos, cash dhe e-invoice.",
       "price": "200",
       "priceButton": "Provoni Pos"

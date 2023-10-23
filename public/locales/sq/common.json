@@ -6,10 +6,10 @@
     "features": "Risitë"
   },
   "HeaderNav": [
-    { "title": "Çmimet", "id": "/#pricing" },
-    { "title": "Risitë", "id": "/#features" },
+    { "title": "Çmimet", "id": "#pricing" },
+    { "title": "Risitë", "id": "#features" },
     { "title": "Ndihma Online", "id": "https://posal.tawk.help" },
-    { "title": "Kontakti", "id": "/#contact" }
+    { "title": "Kontakti", "id": "#contact" }
   ],
 
   "FirstAd": {
@@ -37,13 +37,12 @@
     "descYoutube": "Mund të mësoni si të përdorni Pos.Al në YouTube."
   },
   "Price": {
-    "title": "Çmimet në Program"
+    "title": "Cmimet dhe paketat"
   },
   "PriceInfo": [
     {
       "monthly": "Vit.",
       "header": "Single",
-      "title": "Çfarë përfshihet",
       "desc": "1 përdorues",
       "priceButton": "Provoni Pos",
       "price": "4000",
@@ -52,7 +51,6 @@
     {
       "monthly": "Vit.",
       "header": "Small",
-      "title": "Çfarë përfshihet",
       "desc": "3 përdorues.",
       "price": "5900",
       "priceButton": "Provoni Pos",
@@ -61,7 +59,6 @@
     {
       "monthly": "Vit.",
       "header": "Medium",
-      "title": "Çfarë përfshihet",
       "desc": "9 përdorues.",
       "price": "7800",
       "priceButton": "Provoni Pos",

@@ -6,10 +6,10 @@
     "features": "Features"
   },
   "HeaderNav": [
-    { "title": "Pricing", "id": "/#pricing" },
-    { "title": "Features", "id": "/#features" },
+    { "title": "Pricing", "id": "#pricing" },
+    { "title": "Features", "id": "#features" },
     { "title": "Support", "id": "https://posal.tawk.help" },
-    { "title": "Contact", "id": "/#contact" }
+    { "title": "Contact", "id": "#contact" }
   ],
   "FirstAd": {
     "header": "POS System"
@@ -44,7 +44,6 @@
     {
       "monthly": "Muaj",
       "header": "Pos",
-      "title": "Çfarë përfshihet",
       "desc": "Akses në platformën Pos.",
       "priceButton": "Provoni Pos",
       "price": "400"
@@ -52,7 +51,6 @@
     {
       "monthly": "Muaj",
       "header": "Pos + Cash",
-      "title": "Çfarë përfshihet",
       "desc": "Akses në Pos + fiskalizimin cash.",
       "price": "200",
       "priceButton": "Provoni Pos"
@@ -60,7 +58,6 @@
     {
       "monthly": "Muaj",
       "header": "Pos + E-Invoice",
-      "title": "Çfarë përfshihet",
       "desc": "Akses në Pos, cash dhe e-invoice.",
       "price": "200",
       "priceButton": "Provoni Pos"
