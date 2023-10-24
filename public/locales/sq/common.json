@@ -16,12 +16,9 @@
     "header": "Fizkalizimi"
   },
   "FirstAdInfo": [
-    {
-      "title": "Regjistrim Çertifikate",
-      "image": "/certificate.png"
-    },
-    { "title": "Regjistrim Paisje", "image": "/fiscal.png" },
-    { "title": "Program Fiskalizmi", "image": "/engine.png" }
+    {"title": "Platforma Qendrore","image": "/certificate.png"},
+    { "title": "Faturë Elektronike", "image": "/fiscal.png" },
+    { "title": "Platforma e Fiskalizimit", "image": "/engine.png" }
   ],
   "Hero": {
     "title": "Program POS: Program Fsikalizimi",
@@ -76,41 +73,43 @@
     }
   ],
   "SecondAd": {
-    "header": "Programe për Bar, Kafe, Restorant",
+    "header": "Program për Bar, Kafe, Restorant",
     "title": "Platforma qendrore e faturave"
   },
 
   "Features": [
     {
       "header": "MENAXHIM I THJESHTË ",
-      "desc": "Me Pos.al bizneset mund të ",
+      "desc": "Bar, Restorant, Hotel ",
       "image": "/restorant.jpg",
       "imagePositionLeft": true,
-        "extraTitle": "Horeca",
-        "extraDesc": "Bar \n Restourant \n Hotel\n Plazh \n Sherbime Turistike",
-        "secondTitle": "Vecorite",
-        "secondDesc": "Table based orders \n Room based orders \n Table & Room reports"
-      },
+      "extraTitle": "Horeca",
+      "extraDesc": "Bar \n Restourant \n Hotel\n Plazh \n Sherbime Turistike",
+      "secondTitle": "Vecorite",
+      "secondDesc": "Table based orders \n Room based orders \n Table & Room reports",
+      "locate": "https://posal.tawk.help/article/si-te-besh-nje-shitje-per-bar-restorant"
+    },
     {
       "header": "PAGESA FLEKSIBËL",
-      "desc": "Me Pos.al ju mund të ",
+      "desc": "Sherbime Profesionale",
       "image": "/coffe.jpg",
       "imagePositionLeft": true,
       "extraTitle": "Sherbime",
       "extraDesc": "Profesionist te lire \n Ekonomist \n Jurist \n Inxhinier",
       "secondTitle": "Vecorite",
-      "secondDesc": "Shitje me vlere totale  \n Pamje e thjeshtuar, minimaliste"
-
+      "secondDesc": "Shitje me vlere totale  \n Pamje e thjeshtuar, minimaliste",
+      "locate": "https://posal.tawk.help/article/si-te-krijosh-nje-artikull-sherbimi"
     },
     {
       "header": "SHËRBIM KLIENTI DHE LIVE CHAT",
-      "desc": "Platforma përfshin krijimin e 'tickets",
+      "desc": "Shërbim për Biznes të Ndryshëm",
       "image": "/gym.jpg",
       "imagePositionLeft": true,
       "extraTitle": "Estetika",
       "extraDesc": "Qender estetike \n Berber \n Palester\n SPA  ",
       "secondTitle": "Vecorite",
-      "secondDesc": "Pune nga telefoni \n Pamje e thjeshtuar"
+      "secondDesc": "Pune nga telefoni \n Pamje e thjeshtuar",
+       "locate" : "https://posal.tawk.help/article/si-te-ndryshosh-pamjen-e-dyqanit"
     }
   ],
   "Blog": [
@@ -264,7 +263,7 @@
   "WhatWeOffer": {
     "header": "Shërbimet Tona",
     "title": "Çfarë Ofrojmë ?",
-    "desc" : "Sistemi ynë web POS, i ndërtuar me teknologji të reja, është këtu për t'ju ofruar të gjitha llojet e shërbimeve, dhe kemi asistencë të klientëve në dispozicion 24/7."
+    "desc": "Sistemi ynë web POS, i ndërtuar me teknologji të reja, është këtu për t'ju ofruar të gjitha llojet e shërbimeve, dhe kemi asistencë të klientëve në dispozicion 24/7."
   },
   "WhatWeOfferData": [
     {
@@ -274,7 +273,6 @@
       "image": "/fiscalizimi.jpg",
       "location": "https://posal.tawk.help/category/fiskalizimi",
       "button": "Vizitoni Tani"
-
     },
     {
       "header": "Fatura Elektronike",
@@ -283,7 +281,6 @@
       "image": "/invoice.jpg",
       "location": "https://posal.tawk.help/article/si-t%C3%AB-regjistrosh-nj%C3%AB-fatur%C3%AB-elektronike",
       "button": "Vizitoni Tani"
-
     },
     {
       "header": " Menaxhimi i Suksesshëm",
@@ -292,9 +289,6 @@
       "image": "/productManagement.jpg",
       "location": "https://posal.tawk.help/article/si-te-krijosh-nje-artikull-sherbimi",
       "button": "Vizitoni Tani"
-
-
     }
   ]
-
 }

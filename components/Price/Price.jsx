@@ -19,7 +19,6 @@ const Price = () => {
 
   return (
     <div id="pricing" className="bg-gray-100  mb-6">
-      <FirstAd />
       <div className="h-fit p-8">
         <p className="text-center text-3xl font-bold ">{price.title}</p>
 
@@ -36,6 +35,7 @@ const Price = () => {
           ))}
         </Slider>
       </div>
+      <FirstAd />
     </div>
   );
 };
