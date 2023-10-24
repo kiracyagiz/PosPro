@@ -62,15 +62,11 @@ const Language = (props) => {
   }, [param]);
 
 
-  const handler = () => {
-    const locale = languageInfo.alt
+  const handler = (locale) => {
 
      router.push(`${locale}${router.asPath}`, `${locale}${router.asPath}`, { locale: false })
   }
-  const handlerSecond = () => {
-    const locale = languageInfo.last
-    router.push(`${locale}${router.asPath}`, `${locale}${router.asPath}`, { locale: false })
-  }
+
 
   return (
     <div className="group z-40 cursor-pointer">
@@ -81,7 +77,7 @@ const Language = (props) => {
         <p className="text-sm">{languageInfo.name}</p>
       </div>
 
-      <div onClick={handler} className=" cursor-pointer">
+      <div onClick={() => handler(languageInfo.alt)} className=" cursor-pointer">
         <div className="bg-white  items-center gap-x-1 w-20 hidden  group-hover:flex rounded-t-lg " >
           <div className="w-2 h-2 duration-0  absolute ml-6 mb-12 md:top-4.5 md:hidden lg:flex bg-white rotate-45"></div>
           <div className="w-8 m-2 flex items-center">
@@ -91,7 +87,7 @@ const Language = (props) => {
         </div>
       </div>
 
-      <div onClick={handlerSecond} className="cursor-pointer" >
+      <div onClick={()=> handler(languageInfo.last)} className="cursor-pointer" >
         <div className="bg-white  items-center gap-x-1 w-20 hidden  py-2 group-hover:flex rounded-b-lg">
           <div className="w-8 m-2 flex items-center">
             <Image src={languageInfo.images.last} alt={languageInfo.alt} />
