@@ -1,9 +1,13 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
+
+
 import tr from "../../public/turkey.png";
 import sq from "../../public/sq.png";
 import en from "../../public/en.png";
+
+
 import Image from "next/image";
 
 const Language = (props) => {
@@ -59,7 +63,7 @@ const Language = (props) => {
 
   useEffect(() => {
     setLanguageInfo(getLanguageInfo(param));
-  }, [param]);
+  }, []);
 
 
   const handler = (locale) => {

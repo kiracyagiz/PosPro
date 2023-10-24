@@ -1,5 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
-
+import Script from "next/script";
 class MyDocument extends Document {
   render() {
     return (
@@ -10,10 +10,10 @@ class MyDocument extends Document {
             content="Jemi një kompani teknologjike që specializohet në programe për lokale dhe menaxhimin e porosive, me fokus te inovacioni dhe kënaqësia e klientit."
           />{" "}
             <link rel="icon" type="image/x-icon" href="/favicon.ico.png"/>
-          <script
+          <Script
             async
             src="https://www.googletagmanager.com/gtag/js?id=GTM-WZ44XMQ7"
-          ></script>
+          ></Script>
           <script
             dangerouslySetInnerHTML={{
               __html: `

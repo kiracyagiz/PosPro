@@ -9,12 +9,14 @@ import Blog from "../components/Blog/Blog";
 import Contact from "../components/Contact/Contact";
 import Footer from "../components/Footer/Footer";
 import BackToTopButton from "../components/General/BackToTopButton";
+import dynamic from "next/dynamic";
 const Home = () => {
   const { t, i18n } = useTranslation("common");
   const currentLocale = i18n.language;
 
   const header = t("common:HeaderNav", { returnObjects: true });
   const headerB = t("Header", { returnObjects: true });
+
 
   return (
     <div className="bg-gray-100">

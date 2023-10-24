@@ -2,8 +2,7 @@
 // tailwind.config.js
 
 module.exports = {
-  purge: ["./src/**/*.{js,ts,jsx,tsx}", "./pages/**/*.{js,ts,jsx,tsx}","./components/**/*.{js,ts,jsx,tsx}"],
-  darkMode: false,
+  content: ["./src/**/*.{js,jsx}", "./pages/**/*.{js,jsx}","./components/**/*.{js,jsx}"],
   theme: {
     extend: {
       backgroundImage: {
