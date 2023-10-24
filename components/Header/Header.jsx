@@ -7,7 +7,7 @@ import Language from "./Language";
 import Link from "next/link";
 
 const Header = (props) => {
-  const { header, navButton, locale ,href} = props;
+  const { header, navButton, locale ,href,isMain} = props;
   const [panelOpen, setPanelOpen] = useState(false);
 
 
@@ -27,7 +27,7 @@ const Header = (props) => {
         </div>
         <nav className="items-center hidden md:hidden lg:flex justify-between  list-none roboto700 font-bold  gap-x-10 text-xl">
           {header.map((dt, i) => (
-            <a href={`${dt.id}`} key={i} >
+            <a href={`${isMain ? dt.id : '/' + locale+dt.id}`} key={i} >
               {dt.title}
               <div className="w-0 bg-black h-under  opacity-0 group-hover:w-full group-hover:opacity-100 transition-all duration-300" />
             </a>

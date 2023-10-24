@@ -17,6 +17,7 @@ const Terms = () => {
         navButton={headerB.button}
         locale={currentLocale}
         href={"/terms"}
+        isMain={false}
       />
       <TermsPage termsData={termsData}/>
       <Footer />

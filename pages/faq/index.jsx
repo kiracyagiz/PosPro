@@ -16,6 +16,8 @@ const Faq = () => {
         navButton={headerB.button}
         locale={currentLocale}
         href={'/faq'}
+        isMain={false}
+
       />
         <FaqPage faqData={faqData}/>
         

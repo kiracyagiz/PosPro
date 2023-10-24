@@ -25,6 +25,7 @@ const Home = () => {
         navButton={headerB.button}
         locale={currentLocale}
         href={"/"}
+        isMain={true}
       />
       <Hero />
       <Price />
