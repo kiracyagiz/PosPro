@@ -1,14 +1,14 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
-
+import { useRouter } from "next/router";
 import tr from "../../public/turkey.png";
 import sq from "../../public/sq.png";
 import en from "../../public/en.png";
-
 import Image from "next/image";
 
 const Language = (props) => {
   const { locale, localeEn, param, localeTr } = props;
+  const router = useRouter();
 
   const getLanguageInfo = (param) => {
     const languages = {
@@ -61,32 +61,44 @@ const Language = (props) => {
     setLanguageInfo(getLanguageInfo(param));
   }, [param]);
 
+
+  const handler = () => {
+    const locale = languageInfo.alt
+
+     router.push(`${locale}${router.asPath}`, `${locale}${router.asPath}`, { locale: false })
+  }
+  const handlerSecond = () => {
+    const locale = languageInfo.last
+    router.push(`${locale}${router.asPath}`, `${locale}${router.asPath}`, { locale: false })
+  }
+
   return (
-    <div className="group z-40">
+    <div className="group z-40 cursor-pointer">
       <div className="bg-primaryYellow flex items-center gap-x-1 lg:group-hover:mt-28 ">
         <div className="w-8 m-2 flex items-center">
           <Image src={languageInfo.images.current} alt={languageInfo.current} />
         </div>
         <p className="text-sm">{languageInfo.name}</p>
       </div>
-      <Link href={languageInfo.alt}>
-        <div className="bg-white  items-center gap-x-1 w-20 hidden  group-hover:flex rounded-t-lg ">
+
+      <div onClick={handler} className=" cursor-pointer">
+        <div className="bg-white  items-center gap-x-1 w-20 hidden  group-hover:flex rounded-t-lg " >
           <div className="w-2 h-2 duration-0  absolute ml-6 mb-12 md:top-4.5 md:hidden lg:flex bg-white rotate-45"></div>
           <div className="w-8 m-2 flex items-center">
             <Image src={languageInfo.images.alt} alt={languageInfo.alt} />
           </div>
           <p className="text-sm ">{languageInfo.nameSecond} </p>
         </div>
-      </Link>
+      </div>
 
-      <Link href={languageInfo.last}>
+      <div onClick={handlerSecond} className="cursor-pointer" >
         <div className="bg-white  items-center gap-x-1 w-20 hidden  py-2 group-hover:flex rounded-b-lg">
           <div className="w-8 m-2 flex items-center">
             <Image src={languageInfo.images.last} alt={languageInfo.alt} />
           </div>
           <p className="text-sm ">{languageInfo.nameThird}</p>
         </div>
-      </Link>
+      </div>
     </div>
   );
 };

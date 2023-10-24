@@ -15,7 +15,7 @@ const Faq = () => {
         header={header}
         navButton={headerB.button}
         locale={currentLocale}
-        href={'/faq'}
+        href={''}
         isMain={false}
 
       />

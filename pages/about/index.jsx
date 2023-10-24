@@ -17,7 +17,7 @@ const About = () => {
         header={header}
         navButton={headerB.button}
         locale={currentLocale}
-        href={'/about'}
+        href={''}
         isMain={false}
       />
       <AboutPage about={about} />

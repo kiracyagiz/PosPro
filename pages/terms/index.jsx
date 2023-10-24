@@ -4,6 +4,7 @@ import { useTranslation } from "next-i18next";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 import TermsPage from "../../components/Terms/TermsPage";
+import BackToTopButton from "../../components/General/BackToTopButton";
 const Terms = () => {
   const { t, i18n } = useTranslation("common");
   const header = t("HeaderNav", { returnObjects: true });
@@ -16,11 +17,12 @@ const Terms = () => {
         header={header}
         navButton={headerB.button}
         locale={currentLocale}
-        href={"/terms"}
+        href={""}
         isMain={false}
       />
       <TermsPage termsData={termsData}/>
       <Footer />
+      <BackToTopButton/>
     </div>
   );
 };

@@ -1,5 +1,6 @@
 import FaqCard from '../Faq/FaqCard'
 import Footer from '../Footer/Footer';
+import BackToTopButton from '../General/BackToTopButton';
 
 
 const FaqPage = ({faqData}) => {
@@ -14,6 +15,7 @@ const FaqPage = ({faqData}) => {
         ))}
       </div>
       <Footer/>
+      <BackToTopButton/>
     </div>
   );
 };

@@ -5,10 +5,13 @@ import HamburgerMenu from "./HamburgerMenu";
 import ButtonPrimary from "../General/ButtonPrimary";
 import Language from "./Language";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 const Header = (props) => {
   const { header, navButton, locale ,href,isMain} = props;
   const [panelOpen, setPanelOpen] = useState(false);
+   
+  const router = useRouter();
 
 
   const togglePanel = () => {
@@ -21,9 +24,9 @@ const Header = (props) => {
     >
       <div className="flex justify-between p-6  lg:mx-67 gap-x-44 animate-slide-down whitespace-nowrap ">
         <div className="items-center flex justify-between ">
-          <a className="heroRoboto" href={`/${locale}`}>
-            Pos.
-          </a>
+          <Link className="heroRoboto" href={`/${locale}`} >
+            <p>Pos.</p>
+          </Link>
         </div>
         <nav className="items-center hidden md:hidden lg:flex justify-between  list-none roboto700 font-bold  gap-x-10 text-xl">
           {header.map((dt, i) => (
