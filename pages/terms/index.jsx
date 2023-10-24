@@ -15,7 +15,7 @@ const Terms = () => {
     <div>
       <Header
         header={header}
-        navButton={headerB.button}
+        headerB={headerB}
         locale={currentLocale}
         href={""}
         isMain={false}
