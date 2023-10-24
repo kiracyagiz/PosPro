@@ -11,7 +11,6 @@ const Header = (props) => {
   const { header, navButton, locale ,href,isMain} = props;
   const [panelOpen, setPanelOpen] = useState(false);
    
-  const router = useRouter();
 
 
   const togglePanel = () => {
@@ -39,8 +38,7 @@ const Header = (props) => {
           <div>
             <ButtonPrimary
               text={navButton}
-              albanianURL={"https://app.pos.al/"}
-              enUrl={"https://app.pos.al/"}
+              locate={"https://app.pos.al/"}
             />
           </div>
 

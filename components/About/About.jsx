@@ -80,7 +80,7 @@ const About = () => {
             <h3 className="roboto700 mt-4">{about.title}</h3>
           </div>
           <p className="max-w-lg ">{about.desc}</p>
-          <ButtonPrimary text={about.button} />
+          <ButtonPrimary text={about.button} locate={'/about'} />
         </div>
       </div>
     </div>

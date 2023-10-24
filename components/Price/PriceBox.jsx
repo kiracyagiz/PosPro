@@ -26,7 +26,7 @@ const PriceBox = ({ dt }) => {
         <p className="tracking-tighter roboto400">{dt.service}</p>
       </div>
       {dt.extra &&
-        <div className="flex ml-4 items-center gap-x-4 ">
+        <div className="flex ml-4  items-center gap-x-4 ">
           <div>
           <AiFillCheckCircle size={19} className='text-primaryYellow bg-black rounded-full'/>
 
@@ -48,8 +48,7 @@ const PriceBox = ({ dt }) => {
     <ButtonPrimary
         text={dt.priceButton}
         fontStyle={"roboto400"}
-        albanianURL={"https://app.pos.al/login"}
-        enUrl={"https://app.pos.al/login"}
+        locate={'https://app.pos.al/'}
       />
     </div>
     </div>

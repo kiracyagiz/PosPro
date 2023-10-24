@@ -36,6 +36,7 @@ const Contact = () => {
         <div className="flex flex-col   mt-8 text-center  roboto400 gap-y-4 ">
           <Link
             href={"https://www.youtube.com/channel/UCuR5SmYAHoXONCGUSwlqRSg"}
+            target="_blank"
           >
             <button className="bg-black  text-white flex items-center gap-x-4 w-1/2 md:w-2/5 p-2 rounded-lg text-sm lg:text-md    hover:scale-105 hover:shadow-md  hover:shadow-black  transition-transform duration-300 ">
               <AiFillYoutube className='w-[35px]  py-1 h-[35px]   md:w-[30px] md:h-[30px]' /> {contact.contactYoutube}
