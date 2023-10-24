@@ -18,7 +18,7 @@ const Footer = () => {
         <div className="list-none text-semibold text-sm md:text-md flex  gap-x-4 md:gap-x-16 roboto700 text-primaryYellow">
           {footerData.map((dt, i) => (
            <Link href={dt.location} key={i} className="cursor-pointer">
-              <li className="relative group text-xs md:text-sm ">
+              <li className="relative group text-xs md:text-[15px]  ">
                 {dt.title}
                 <div className="w-0 bg-primaryYellow h-under   opacity-0 group-hover:w-full group-hover:opacity-100 transition-all duration-300" />
               </li>

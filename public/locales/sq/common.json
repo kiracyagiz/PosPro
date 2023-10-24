@@ -1,6 +1,10 @@
 {
   "Header": {
-    "button": "Hyr"
+    "button": "Hyr",
+    "sq": "/sq.png",
+    "tr": "/turkey.png",
+    "en": "/en.png"
+
   },
   "Titles": {
     "features": "Sipas llojit te biznesit"

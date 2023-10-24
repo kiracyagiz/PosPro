@@ -6,9 +6,9 @@ import ButtonPrimary from "../General/ButtonPrimary";
 import Language from "./Language";
 import Link from "next/link";
 const Header = (props) => {
-  const { header, navButton, locale ,href,isMain} = props;
+  const { header, headerB, locale ,href,isMain} = props;
   const [panelOpen, setPanelOpen] = useState(false);
-  
+
 
   const togglePanel = () => {
     setPanelOpen(!panelOpen);
@@ -34,7 +34,7 @@ const Header = (props) => {
 
           <div>
             <ButtonPrimary
-              text={navButton}
+              text={headerB.button}
               locate={"https://app.pos.al/"}
             />
           </div>
@@ -45,6 +45,7 @@ const Header = (props) => {
               localeEn={`/en${href}`}
               param={locale}
               localeTr={`/tr${href}`}
+              headerB= {headerB.button}
             />
           </div>
         </nav>
@@ -67,7 +68,7 @@ const Header = (props) => {
    
           </div>
 
-          <ButtonPrimary text={navButton} />
+          <ButtonPrimary text={headerB.button} />
 
           <Language
               locale={`/sq${href}`}
