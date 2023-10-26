@@ -49,7 +49,6 @@ const About = () => {
           <div className="absolute right-12 inset-y-0 grid items-center">
             <a
               href="https://www.youtube.com/@Pos.al_"
-              target="_blank"
               className="w-12 h-12 bg-primaryYellow rounded-full ring-4 ring-white grid place-items-center hover:bg-black transition"
             >
               <svg
