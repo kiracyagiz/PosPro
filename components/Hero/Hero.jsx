@@ -4,6 +4,7 @@ import cope from '../../public/cope.png'
 import ButtonPrimary from "../General/ButtonPrimary";
 import { useTranslation } from "next-i18next";
 import TextPrimary from '../General/TextPrimary'
+import ThirdAd from "../Ads/ThirdAd";
 
 const Hero = () => {
     const { t } = useTranslation("common");
@@ -24,6 +25,7 @@ const Hero = () => {
           <Image src={cope}  alt="computerpng"/>
         </div>
       </div>
+      <ThirdAd/>
     </div>
   );
 };

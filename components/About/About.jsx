@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import thumbail1 from "../../public/thumbail1.png";
 import thumbail2 from "../../public/thumbail2.png";
 import ButtonPrimary from "../General/ButtonPrimary";
-import FirstAd from "../Ads/FirstAd";
 import {  useTranslation } from "next-i18next";
 
 const About = () => {
@@ -48,8 +48,9 @@ const About = () => {
           </div>
           <div className="absolute right-12 inset-y-0 grid items-center">
             <a
-              href="#"
-              className="w-12 h-12 bg-primaryYellow rounded-full ring-4 ring-white grid place-items-center hover:bg-green-400 transition"
+              href="https://www.youtube.com/@Pos.al_"
+              target="_blank"
+              className="w-12 h-12 bg-primaryYellow rounded-full ring-4 ring-white grid place-items-center hover:bg-black transition"
             >
               <svg
                 className="ml-1 w-4"

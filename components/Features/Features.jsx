@@ -1,7 +1,6 @@
 import React from "react";
 import FeaturesCard from "./FeaturesCard";
 import { useTranslation } from "next-i18next";
-import SecondAd from "../Ads/SecondAd";
 
 const Features = () => {
   const {t} = useTranslation("common");
@@ -25,7 +24,6 @@ const Features = () => {
         ))}
 
       </div>
-      <SecondAd/>
     
 
       <div>
