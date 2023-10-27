@@ -46,21 +46,27 @@
       "header": "Pos",
       "desc": "Akses në platformën Pos.",
       "priceButton": "Provoni Pos",
-      "price": "400"
+      "price": "400",
+      "priceExtra": "(2,000 ALL/Vit POS, 2,800 ALL/Vit FISC)",
+
     },
     {
       "monthly": "Muaj",
       "header": "Pos + Cash",
       "desc": "Akses në Pos + fiskalizimin cash.",
       "price": "200",
-      "priceButton": "Provoni Pos"
+      "priceButton": "Provoni Pos",
+      "priceExtra": "(2,000 ALL/Vit POS, 2,800 ALL/Vit FISC)",
+
     },
     {
       "monthly": "Muaj",
       "header": "Pos + E-Invoice",
       "desc": "Akses në Pos, cash dhe e-invoice.",
       "price": "200",
-      "priceButton": "Provoni Pos"
+      "priceButton": "Provoni Pos",
+      "priceExtra": "(2,000 ALL/Vit POS, 2,800 ALL/Vit FISC)",
+
     },
     {
       "monthly": "Muaj",
@@ -68,7 +74,9 @@
       "title": "Çfarë përfshihet",
       "desc": "Akses në shërbimet Rest API, cash, jo-cash, e-invoice",
       "price": "500",
-      "priceButton": "Provoni Pos"
+      "priceButton": "Provoni Pos",
+      "priceExtra": "(2,000 ALL/Vit POS, 2,800 ALL/Vit FISC)"
+
     }
   ],
   "SecondAd": {

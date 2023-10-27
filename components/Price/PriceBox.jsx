@@ -9,13 +9,9 @@ const PriceBox = ({ dt }) => {
       </h2>
 
       <h3 className="text-lg text-primaryYellow roboto700 text-center ">{`${dt.price} ALL / ${dt.monthly}`}</h3>
-    
 
-
-
-
-
-    
+      <p className="text-sm text-center font-bold ">{dt.priceExtra}</p>
+      <p className="text-xs text-center text-black font-bold">{dt.extra}</p>
       <div className="flex flex-col   gap-y-2 p-4 ">
       <div className="flex  p-4 text-md items-center   gap-x-2 ">
         <AiFillCheckCircle size={19} className='bg-black rounded-full text-primaryYellow'/>
@@ -25,15 +21,7 @@ const PriceBox = ({ dt }) => {
         <AiFillCheckCircle size={19} className='bg-black rounded-full text-primaryYellow'/>
         <p className="tracking-tighter roboto400">{dt.service}</p>
       </div>
-      {dt.extra &&
-        <div className="flex ml-4  items-center gap-x-4 ">
-          <div>
-          <AiFillCheckCircle size={19} className='text-primaryYellow bg-black rounded-full'/>
-
-          </div>
-        <p className="tracking-tighter roboto400">{dt.extra}</p>
-      </div> 
-    }
+  
       </div> 
 
 
