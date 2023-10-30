@@ -46,16 +46,16 @@
       "header": "Single",
       "desc": "1 përdorues",
       "priceButton": "Provoni Pos",
-      "price": "4,800",
-      "priceExtra": "(2,000 ALL/Vit POS, 2,800 ALL/Vit FISC)",
+      "price": "4.800",
+      "priceExtra": "2,000 ALL/Vit POS \n 2,800 ALL/Vit FISC",
       "service": "Shërbimi Pos"
     },
     {
       "monthly": "Vit.",
       "header": "Small",
       "desc": "3 përdorues.",
-      "price": "5900",
-      "priceExtra": "(2,500 ALL/Vit POS, 3,400 ALL/Vit FISC)",
+      "price": "5.900",
+      "priceExtra": "2,500 ALL/Vit POS \n 3,400 ALL/Vit FISC",
       "priceButton": "Provoni Pos",
       "service": "Shërbimi Pos"
     },
@@ -63,9 +63,9 @@
       "monthly": "Vit.",
       "header": "Medium",
       "desc": "9 përdorues.",
-      "price": "7800",
+      "price": "7.800",
       "priceButton": "Provoni Pos",
-      "priceExtra" : "(3,200 ALL/Vit POS, 4,600 ALL/Vit FISC)",
+      "priceExtra" : "3,200 ALL/Vit POS \n 4,600 ALL/Vit FISC",
       "service": "Shërbimi Pos"
     },
     {
@@ -73,8 +73,8 @@
       "header": "Business",
       "title": "Çfarë përfshihet",
       "desc": "10 përdorues.",
-      "price": "9600",
-      "priceExtra": "(4,000 ALL/Vit POS, 5,600 ALL/Vit FISC)",
+      "price": "9.600",
+      "priceExtra": "4,000 ALL/Vit POS \n 5,600 ALL/Vit FISC",
       "priceButton": "Provoni Pos",
       "service": "Shërbimi Pos",
       "extra": "Përdorues shtesë(500ALL/ për përdorues)"
