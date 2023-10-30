@@ -16,7 +16,7 @@ const Header = (props) => {
 
   return (
     <header
-      className={`flex justify-between items-center h-100 bg-primaryYellow`}
+      className={`header`}
     >
       <div className="flex justify-center p-6  lg:mx-auto lg:gap-x-44 animate-slide-down whitespace-nowrap ">
         <div className="items-center flex justify-between ">

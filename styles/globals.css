@@ -16,6 +16,10 @@
   }
 }
 
+.header {
+ @apply flex justify-between items-center h-100 bg-primaryYellow
+}
+
 html {
   scroll-behavior: smooth;
 }
