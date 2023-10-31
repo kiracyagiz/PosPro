@@ -48,7 +48,6 @@ const About = () => {
           <div className="absolute right-12 inset-y-0 grid items-center ">
             <a
               href="https://www.youtube.com/@Pos.al_"
-              target="_blank"
               className="w-16 h-16 bg-white rounded-full  ring-4 ring-youtubeColor grid place-items-center hover:bg-youtubeColor transition"
             >
              <BsYoutube size={50} color="red" className="youtube" />
