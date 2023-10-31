@@ -20,9 +20,9 @@
     "header": "Fizkalizimi"
   },
   "FirstAdInfo": [
-    {"title": "Platforma Qendrore","image": "/certificate.png"},
-    { "title": "Faturë Elektronike", "image": "/fiscal.png" },
-    { "title": "Platforma e Fiskalizimit", "image": "/engine.png" }
+    {"title": "Fatura me para ne dore","image": "/certificate.png"},
+    { "title": "Fatura elektronike", "image": "/fiscal.png" },
+    { "title": "Fatura pa para ne dore", "image": "/engine.png" }
   ],
   "Hero": {
     "title": "Program POS: Program Fsikalizimi",
@@ -94,7 +94,7 @@
     {
       "header": "MENAXHIM I THJESHTË ",
       "desc": "Bar, Restorant, Hotel ",
-      "image": "/restorant.jpg",
+      "image": "/restorant.png",
       "imagePositionLeft": true,
       "extraTitle": "Horeca",
       "extraDesc": "Bar \n Restourant \n Hotel\n Plazh \n Sherbime Turistike",
@@ -105,7 +105,7 @@
     {
       "header": "PAGESA FLEKSIBËL",
       "desc": "Sherbime Profesionale",
-      "image": "/coffe.jpg",
+      "image": "/coffe.png",
       "imagePositionLeft": true,
       "extraTitle": "Sherbime",
       "extraDesc": "Profesionist te lire \n Ekonomist \n Jurist \n Inxhinier",
@@ -116,7 +116,7 @@
     {
       "header": "SHËRBIM KLIENTI DHE LIVE CHAT",
       "desc": "Shërbim për Biznes të Ndryshëm",
-      "image": "/gym.jpg",
+      "image": "/gym.png",
       "imagePositionLeft": true,
       "extraTitle": "Estetika",
       "extraDesc": "Qender estetike \n Berber \n Palester\n SPA  ",

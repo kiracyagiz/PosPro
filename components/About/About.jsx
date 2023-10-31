@@ -1,11 +1,10 @@
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
 import thumbail1 from "../../public/thumbail1.png";
 import thumbail2 from "../../public/thumbail2.png";
 import ButtonPrimary from "../General/ButtonPrimary";
 import {  useTranslation } from "next-i18next";
-
+import {BsYoutube} from 'react-icons/bs'
 const About = () => {
     const { t } = useTranslation("common");
     const about = t("AboutSection", { returnObjects: true });
@@ -46,22 +45,13 @@ const About = () => {
               alt="fiskalizm-video"
             />
           </div>
-          <div className="absolute right-12 inset-y-0 grid items-center">
+          <div className="absolute right-12 inset-y-0 grid items-center ">
             <a
               href="https://www.youtube.com/@Pos.al_"
-              className="w-12 h-12 bg-primaryYellow rounded-full ring-4 ring-white grid place-items-center hover:bg-black transition"
+              target="_blank"
+              className="w-16 h-16 bg-white rounded-full  ring-4 ring-youtubeColor grid place-items-center hover:bg-youtubeColor transition"
             >
-              <svg
-                className="ml-1 w-4"
-                viewBox="0 0 16 18"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M15 7.26795C16.3333 8.03775 16.3333 9.96225 15 10.7321L3 17.6603C1.66667 18.4301 1.01267e-06 17.4678 1.07997e-06 15.9282L1.68565e-06 2.0718C1.75295e-06 0.532196 1.66667 -0.430054 3 0.339746L15 7.26795Z"
-                  fill="white"
-                />
-              </svg>
+             <BsYoutube size={50} color="red" className="youtube" />
             </a>
           </div>
           <div className="relative p-8 flex flex-col justify-end h-full space-y-4 w-2/3">

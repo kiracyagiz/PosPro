@@ -85,9 +85,6 @@ html {
   font-size: 40px;
 }
 
-.aboutTitleSecond {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-size: 40px;
+.youtube:hover{
+  fill: white;
 }
-
