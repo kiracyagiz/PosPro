@@ -15,9 +15,8 @@ const FeaturesCard = ({ dt }) => {
           <Image
             src={dt.image}
             alt="image"
-            className="rounded-lg object-fill shadow-2xl hover:scale-105 hover:shadow-md cursor-pointer hover:shadow-black  transition-transform duration-300"
-            width={500}
-            height={500}
+            width={550}
+            height={550}
           ></Image>
         </div>
         <div className="flex flex-col ">
