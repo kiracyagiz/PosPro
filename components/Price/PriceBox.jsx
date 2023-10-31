@@ -1,17 +1,13 @@
 import React from "react";
-import ButtonPrimary from "../General/ButtonPrimary";
 import { AiFillCheckCircle, AiFillThunderbolt } from "react-icons/ai";
+import Link from "next/link";
 const PriceBox = ({ dt }) => {
-  {
-    /*  
 
-dt.price,dt.monthly,dt.priceExtra,dt.extra,dt.desc,dt.service,dt.priceButton
-Button
-
-*/
-  }
   return (
-    <div className=" w-70 h-405  mt-8  bg-white border-2 border-gray-500 rounded-lg mx-auto   flex flex-col gap-y-2 hover:scale-105 hover:shadow-md cursor-pointer hover:shadow-black  transition-transform duration-300">
+    <Link className=" w-70 h-405  mt-8  bg-white border-2 border-gray-500 rounded-lg mx-auto   flex flex-col gap-y-2 hover:scale-105 hover:shadow-md cursor-pointer hover:shadow-black  transition-transform duration-300" 
+    href={'https://app.pos.al/'}
+    target="_blank"
+    >
       <AiFillThunderbolt
         className="flex mx-auto mt-2  text-primaryYellow"
         size={50}
@@ -44,7 +40,7 @@ Button
           </p>
         </div>
       </div>
-    </div>
+    </Link>
   );
 };
 
