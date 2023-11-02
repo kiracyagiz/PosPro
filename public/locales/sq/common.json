@@ -32,7 +32,7 @@
   "AboutSection": {
     "header": "Rreth Nesh",
     "title": "Kush jemi?",
-    "desc": "Mirësevini në Pos.al! Ne jemi një kompani teknologjie e specializuar në programet për kafene, restorante, dhe menaxhimin e porosive. Jemi përkushtuar ndaj inovacionit dhe kënaqësisë së klientëve dhe kemi një rol kyç si partner i besueshëm për bizneset që duan të përmirësojnë operacionet e tyre në këto fusha dhe përvojën e klientëve.Misioni ynë është të ndryshojmë mënyrën se si bizneset menaxhojnë operacionet e tyre në kafene, restorante, dhe menaxhimin e porosive. Përdorim teknologjinë e përparuar dhe ndërfaqen e lehtë për përdoruesit për të krijuar një platformë të fuqishme, duke ndihmuar kështu bizneset të dalin më mirë në tregun konkurrues të sotëm në këto sektore.",
+    "desc": "Ne jemi një kompani teknologjie e specializuar ne zhvillimin e programeve per shitje ne markete, dyqane, bare, restorante, menaxhimin e porosive etj. Jemi përkushtuar ndaj inovacionit dhe kënaqësisë së klientëve dhe kemi një rol kyç si partner i besueshëm për bizneset që duan të përmirësojnë operacionet e tyre.Misioni ynë është të përmirësojme dhe thjeshtojmë mënyrën se si bizneset operojne. Përdorim teknologji të përparuar dhe ndërfaqe të lehtë ne mënyrë që të ndihmojmë klientët tanë me ulje të kostove dhe rritjen e shpejtësisë së veprimeve.",
     "button": "Shkoni te Rreth Nesh.",
     "headerYoutube": "Videot tona në youtube",
     "descYoutube": "Mund të mësoni si të përdorni Pos.al në YouTube."
@@ -99,12 +99,12 @@
       "extraTitle": "Horeca",
       "extraDesc": "Bar \n Restourant \n Hotel\n Plazh \n Sherbime Turistike",
       "secondTitle": "Vecorite",
-      "secondDesc": "Table based orders \n Room based orders \n Table & Room reports",
+      "secondDesc": "Porosi sipas tavolinave \n Porosi sipas dhomave \n Aport shitje per dhoma & tavolina",
       "locate": "https://posal.tawk.help/article/si-te-besh-nje-shitje-per-bar-restorant"
     },
     {
       "header": "PAGESA FLEKSIBËL",
-      "desc": "Sherbime Profesionale",
+      "desc": "Sherbime profesionale",
       "image": "/coffe.png",
       "imagePositionLeft": true,
       "extraTitle": "Sherbime",
@@ -115,7 +115,7 @@
     },
     {
       "header": "SHËRBIM KLIENTI DHE LIVE CHAT",
-      "desc": "Shërbim për Biznes të Ndryshëm",
+      "desc": "Shërbim për biznes të ndryshëm",
       "image": "/gym.png",
       "imagePositionLeft": true,
       "extraTitle": "Estetika",

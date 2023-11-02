@@ -9,13 +9,13 @@ const Features = () => {
 
 
   return (
-    <div className="h-fit bg-gray-100 py-6" id="features" >
-      <h2 className="text-3xl font-semibold text-center py-10">
+    <div className="h-fit bg-gray-100 " id="features" >
+      <h2 className="text-3xl font-semibold text-center ">
         {titles.features}
       </h2>
       <div>  
       </div>
-      <div className="flex flex-col gap-y-32 mt-8 bg-gray-100">
+      <div className="flex flex-col gap-y-6  bg-gray-100">
         {featuresData.map((dt,i) => (
             <FeaturesCard 
             dt={dt}

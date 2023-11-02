@@ -63,6 +63,7 @@ const About = () => {
           </div>
         </div>
 
+                  
         <div className="flex flex-col gap-y-8 md:mt-14 py-14">
           <div>
             <h3 className="roboto700 text-4xl">{about.header}</h3>
