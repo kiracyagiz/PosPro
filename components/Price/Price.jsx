@@ -47,6 +47,7 @@ const Price = () => {
           {priceData.map((dt, i) => (
             <PriceBox key={i} dt={dt} />
           ))}
+          
         </div>
       </div>
       <div className="  mx-auto p-8 md:px-40 lg:p-20 block  lg:hidden">
