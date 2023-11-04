@@ -6,9 +6,9 @@ const FeaturesDesc = ({title,desc}) => {
       <p className="roboto700 my-4">{title}</p>
       <ul className="flex flex-col  list-none gap-x-2">
         {desc.split("\n").map((line, index) => (
-          <div className='flex items-center gap-x-2 '>
+          <div className='flex items-center gap-x-2 ' key={index}>
           <BiSolidCheckSquare size={15} color='orange'/>
-          <li key={index} className='my-1'>{line}</li>
+          <li  className='my-1'>{line}</li>
           </div>
         ))}
       </ul>
