@@ -9,9 +9,11 @@ const FeaturesCard = ({ dt }) => {
       <div
         className={`flex flex-col 
         md:flex-row
-        gap-x-16 lg:mx-72 items-center   px-4 lg:p-0 gap-y-8  md:p-8 `}
+         lg:mx-60
+         
+        lg:p-0 gap-y-8  md:p-8 `}
       >
-        <div>
+        <div >
           <Image
             src={dt.image}
             alt="image"
@@ -19,17 +21,18 @@ const FeaturesCard = ({ dt }) => {
             height={550}
           ></Image>
         </div>
-        <div className="flex flex-col ">
-          <p className="text-featuresH font-bold  max-w-sm roboto700  mb-6">
+        <div className="flex flex-col  justify-center  ">
+          <p className="text-featuresH font-bold text-center  max-w-sm roboto700  mb-6">
             {dt.desc}
           </p>
-          <div className="flex gap-x-8">
+          <div className="  ml-16 gap-y-10 flex flex-col lg:flex-row  gap-x-10 lg:gap-x-8">
             <FeaturesDesc title={dt.extraTitle} desc={dt.extraDesc} />
             <FeaturesDesc title={"Vecorite"} desc={dt.secondDesc} />
+            
           </div>
 
-          <Link href={dt.locate} target="_blank">
-            <BsBoxArrowUpRight size={25} className="mt-8" />
+          <Link href={dt.locate} target="_blank" className="ml-16 " >
+            <BsBoxArrowUpRight size={25} className="mt-8" s/>
           </Link>
         </div>
       </div>

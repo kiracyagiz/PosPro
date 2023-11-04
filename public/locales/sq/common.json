@@ -86,7 +86,7 @@
   },
   "ThirdAd": {
     "header": "Program POS",
-    "title":"Program POS efikase për biznesin tuaj",
+    "title":"Program POS efikas për biznesin tuaj",
     "image": "./section3.png"
   },
 
@@ -99,7 +99,7 @@
       "extraTitle": "Horeca",
       "extraDesc": "Bar \n Restourant \n Hotel\n Plazh \n Sherbime Turistike",
       "secondTitle": "Vecorite",
-      "secondDesc": "Porosi sipas tavolinave \n Porosi sipas dhomave \n Aport shitje per dhoma & tavolina",
+      "secondDesc": "Porosi sipas tavolinave \n Porosi sipas dhomave \n Raport shitje per dhoma & tavolina",
       "locate": "https://posal.tawk.help/article/si-te-besh-nje-shitje-per-bar-restorant"
     },
     {
@@ -108,14 +108,14 @@
       "image": "/coffe.png",
       "imagePositionLeft": true,
       "extraTitle": "Sherbime",
-      "extraDesc": "Profesionist te lire \n Ekonomist \n Jurist \n Inxhinier",
+      "extraDesc": "Profesionist i lirë \n Ekonomist \n Jurist \n Inxhinier",
       "secondTitle": "Vecorite",
       "secondDesc": "Shitje me vlere totale  \n Pamje e thjeshtuar, minimaliste",
       "locate": "https://posal.tawk.help/article/si-te-krijosh-nje-artikull-sherbimi"
     },
     {
       "header": "SHËRBIM KLIENTI DHE LIVE CHAT",
-      "desc": "Shërbim për  të ndryshëm",
+      "desc": "Shërbime të ndryshme",
       "image": "/gym.png",
       "imagePositionLeft": true,
       "extraTitle": "Estetika",
@@ -280,25 +280,33 @@
   },
   "WhatWeOfferData": [
     {
-      "header": "Program Fsikalizmi",
+      "header": "Program për bare, restorante",
       "title": "Fiskalizo shpejt dhe sigurt",
-      "desc": "Zbuloni softuerin tonë POS.al, i projektuar për të ndihmuar bizneset në Shqipëri të rriten dhe të optimizojnë proceset e tyre. Ne ofrojmë zgjidhje të personalizuara për dyqanet, tregtinë, restoranet, bar-et dhe financat tuaja. Shpejtësia, besueshmëria dhe ndërfaqja e e thjeshtë e përdoruesit ndihmojnë në menaxhimin më efikas të biznesit tuaj dhe garantojnë një mënyrë të sigurt për kryerjen e transaksioneve financiare",
+      "desc": "POS.al ofron mundësinë e administrimit të barit dhe restorantit tuaj. Kjo paketë vjen me funksionet e menaxhimit të porosive sipas tavolinave. Gjithashtu mundëson shitjen dhe raportet sipas kamariereve, caktimin e cmimeve orare etj. Programi është i shpejtë, i sigurt dhe lejon administratorin e biznesit të fokusohet në cështjet makro si rritja e xhiros dhe përmirësimi i cilësisë. \n Funksione të tjera të POS.al për bar dhe restorant janë përdorimi nga telefoni, specifikime në nivel artikulli kur bëhet porosia, printimi i faturës në disa printera etj.",
       "image": "/fiscalizimi.jpg",
       "location": "https://posal.tawk.help/category/fiskalizimi",
       "button": "Vizitoni Tani"
     },
     {
-      "header": "Fatura Elektronike",
+      "header": "Program për markete, dyqane",
       "title": "Zgjidhjet e POS.al",
-      "desc": "Fatura elektronike ofron përfitime të mëdha për bizneset. Kompania POS.al ofron zgjidhje fatura elektronike që janë në përputhje me standardet evropiane. Këto zgjidhje përfshijnë konfirmim dhe nënshkrim dixhital, automatizimin e proceseve, dhe ndihmojnë në respektimin e mjedisit. Me fatura elektronike, bizneset janë në gjendje të përmirësojnë efikasitetin e tyre financiar dhe të ulin koston e përdorimit të letërave.",
+      "desc": "POS.al është zgjidhja e duhur për të menaxhuar marketin dhe dyanin tuaj. Për tu ardhur në ndihmë kësaj kategorie biznesi, programi është i pajisur me grupiment e artikujve, barcode, import i artikujve, modifikimi i artikujve në grup, imazhe etj. \n Një avantazh i POS.al është caktimi dhe modifikimi i cmimeve të shitjes. Në program mund të caktoni dhe ndryshoni me lehtësi cmimet e artikujve sipas datave, administrimi i ofertave, modifikimi i cmimeve në grup etj.\n Raportet e shitjes janë një pikë tjeter e fortë. Aty mund të merren raporte analitike për artikuj, grup artikujsh, shitje, etj.",
       "image": "/invoice.jpg",
       "location": "https://posal.tawk.help/article/si-t%C3%AB-regjistrosh-nj%C3%AB-fatur%C3%AB-elektronike",
       "button": "Vizitoni Tani"
     },
     {
-      "header": " Menaxhimi i Suksesshëm",
+      "header": "Program për profesionistët e lire",
       "title": "Menaxhimin e porositë",
-      "desc": "POS.al është një produkt i ndryshueshëm që synon të përmirësojë menaxhimin e bizneseve. Menaxhimi i produktit është çelësi i suksesit të tij. Ky produkt siguron automatizim të proceseve të shitjes, ndjekjen e stokut dhe kontrollin financiar. Me POS.al, bizneset rrisin efikasitetin dhe fitimet.Menaxhimi i produktit siguron që POS.al të jetë i përshtatshëm për kërkesat e klientëve dhe ndryshimet në treg. ",
+      "desc": "POS.al mundëson një grup funksionesh të pershtatshëm për profesionet e lira si jurist, mjek, inxhinier etj. Në prgram vec regjistrimit të faturave të shitjes mundesohet mbajtja e detyrimeve të klienteve, pagesat që ata kanë kryer për një faturë të caktuar dhe gjendja e detyrimit të secilit klient. \n Në këtë mënyrë ju do të keni informacionin e plotë rreth shitjeve, detyrimeve dhe gjendjen e detyrimin për cdo klient dhe faturë.",
+      "image": "/productManagement.jpg",
+      "location": "https://posal.tawk.help/article/si-te-krijosh-nje-artikull-sherbimi",
+      "button": "Vizitoni Tani"
+    },
+    {
+      "header": "Program për bizneset e shërbimeve",
+      "title": "Menaxhimin e porositë",
+      "desc": "POS.al të jep mundesinë e administrimit të biznesit tënd si berber, qendër estetike, SPA, palestër etj. Lehtësia e përdorimit të programit mundeson përshtatjen e stafit të ri për pak minuta pasi është shumë i thjeshtë dhe intuitiv. \nJu mund të administroni shitjet, nga një ambjent i thejshtë pa u shqetesuar për artikujt e vecantë, vlerën e arkëtimeve etj, pasi të gjitha këto kryhen automatikisht nga programi. ",
       "image": "/productManagement.jpg",
       "location": "https://posal.tawk.help/article/si-te-krijosh-nje-artikull-sherbimi",
       "button": "Vizitoni Tani"

@@ -88,3 +88,11 @@ html {
 .youtube:hover{
   fill: white;
 }
+
+
+.orange-checkmark {
+  color: orange;
+  margin-right: 5px; /* İstediğiniz boşluk ayarını yapabilirsiniz */
+  font-size: 16px; /* İstediğiniz boyutu ayarlayabilirsiniz */
+}
+

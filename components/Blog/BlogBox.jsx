@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const BlogBox = ({offerData}) => {
   return (
-<div className="container  mt-12 mx-auto p-4 md:p-0" id="fiskalizimi">
+<div className="container  mt-12 mx-auto  p-4 md:p-0 " id="fiskalizimi">
   
   <div className="shadow-lg flex flex-wrap w-full md:w-2/3 mb-8 lg:w-4/5 mx-auto">
     
