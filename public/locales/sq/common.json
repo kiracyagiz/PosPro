@@ -24,8 +24,8 @@
     { "title": "Fatura pa para ne dore", "image": "/engine.png" }
   ],
   "Hero": {
-    "title": "Program POS: Program Fsikalizimi",
-    "desc": "Program per shitje dhe fiskalizimi per cdo biznes",
+    "title": "Program POS dhe fiskalizimi",
+    "desc": "Program shitje dhe fiskalizimi për cdo biznes",
     "heroButton": "Provo Pos.."
   },
   "AboutSection": {
@@ -152,7 +152,8 @@
     "desc": "Nëse keni ndonjë pyetje ose keni nevojë për ndihmë mos hezitoni të na kontaktoni:",
     "phone": "Telefon",
     "contactYoutube": "Na ndiqni në Youtube",
-    "contactMail": "Na shkruani në Email"
+    "contactMail": "Na shkruani në Email",
+    "adress": "Rr. “Ismail Qemali”, Building 34/5 Tirana, Albania"
   },
   "Footer": [
     { "title": "FAQJA KRYESORE", "location": "/sq" },

@@ -26,10 +26,13 @@ const Contact = () => {
         <div className="flex flex-col gap-y-2">
           <p className="text-sm roboto400">
             {contact.phone}
-            <span className="font-bold roboto700">+355672014274</span>
+            <span className="font-bold roboto700"> {" " + "+355672014274"}</span>
           </p>
           <p className="text-sm roboto400">
-            Email:<span className="font-bold roboto700">info@pos.al</span>
+            Email:<span className="font-bold roboto700"> {" " + "info@pos.al"}</span>
+          </p>
+          <p className="text-sm roboto400">
+            Adress:<span className="font-bold roboto700">{" " + contact.adress}</span>
           </p>
         </div>
 
