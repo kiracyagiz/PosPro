@@ -4,6 +4,7 @@ import PosCards from "../../components/PosModules/PosCards";
 import Header from "../../components/Header/Header";
 import BackToTopButton from "../../components/General/BackToTopButton";
 import Footer from "../../components/Footer/Footer";
+import PosPageCards from "../../components/PosModules/PosPageCards";
 
 const Module = () => {
   const { t, i18n } = useTranslation("common");
@@ -24,10 +25,10 @@ const Module = () => {
       <div>
         <p className="roboto900 my-10 text-center">MODULES</p>
       </div>
-     <div className=" flex  flex-wrap  gap-x-8 p-8 mx-auto justify-center mt-10">
+     <div className=" flex flex-col  lg:flex-row flex-wrap   gap-x-8 p-8 mx-auto justify-center mt-10">
       {moduleData.map((dt,i)=> (
         <div key={i}>
-          <PosCards dt={dt} isPage={true}/>
+          <PosPageCards dt={dt}/>
         </div>
       ))}
   </div>
