@@ -2,12 +2,13 @@ import React from "react";
 import { AiFillCheckCircle, AiFillThunderbolt } from "react-icons/ai";
 import Link from "next/link";
 import Image from "next/image";
-const PriceBox = ({ dt ,isPage}) => {
+const PriceBox = ({ dt ,isPage,key}) => {
 
   return (
     <Link className=" w-70  min-h-[420px] mt-8 relative  bg-white border-2 border-gray-500 rounded-lg mx-auto   flex flex-col gap-y-2 hover:scale-105 hover:shadow-md cursor-pointer hover:shadow-black  transition-transform duration-300" 
     href={'https://app.pos.al/'}
     target="_blank"
+    key={key}
     >
     <Image  src={dt.image} width={70} height={70} className="mx-auto m-2"/>
       <div className="  border-b-2 border-gray-300">

@@ -50,7 +50,7 @@ const PosModule = () => {
       <div className="  mx-auto p-14 md:px-40 lg:p-20 block  lg:hidden">
         <Slider {...settings}>
           {moduleData.map((dt, i) => (
-            <PosCards dt={dt}  isPage={false}/>
+            <PosCards dt={dt}  isPage={false} key={i}/>
           ))}
         </Slider>
       </div>
