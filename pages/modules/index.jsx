@@ -28,7 +28,7 @@ const Module = () => {
      <div className=" flex flex-col  lg:flex-row flex-wrap   gap-x-8 p-8 mx-auto justify-center mt-10">
       {moduleData.map((dt,i)=> (
         <div key={i}>
-          <PosCards dt={dt}/>
+          <PosCards dt={dt} isPage={true}/>
         </div>
       ))}
   </div>

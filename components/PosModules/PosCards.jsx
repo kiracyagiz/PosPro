@@ -4,7 +4,7 @@ import Image from "next/image";
 const PriceBox = ({ dt ,isPage,key}) => {
 
   return (
-    <div className=" w-70  min-h-[420px] mt-8 relative   bg-white border-2 border-gray-500 rounded-lg mx-auto   flex flex-col gap-y-2 hover:scale-105 hover:shadow-md  hover:shadow-black  transition-transform duration-300" 
+    <div className="   min-h-[400px] mt-8 relative   bg-white border-2 border-gray-500 rounded-lg mx-auto   flex flex-col gap-y-2 hover:scale-105 hover:shadow-md  hover:shadow-black  transition-transform duration-300" 
     target="_blank"
     key={key}
     >
@@ -19,7 +19,7 @@ const PriceBox = ({ dt ,isPage,key}) => {
         <p className=" text-sm px-5 py-4 font-semibold ">{dt.desc}</p>
       </div>
 
-<Link href={`/modules`}>
+<Link href={`/modules`} className={`${isPage ? 'hidden' : 'block'}`}>
 <button className="bg-primaryYellow absolute bottom-0 mb-2    border-2 left-7 border-black  p-2 w-4/5">View</button>
 </Link>
       
