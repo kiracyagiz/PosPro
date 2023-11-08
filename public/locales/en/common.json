@@ -6,10 +6,10 @@
     "features": "Features"
   },
   "HeaderNav": [
-    { "title": "Pricing", "id": "#pricing" },
-    { "title": "Features", "id": "#features" },
-    { "title": "Support", "id": "https://posal.tawk.help" },
-    { "title": "Contact", "id": "#contact" }
+    { "title": "Çmimet", "id": "#pricing" },
+    { "title": "Ndihma Online", "id": "https://posal.tawk.help" },
+    { "title": "Modules", "id": "/modules" },
+    { "title": "Kontakti", "id": "#contact" }
   ],
   "FirstAd": {
     "header": "POS System"
@@ -320,5 +320,88 @@
       "location": "https://posal.tawk.help/article/si-te-krijosh-nje-artikull-sherbimi",
       "button": "Visit Now"
     }
+  ],
+  "PosModules": [
+    {
+      "image": "/posfiscal.svg",
+      "header" : "Fiskalizimi",
+      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
+    },
+    {
+      "image": "/arka.svg",
+      "header" : "Arka",
+      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
+    },
+    {
+      "image": "/raporte.svg",
+      "header" : "Raporte",
+      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
+    },
+    {
+      "image": "/shitje.svg",
+      "header" : "Shitje",
+      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
+    },
+    {
+      "image": "/bar.svg",
+      "header" : "Bar / Bar Mobile",
+      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
+    },
+    {
+      "image": "/çmime.svg",
+      "header" : "Çmime",
+      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
+    },
+    {
+      "image": "/dashboard.svg",
+      "header" : "Dashboard",
+      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
+    },
+    {
+      "image": "/faturim.svg",
+      "header" : "Faturim",
+      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
+    },
+    {
+      "image": "/market.svg",
+      "header" : "Market",
+      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
+    },
+    {
+      "image": "/mobile.svg",
+      "header" : "Mobile",
+      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
+    },
+    {
+      "image": "/perdorues-abonime-te-drejta.svg",
+      "header" : "Abonime",
+      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
+    },
+    {
+      "image": "/Konfigurim.svg",
+      "header" : "Konfigurim",
+      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
+    },
+    {
+      "image": "/Inventari.svg",
+      "header" : "Inventari",
+      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
+    },
+    {
+      "image": "/Shpenzimet.svg",
+      "header" : "Shpenzimet",
+      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
+    },
+    {
+      "image": "/webhook.svg",
+      "header" : "Web Hook",
+      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
+    },
+    {
+      "image": "/Artikuj.svg",
+      "header" : "Artikuj",
+      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
+    }
+    
   ]
 }

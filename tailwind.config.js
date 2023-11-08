@@ -18,7 +18,8 @@ module.exports = {
         primaryBg: "#F2F2F2",
         primaryAbout: "#666666",
         secondaryAbout: "#555555",
-        youtubeColor: '#FE3028'
+        youtubeColor: '#FE3028',
+        secondaryYellow: '#FFDB78'
       },
       height: {
         100: "100px",

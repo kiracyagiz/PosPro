@@ -11,7 +11,6 @@ const BlogBox = ({offerData}) => {
         <i className="fa fa-heart text-white hover:text-red-light ml-4 mt-4 cursor-pointer"></i>
       </div>
     </div>
-    
     <div className="bg-primaryYellow w-full lg:min-h-[350px] md:w-2/3 ">
       <div className="h-full mx-auto px-6 md:px-0 md:pt-6 md:-ml-6 relative ">
         <div className="bg-white lg:h-full p-6 -mt-6 md:mt-0 relative mb-4 md:mb-0 flex flex-wrap md:flex-wrap items-center">

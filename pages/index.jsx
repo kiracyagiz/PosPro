@@ -9,6 +9,7 @@ import Blog from "../components/Blog/Blog";
 import Contact from "../components/Contact/Contact";
 import Footer from "../components/Footer/Footer";
 import BackToTopButton from "../components/General/BackToTopButton";
+import PosModule from "../components/PosModules/PosModule";
 const Home = () => {
   const { t, i18n } = useTranslation("common");
   const currentLocale = i18n.language;
@@ -25,11 +26,12 @@ const Home = () => {
         headerB={headerB}
         locale={currentLocale}
         href={"/"}
-        isMain={true}
+        isMain={false}
       />
       <Hero />
       <Price />
       <Features />
+      <PosModule/>
       <About />
       <Blog />
       <Contact />

@@ -12,6 +12,7 @@
   "HeaderNav": [
     { "title": "Çmimet", "id": "#pricing" },
     { "title": "Ndihma Online", "id": "https://posal.tawk.help" },
+    { "title": "Modules", "id": "/modules" },
     { "title": "Kontakti", "id": "#contact" }
   ],
 
@@ -32,7 +33,7 @@
     "header": "Rreth Nesh",
     "title": "Kush jemi?",
     "desc": "Ne jemi një kompani teknologjie e specializuar ne zhvillimin e programeve per shitje ne markete, dyqane, bare, restorante, menaxhimin e porosive etj. Jemi përkushtuar ndaj inovacionit dhe kënaqësisë së klientëve dhe kemi një rol kyç si partner i besueshëm për bizneset që duan të përmirësojnë operacionet e tyre.Misioni ynë është të përmirësojme dhe thjeshtojmë mënyrën se si bizneset operojne. Përdorim teknologji të përparuar dhe ndërfaqe të lehtë ne mënyrë që të ndihmojmë klientët tanë me ulje të kostove dhe rritjen e shpejtësisë së veprimeve.",
-    "button": "Shkoni te Rreth Nesh.",
+    "button": "Rreth Nesh.",
     "headerYoutube": "Videot tona në youtube",
     "descYoutube": "Mësoni si të përdorni Pos.al në YouTube."
   },
@@ -311,5 +312,110 @@
       "location": "https://posal.tawk.help/article/si-te-krijosh-nje-artikull-sherbimi",
       "button": "Vizitoni Tani"
     }
+  ],
+  "PosModulesLanding": [
+    {
+      "image": "/posfiscal.svg",
+      "header" : "Fiskalizimi",
+      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
+    },
+    {
+      "image": "/arka.svg",
+      "header" : "Arka",
+      "desc": "Në seksionin e Arka, mund të shihni regjistrat e arkës për atë ditë, duke ju lejuar të shqyrtoni transaksionet financiare të kësaj dite. Mund të kryeni lehtësisht pagesa dhe depozita, për menaxhimin e lehtë të financave."
+    },
+    {
+      "image": "/raporte.svg",
+      "header" : "Raporte",
+      "desc": "Nëse hasni ndonjë problem në aplikacion, mund të raportoni drejtpërdrejt në seksionin Raporte. Përvoja juaj dhe komentet tuaja na ndihmojnë të përmirësojmë aplikacionin."
+    },
+    {
+      "image": "/shitje.svg",
+      "header" : "Shitje",
+      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
+    }
+  ],
+  "PosModules": [
+    {
+      "image": "/posfiscal.svg",
+      "header" : "Fiskalizimi",
+      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
+    },
+    {
+      "image": "/arka.svg",
+      "header" : "Arka",
+      "desc": "Në seksionin e Arka, mund të shihni regjistrat e arkës për atë ditë, duke ju lejuar të shqyrtoni transaksionet financiare të kësaj dite. Mund të kryeni lehtësisht pagesa dhe depozita, për menaxhimin e lehtë të financave."
+    },
+    {
+      "image": "/raporte.svg",
+      "header" : "Raporte",
+      "desc": "Nëse hasni ndonjë problem në aplikacion, mund të raportoni drejtpërdrejt në seksionin Raporte. Përvoja juaj dhe komentet tuaja na ndihmojnë të përmirësojmë aplikacionin."
+    },
+    {
+      "image": "/shitje.svg",
+      "header" : "Shitje",
+      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
+    },
+    {
+      "image": "/bar.svg",
+      "header" : "Bar / Bar Mobile",
+      "desc": "Bar / Bar Mobile ju ndihmon të ndryshoni dizajnin e aplikacionit tuaj në një dizajn tipik të një bari. Në thelb, aplikacioni ynë ofron një pamje të ndryshme për pronarët e bareve. Kështu ju mund ta përdorni atë në mënyrë të përshtatshme për biznesin tuaj."
+    },
+    {
+      "image": "/çmime.svg",
+      "header" : "Çmime",
+      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
+    },
+    {
+      "image": "/dashboard.svg",
+      "header" : "Dashboard",
+      "desc": "Në seksionin e panelit, përdoruesit mund të personalizojnë aplikacionin e tyre sipas preferencave të tyre. Ata mund të shtojnë veçori të reja ose të fshijnë ato që kanë shtuar më parë. Gjithashtu, ata mund të shikojnë historinë e porosive, të ndjekin rrjedhën e parave dhe të ndjekin në kohë reale të gjitha aktualizimet."
+    },
+    {
+      "image": "/faturim.svg",
+      "header" : "Faturim",
+      "desc": " Faturim ju ofron mundësinë të shisni produktet tuaja shpejt. Thjesht zgjidhni artikullin dhe sasinë që dëshironi të shisni. Në këtë seksion, gjithashtu mund të përdorni kodin e artikullit tuaj dhe të shtoni shënime shtesë për çdo shitje."
+    },
+    {
+      "image": "/market.svg",
+      "header" : "Market",
+      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
+    },
+    {
+      "image": "/mobile.svg",
+      "header" : "Mobile",
+      "desc": "Mundësia Mobile në aplikacionin tonë ju lejon të kyçeni dhe të bëni shitje duke përdorur telefonin tuaj, pa nevojën e pajisjeve teknologjike shtesë. Me POS.al, ju mund të përdorni komponentin mobil të zhvilluar për qëllimin tuaj, duke ju lejuar të bëni shitje në çdo kohë dhe në çdo vend."
+    },
+    {
+      "image": "/perdorues-abonime-te-drejta.svg",
+      "header" : "Abonime",
+      "desc": "Aplikacioni ynë ju ofron paketa abonimi të ndryshme, të cilat mund t'i gjeni në seksionin Çmimet. Po ashtu, këto paketa janë përshtatur posaçërisht për kompaninë tuaj dhe janë rregulluar sipas numrit të punonjësve në vendin tuaj të punës."
+    },
+    {
+      "image": "/Konfigurim.svg",
+      "header" : "Konfigurim",
+      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
+    },
+    {
+      "image": "/Inventari.svg",
+      "header" : "Inventari",
+      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
+    },
+    {
+      "image": "/Shpenzimet.svg",
+      "header" : "Shpenzimet",
+      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
+    },
+    {
+      "image": "/webhook.svg",
+      "header" : "Web Hook",
+      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
+    },
+    {
+      "image": "/Artikuj.svg",
+      "header" : "Artikuj",
+      "desc": "Seksioni Artikujt ju mundëson të shtoni artikuj të rinj dhe ju ofron një pasqyrë të të gjithë artikujve tuaj ekzistues. Mund të menaxhoni artikujt tuaj duke shtuar të tjerë të rinj, fshirë, lexuar ose redaktuar sipas nevojës."
+    }
+    
   ]
 }
