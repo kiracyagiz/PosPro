@@ -6,7 +6,7 @@ const HamburgerMenu = ({ togglePanel, panelOpen }) => {
       <div>
         <div
           onClick={togglePanel}
-          className="flex flex-col relative gap-y-1 z-10 mt-4 lg:hidden"
+          className="flex flex-col relative gap-y-1 z-50 mt-4 lg:hidden"
         >
           <div
             className={`w-8 h-1 rounded-md bg-black ${
