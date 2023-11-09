@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import cope from '../../public/cope.png'
 import ButtonPrimary from "../General/ButtonPrimary";
 import { useTranslation } from "next-i18next";
 import TextPrimary from '../General/TextPrimary'
@@ -22,7 +21,7 @@ const Hero = () => {
 
       </div>
         <div className=" py-14 lg:w-5/6 items-center flex justify-center">
-          <Image src={cope}  alt="computerpng" width={700} height={700}/>
+          <Image src={'/cope.webp'}  alt="computerpng" width={700} height={700}/>
         </div>
       </div>
       <ThirdAd/>
