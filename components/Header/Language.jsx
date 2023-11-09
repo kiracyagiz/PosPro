@@ -3,9 +3,6 @@ import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 
 
-import tr from "../../public/turkey.png";
-import sq from "../../public/sq.png";
-import en from "../../public/en.png";
 import Image from "next/image";
 
 const Language = (props) => {
@@ -22,9 +19,9 @@ const Language = (props) => {
         nameSecond: "EN",
         nameThird: "TR",
         images: {
-          current: sq,
-          alt: en,
-          last: tr,
+          current: '/sq.png',
+          alt: '/en.png',
+          last: '/turkey.png',
         },
       },
       en: {
@@ -35,9 +32,9 @@ const Language = (props) => {
         nameSecond: "SQ",
         nameThird: "TR",
         images: {
-          current: en,
-          alt: sq,
-          last: tr,
+          current: '/en.png',
+          alt: '/sq.png',
+          last: '/turkey.png',
         },
       },
       tr: {
@@ -48,9 +45,9 @@ const Language = (props) => {
         nameSecond: "SQ",
         nameThird: "EN",
         images: {
-          current: tr,
-          alt: sq,
-          last: en,
+          current: '/turkey.png',
+          alt: '/sq.png',
+          last: '/en.png',
         },
       },
     };

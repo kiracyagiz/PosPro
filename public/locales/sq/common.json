@@ -47,16 +47,16 @@
       "header": "Single",
       "desc": "1 përdorues",
       "priceButton": "Provoni Pos",
-      "price": "5.800",
-      "priceExtra": "5,000 ALL/Vit POS \n 800 ALL/Vit FISC",
+      "price": "5.900",
+      "priceExtra": "5,000 ALL/Vit POS \n 900 ALL/Vit FISC",
       "service": "Shërbimi Pos"
     },
     {
       "monthly": "Vit.",
       "header": "Small",
       "desc": "3 përdorues.",
-      "price": "6.900",
-      "priceExtra": "6,000 ALL/Vit POS \n 900 ALL/Vit FISC",
+      "price": "7.800",
+      "priceExtra": "6,800 ALL/Vit POS \n 1000  ALL/Vit FISC",
       "priceButton": "Provoni Pos",
       "service": "Shërbimi Pos"
     },

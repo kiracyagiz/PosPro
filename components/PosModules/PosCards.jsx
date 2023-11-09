@@ -8,7 +8,8 @@ const PriceBox = ({ dt ,isPage,key}) => {
     target="_blank"
     key={key}
     >
-    <Image  src={dt.image} width={70} height={70} className={`mx-auto m-2 ${isPage ? 'mt-6' : ''}`}/>
+      <Image  src={dt.image}  width={70} height={70} className={`mx-auto    m-2 ${isPage ? 'mt-6' : ''}`}/>
+
       <div className="  border-b-2 border-gray-300">
         <p className="text-center font-bold mb-4   bg-primaryYellow w-fit flex mx-auto px-4 rounded py-1">
           {dt.header}
