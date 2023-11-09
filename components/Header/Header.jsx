@@ -18,7 +18,7 @@ const Header = (props) => {
     <header
       className={`header`}
     >
-      <div className="flex justify-center p-6  lg:mx-auto lg:gap-x-44 animate-slide-down whitespace-nowrap ">
+      <div className="flex w-full lg:justify-evenly mx-auto p-6  animate-slide-down whitespace-nowrap ">
         <div className="items-center flex justify-between ">
           <Link className="heroRoboto" href={`/${locale}`} >
             <p>Pos.</p>
@@ -39,7 +39,7 @@ const Header = (props) => {
             />
           </div>
 
-          <div className="w-full">
+          <div className="w-full ml-12">
             <Language
               locale={`/sq${href}`}
               localeEn={`/en${href}`}
