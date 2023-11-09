@@ -6,10 +6,10 @@
     "features": "Özellikler"
   },
   "HeaderNav": [
-    { "title": "Çmimet", "id": "#pricing" },
-    { "title": "Ndihma Online", "id": "https://posal.tawk.help" },
-    { "title": "Modules", "id": "/modules" },
-    { "title": "Kontakti", "id": "#contact" }
+    { "title": "Fiyatlandırma", "id": "#pricing" },
+    { "title": "Yardım", "id": "https://posal.tawk.help" },
+    { "title": "Modüller", "id": "/modules" },
+    { "title": "İletişim", "id": "#contact" }
   ],
 
   "Hero": {

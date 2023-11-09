@@ -6,10 +6,10 @@
     "features": "Features"
   },
   "HeaderNav": [
-    { "title": "Çmimet", "id": "#pricing" },
-    { "title": "Ndihma Online", "id": "https://posal.tawk.help" },
+    { "title": "Price", "id": "#pricing" },
+    { "title": "Help", "id": "https://posal.tawk.help" },
     { "title": "Modules", "id": "/modules" },
-    { "title": "Kontakti", "id": "#contact" }
+    { "title": "Contact", "id": "#contact" }
   ],
   "FirstAd": {
     "header": "POS System"
