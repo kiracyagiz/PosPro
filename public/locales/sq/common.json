@@ -7,7 +7,8 @@
 
   },
   "Titles": {
-    "features": "Sipas llojit te biznesit"
+    "features": "Sipas llojit te biznesit",
+    "modules": "Modulet"
   },
   "HeaderNav": [
     { "title": "Çmimet", "id": "#pricing" },
@@ -92,7 +93,16 @@
 
   "Features": [
     {
-      "header": "MENAXHIM I THJESHTË ",
+      "desc": "Market, Dyqan",
+      "image": "/market.png",
+      "imagePositionLeft": true,
+      "extraTitle": "Biznesi",
+      "extraDesc": "Ushqimore \n Materiale ndertimi \n Kancelari etj",
+      "secondTitle": "Vecorite",
+      "secondDesc": "Barcode \n Import/ modifikim çmime \n Raporte turni \n Raportne shitje \n Shitje draft",
+       "locate" : "https://posal.tawk.help/article/si-te-ndryshosh-pamjen-e-dyqanit"
+    },
+    {
       "desc": "Bar, Restorant, Hotel ",
       "image": "/restorant.png",
       "imagePositionLeft": true,
@@ -103,7 +113,6 @@
       "locate": "https://posal.tawk.help/article/si-te-besh-nje-shitje-per-bar-restorant"
     },
     {
-      "header": "PAGESA FLEKSIBËL",
       "desc": "Sherbime profesionale",
       "image": "/coffe.png",
       "imagePositionLeft": true,
@@ -114,7 +123,6 @@
       "locate": "https://posal.tawk.help/article/si-te-krijosh-nje-artikull-sherbimi"
     },
     {
-      "header": "SHËRBIM KLIENTI DHE LIVE CHAT",
       "desc": "Shërbime të ndryshme",
       "image": "/gym.png",
       "imagePositionLeft": true,
@@ -314,6 +322,7 @@
     }
   ],
   "PosModulesLanding": [
+   
     {
       "image": "/posfiscal.svg",
       "header" : "Fiskalizimi",

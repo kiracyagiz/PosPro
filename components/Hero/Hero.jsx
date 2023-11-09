@@ -20,7 +20,7 @@ const Hero = () => {
         <ButtonPrimary text={hero.heroButton} fontStyle={"font-bold "} locate={'https://app.pos.al/'}/>
 
       </div>
-        <div className=" py-14 lg:w-5/6 items-center flex justify-center">
+        <div className=" py-14  items-center flex justify-center">
           <Image src={'/cope.webp'}  alt="computerpng" width={700} height={700}/>
         </div>
       </div>

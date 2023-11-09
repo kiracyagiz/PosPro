@@ -8,6 +8,8 @@ import {BsArrowRightCircleFill,BsArrowLeftCircleFill} from 'react-icons/bs'
 const PosModule = () => {
   const { t } = useTranslation("common");
   const moduleData = t("common:PosModulesLanding", { returnObjects: true });
+  const titles = t('Titles' , {returnObjects: true})
+
   const CustomPrevArrow = (props) => (
     <div
       onClick={props.onClick}
@@ -38,12 +40,12 @@ const PosModule = () => {
 
   return (
     <div className=" my-10 ">
-      <h2 className="text-center roboto900 mt-8">MODULES</h2>
+      <h2 className="text-3xl font-semibold text-center mt-8">{titles.modules}</h2>
 
       <div className="hidden lg:flex gap-x-8 p-8 mx-auto justify-center mt-10">
         {moduleData.map((dt, i) => (
           <div key={i}>
-            <PosCards dt={dt} />
+            <PosCards dt={dt}  />
           </div>
         ))}
       </div>
