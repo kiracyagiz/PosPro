@@ -22,7 +22,7 @@ const Hero = () => {
 
       </div>
         <div className=" py-14 lg:w-5/6 items-center flex justify-center">
-          <Image src={cope}  alt="computerpng"/>
+          <Image src={cope}  alt="computerpng" width={700} height={700}/>
         </div>
       </div>
       <ThirdAd/>

@@ -4,11 +4,11 @@ import Image from "next/image";
 const PriceBox = ({ dt ,isPage,key}) => {
 
   return (
-    <div className="  lg:w-72 min-h-[420px] lg:min-h-[400px] mt-8  z-0  bg-white border-2 border-gray-500 rounded-lg mx-auto  justify-between   flex flex-col gap-y-2 " 
+    <div className={ `lg:w-72 min-h-[420px] lg:min-h-[400px] mt-8  z-0  bg-white border-2 border-gray-500 rounded-lg mx-auto  justify-between   flex flex-col gap-y-2`} 
     target="_blank"
     key={key}
     >
-    <Image  src={dt.image} width={70} height={70} className="mx-auto m-2"/>
+    <Image  src={dt.image} width={80} height={70} className={`mx-auto m-2 ${isPage ? 'mt-6' : ''}`}/>
       <div className="  border-b-2 border-gray-300">
         <p className="text-center font-bold mb-4   bg-primaryYellow w-fit flex mx-auto px-4 rounded py-1">
           {dt.header}
