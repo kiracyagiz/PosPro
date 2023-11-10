@@ -10,7 +10,7 @@ const About = () => {
     const about = t("AboutSection", { returnObjects: true });
 
   return (
-    <div className="bg-gray-100  md:h-5/6">
+    <div className="bg-gray-100  md:h-5/6 mx-9">
       <div className="flex flex-col md:flex-row   items-center  py-8 gap-x-8 justify-between mx-10 md:mx-36 lg:mx-24">
         <div className="hidden relative  lg:block w-1/2 h-[350px] bg-white overflow-hidden">
           <div

@@ -7,9 +7,9 @@ const Contact = () => {
   const contact= t("Contact", { returnObjects: true });
 
   return (
-    <div className="flex flex-col   lg:flex-row lg:justify-around lg:mx-48 items-center bg-gray-100 ">
+    <div className="flex flex-col  justify-center  lg:flex-row   items-center bg-gray-100 ">
       <div
-        className="lg:w-1/2 flex flex-col  mb-12 p-8  lg:mx-auto md:mt-0 mt-20 lg:mt-36  md:gap-y-8"
+        className="lg:w-1/2 flex flex-col  mb-12 p-8  md:mt-0 mt-20 lg:mt-36  md:gap-y-8"
         id="contact"
       >
         <div>
@@ -57,7 +57,7 @@ const Contact = () => {
       </div>
       <div>
         <iframe
-          className="border-4 w-[300px] h-[250px] mb-8 md:w-[550px] md:h-[250px] border-primaryYellow"
+          className="border-4 w-[300px] h-[250px] mb-8 md:w-[500px] md:h-[250px] mr-8 border-primaryYellow"
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11985.871659322553!2d19.8150625!3d41.3204375!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13503198e4d3c6ad%3A0x9df0ae61e6384333!2sPOS%20Shpk%20%7C%20Program%20Fiskalizimi%20Pos!5e0!3m2!1sen!2s!4v1697535797507!5m2!1sen!2s"          loading="lazy"
         ></iframe>
       </div>

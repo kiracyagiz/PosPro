@@ -45,7 +45,7 @@ const Price = () => {
 
         <div className=" hidden lg:flex flex-wrap    md:mx-20  gap-y-12 ">
           {priceData.map((dt, i) => (
-            <PriceBox key={i} dt={dt} />
+            <PriceBox key={i} dt={dt} isModule={false} isPage={true} />
           ))}
           
         </div>
@@ -53,7 +53,7 @@ const Price = () => {
       <div className="  mx-auto p-8 md:px-40 lg:p-20 block  lg:hidden">
         <Slider {...settings}>
           {priceData.map((dt, i) => (
-            <PriceBox dt={dt} key={i} />
+            <PriceBox dt={dt} key={i} isModule={false} isPage={true} />
           ))}
         </Slider>
       </div>

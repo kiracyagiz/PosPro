@@ -2,7 +2,7 @@ import {BiSolidCheckSquare} from 'react-icons/bi'
 
 const FeaturesDesc = ({title,desc}) => {
   return (
-    <div className="flex flex-col  ">
+    <div className="flex flex-col ">
       <p className="roboto700 my-4">{title}</p>
       <ul className="flex flex-col  list-none gap-x-2">
         {desc.split("\n").map((line, index) => (

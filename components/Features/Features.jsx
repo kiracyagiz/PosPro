@@ -15,15 +15,11 @@ const Features = () => {
       </h2>
       <div>  
       </div>
-      <div className="flex flex-col gap-y-16 mt-14 items-center justify-center m-auto bg-gray-100">
-        {featuresData.map((dt,i) => (
-            <FeaturesCard 
-            dt={dt}
-            key={i}
-            />
-        ))}
-
-      </div>
+      <div className="flex flex-col items-center gap-y-16 mt-14 bg-gray-100">
+  {featuresData.map((dt, i) => (
+    <FeaturesCard dt={dt} key={i} className="w-1/2 md:w-1/3 lg:w-1/4" />
+  ))}
+</div>
     
 
       <div>
