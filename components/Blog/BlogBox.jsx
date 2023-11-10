@@ -4,7 +4,7 @@ const BlogBox = ({offerData}) => {
   return (
 <div className="container  mt-12 mx-auto  p-4 md:p-0 " id="fiskalizimi">
   
-  <div className="shadow-lg flex flex-wrap w-full md:w-2/3 mb-8 lg:w-5/6 xxl:w-[90%] mx-auto">
+  <div className="shadow-lg flex flex-wrap w-full md:w-2/3 mb-8 lg:w-5/6 xxl:w-[88%] mx-auto">
     
     <div className={`bg-cover bg-bottom border w-full md:w-1/3 h-64 md:h-auto relative `} style={{backgroundImage: `url(${offerData.image})`}} >
       <div className="absolute text-xl">
