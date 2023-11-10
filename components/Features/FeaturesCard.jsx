@@ -19,11 +19,11 @@ const FeaturesCard = ({ dt }) => {
             height={800}
           ></Image>
         </div>
-        <div className="flex flex-col  mx-auto my-10 lg:my-0">
-          <p className="text-featuresH font-bold   lg:mx-0   max-w-sm roboto700  mb-6">
+        <div className="flex flex-col  my-10 lg:my-0">
+          <p className="text-featuresH font-bold  mx-auto lg:mx-0   max-w-sm roboto700  mb-6">
             {dt.desc}
           </p>
-          <div className=" gap-y-10 flex flex-col  lg:flex-row gap-x-10 lg:gap-x-8">
+          <div className=" gap-y-10 flex flex-col  lg:flex-row mx-auto lg:mx-0  gap-x-10 lg:gap-x-8">
             <FeaturesDesc title={dt.extraTitle} desc={dt.extraDesc}  />
             <FeaturesDesc title={"Vecorite"} desc={dt.secondDesc} />
             
