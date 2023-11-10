@@ -9,7 +9,7 @@ const Contact = () => {
   return (
     <div className="flex flex-col  justify-center  lg:flex-row   items-center bg-gray-100 ">
       <div
-        className="lg:w-1/2 flex flex-col xxl:w-4/5   mb-12 p-8  md:mt-0 mt-20 lg:mt-36  md:gap-y-8"
+        className="lg:w-1/2 flex flex-col xxl:w-3/5   mb-12 p-8  md:mt-0 mt-20 lg:mt-36  md:gap-y-8"
         id="contact"
       >
         <div>
