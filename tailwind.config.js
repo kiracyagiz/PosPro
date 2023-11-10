@@ -54,6 +54,9 @@ module.exports = {
       },
       minWidth: {
         '1/2': '50%',
+      },
+      screens: {
+        'xxl' : '1900px'
       }
     },
   },
