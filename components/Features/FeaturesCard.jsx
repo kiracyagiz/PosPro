@@ -7,7 +7,7 @@ const FeaturesCard = ({ dt }) => {
   return (
   
       <div
-      className={`flex flex-col md:flex-row lg:p-0 my-6 gap-x-20 md:p-8 w-500 h-500`}
+      className={`flex flex-col md:flex-row lg:p-0 my-14 gap-x-20 md:p-8 w-500 h-500`}
 
 
       >
