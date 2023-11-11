@@ -41,9 +41,9 @@ const Price = () => {
   return (
     <div id="pricing" className="bg-gray-100  mb-6">
       <div className="h-fit p-8">
-        <p className="text-center text-3xl font-bold ">{price.title}</p>
+        <p className="lg:text-center text-3xl font-bold ">{price.title}</p>
 
-        <div className=" hidden lg:flex flex-wrap    md:mx-20  gap-y-12 ">
+        <div className=" hidden lg:flex justify-between lg:mx-24   md:gap-x-4  gap-y-12 ">
           {priceData.map((dt, i) => (
             <PriceBox key={i} dt={dt} isModule={false} isPage={true} />
           ))}

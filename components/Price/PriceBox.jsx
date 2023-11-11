@@ -3,7 +3,7 @@ import { AiFillCheckCircle, AiFillThunderbolt } from "react-icons/ai";
 import Link from "next/link";
 const PriceBox = ({ dt  }) => {
   return (
-    <div className=" w-70 h-405  mt-8  bg-white border-2  border-gray-500 rounded-lg mx-auto cursor-default flex flex-col gap-y-2 ">
+    <div className= "   w-70  h-405  mt-8  bg-white border-2  border-gray-500 rounded-lg mx-auto cursor-default flex flex-col gap-y-2 ">
       <AiFillThunderbolt
         className={`${
         "flex mx-auto mt-2  text-primaryYellow"
@@ -25,7 +25,7 @@ const PriceBox = ({ dt  }) => {
       >
         <p className="text-xs mb-4 font-bold ">Leke</p>
         <p className="text-4xl font-bold">{dt.price}</p>
-        <p className=" text-primaryYellow font-bold mt-6">/vit</p>
+        <p className=" text-primaryYellow font-bold mt-6">/{dt.monthly.toLowerCase()}</p>
       </div>
 
       <div className={` "flex flex-col p-4 gap-y-2"`}>

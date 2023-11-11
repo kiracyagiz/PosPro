@@ -56,7 +56,9 @@ module.exports = {
         '1/2': '50%',
       },
       screens: {
-        'xxl' : '1900px'
+        'xxl' : '1900px',
+        "tablet": '1320px',
+        'normal': '1530'
       }
     },
   },

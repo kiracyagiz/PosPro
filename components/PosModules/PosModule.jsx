@@ -28,14 +28,14 @@ const PosModule = () => {
    <div className="h-fit p-8">
         <p className="text-center text-3xl font-bold ">{titles.modules}</p>
 
-        <div className=" hidden lg:flex flex-wrap    md:mx-20  gap-y-12 ">
+        <div className=" hidden lg:flex justify-between lg:mx-24  md:gap-x-4  gap-y-12 ">
           {moduleData.map((dt, i) => (
             <PosCards key={i} dt={dt} isModule={true} isPage={false} />
           ))}
           
         </div>
       </div>
-      <div className="  mx-auto p-14 md:px-40 lg:p-20 block  lg:hidden">
+      <div className="  mx-auto p-14 md:px-40  lg:text-md lg:p-20 block  lg:hidden">
         <Slider {...settings}>
           {moduleData.map((dt, i) => (
             <PosCards dt={dt}  isPage={false} key={i} isModule={true} />

@@ -38,7 +38,7 @@ const Blog = () => {
   };
 
   return (
-    <div className="bg-gray-100 overflow-hidden">
+    <div className="bg-gray-100 overflow-hidden ">
         <div className="text-center flex flex-col mt-14 gap-y-8">
         <div>
         <h3 className="text-lg roboto700 text-primaryYellow">{offerData.header}</h3>

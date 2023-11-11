@@ -42,41 +42,42 @@
 
   "PriceInfo": [
     {
-      "monthly": "Muaj",
-      "header": "Pos",
-      "desc": "Akses në platformën Pos.",
+      "monthly": "Year.",
+      "header": "Single",
+      "desc": "1 person",
       "priceButton": "Provoni Pos",
-      "price": "400",
-      "priceExtra": "(2,000 ALL/Vit POS, 2,800 ALL/Vit FISC)"
-
+      "price": "5.900",
+      "priceExtra": "5,000 ALL/Year POS \n 900 ALL/Year Fikalizimi",
+      "service": "Shërbimi Pos"
     },
     {
-      "monthly": "Muaj",
-      "header": "Pos + Cash",
-      "desc": "Akses në Pos + fiskalizimin cash.",
-      "price": "200",
+      "monthly": "Year.",
+      "header": "Small",
+      "desc": "3 person.",
+      "price": "7.800",
+      "priceExtra": "6,800 ALL/Year POS \n 1000  ALL/Year Fikalizimi",
       "priceButton": "Provoni Pos",
-      "priceExtra": "(2,000 ALL/Vit POS, 2,800 ALL/Vit FISC)"
-
+      "service": "Shërbimi Pos"
     },
     {
-      "monthly": "Muaj",
-      "header": "Pos + E-Invoice",
-      "desc": "Akses në Pos, cash dhe e-invoice.",
-      "price": "200",
+      "monthly": "Year.",
+      "header": "Medium",
+      "desc": "9 person.",
+      "price": "9.800",
       "priceButton": "Provoni Pos",
-      "priceExtra": "(2,000 ALL/Vit POS, 2,800 ALL/Vit FISC)"
-
+      "priceExtra" : "8,600 ALL/Year POS \n 1,200 ALL/Year Fikalizimi",
+      "service": "Shërbimi Pos"
     },
     {
-      "monthly": "Muaj",
-      "header": "Fiskalizim Rest API",
+      "monthly": "Year.",
+      "header": "Business",
       "title": "Çfarë përfshihet",
-      "desc": "Akses në shërbimet Rest API, cash, jo-cash, e-invoice",
-      "price": "500",
+      "desc": "10 person.",
+      "price": "11.900",
+      "priceExtra": "10,000 ALL/Year POS \n 1,900 ALL/Year Fikalizimi",
       "priceButton": "Provoni Pos",
-      "priceExtra": "(2,000 ALL/Vit POS, 2,800 ALL/Vit FISC)"
-
+      "service": "Shërbimi Pos",
+      "extra": "Përdorues shtesë(500ALL/ për përdorues)"
     }
   ],
   "SecondAd": {
@@ -85,55 +86,50 @@
   },
   "ThirdAd": {
     "header": "Program POS",
-    "title":"Soluione POS Efikase për Biznesin Tuaj"
+    "title":"POS Program Effective Solutions for Your Business "
   },
   "Features": [
     {
-      "header": "EASY PRODUCT MANAGEMENT",
-      "title": "Pos.al simplifies the management of products",
-      "desc": "With Pos.al businesses can swiftly navigate through their catalog, search for items, and apply filters to quickly find specific products, ensuring a smooth and efficient sales process.",
-      "category1": "Intuitive Catalag",
-      "category2": "Efficient management",
-      "image": "/restorant.png",
-      "imagePositionLeft": true,
-      "extraTitle": "Sherbime",
-      "extraDesc": "Profesionist te lire \n Ekonomist \n Jurist \n Inxhinier",
-      "secondTitle": "Vecorite",
-      "secondDesc": "Shitje me vlere totale  \n Pamje e thjeshtuar, minimaliste",
-      "locate": "https://posal.tawk.help/article/si-te-besh-nje-shitje-per-bar-restorant"
-
+    "desc": "Market, Shop",
+    "image": "/market.png",
+    "imagePositionLeft": true,
+    "extraTitle": "Business",
+    "extraDesc": "Food \n Office supplies \n Boutique \n Building materials \n Tobacco shop \n Kiosks",
+    "secondTitle": "Features",
+    "secondDesc": "Barcode \n Price import/modification \n Shift reports \n Sales reports \n Draft sales",
+    "locate": "https://posal.tawk.help/article/how-to-change-the-store-appearance"
     },
     {
-      "header": "FLEXIBLE PAYMENT OPTIONS",
-      "title": "Pos.al offers flexible payment options",
-      "desc": "With Pos.al you can generate customizable receipts and invoices, providing businesses with a professional and organized approach to financial transactions.",
-      "category1": "Multiple payment methods",
-      "category2": "Secure transactions",
-      "image": "/coffe.png",
-      "imagePositionLeft": false,
-      "extraTitle": "Sherbime",
-      "extraDesc": "Profesionist te lire \n Ekonomist \n Jurist \n Inxhinier",
-      "secondTitle": "Vecorite",
-      "secondDesc": "Shitje me vlere totale  \n Pamje e thjeshtuar, minimaliste",
-      "locate": "https://posal.tawk.help/article/si-te-besh-nje-shitje-per-bar-restorant"
-
+    "desc": "Bar, Restaurant, Hotel",
+    "image": "/restorant.png",
+    "imagePositionLeft": true,
+    "extraTitle": "Horeca",
+    "extraDesc": "Bar \n Restaurant \n Hotel \n Beach \n Tourist services",
+    "secondTitle": "Features",
+    "secondDesc": "Table-based orders \n Room-based orders \n Sales reports for rooms & tables",
+    "locate": "https://posal.tawk.help/article/how-to-make-a-sale-for-a-bar-restaurant"
     },
     {
-      "header": "CUSTOMER SUPPORT AND HELPDESK",
-      "title": "Pos.al offers integrated customer support and helpdesk features",
-      "desc": "The platform includes ticketing systems, live chat support, and a knowledge base to address common questions or concerns. With a dedicated customer support and helpdesk feature, you can improve customer satisfaction, build trust, and maintain strong relationships.",
-      "category1": "Customer support",
-      "category2": "Helpdesk integration",
-      "image": "/gym.png",
-      "imagePositionLeft": true,
-      "extraTitle": "Sherbime",
-      "extraDesc": "Profesionist te lire \n Ekonomist \n Jurist \n Inxhinier",
-      "secondTitle": "Vecorite",
-      "secondDesc": "Shitje me vlere totale  \n Pamje e thjeshtuar, minimaliste",
-      "locate": "https://posal.tawk.help/article/si-te-besh-nje-shitje-per-bar-restorant"
-
+    "desc": "Professional Services",
+    "image": "/coffe.png",
+    "imagePositionLeft": true,
+    "extraTitle": "Services",
+    "extraDesc": "Freelancer \n Economist \n Lawyer \n Engineer",
+    "secondTitle": "Features",
+    "secondDesc": "Total value sales \n Simplified, minimalist view",
+    "locate": "https://posal.tawk.help/article/how-to-create-a-service-item"
+    },
+    {
+    "desc": "Various Services",
+    "image": "/gym.png",
+    "imagePositionLeft": true,
+    "extraTitle": "Aesthetics",
+    "extraDesc": "Aesthetic center \n Barber \n Gym \n SPA",
+    "secondTitle": "Features",
+    "secondDesc": "Phone-based work \n Simplified view",
+    "locate": "https://posal.tawk.help/article/how-to-change-the-store-appearance"
     }
-  ],
+    ],
   "Blog": [
     {
       "title": "What is the Fiscalism Program?",

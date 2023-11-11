@@ -83,50 +83,45 @@
 
   "Features": [
     {
-      "header": "KOLAY ÜRÜN YÖNETİMİ",
-      "title": "Pos.al ürün yönetimini kolaşlayştırır",
-      "desc": "Pos.al ile işletmeler, hızlıca kataloglarını gezinebilir, ürünleri arayabilir ve özel ürünleri hızlıca bulmak için filtreler uygulayabilir, böylece sorunsuz ve verimli bir satış sürecini sağlayabilirler",
-      "category1": "Anlaşılabilir katalog",
-      "category2": "Verimli Yönetim",
-      "image": "/restorant.png",
-      "imagePositionLeft": true,
-      "extraTitle": "Sherbime",
-      "extraDesc": "Profesionist te lire \n Ekonomist \n Jurist \n Inxhinier",
-      "secondTitle": "Vecorite",
-      "secondDesc": "Shitje me vlere totale  \n Pamje e thjeshtuar, minimaliste",
-      "locate": "https://posal.tawk.help/article/si-te-besh-nje-shitje-per-bar-restorant"
-
+    "desc": "Market, Dükkan",
+    "image": "/market.png",
+    "extraTitle": "İşletme",
+    "extraDesc": "Gıda \n Ofis malzemeleri \n Butik \n İnşaat malzemeleri \n Tütün dükkanı \n Kiosklar",
+    "secondTitle": "Özellikler",
+    "secondDesc": "Barkod \n Fiyat içe/dışa aktarma/değiştirme \n Vardiya raporları \n Satış raporları \n Taslak satışlar",
+    "locate": "https://posal.tawk.help/article/how-to-change-the-store-appearance"
     },
     {
-      "header": "ESNEK ÖDEME SEÇENEKLERİ",
-      "title": "Pos.al esnek ödeme seçenekleri sunar",
-      "desc": "Pos.al ile özelleştirilebilir makbuzlar ve faturalar oluşturabilirsiniz, işletmelere finansal işlemlere profesyonel ve düzenli bir yaklaşım sunar.",
-      "category1": "Çoklu ödeme yöntemleri",
-      "category2": "Güvenli işlemler",
-      "image": "/coffe.png",
-      "imagePositionLeft": false,
-      "extraTitle": "Sherbime",
-      "extraDesc": "Profesionist te lire \n Ekonomist \n Jurist \n Inxhinier",
-      "secondTitle": "Vecorite",
-      "secondDesc": "Shitje me vlere totale  \n Pamje e thjeshtuar, minimaliste",
-      "locate": "https://posal.tawk.help/article/si-te-besh-nje-shitje-per-bar-restorant"
-
+    "desc": "Bar, Restoran, Otel",
+    "image": "/restorant.png",
+    "imagePositionLeft": true,
+    "extraTitle": "Horeca",
+    "extraDesc": "Bar \n Restoran \n Otel \n Plaj \n Turistik hizmetler",
+    "secondTitle": "Özellikler",
+    "secondDesc": "Masa bazlı siparişler \n Oda bazlı siparişler \n Oda ve masa satış raporları",
+    "locate": "https://posal.tawk.help/article/how-to-make-a-sale-for-a-bar-restaurant"
     },
     {
-      "header": "MÜŞTERİ DESTEĞİ VE CANLI YARDIM",
-      "title": "Pos.al  müşteri desteği ve canlı yardım özellikleri sunar",
-      "desc": "Platform, bilet sistemleri, canlı sohbet desteği ve yaygın soruları veya endişeleri ele almak için bir bilgi tabanını içerir. Özel müşteri desteği ve canlı destek özelliği ile müşteri memnuniyetini artırabilir, güven inşa edebilir ve güçlü ilişkileri sürdürebilirsiniz",
-      "category1": "Müşteri desteği",
-      "category2": "Canlı yardım hizmeti",
-      "image": "/gym.png",
-      "imagePositionLeft": true,
-      "extraTitle": "Sherbime",
-      "extraDesc": "Profesionist te lire \n Ekonomist \n Jurist \n Inxhinier",
-      "secondTitle": "Vecorite",
-      "secondDesc": "Shitje me vlere totale  \n Pamje e thjeshtuar, minimaliste",
-      "locate": "https://posal.tawk.help/article/si-te-besh-nje-shitje-per-bar-restorant"
+    "desc": "Profesyonel Hizmetler",
+    "image": "/coffe.png",
+    "imagePositionLeft": true,
+    "extraTitle": "Hizmetler",
+    "extraDesc": "Serbest çalışan \n Ekonomist \n Avukat \n Mühendis",
+    "secondTitle": "Özellikler",
+    "secondDesc": "Toplam değer satışları \n Basitleştirilmiş, minimalist görünüm",
+    "locate": "https://posal.tawk.help/article/how-to-create-a-service-item"
+    },
+    {
+    "desc": "Çeşitli Hizmetler",
+    "image": "/gym.png",
+    "imagePositionLeft": true,
+    "extraTitle": "Estetik",
+    "extraDesc": "Estetik merkezi \n Berber \n Spor salonu \n SPA",
+    "secondTitle": "Özellikler",
+    "secondDesc": "Telefon üzerinden çalışma \n Basitleştirilmiş görünüm",
+    "locate": "https://posal.tawk.help/article/how-to-change-the-store-appearance"
     }
-  ],
+    ],
   "Blog": [
     {
       "title": "Fiskalizasyon Programı Nedir ?",
