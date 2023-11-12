@@ -5,16 +5,14 @@ const PosCards = ({ dt, isModule, isPage }) => {
   return (
     <div className="  lg:w-72 h-405    mt-8 relative bg-white border-2  border-gray-500 rounded-lg mx-auto cursor-default flex flex-col gap-y-2 ">
 
-      {isModule ? (
+      
         <Image
           src={`${dt.image}`}
           width={70}
           height={70}
           className="mx-auto mt-4"
         />
-      ) : (
-        ""
-      )}
+      
       <div className="  border-b-2 border-gray-300">
         <p className="text-center text-lg  font-bold mb-4 py-1 w-fit flex mx-auto px-4">
           {dt.header}
