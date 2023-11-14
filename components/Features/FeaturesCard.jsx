@@ -25,7 +25,7 @@ const FeaturesCard = ({ dt }) => {
           </p>
           <div className=" gap-y-10 flex flex-col  lg:flex-row mx-auto lg:mx-0  gap-x-10 lg:gap-x-8">
             <FeaturesDesc title={dt.extraTitle} desc={dt.extraDesc}  />
-            <FeaturesDesc title={"Vecorite"} desc={dt.secondDesc} />
+            <FeaturesDesc title={dt.secondTitle} desc={dt.secondDesc} />
             
             <Link href={dt.locate} target="_blank" className="block lg:hidden"  >
             <BsBoxArrowUpRight size={25} className="mt-2" s/>

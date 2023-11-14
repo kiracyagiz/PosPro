@@ -39,7 +39,8 @@
     "descYoutube": "Mësoni si të përdorni Pos.al në YouTube."
   },
   "Price": {
-    "title": "Cmimet dhe paketat"
+    "title": "Cmimet dhe paketat",
+    "button": "Provo Pos"
   },
  
   "PriceInfo": [
@@ -63,6 +64,7 @@
       "service": "Shërbimi Pos",
       "note": "Detaje të cmimit"
 
+
     },
     {
       "monthly": "Vit.",
@@ -73,6 +75,7 @@
       "priceExtra" : "8,600 ALL/Vit POS \n 1,200 ALL/Vit Fiskalizim",
       "service": "Shërbimi Pos",
       "note": "Detaje të cmimit"
+
 
     },
     {
@@ -86,6 +89,7 @@
       "service": "Shërbimi Pos",
       "extra": "Përdorues shtesë(500ALL/ për përdorues)",
       "note": "Detaje të cmimit"
+
 
     }
   ],
@@ -334,22 +338,30 @@
     {
       "image": "/posfiscal.svg",
       "header" : "Fiskalizimi",
-      "desc": "Programi është i certifikuar nga AKSHI dhe DPT për lëshimin e faturave fiskale, si me para edhe pa para në dorë, regjistrimet e arkës, faturën elektronike, etj. Programi kryen këto procese automatikisht dhe shumë shpejt."
+      "desc": "Programi është i certifikuar nga AKSHI dhe DPT për lëshimin e faturave fiskale, si me para edhe pa para në dorë, regjistrimet e arkës, faturën elektronike, etj. Programi kryen këto procese automatikisht dhe shumë shpejt.",
+      "button": "Shiko"
+
     },
     {
       "image": "/arka.svg",
       "header" : "Arka",
-      "desc": "Ky modul mundëson regjistrimin automatik të veprimeve të arkës, sapo një shitje regjistrohet. Ndërkohe, mund të shtoni dokumenta arketime/pagesa manualisht dhe të caktoni faturën që po likuidoni."
+      "desc": "Ky modul mundëson regjistrimin automatik të veprimeve të arkës, sapo një shitje regjistrohet. Ndërkohe, mund të shtoni dokumenta arketime/pagesa manualisht dhe të caktoni faturën që po likuidoni.",
+      "button": "Shiko"
+
     },
     {
       "image": "/raporte.svg",
       "header" : "Raporte",
-      "desc": "Për informacion analitik dhe më të detajuar, programi është i pajisur me modulin e raporteve. Aty mund të gjeni raporte dhe analiza për shitjet, detyrimet, klientët, artikujt dhe shumë të tjera."
+      "desc": "Për informacion analitik dhe më të detajuar, programi është i pajisur me modulin e raporteve. Aty mund të gjeni raporte dhe analiza për shitjet, detyrimet, klientët, artikujt dhe shumë të tjera.",
+      "button": "Shiko"
+
     },
     {
       "image": "/shitje.svg",
       "header" : "Shitje",
-      "desc": "Programi thjeshton regjistrimin e shitjeve dhe pershtatet me çdo lloj biznesi si market, dyqan, bar, restorant, shërbime dhe shumë të tjera. Në program janë konfiguruar disa pamje të ndryshme për të përshtatur këtyre bizneseve."
+      "desc": "Programi thjeshton regjistrimin e shitjeve dhe pershtatet me çdo lloj biznesi si market, dyqan, bar, restorant, shërbime dhe shumë të tjera. Në program janë konfiguruar disa pamje të ndryshme për të përshtatur këtyre bizneseve.",
+      "button": "Shiko"
+
     }
   ],
   "PosModules": [

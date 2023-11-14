@@ -33,12 +33,13 @@
     "header": "About Us",
     "title": "Who we are?",
     "desc": "Welcome to Pos.al! We are a technology company specializing in programs for cafes, restaurants, and order management. We are dedicated to innovation and customer satisfaction, playing a key role as a trusted partner for businesses looking to improve their operations in these fields and enhance the customer experience.Our mission is to change the way businesses manage their operations in cafes, restaurants, and order management. We use advanced technology and a user-friendly interface to create a powerful platform, helping businesses excel in today's competitive market in these sectors.",
-    "button": "Go To About Page",
+    "button": "About Page",
     "headerYoutube": "Our videos on Youtube",
-    "descYoutube": "You can learn how to use Pos Al on Youtube."
+    "descYoutube": "You can learn how to use Pos.al on Youtube."
   },
   "Price": {
-    "title": "Price"
+    "title": "Price",
+    "button": "Try Pos"
   },
 
   "PriceInfo": [
@@ -61,6 +62,7 @@
       "service": "Pos Service",
       "note": "Detail of price"
 
+
     },
     {
       "monthly": "Year.",
@@ -71,6 +73,7 @@
       "service": "Pos Service",
       "note": "Detail of price"
 
+
     },
     {
       "monthly": "Year.",
@@ -80,6 +83,7 @@
       "priceExtra": "10,000 ALL/Year POS \n 1,900 ALL/Year Fiscalization",
       "service": "Pos Service",
       "note": "Detail of price" 
+
     }
   ],
   "SecondAd": {
@@ -325,22 +329,30 @@
     {
       "image": "/posfiscal.svg",
       "header" : "Fiscalization",
-      "desc": "The program is certified by AKSHI and DPT for issuing fiscal invoices, both with and without cash in hand, cash register recordings, electronic invoices, etc. The program performs these processes automatically and very quickly."
+      "desc": "The program is certified by AKSHI and DPT for issuing fiscal invoices, both with and without cash in hand, cash register recordings, electronic invoices, etc. The program performs these processes automatically and very quickly.",
+      "button": "View"
+
     },
     {
       "image": "/arka.svg",
       "header" : "Cash Register",
-      "desc": "This module enables automatic recording of cash-related actions as soon as a sale is registered. Meanwhile, you can manually add archive documents/payments and assign the invoice you are liquidating"
+      "desc": "This module enables automatic recording of cash-related actions as soon as a sale is registered. Meanwhile, you can manually add archive documents/payments and assign the invoice you are liquidating",
+      "button": "View"
+
     },
     {
       "image": "/raporte.svg",
       "header" : "Reports",
-      "desc": "For analytical and detailed information, the program is equipped with the reports module. Here, you can find reports and analyses for sales, obligations, customers, items, and many more"
+      "desc": "For analytical and detailed information, the program is equipped with the reports module. Here, you can find reports and analyses for sales, obligations, customers, items, and many more",
+      "button": "View"
+
     },
     {
       "image": "/shitje.svg",
       "header" : "Sales",
-      "desc": "The program simplifies the recording of sales and adapts to various types of businesses such as markets, stores, bars, restaurants, services, and many others. The program is configured with several different views to accommodate these businesses."
+      "desc": "The program simplifies the recording of sales and adapts to various types of businesses such as markets, stores, bars, restaurants, services, and many others. The program is configured with several different views to accommodate these businesses.",
+      "button": "View"
+
     }
   ],
   "PosModules": [

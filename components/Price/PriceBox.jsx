@@ -65,7 +65,7 @@ const PriceBox = ({ dt ,isModule }) => {
         className={`${isModule ? "block" : "hidden"} text-center absolute bottom-0 w-full  `}
       >
         <button className="bg-primaryYellow  mx-auto text-center  mb-2  border-2 left-7 border-black  p-1 w-4/5">
-          View
+          {dt.button}
         </button>
       </Link>
 

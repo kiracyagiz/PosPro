@@ -32,10 +32,11 @@
     "desc": "Pos.al'a hoş geldiniz ! Biz, kafe, restoran ve sipariş yönetimi için programlar konusunda uzmanlaşmış bir teknoloji şirketiyiz. İnovasyona ve müşteri memnuniyetine adanmışız, bu alanlardaki işletmelerin işleyişlerini geliştirmek ve müşteri deneyimini artırmak isteyen işletmeler için güvenilir bir ortak olarak önemli bir rol oynuyoruz.Misyonumuz, işletmelerin kafe, restoran ve sipariş yönetiminde işleyişlerini değiştirmektir. Gelişmiş teknoloji ve kullanıcı dostu bir arayüz kullanarak güçlü bir platform oluşturuyoruz ve işletmelerin bu sektörlerde rekabetçi bir pazarda başarılı olmalarına yardımcı oluyoruz.",
     "button": "Hakkımızda",
     "headerYoutube": "Youtube üzerinde videolarımız var.",
-    "descYoutube": "Pos Al'ı nasıl kullanacağınızı öğrenebilirsiniz."
+    "descYoutube": "Pos.al'ı nasıl kullanacağınızı öğrenebilirsiniz."
   },
   "Price": {
-    "title": "Fiyatlandırma ve Planlama"
+    "title": "Fiyatlandırma ve Planlama",
+    "button": "Pos Dene"
   },
   "PriceInfo": [
     {
@@ -57,6 +58,8 @@
       "priceButton": "Provoni Pos",
       "service": "Pos Hizmeti",
       "note": "Fiyat detayları"
+    
+
 
     },
     {
@@ -67,6 +70,8 @@
       "priceExtra": "8,600 ALL/Yıllık POS \n 1,200 ALL/Yıllık Fikalizasyon",
       "service": "Pos Hizmeti",
       "note": "Fiyat detayları"
+    
+
 
     },
     {
@@ -77,6 +82,8 @@
       "priceExtra": "10,000 ALL/Yıllık POS \n 1,900 ALL/Yıllık Fikalizasyon",
       "service": "Pos Hizmeti",
       "note": "Fiyat detayları" 
+   
+
     }
   ],
   "SecondAd": {
@@ -320,22 +327,29 @@
     {
       "image": "/posfiscal.svg",
       "header" : "Fiskalizasyon",
-      "desc": "Program, AKSHI ve DPT tarafından mali faturaların düzenlenmesi için hem elden para hem de elden para olmadan, nakit kayıtlar, elektronik faturalar vb. için sertifikalıdır. Program, bu işlemleri otomatik olarak ve çok hızlı bir şekilde gerçekleştirir."
+      "desc": "Program, AKSHI ve DPT tarafından mali faturaların düzenlenmesi için hem elden para hem de elden para olmadan, nakit kayıtlar, elektronik faturalar vb. için sertifikalıdır. Program, bu işlemleri otomatik olarak ve çok hızlı bir şekilde gerçekleştirir.",
+      "button": "Görüntüle"
     },
     {
       "image": "/arka.svg",
       "header" : "Nakit Kayıt",
-      "desc": "Bu modül, bir satış kaydedildiği anda nakit ile ilgili eylemlerin otomatik olarak kaydedilmesini sağlar. Bu arada, arşiv belgelerini/ödemelerini manuel olarak ekleyebilir ve likide ettiğiniz faturayı atayabilirsiniz."
+      "desc": "Bu modül, bir satış kaydedildiği anda nakit ile ilgili eylemlerin otomatik olarak kaydedilmesini sağlar. Bu arada, arşiv belgelerini/ödemelerini manuel olarak ekleyebilir ve likide ettiğiniz faturayı atayabilirsiniz.",
+      "button": "Görüntüle"
+
     },
     {
       "image": "/raporte.svg",
       "header" : "Raporlar",
-      "desc": "Analitik ve detaylı bilgiler için program, raporlar modülü ile donatılmıştır. Burada, satışlar, yükümlülükler, müşteriler, ürünler ve daha birçok şey için raporlar ve analizler bulabilirsiniz."
+      "desc": "Analitik ve detaylı bilgiler için program, raporlar modülü ile donatılmıştır. Burada, satışlar, yükümlülükler, müşteriler, ürünler ve daha birçok şey için raporlar ve analizler bulabilirsiniz.",
+      "button": "Görüntüle"
+
     },
     {
       "image": "/shitje.svg",
       "header" : "Satışlar",
-      "desc": "Program, satış kayıtlarını basitleştirir ve marketler, mağazalar, barlar, restoranlar, hizmetler ve birçok başka iş türüne uyum sağlar. Program, bu işletmelere uyum sağlamak için birkaç farklı görünümle yapılandırılmıştır."
+      "desc": "Program, satış kayıtlarını basitleştirir ve marketler, mağazalar, barlar, restoranlar, hizmetler ve birçok başka iş türüne uyum sağlar. Program, bu işletmelere uyum sağlamak için birkaç farklı görünümle yapılandırılmıştır.",
+      "button": "Görüntüle"
+
     }
   ],
   "PosModules": [
