@@ -43,7 +43,7 @@ const Price = () => {
   return (
     <div id="pricing" className="bg-gray-100  mb-6">
       <div className="h-fit p-8">
-        <p className="lg:text-center text-3xl font-bold ">{price.title}</p>
+        <p className="text-center mx-auto  mt-4 text-3xl font-bold ">{price.title}</p>
 
         <div className=" hidden lg:flex justify-between lg:mx-24   md:gap-x-4  gap-y-12 ">
           {priceData.map((dt, i) => (
@@ -65,7 +65,7 @@ const Price = () => {
       <div className="text-center">
       <Link href={`https://app.pos.al/`} >
       <button
-        className={`text-lg font-bold w-1/4 border-2  text-black bg-primaryYellow hover:bg-black hover:text-primaryYellow px-5 py-2  border-black`}
+        className={`text-lg font-bold w-1/2 lg:w-1/4 border-2  mt-4 text-black bg-primaryYellow hover:bg-black hover:text-primaryYellow px-5 py-2  border-black`}
        id="button-page">
         Provo Pos
       </button>
