@@ -32,7 +32,7 @@ const Contact = () => {
             Email:<span className="font-bold roboto700"> {" " + "info@pos.al"}</span>
           </p>
           <p className="text-sm roboto400">
-            Adress:<span className="font-bold roboto700">{" " + contact.adress}</span>
+            Adress:<span className="font-bold roboto700">{" " + 'Rr. “Ismail Qemali”, Building 34/5 Tirana, Albania'}</span>
           </p>
         </div>
 
