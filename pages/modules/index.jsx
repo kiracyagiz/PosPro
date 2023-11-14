@@ -24,9 +24,9 @@ const Module = () => {
 
       />
       <div>
-        <p className="roboto900 my-10 text-center">{title.modules}</p>
+        <p className="roboto900  mt-10 text-center">{title.modules}</p>
       </div>
-     <div className=" flex flex-col  lg:flex-row flex-wrap   gap-x-8 p-8 mx-auto justify-center mt-10">
+     <div className=" flex flex-col  lg:flex-row flex-wrap gap-y-8  gap-x-8 p-8 mx-auto justify-center mt-6">
       {moduleData.map((dt,i)=> (
         <div key={i}>
           <PosCards dt={dt} isPage={true}/>
