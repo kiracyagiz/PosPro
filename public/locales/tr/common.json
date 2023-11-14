@@ -108,7 +108,6 @@
     {
     "desc": "Bar, Restoran, Otel",
     "image": "/restorant.png",
-    "imagePositionLeft": true,
     "extraTitle": "Horeca",
     "extraDesc": "Bar \n Restoran \n Otel \n Plaj \n Turistik hizmetler",
     "secondTitle": "Özellikler",
@@ -118,7 +117,6 @@
     {
     "desc": "Profesyonel Hizmetler",
     "image": "/coffe.png",
-    "imagePositionLeft": true,
     "extraTitle": "Hizmetler",
     "extraDesc": "Serbest çalışan \n Ekonomist \n Avukat \n Mühendis",
     "secondTitle": "Özellikler",
@@ -128,7 +126,6 @@
     {
     "desc": "Çeşitli Hizmetler",
     "image": "/gym.png",
-    "imagePositionLeft": true,
     "extraTitle": "Estetik",
     "extraDesc": "Estetik merkezi \n Berber \n Spor salonu \n SPA",
     "secondTitle": "Özellikler",

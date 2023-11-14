@@ -98,7 +98,6 @@
     {
       "desc": "Market, Shop",
       "image": "/market.png",
-      "imagePositionLeft": true,
       "extraTitle": "Business",
       "extraDesc": "Food \n Office supplies \n Boutique \n Building materials \n Tobacco shop \n Kiosks",
       "secondTitle": "Features",
@@ -108,7 +107,6 @@
     {
       "desc": "Bar, Restaurant, Hotel",
       "image": "/restorant.png",
-      "imagePositionLeft": true,
       "extraTitle": "Horeca",
       "extraDesc": "Bar \n Restaurant \n Hotel \n Beach \n Tourist services",
       "secondTitle": "Features",
@@ -118,7 +116,6 @@
     {
       "desc": "Professional Services",
       "image": "/coffe.png",
-      "imagePositionLeft": true,
       "extraTitle": "Services",
       "extraDesc": "Freelancer \n Economist \n Lawyer \n Engineer",
       "secondTitle": "Features",
@@ -128,7 +125,6 @@
     {
       "desc": "Various Services",
       "image": "/gym.png",
-      "imagePositionLeft": true,
       "extraTitle": "Aesthetics",
       "extraDesc": "Aesthetic center \n Barber \n Gym \n SPA",
       "secondTitle": "Features",
