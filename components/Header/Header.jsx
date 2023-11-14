@@ -39,7 +39,6 @@ const Header = (props) => {
             />
           </div>
 
-          <div className="w-full ml-12">
             <Language
               locale={`/sq${href}`}
               localeEn={`/en${href}`}
@@ -47,7 +46,6 @@ const Header = (props) => {
               localeTr={`/tr${href}`}
               headerB= {headerB.button}
             />
-          </div>
         </nav>
       </div>
 

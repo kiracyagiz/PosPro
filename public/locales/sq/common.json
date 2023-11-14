@@ -352,21 +352,6 @@
       "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
     },
     {
-      "image": "/arka.svg",
-      "header" : "Arka",
-      "desc": "Në seksionin e Arka, mund të shihni regjistrat e arkës për atë ditë, duke ju lejuar të shqyrtoni transaksionet financiare të kësaj dite. Mund të kryeni lehtësisht pagesa dhe depozita, për menaxhimin e lehtë të financave."
-    },
-    {
-      "image": "/raporte.svg",
-      "header" : "Raporte",
-      "desc": "Nëse hasni ndonjë problem në aplikacion, mund të raportoni drejtpërdrejt në seksionin Raporte. Përvoja juaj dhe komentet tuaja na ndihmojnë të përmirësojmë aplikacionin."
-    },
-    {
-      "image": "/shitje.svg",
-      "header" : "Shitje",
-      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
-    },
-    {
       "image": "/bar.svg",
       "header" : "Bar / Bar Mobile",
       "desc": "Bar / Bar Mobile ju ndihmon të ndryshoni dizajnin e aplikacionit tuaj në një dizajn tipik të një bari. Në thelb, aplikacioni ynë ofron një pamje të ndryshme për pronarët e bareve. Kështu ju mund ta përdorni atë në mënyrë të përshtatshme për biznesin tuaj."
@@ -381,20 +366,59 @@
       "header" : "Dashboard",
       "desc": "Në seksionin e panelit, përdoruesit mund të personalizojnë aplikacionin e tyre sipas preferencave të tyre. Ata mund të shtojnë veçori të reja ose të fshijnë ato që kanë shtuar më parë. Gjithashtu, ata mund të shikojnë historinë e porosive, të ndjekin rrjedhën e parave dhe të ndjekin në kohë reale të gjitha aktualizimet."
     },
+
     {
       "image": "/faturim.svg",
       "header" : "Faturim",
       "desc": " Faturim ju ofron mundësinë të shisni produktet tuaja shpejt. Thjesht zgjidhni artikullin dhe sasinë që dëshironi të shisni. Në këtë seksion, gjithashtu mund të përdorni kodin e artikullit tuaj dhe të shtoni shënime shtesë për çdo shitje."
+    },
+        
+    {
+      "image": "/shitje.svg",
+      "header" : "Shitje",
+      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
     },
     {
       "image": "/market.svg",
       "header" : "Market",
       "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
     },
+
     {
       "image": "/mobile.svg",
       "header" : "Mobile",
       "desc": "Mundësia Mobile në aplikacionin tonë ju lejon të kyçeni dhe të bëni shitje duke përdorur telefonin tuaj, pa nevojën e pajisjeve teknologjike shtesë. Me POS.al, ju mund të përdorni komponentin mobil të zhvilluar për qëllimin tuaj, duke ju lejuar të bëni shitje në çdo kohë dhe në çdo vend."
+    },
+    {
+      "image": "/arka.svg",
+      "header" : "Arka",
+      "desc": "Në seksionin e Arka, mund të shihni regjistrat e arkës për atë ditë, duke ju lejuar të shqyrtoni transaksionet financiare të kësaj dite. Mund të kryeni lehtësisht pagesa dhe depozita, për menaxhimin e lehtë të financave."
+    },
+    {
+      "image": "/minimalist.svg",
+      "header" : "Minimalist",
+      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
+    },
+    {
+      "image": "/klient.svg",
+      "header" : "Klient",
+      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
+    },
+
+    {
+      "image": "/banka.svg",
+      "header" : "Banka",
+      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
+    },
+    {
+      "image": "/raporte.svg",
+      "header" : "Raporte",
+      "desc": "Nëse hasni ndonjë problem në aplikacion, mund të raportoni drejtpërdrejt në seksionin Raporte. Përvoja juaj dhe komentet tuaja na ndihmojnë të përmirësojmë aplikacionin."
+    },
+    {
+      "image": "/njoftime.svg",
+      "header" : "Njoftime",
+      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
     },
     {
       "image": "/perdorues-abonime-te-drejta.svg",

@@ -10,6 +10,7 @@ const PosCards = ({ dt, isModule, isPage }) => {
           src={`${dt.image}`}
           width={70}
           height={70}
+          alt={dt.image}
           className="mx-auto mt-4"
         />
       
@@ -20,7 +21,7 @@ const PosCards = ({ dt, isModule, isPage }) => {
       </div>
 
       <div >
-        <p className="px-8  py-4  lg:text-sm roboto400 ">{dt.desc}</p>
+        <p className="px-8  py-4 text-xs lg:text-sm roboto400 ">{dt.desc}</p>
       </div>
   
       <Link

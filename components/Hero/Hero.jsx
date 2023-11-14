@@ -21,7 +21,7 @@ const Hero = () => {
 
       </div>
         <div className=" py-14  items-center flex justify-center">
-          <Image src={'/cope.webp'}  alt="computerpng" width={700} height={700}/>
+          <Image src={'/cope.png'}  alt="computerpng" width={700} height={700}/>
         </div>
       </div>
       <ThirdAd/>
