@@ -311,85 +311,64 @@
   ],
   "PosModules": [
     {
-      "image": "/posfiscal.svg",
-      "header" : "Fiskalizimi",
-      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
-    },
-    {
       "image": "/arka.svg",
-      "header" : "Arka",
-      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
-    },
-    {
-      "image": "/raporte.svg",
-      "header" : "Raporte",
-      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
+      "header": "Nakit Kayıt",
+      "desc": "Bu modül, bir satış kaydedildiği anda nakit ile ilgili eylemlerin otomatik olarak kaydedilmesini sağlar. Bu arada, arşiv belgelerini/ödemelerini manuel olarak ekleyebilir ve likide ettiğiniz faturayı atayabilirsiniz."
     },
     {
       "image": "/shitje.svg",
-      "header" : "Shitje",
-      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
-    },
-    {
-      "image": "/bar.svg",
-      "header" : "Bar / Bar Mobile",
-      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
+      "header": "Satışlar",
+      "desc": "Program, satış kayıtlarını basitleştirir ve marketler, mağazalar, barlar, restoranlar, hizmetler ve birçok başka iş türüne uyum sağlar. Program, bu işletmelere uyum sağlamak için birkaç farklı görünümle yapılandırılmıştır."
     },
     {
       "image": "/çmime.svg",
-      "header" : "Çmime",
-      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
+      "header": "Fiyatlar",
+      "desc": "Fiyat ayarlama ortamı, kullanıcının satış fiyatlarını 'Excel' programını kullanmak gibi kolayca ayarlamasına olanak tanır. Ayrıca, program fiyatları saat ve zaman/tarih aralıklarına göre ayarlama olanağı sağlar."
     },
     {
-      "image": "/dashboard.svg",
-      "header" : "Dashboard",
-      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
-    },
-    {
-      "image": "/faturim.svg",
-      "header" : "Faturim",
-      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
-    },
-    {
-      "image": "/market.svg",
-      "header" : "Market",
-      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
-    },
-    {
-      "image": "/mobile.svg",
-      "header" : "Mobile",
-      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
-    },
-    {
-      "image": "/perdorues-abonime-te-drejta.svg",
-      "header" : "Abonime",
-      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
-    },
-    {
-      "image": "/Konfigurim.svg",
-      "header" : "Konfigurim",
-      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
+      "image": "/banka.svg",
+      "header": "Banka",
+      "desc": "Banka modülü, banka hesaplarından çekim ve yatırımların kaydedilmesine olanak tanır. Kullanıcılar fatura listesini ve ödeme durumlarını görebilir. Ayrıca, satış faturalarını bireysel olarak veya gruplar halinde likide etme seçeneği sunar."
     },
     {
       "image": "/Inventari.svg",
-      "header" : "Inventari",
-      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
+      "header": "Envanter",
+      "desc": "Envanter modülü, öğelerin yönetimini ve renk, boyut, son kullanma tarihi vb. gibi depolara ve diğer özelliklere göre durumlarını mümkün kılar. Ortamların basit ve son derece fonksiyonel olacak şekilde tasarlanmıştır."
+    },
+    {
+      "image": "/posfiscal.svg",
+      "header": "Fiskalizasyon",
+      "desc": "Program, AKSHI ve DPT tarafından mali faturaların düzenlenmesi için hem elden para hem de elden para olmadan, nakit kayıtlar, elektronik faturalar vb. için sertifikalıdır. Program, bu işlemleri otomatik olarak ve çok hızlı bir şekilde gerçekleştirir."
+    },
+    {
+      "image": "/mobile.svg",
+      "header": "Mobil",
+      "desc": "POS.al'da telefonunuzu kullanarak satış yapabilirsiniz, ek cihazlara ihtiyaç duymadan. Her ortam, kullanıcıların programı her yerde ve her zaman kullanmasına olanak tanımak için tasarlanmıştır."
+    },
+    {
+      "image": "/Konfigurim.svg",
+      "header": "Yapılandırma",
+      "desc": "Program, kullanıcılara ve yöneticilere yardımcı olan bir dizi yapılandırmayla zengindir. Yapılandırmalar, programın davranışını her işletmenin ihtiyaçlarına göre ayarlama olanağı sağlar."
+    },
+    {
+      "image": "/perdorues-abonime-te-drejta.svg",
+      "header": "Abonelikler",
+      "desc": "Kullanıcılar, POS.al programındaki abonelik durumunu, sona erme tarihini ve kullandıkları hizmetleri görebilir. Modüller eklenip, yeniden abonelik yapılabilir ve kesintisiz çalışma sürekliliğini garanti etmek için çevrimiçi ödeme etkinleştirilebilir."
     },
     {
       "image": "/Shpenzimet.svg",
-      "header" : "Shpenzimet",
-      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
+      "header": "Giderler",
+      "desc": "Bu modül, kullanıcıların maaşlar, hizmet ödemeleri, kira vb. gibi giderlerini kaydetme olanağı sunar. Bu sayede, iş yönetimi sürekli olarak mali durumları hakkında bilgi sahibi olacaktır."
     },
     {
       "image": "/webhook.svg",
-      "header" : "Web Hook",
-      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
+      "header": "Web Hook",
+      "desc": "Webhook, programda belirli bir eylemin gerçekleştiği her seferde harici bir servise bildirim göndermeyi mümkün kılan teknik bir modüldür. Örneğin, satış kaydı, nakit kaydı, ödeme vb."
     },
     {
-      "image": "/Artikuj.svg",
-      "header" : "Artikuj",
-      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
+      "image": "/raporte.svg",
+      "header": "Raporlar",
+      "desc": "Analitik ve detaylı bilgiler için program, raporlar modülü ile donatılmıştır. Burada, satışlar, yükümlülükler, müşteriler, ürünler ve daha birçok şey için raporlar ve analizler bulabilirsiniz."
     }
-    
   ]
 }

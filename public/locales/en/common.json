@@ -5,13 +5,12 @@
   "Titles": {
     "features": "Features",
     "modules": "Modules"
-
   },
   "HeaderNav": [
-    { "title": "Price", "id": "#pricing" ,"onPage": true},
-    { "title": "Help", "id": "https://posal.tawk.help","onPage": false },
-    { "title": "Modules", "id": "/modules" ,"onPage": true},
-    { "title": "Contact", "id": "#contact" ,"onPage": true}
+    { "title": "Price", "id": "#pricing", "onPage": true },
+    { "title": "Help", "id": "https://posal.tawk.help", "onPage": false },
+    { "title": "Modules", "id": "/modules", "onPage": true },
+    { "title": "Contact", "id": "#contact", "onPage": true }
   ],
   "FirstAd": {
     "header": "POS System"
@@ -67,7 +66,7 @@
       "desc": "9 person.",
       "price": "9.800",
       "priceButton": "Provoni Pos",
-      "priceExtra" : "8,600 ALL/Year POS \n 1,200 ALL/Year Fikalizimi",
+      "priceExtra": "8,600 ALL/Year POS \n 1,200 ALL/Year Fikalizimi",
       "service": "Shërbimi Pos"
     },
     {
@@ -88,50 +87,50 @@
   },
   "ThirdAd": {
     "header": "Program POS",
-    "title":"POS Program Effective Solutions for Your Business "
+    "title": "POS Program Effective Solutions for Your Business "
   },
   "Features": [
     {
-    "desc": "Market, Shop",
-    "image": "/market.png",
-    "imagePositionLeft": true,
-    "extraTitle": "Business",
-    "extraDesc": "Food \n Office supplies \n Boutique \n Building materials \n Tobacco shop \n Kiosks",
-    "secondTitle": "Features",
-    "secondDesc": "Barcode \n Price import/modification \n Shift reports \n Sales reports \n Draft sales",
-    "locate": "https://posal.tawk.help/article/how-to-change-the-store-appearance"
+      "desc": "Market, Shop",
+      "image": "/market.png",
+      "imagePositionLeft": true,
+      "extraTitle": "Business",
+      "extraDesc": "Food \n Office supplies \n Boutique \n Building materials \n Tobacco shop \n Kiosks",
+      "secondTitle": "Features",
+      "secondDesc": "Barcode \n Price import/modification \n Shift reports \n Sales reports \n Draft sales",
+      "locate": "https://posal.tawk.help/article/how-to-change-the-store-appearance"
     },
     {
-    "desc": "Bar, Restaurant, Hotel",
-    "image": "/restorant.png",
-    "imagePositionLeft": true,
-    "extraTitle": "Horeca",
-    "extraDesc": "Bar \n Restaurant \n Hotel \n Beach \n Tourist services",
-    "secondTitle": "Features",
-    "secondDesc": "Table-based orders \n Room-based orders \n Sales reports for rooms & tables",
-    "locate": "https://posal.tawk.help/article/how-to-make-a-sale-for-a-bar-restaurant"
+      "desc": "Bar, Restaurant, Hotel",
+      "image": "/restorant.png",
+      "imagePositionLeft": true,
+      "extraTitle": "Horeca",
+      "extraDesc": "Bar \n Restaurant \n Hotel \n Beach \n Tourist services",
+      "secondTitle": "Features",
+      "secondDesc": "Table-based orders \n Room-based orders \n Sales reports for rooms & tables",
+      "locate": "https://posal.tawk.help/article/how-to-make-a-sale-for-a-bar-restaurant"
     },
     {
-    "desc": "Professional Services",
-    "image": "/coffe.png",
-    "imagePositionLeft": true,
-    "extraTitle": "Services",
-    "extraDesc": "Freelancer \n Economist \n Lawyer \n Engineer",
-    "secondTitle": "Features",
-    "secondDesc": "Total value sales \n Simplified, minimalist view",
-    "locate": "https://posal.tawk.help/article/how-to-create-a-service-item"
+      "desc": "Professional Services",
+      "image": "/coffe.png",
+      "imagePositionLeft": true,
+      "extraTitle": "Services",
+      "extraDesc": "Freelancer \n Economist \n Lawyer \n Engineer",
+      "secondTitle": "Features",
+      "secondDesc": "Total value sales \n Simplified, minimalist view",
+      "locate": "https://posal.tawk.help/article/how-to-create-a-service-item"
     },
     {
-    "desc": "Various Services",
-    "image": "/gym.png",
-    "imagePositionLeft": true,
-    "extraTitle": "Aesthetics",
-    "extraDesc": "Aesthetic center \n Barber \n Gym \n SPA",
-    "secondTitle": "Features",
-    "secondDesc": "Phone-based work \n Simplified view",
-    "locate": "https://posal.tawk.help/article/how-to-change-the-store-appearance"
+      "desc": "Various Services",
+      "image": "/gym.png",
+      "imagePositionLeft": true,
+      "extraTitle": "Aesthetics",
+      "extraDesc": "Aesthetic center \n Barber \n Gym \n SPA",
+      "secondTitle": "Features",
+      "secondDesc": "Phone-based work \n Simplified view",
+      "locate": "https://posal.tawk.help/article/how-to-change-the-store-appearance"
     }
-    ],
+  ],
   "Blog": [
     {
       "title": "What is the Fiscalism Program?",
@@ -321,85 +320,64 @@
   ],
   "PosModules": [
     {
-      "image": "/posfiscal.svg",
-      "header" : "Fiskalizimi",
-      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
-    },
-    {
       "image": "/arka.svg",
-      "header" : "Arka",
-      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
-    },
-    {
-      "image": "/raporte.svg",
-      "header" : "Raporte",
-      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
+      "header": "Cash Register",
+      "desc": "This module enables automatic recording of cash-related actions as soon as a sale is registered. Meanwhile, you can manually add archive documents/payments and assign the invoice you are liquidating."
     },
     {
       "image": "/shitje.svg",
-      "header" : "Shitje",
-      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
-    },
-    {
-      "image": "/bar.svg",
-      "header" : "Bar / Bar Mobile",
-      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
+      "header": "Sales",
+      "desc": "The program simplifies the recording of sales and adapts to various types of businesses such as markets, stores, bars, restaurants, services, and many others. The program is configured with several different views to accommodate these businesses."
     },
     {
       "image": "/çmime.svg",
-      "header" : "Çmime",
-      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
+      "header": "Prices",
+      "desc": "The price adjustment environment allows the user to set sales prices easily, similar to using the popular 'Excel' program. Additionally, the program enables setting prices by hour and time/date intervals."
     },
     {
-      "image": "/dashboard.svg",
-      "header" : "Dashboard",
-      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
-    },
-    {
-      "image": "/faturim.svg",
-      "header" : "Faturim",
-      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
-    },
-    {
-      "image": "/market.svg",
-      "header" : "Market",
-      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
-    },
-    {
-      "image": "/mobile.svg",
-      "header" : "Mobile",
-      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
-    },
-    {
-      "image": "/perdorues-abonime-te-drejta.svg",
-      "header" : "Abonime",
-      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
-    },
-    {
-      "image": "/Konfigurim.svg",
-      "header" : "Konfigurim",
-      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
+      "image": "/banka.svg",
+      "header": "Bank",
+      "desc": "The bank module allows the registration of withdrawals and deposits from bank accounts. Users can view the list of invoices and their payment statuses. It also allows choosing to liquidate sales invoices individually or in groups."
     },
     {
       "image": "/Inventari.svg",
-      "header" : "Inventari",
-      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
+      "header": "Inventory",
+      "desc": "The inventory module enables the administration of items and their status according to warehouses and other characteristics such as color, size, expiration date, etc. The environments are designed to be simple and highly functional."
+    },
+    {
+      "image": "/posfiscal.svg",
+      "header": "Fiscalization",
+      "desc": "The program is certified by AKSHI and DPT for issuing fiscal invoices, both with and without cash in hand, cash register recordings, electronic invoices, etc. The program performs these processes automatically and very quickly."
+    },
+    {
+      "image": "/mobile.svg",
+      "header": "Mobile",
+      "desc": "At POS.al, you can make sales using your phone without the need for additional devices. Each environment is designed to allow users to use the program anywhere and at any time."
+    },
+    {
+      "image": "/Konfigurim.svg",
+      "header": "Configuration",
+      "desc": "The program is rich in a series of configurations that assist users and administrators. Configurations allow adjusting the program's behavior according to the needs of each business."
+    },
+    {
+      "image": "/perdorues-abonime-te-drejta.svg",
+      "header": "Subscriptions",
+      "desc": "Users can see the subscription status, expiration date, and services they use in the POS.al program. Modules can be added, re-subscription can be done, and online payment is enabled, ensuring uninterrupted work continuity."
     },
     {
       "image": "/Shpenzimet.svg",
-      "header" : "Shpenzimet",
-      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
+      "header": "Expenses",
+      "desc": "This module offers users the ability to record their expenses, such as salaries, service payments, rents, and many others. Thus, business management will have continuous information about their financial situation."
     },
     {
       "image": "/webhook.svg",
-      "header" : "Web Hook",
-      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
+      "header": "Web Hook",
+      "desc": "Webhook is a technical module that allows notification to an external service whenever a specific action occurs in the program, such as sales registration, cash register registration, payment, etc."
     },
     {
-      "image": "/Artikuj.svg",
-      "header" : "Artikuj",
-      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
+      "image": "/raporte.svg",
+      "header": "Reports",
+      "desc": "For analytical and detailed information, the program is equipped with the reports module. Here, you can find reports and analyses for sales, obligations, customers, items, and many more."
     }
-    
   ]
 }

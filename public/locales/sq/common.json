@@ -13,7 +13,7 @@
   "HeaderNav": [
     { "title": "Çmimet", "id": "#pricing" ,"onPage": true},
     { "title": "Ndihma Online", "id": "https://posal.tawk.help", "onPage": false },
-    { "title": "Modules", "id": "/modules" , "onPage": true},
+    { "title": "Modulet", "id": "/modules" , "onPage": true},
     { "title": "Kontakti", "id": "#contact","onPage": true} 
   ],
 
