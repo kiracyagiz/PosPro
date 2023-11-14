@@ -6,29 +6,29 @@ import ButtonPrimary from "../General/ButtonPrimary";
 import Language from "./Language";
 import Link from "next/link";
 const Header = (props) => {
-  const { header, headerB, locale ,href,isMain} = props;
+  const { header, headerB, locale, href, isMain } = props;
   const [panelOpen, setPanelOpen] = useState(false);
-
 
   const togglePanel = () => {
     setPanelOpen(!panelOpen);
   };
 
+
+
   return (
-    <header
-      className={`header`}
-    >
+    <header className={`header`}>
       <div className="flex w-full lg:justify-evenly mx-auto p-6  animate-slide-down whitespace-nowrap ">
         <div className="items-center flex justify-between ">
-          <Link className="heroRoboto" href={`/${locale}`} >
+          <Link className="heroRoboto" href={`/${locale}`}>
             <p>Pos.</p>
           </Link>
         </div>
         <nav className="items-center hidden md:hidden lg:flex justify-between  list-none roboto700 font-bold  gap-x-10 text-xl">
+        
           {header.map((dt, i) => (
-            <Link href={`${isMain ? dt.id : dt.id}`} key={i} >
+            <Link href={dt.onPage ? `${locale}${dt.id}` : dt.id} key={i} >
               {dt.title}
-              <div className="w-0 bg-black h-under  opacity-0 group-hover:w-full group-hover:opacity-100 transition-all duration-300" />
+              <div className="w-0 bg-black h-under opacity-0 group-hover:w-full group-hover:opacity-100 transition-all duration-300" />
             </Link>
           ))}
 
@@ -39,13 +39,13 @@ const Header = (props) => {
             />
           </div>
 
-            <Language
-              locale={`/sq${href}`}
-              localeEn={`/en${href}`}
-              param={locale}
-              localeTr={`/tr${href}`}
-              headerB= {headerB.button}
-            />
+          <Language
+            locale={`/sq${href}`}
+            localeEn={`/en${href}`}
+            param={locale}
+            localeTr={`/tr${href}`}
+            headerB={headerB.button}
+          />
         </nav>
       </div>
 
@@ -59,21 +59,20 @@ const Header = (props) => {
         <div className="flex flex-col roboto700   text-xl text-center items-center mt-32 gap-y-8">
           <div onClick={togglePanel} className="flex flex-col gap-y-8">
             {header.map((dt, id) => (
-              <a href={`${locale+dt.id}`} key={id} >
+              <a href={`${locale + dt.id}`} key={id}>
                 {dt.title}
               </a>
             ))}
-   
           </div>
 
           <ButtonPrimary text={headerB.button} />
 
           <Language
-              locale={`/sq${href}`}
-              localeEn={`/en${href}`}
-              param={locale}
-              localeTr={`/tr${href}`}
-            />
+            locale={`/sq${href}`}
+            localeEn={`/en${href}`}
+            param={locale}
+            localeTr={`/tr${href}`}
+          />
         </div>
       </div>
     </header>

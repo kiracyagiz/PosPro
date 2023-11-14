@@ -11,10 +11,10 @@
     "modules": "Modulet"
   },
   "HeaderNav": [
-    { "title": "Çmimet", "id": "#pricing" },
-    { "title": "Ndihma Online", "id": "https://posal.tawk.help" },
-    { "title": "Modules", "id": "/modules" },
-    { "title": "Kontakti", "id": "#contact" }
+    { "title": "Çmimet", "id": "#pricing" ,"onPage": true},
+    { "title": "Ndihma Online", "id": "https://posal.tawk.help", "onPage": false },
+    { "title": "Modules", "id": "/modules" , "onPage": true},
+    { "title": "Kontakti", "id": "#contact","onPage": true} 
   ],
 
   "FirstAd": {
@@ -327,128 +327,86 @@
     {
       "image": "/posfiscal.svg",
       "header" : "Fiskalizimi",
-      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
+      "desc": "Programi është i certifikuar nga AKSHI dhe DPT për lëshimin e faturave fiskale, si me para edhe pa para në dorë, regjistrimet e arkës, faturën elektronike, etj. Programi kryen këto procese automatikisht dhe shumë shpejt."
     },
     {
       "image": "/arka.svg",
       "header" : "Arka",
-      "desc": "Në seksionin e Arka, mund të shihni regjistrat e arkës për atë ditë, duke ju lejuar të shqyrtoni transaksionet financiare të kësaj dite. Mund të kryeni lehtësisht pagesa dhe depozita, për menaxhimin e lehtë të financave."
+      "desc": "Ky modul mundëson regjistrimin automatik të veprimeve të arkës, sapo një shitje regjistrohet. Ndërkohe, mund të shtoni dokumenta arketime/pagesa manualisht dhe të caktoni faturën që po likuidoni."
     },
     {
       "image": "/raporte.svg",
       "header" : "Raporte",
-      "desc": "Nëse hasni ndonjë problem në aplikacion, mund të raportoni drejtpërdrejt në seksionin Raporte. Përvoja juaj dhe komentet tuaja na ndihmojnë të përmirësojmë aplikacionin."
+      "desc": "Për informacion analitik dhe më të detajuar, programi është i pajisur me modulin e raporteve. Aty mund të gjeni raporte dhe analiza për shitjet, detyrimet, klientët, artikujt dhe shumë të tjera."
     },
     {
       "image": "/shitje.svg",
       "header" : "Shitje",
-      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
+      "desc": "Programi thjeshton regjistrimin e shitjeve dhe pershtatet me çdo lloj biznesi si market, dyqan, bar, restorant, shërbime dhe shumë të tjera. Në program janë konfiguruar disa pamje të ndryshme për të përshtatur këtyre bizneseve."
     }
   ],
   "PosModules": [
     {
-      "image": "/posfiscal.svg",
-      "header" : "Fiskalizimi",
-      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
+      "image": "/arka.svg",
+      "header" : "Arka",
+      "desc": "Ky modul mundëson regjistrimin automatik të veprimeve të arkës, sapo një shitje regjistrohet. Ndërkohe, mund të shtoni dokumenta arketime/pagesa manualisht dhe të caktoni faturën që po likuidoni."
     },
     {
-      "image": "/bar.svg",
-      "header" : "Bar / Bar Mobile",
-      "desc": "Bar / Bar Mobile ju ndihmon të ndryshoni dizajnin e aplikacionit tuaj në një dizajn tipik të një bari. Në thelb, aplikacioni ynë ofron një pamje të ndryshme për pronarët e bareve. Kështu ju mund ta përdorni atë në mënyrë të përshtatshme për biznesin tuaj."
+      "image": "/shitje.svg",
+      "header" : "Shitje",
+      "desc": "Programi thjeshton regjistrimin e shitjeve dhe pershtatet me çdo lloj biznesi si market, dyqan, bar, restorant, shërbime dhe shumë të tjera. Në program janë konfiguruar disa pamje të ndryshme për të përshtatur këtyre bizneseve."
     },
     {
       "image": "/çmime.svg",
       "header" : "Çmime",
-      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
+      "desc": "Ambjenti i ndryshimit të çmimeve lejon përdoruesin të caktojë çmimet e shitjes në mënyrë të thjeshtë, si të përdorte programin popullor 'Excel'. Gjithashtu, programi mundëson caktimin e çmimeve me orë dhe me intervale kohore/data"
     },
-    {
-      "image": "/dashboard.svg",
-      "header" : "Dashboard",
-      "desc": "Në seksionin e panelit, përdoruesit mund të personalizojnë aplikacionin e tyre sipas preferencave të tyre. Ata mund të shtojnë veçori të reja ose të fshijnë ato që kanë shtuar më parë. Gjithashtu, ata mund të shikojnë historinë e porosive, të ndjekin rrjedhën e parave dhe të ndjekin në kohë reale të gjitha aktualizimet."
-    },
-
-    {
-      "image": "/faturim.svg",
-      "header" : "Faturim",
-      "desc": " Faturim ju ofron mundësinë të shisni produktet tuaja shpejt. Thjesht zgjidhni artikullin dhe sasinë që dëshironi të shisni. Në këtë seksion, gjithashtu mund të përdorni kodin e artikullit tuaj dhe të shtoni shënime shtesë për çdo shitje."
-    },
-        
-    {
-      "image": "/shitje.svg",
-      "header" : "Shitje",
-      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
-    },
-    {
-      "image": "/market.svg",
-      "header" : "Market",
-      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
-    },
-
-    {
-      "image": "/mobile.svg",
-      "header" : "Mobile",
-      "desc": "Mundësia Mobile në aplikacionin tonë ju lejon të kyçeni dhe të bëni shitje duke përdorur telefonin tuaj, pa nevojën e pajisjeve teknologjike shtesë. Me POS.al, ju mund të përdorni komponentin mobil të zhvilluar për qëllimin tuaj, duke ju lejuar të bëni shitje në çdo kohë dhe në çdo vend."
-    },
-    {
-      "image": "/arka.svg",
-      "header" : "Arka",
-      "desc": "Në seksionin e Arka, mund të shihni regjistrat e arkës për atë ditë, duke ju lejuar të shqyrtoni transaksionet financiare të kësaj dite. Mund të kryeni lehtësisht pagesa dhe depozita, për menaxhimin e lehtë të financave."
-    },
-    {
-      "image": "/minimalist.svg",
-      "header" : "Minimalist",
-      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
-    },
-    {
-      "image": "/klient.svg",
-      "header" : "Klient",
-      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
-    },
-
     {
       "image": "/banka.svg",
       "header" : "Banka",
-      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
-    },
-    {
-      "image": "/raporte.svg",
-      "header" : "Raporte",
-      "desc": "Nëse hasni ndonjë problem në aplikacion, mund të raportoni drejtpërdrejt në seksionin Raporte. Përvoja juaj dhe komentet tuaja na ndihmojnë të përmirësojmë aplikacionin."
-    },
-    {
-      "image": "/njoftime.svg",
-      "header" : "Njoftime",
-      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
-    },
-    {
-      "image": "/perdorues-abonime-te-drejta.svg",
-      "header" : "Abonime",
-      "desc": "Aplikacioni ynë ju ofron paketa abonimi të ndryshme, të cilat mund t'i gjeni në seksionin Çmimet. Po ashtu, këto paketa janë përshtatur posaçërisht për kompaninë tuaj dhe janë rregulluar sipas numrit të punonjësve në vendin tuaj të punës."
-    },
-    {
-      "image": "/Konfigurim.svg",
-      "header" : "Konfigurim",
-      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
+      "desc": "Moduli i bankës mundëson regjistrimin e tërheqjeve dhe depozitave nga llogaritë bankare. Përdoruesi mund të shohë listën e faturave dhe statuset e tyre të pagesës. Gjithashtu mund të zgjedhë të likuidojë faturat e shitjes vecmas ose në grup."
     },
     {
       "image": "/Inventari.svg",
       "header" : "Inventari",
-      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
+      "desc": "Moduli i inventarit mundëson administrimin e artikujve dhe gjendjes së tyre sipas magazinave dhe karakteristikave të tjera si ngjyra, madhësi, data e skadencës, etj. Ambientet janë konceptuar të jenë të thjeshtë dhe tepër funkional."
     },
+    {
+      "image": "/posfiscal.svg",
+      "header" : "Fiskalizimi",
+      "desc": "Programi është i certifikuar nga AKSHI dhe DPT për lëshimin e faturave fiskale, si me para edhe pa para në dorë, regjistrimet e arkës, faturën elektronike, etj. Programi kryen këto procese automatikisht dhe shumë shpejt."
+    },
+    {
+      "image": "/mobile.svg",
+      "header" : "Mobile",
+      "desc": "Në POS.al mund të bëni shitje duke përdorur telefonin tuaj, pa nevojën e pajisjeve të tjera shtesë. Çdo ambient është i realizuar në mënyrë që t'i mundësojë përdoruesit ta përdorin programin kudo dhe në çdo kohë"
+    },
+    {
+      "image": "/Konfigurim.svg",
+      "header" : "Konfigurim",
+      "desc": "Programi është i pasur me një seri konfigurimesh të cilat i vijnë në ndihmë përdoruesve dhe administratorëve. Konfigurimet mundësojnë rregullimin e sjelljes së programit sipas nevojave të çdo biznesi."
+    },
+    {
+      "image": "/perdorues-abonime-te-drejta.svg",
+      "header" : "Abonime",
+      "desc": "Përdoruesit mund të shohin statusin e abonimit, datën e skadencës dhe shërbimet që përdorin në programin POS.al. Aty mund të shtohen modulet, kryhet ri-abonimi dhe mundësohet pagesa online duke garantuar vazhdimësinë e punës pa ndërprerje."
+    },
+    
     {
       "image": "/Shpenzimet.svg",
       "header" : "Shpenzimet",
-      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
+      "desc": "Ky modul ofron mundësinë për përdoruesit të regjistrojnë shpenzimet e tyre, si pagat, pagesat e shërbimeve, qiratë, dhe shumë të tjera. Kështu, administrimi i biznesit do të ketë informacion të vazhdueshëm për gjendjen e tyre."
     },
+    
     {
       "image": "/webhook.svg",
       "header" : "Web Hook",
-      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sequi ullam nostrum molestiae tempore veritatis assumenda facilis quasi ipsam? Molestias odio perferendis quibusdam adipisci, laboriosam natus nihil quidem. Reprehenderit, nam."
+      "desc": "Webhook është një modul teknik që mundëson njoftimin e një shërbimi të jashtëm cdo herë që në program ndodh një veprim i caktuar si psh, regjistrimi i shitjes, regjistrimi i arkëtimit, pagësës etj."
     },
     {
-      "image": "/Artikuj.svg",
-      "header" : "Artikuj",
-      "desc": "Seksioni Artikujt ju mundëson të shtoni artikuj të rinj dhe ju ofron një pasqyrë të të gjithë artikujve tuaj ekzistues. Mund të menaxhoni artikujt tuaj duke shtuar të tjerë të rinj, fshirë, lexuar ose redaktuar sipas nevojës."
+      "image": "/raporte.svg",
+      "header" : "Raporte",
+      "desc": "Për informacion analitik dhe më të detajuar, programi është i pajisur me modulin e raporteve. Aty mund të gjeni raporte dhe analiza për shitjet, detyrimet, klientët, artikujt dhe shumë të tjera."
     }
     
   ]

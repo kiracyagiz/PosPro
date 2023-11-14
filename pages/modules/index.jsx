@@ -10,6 +10,7 @@ const Module = () => {
   const { t, i18n } = useTranslation("common");
   const header = t("HeaderNav", { returnObjects: true });
   const headerB = t("Header", { returnObjects: true });
+  const title = t("Titles",{ returnObjects: true })
   const currentLocale = i18n.language;
   const moduleData = t("PosModules", { returnObjects: true });
   return (
@@ -23,7 +24,7 @@ const Module = () => {
 
       />
       <div>
-        <p className="roboto900 my-10 text-center">MODULES</p>
+        <p className="roboto900 my-10 text-center">{title.modules}</p>
       </div>
      <div className=" flex flex-col  lg:flex-row flex-wrap   gap-x-8 p-8 mx-auto justify-center mt-10">
       {moduleData.map((dt,i)=> (

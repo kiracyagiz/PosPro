@@ -3,13 +3,15 @@
     "button": "Login"
   },
   "Titles": {
-    "features": "Features"
+    "features": "Features",
+    "modules": "Modules"
+
   },
   "HeaderNav": [
-    { "title": "Price", "id": "#pricing" },
-    { "title": "Help", "id": "https://posal.tawk.help" },
-    { "title": "Modules", "id": "/modules" },
-    { "title": "Contact", "id": "#contact" }
+    { "title": "Price", "id": "#pricing" ,"onPage": true},
+    { "title": "Help", "id": "https://posal.tawk.help","onPage": false },
+    { "title": "Modules", "id": "/modules" ,"onPage": true},
+    { "title": "Contact", "id": "#contact" ,"onPage": true}
   ],
   "FirstAd": {
     "header": "POS System"

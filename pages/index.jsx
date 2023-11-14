@@ -10,6 +10,8 @@ import Contact from "../components/Contact/Contact";
 import Footer from "../components/Footer/Footer";
 import BackToTopButton from "../components/General/BackToTopButton";
 import PosModule from "../components/PosModules/PosModule";
+import TawkMessengerReact from "@tawk.to/tawk-messenger-react";
+
 const Home = () => {
   const { t, i18n } = useTranslation("common");
   const currentLocale = i18n.language;
@@ -37,6 +39,11 @@ const Home = () => {
       <Contact />
       <Footer />
       <BackToTopButton/>
+      <div >
+            <TawkMessengerReact
+                propertyId="644403d74247f20fefed28f8"
+                widgetId="1gukqu0l3"/>
+        </div>
     </div>
   );
 };

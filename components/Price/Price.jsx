@@ -6,6 +6,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import FirstAd from "../Ads/FirstAd";
 import {BsArrowRightCircleFill,BsArrowLeftCircleFill} from 'react-icons/bs'
+import ButtonPrimary from "../General/ButtonPrimary";
+import Link from "next/link";
 const CustomPrevArrow = (props) => (
   <div
     onClick={props.onClick}
@@ -57,6 +59,19 @@ const Price = () => {
           ))}
         </Slider>
       </div>
+
+
+
+      <div className="text-center">
+      <Link href={`https://app.pos.al/`} >
+      <button
+        className={`text-lg font-bold w-1/4 border-2  text-black bg-primaryYellow hover:bg-black hover:text-primaryYellow px-5 py-2  border-black`}
+       id="button-page">
+        Provo Pos
+      </button>
+    </Link>
+      </div>
+
       <FirstAd />
     </div>
   );

@@ -3,13 +3,14 @@
     "button": "Giriş Yap"
   },
   "Titles": {
-    "features": "Özellikler"
+    "features": "Özellikler",
+    "modules": "Modüller"
   },
   "HeaderNav": [
-    { "title": "Fiyatlandırma", "id": "#pricing" },
-    { "title": "Yardım", "id": "https://posal.tawk.help" },
-    { "title": "Modüller", "id": "/modules" },
-    { "title": "İletişim", "id": "#contact" }
+    { "title": "Fiyatlandırma", "id": "#pricing","onPage": true },
+    { "title": "Yardım", "id": "https://posal.tawk.help" ,"onPage": false},
+    { "title": "Modüller", "id": "/modules","onPage": true },
+    { "title": "İletişim", "id": "#contact" ,"onPage": true}
   ],
 
   "Hero": {
