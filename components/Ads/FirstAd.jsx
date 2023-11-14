@@ -13,7 +13,7 @@ const FirstAd = () => {
   return (
     <div className="flex flex-col   py-4 md:flex-row">
         <Image src={firstadimg} alt="pos" className="hidden lg:block"/>
-      <div className=" w-screen lg:w-2/3 flex  flex-col bg-primaryYellow items-center gap-y-8 text-center">
+      <div className="  lg:w-2/3 flex  flex-col bg-primaryYellow items-center gap-y-8 text-center">
         <div>
           <h3 className="roboto700 text-2xl mt-2">{firstAd.header}</h3>
         </div>

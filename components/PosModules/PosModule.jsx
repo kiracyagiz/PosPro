@@ -6,6 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 import CustomPrevArrow from "../General/CustomPrevArrow";
 import CustomNextArrow from "../General/CustomNextArrow";
 import PosCards from "./PosCards";
+import PriceBox from "../Price/PriceBox";
 const PosModule = () => {
   const { t } = useTranslation("common");
   const moduleData = t("common:PosModulesLanding", { returnObjects: true });
@@ -30,15 +31,15 @@ const PosModule = () => {
 
         <div className=" hidden lg:flex justify-between lg:mx-24  md:gap-x-4  gap-y-12 ">
           {moduleData.map((dt, i) => (
-            <PosCards key={i} dt={dt} isModule={true} isPage={false} />
+            <PriceBox key={i} dt={dt} isModule={true} isPage={false} />
           ))}
           
         </div>
       </div>
-      <div className="  mx-auto p-14 md:px-40  lg:text-md lg:p-20 block  lg:hidden">
+      <div className="  mx-auto p-8 md:px-40 lg:p-20 block  lg:hidden">
         <Slider {...settings}>
           {moduleData.map((dt, i) => (
-            <PosCards dt={dt}  isPage={false} key={i} isModule={true} />
+            <PriceBox dt={dt}  isPage={false} key={i} isModule={true} />
           ))}
         </Slider>
       </div>
