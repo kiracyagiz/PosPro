@@ -49,7 +49,7 @@ const PriceBox = ({ dt ,isModule }) => {
           <p>{dt.service}</p>
         </div>
         <div className="flex flex-col  gap-x-2 text-[10px] text-gray-600 mt-20">
-          <p className="mb-2">Detaje të cmimit</p>
+          <p className="mb-2">{dt.note}</p>
           <p className=" whitespace-pre-line">
             {dt.priceExtra?.replace(/\n/g, "\n")}
           </p>

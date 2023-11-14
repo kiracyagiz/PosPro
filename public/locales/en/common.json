@@ -46,39 +46,40 @@
       "monthly": "Year.",
       "header": "Single",
       "desc": "1 person",
-      "priceButton": "Provoni Pos",
       "price": "5.900",
-      "priceExtra": "5,000 ALL/Year POS \n 900 ALL/Year Fikalizimi",
-      "service": "Shërbimi Pos"
+      "priceExtra": "5,000 ALL/Year POS \n 900 ALL/Year Fiscalization",
+      "service": "Pos Service",
+      "note": "Detail of price"
+
     },
     {
       "monthly": "Year.",
       "header": "Small",
       "desc": "3 person.",
       "price": "7.800",
-      "priceExtra": "6,800 ALL/Year POS \n 1000  ALL/Year Fikalizimi",
-      "priceButton": "Provoni Pos",
-      "service": "Shërbimi Pos"
+      "priceExtra": "6,800 ALL/Year POS \n 1000  ALL/Year Fiscalization",
+      "service": "Pos Service",
+      "note": "Detail of price"
+
     },
     {
       "monthly": "Year.",
       "header": "Medium",
       "desc": "9 person.",
       "price": "9.800",
-      "priceButton": "Provoni Pos",
-      "priceExtra": "8,600 ALL/Year POS \n 1,200 ALL/Year Fikalizimi",
-      "service": "Shërbimi Pos"
+      "priceExtra": "8,600 ALL/Year POS \n 1,200 ALL/Year Fiscalization",
+      "service": "Pos Service",
+      "note": "Detail of price"
+
     },
     {
       "monthly": "Year.",
       "header": "Business",
-      "title": "Çfarë përfshihet",
       "desc": "10 person.",
       "price": "11.900",
-      "priceExtra": "10,000 ALL/Year POS \n 1,900 ALL/Year Fikalizimi",
-      "priceButton": "Provoni Pos",
-      "service": "Shërbimi Pos",
-      "extra": "Përdorues shtesë(500ALL/ për përdorues)"
+      "priceExtra": "10,000 ALL/Year POS \n 1,900 ALL/Year Fiscalization",
+      "service": "Pos Service",
+      "note": "Detail of price" 
     }
   ],
   "SecondAd": {
@@ -316,6 +317,30 @@
       "image": "/productManagement.jpg",
       "location": "https://posal.tawk.help/article/si-te-krijosh-nje-artikull-sherbimi",
       "button": "Visit Now"
+    }
+  ],
+
+  "PosModulesLanding": [
+   
+    {
+      "image": "/posfiscal.svg",
+      "header" : "Fiscalization",
+      "desc": "The program is certified by AKSHI and DPT for issuing fiscal invoices, both with and without cash in hand, cash register recordings, electronic invoices, etc. The program performs these processes automatically and very quickly."
+    },
+    {
+      "image": "/arka.svg",
+      "header" : "Cash Register",
+      "desc": "This module enables automatic recording of cash-related actions as soon as a sale is registered. Meanwhile, you can manually add archive documents/payments and assign the invoice you are liquidating"
+    },
+    {
+      "image": "/raporte.svg",
+      "header" : "Reports",
+      "desc": "For analytical and detailed information, the program is equipped with the reports module. Here, you can find reports and analyses for sales, obligations, customers, items, and many more"
+    },
+    {
+      "image": "/shitje.svg",
+      "header" : "Sales",
+      "desc": "The program simplifies the recording of sales and adapts to various types of businesses such as markets, stores, bars, restaurants, services, and many others. The program is configured with several different views to accommodate these businesses."
     }
   ],
   "PosModules": [

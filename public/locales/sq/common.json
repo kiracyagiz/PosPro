@@ -50,7 +50,8 @@
       "priceButton": "Provoni Pos",
       "price": "5.900",
       "priceExtra": "5,000 ALL/Vit POS \n 900 ALL/Vit Fiskalizim",
-      "service": "Shërbimi Pos"
+      "service": "Shërbimi Pos",
+      "note": "Detaje të cmimit"
     },
     {
       "monthly": "Vit.",
@@ -59,7 +60,9 @@
       "price": "7.800",
       "priceExtra": "6,800 ALL/Vit POS \n 1000  ALL/Vit Fiskalizim",
       "priceButton": "Provoni Pos",
-      "service": "Shërbimi Pos"
+      "service": "Shërbimi Pos",
+      "note": "Detaje të cmimit"
+
     },
     {
       "monthly": "Vit.",
@@ -68,7 +71,9 @@
       "price": "9.800",
       "priceButton": "Provoni Pos",
       "priceExtra" : "8,600 ALL/Vit POS \n 1,200 ALL/Vit Fiskalizim",
-      "service": "Shërbimi Pos"
+      "service": "Shërbimi Pos",
+      "note": "Detaje të cmimit"
+
     },
     {
       "monthly": "Vit.",
@@ -79,7 +84,9 @@
       "priceExtra": "10,000 ALL/Vit POS \n 1,900 ALL/Vit Fiskalizim",
       "priceButton": "Provoni Pos",
       "service": "Shërbimi Pos",
-      "extra": "Përdorues shtesë(500ALL/ për përdorues)"
+      "extra": "Përdorues shtesë(500ALL/ për përdorues)",
+      "note": "Detaje të cmimit"
+
     }
   ],
   "SecondAd": {

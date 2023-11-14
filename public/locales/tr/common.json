@@ -30,7 +30,7 @@
     "header": "Hakkımızda",
     "title": "Biz Kimiz?",
     "desc": "Pos.al'a hoş geldiniz ! Biz, kafe, restoran ve sipariş yönetimi için programlar konusunda uzmanlaşmış bir teknoloji şirketiyiz. İnovasyona ve müşteri memnuniyetine adanmışız, bu alanlardaki işletmelerin işleyişlerini geliştirmek ve müşteri deneyimini artırmak isteyen işletmeler için güvenilir bir ortak olarak önemli bir rol oynuyoruz.Misyonumuz, işletmelerin kafe, restoran ve sipariş yönetiminde işleyişlerini değiştirmektir. Gelişmiş teknoloji ve kullanıcı dostu bir arayüz kullanarak güçlü bir platform oluşturuyoruz ve işletmelerin bu sektörlerde rekabetçi bir pazarda başarılı olmalarına yardımcı oluyoruz.",
-    "button": "About Sayfasına Git",
+    "button": "Hakkımızda",
     "headerYoutube": "Youtube üzerinde videolarımız var.",
     "descYoutube": "Pos Al'ı nasıl kullanacağınızı öğrenebilirsiniz."
   },
@@ -39,38 +39,44 @@
   },
   "PriceInfo": [
     {
-      "monthly": "Muaj",
-      "header": "Pos",
-      "desc": "Akses në platformën Pos.",
-      "priceButton": "Provoni Pos",
-      "price": "400",
-      "priceExtra": "(2,000 ALL/Vit POS, 2,800 ALL/Vit FISC)"
+      "monthly": "Yıllık.",
+      "header": "Single",
+      "desc": "1 Kişi",
+      "price": "5.900",
+      "priceExtra": "5,000 ALL/Yıllık POS \n 900 ALL/Yıllık Fikalizasyon",
+      "service": "Pos Hizmeti",
+      "note": "Fiyat detayları"
 
     },
     {
-      "monthly": "Muaj",
-      "header": "Pos + Cash",
-      "desc": "Akses në Pos + fiskalizimin cash.",
-      "price": "200",
-      "priceExtra": "(2,000 ALL/Vit POS, 2,800 ALL/Vit FISC)",
-      "priceButton": "Provoni Pos"
+      "monthly": "Yıllık.",
+      "header": "Small",
+      "desc": "3 Kişi.",
+      "price": "7.800",
+      "priceExtra": "6,800 ALL/Yıllık POS \n 1000  ALL/Yıllık Fikalizasyon",
+      "priceButton": "Provoni Pos",
+      "service": "Pos Hizmeti",
+      "note": "Fiyat detayları"
+
     },
     {
-      "monthly": "Muaj",
-      "header": "Pos + E-Invoice",
-      "desc": "Akses në Pos, cash dhe e-invoice.",
-      "price": "200",
-      "priceExtra": "(2,000 ALL/Vit POS, 2,800 ALL/Vit FISC)",
-      "priceButton": "Provoni Pos"
+      "monthly": "Yıllık.",
+      "header": "Medium",
+      "desc": "9 Kişi.",
+      "price": "9.800",
+      "priceExtra": "8,600 ALL/Yıllık POS \n 1,200 ALL/Yıllık Fikalizasyon",
+      "service": "Pos Hizmeti",
+      "note": "Fiyat detayları"
+
     },
     {
-      "monthly": "Muaj",
-      "header": "Fiskalizim Rest API",
-      "title": "Çfarë përfshihet",
-      "desc": "Akses në shërbimet Rest API, cash, jo-cash, e-invoice",
-      "price": "500",
-      "priceExtra": "(2,000 ALL/Vit POS, 2,800 ALL/Vit FISC)",
-      "priceButton": "Provoni Pos"
+      "monthly": "Yıllık.",
+      "header": "Business",
+      "desc": "10 Kişi.",
+      "price": "11.900",
+      "priceExtra": "10,000 ALL/Yıllık POS \n 1,900 ALL/Yıllık Fikalizasyon",
+      "service": "Pos Hizmeti",
+      "note": "Fiyat detayları" 
     }
   ],
   "SecondAd": {
@@ -307,6 +313,29 @@
       "button":"Ziyaret Edin"
 
 
+    }
+  ],
+  "PosModulesLanding": [
+   
+    {
+      "image": "/posfiscal.svg",
+      "header" : "Fiskalizasyon",
+      "desc": "Program, AKSHI ve DPT tarafından mali faturaların düzenlenmesi için hem elden para hem de elden para olmadan, nakit kayıtlar, elektronik faturalar vb. için sertifikalıdır. Program, bu işlemleri otomatik olarak ve çok hızlı bir şekilde gerçekleştirir."
+    },
+    {
+      "image": "/arka.svg",
+      "header" : "Nakit Kayıt",
+      "desc": "Bu modül, bir satış kaydedildiği anda nakit ile ilgili eylemlerin otomatik olarak kaydedilmesini sağlar. Bu arada, arşiv belgelerini/ödemelerini manuel olarak ekleyebilir ve likide ettiğiniz faturayı atayabilirsiniz."
+    },
+    {
+      "image": "/raporte.svg",
+      "header" : "Raporlar",
+      "desc": "Analitik ve detaylı bilgiler için program, raporlar modülü ile donatılmıştır. Burada, satışlar, yükümlülükler, müşteriler, ürünler ve daha birçok şey için raporlar ve analizler bulabilirsiniz."
+    },
+    {
+      "image": "/shitje.svg",
+      "header" : "Satışlar",
+      "desc": "Program, satış kayıtlarını basitleştirir ve marketler, mağazalar, barlar, restoranlar, hizmetler ve birçok başka iş türüne uyum sağlar. Program, bu işletmelere uyum sağlamak için birkaç farklı görünümle yapılandırılmıştır."
     }
   ],
   "PosModules": [
