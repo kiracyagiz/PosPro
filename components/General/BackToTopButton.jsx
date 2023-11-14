@@ -26,8 +26,8 @@ const BackToTopButton = () => {
   return (
     <div>
         {backToTop && (
-            <button className="fixed bottom-1 z-50 right-0 p-4" onClick={scrollUp}>
-                <BsFillArrowUpCircleFill size={35} className="text-primaryYellow bg-black rounded-full"/>
+            <button className="fixed bottom-20 z-50 right-0 p-8" onClick={scrollUp}>
+                <BsFillArrowUpCircleFill size={50} className="text-primaryYellow bg-black rounded-full"/>
             </button>
         )}
     </div>
