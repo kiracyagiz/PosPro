@@ -3,9 +3,9 @@ import TextPrimary from "../General/TextPrimary";
 const AboutPage = ({about}) => {
  
   return (
-    <div className="bg-gray-100">
+    <div className="bg-gray-100 h-fit">
    <div className="bg-gray-100 py-14 h-full ">
-        <div className=" mx-auto flex gap-y-3 flex-col max-w-3xl p-12 rounded-lg shadow-2xl border border-gray-200 p bg-white">
+        <div className=" m-auto flex gap-y-3 flex-col max-w-3xl p-12 rounded-lg shadow-2xl border border-gray-200 p bg-white">
           <h2 className=" aboutTitle text-center mb-4">{about.title}</h2>
           <p className="roboto400 text-lg leading-7 text-primaryAbout">
             {about.desc1}
@@ -22,7 +22,7 @@ const AboutPage = ({about}) => {
           </div>
         </div>
       </div>
-   
+
     </div>
   );
 };

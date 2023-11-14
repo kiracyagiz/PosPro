@@ -12,7 +12,7 @@ const About = () => {
   const about = t("AboutPage",{returnObjects: true})
 
   return (
-    <div>
+    <div className=" bg-gray-100">
       <Header
         header={header}
         headerB={headerB}
@@ -21,7 +21,7 @@ const About = () => {
         isMain={false}
       />
       <AboutPage about={about} />
-      <Footer/>
+      <Footer />
     </div>
   );
 };

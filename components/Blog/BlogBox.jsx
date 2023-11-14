@@ -21,7 +21,7 @@ const BlogBox = ({offerData}) => {
           </div>
           
           <div className="w-full lg:w-3/5 lg:px-3">
-            <p className="text-md roboto400  mt-4 lg:mt-0 text-justify md:text-left text-sm">
+            <p className=" roboto400  mt-4 lg:mt-0 text-justify md:text-left text-xs lg:text-sm">
             {offerData.desc}
             </p>
           </div>
