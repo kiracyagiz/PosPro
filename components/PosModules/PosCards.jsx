@@ -21,7 +21,7 @@ const PosCards = ({ dt, isModule, isPage }) => {
       </div>
 
       <div >
-        <p className="px-8  py-4 text-xs lg:text-sm roboto400 ">{dt.desc}</p>
+        <p className={`px-8  py-4  ${isPage ? 'text-md' : 'text-xs'}  lg:text-sm roboto400 `}>{dt.desc}</p>
       </div>
   
       <Link
