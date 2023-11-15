@@ -63,13 +63,8 @@ const Price = () => {
 
 
       <div className="text-center">
-      <Link href={`https://app.pos.al/`} >
-      <button
-        className={`text-lg font-bold w-1/2 lg:w-1/4 border-2  mt-4 text-black bg-primaryYellow hover:bg-black hover:text-primaryYellow px-5 py-2  border-black`}
-       id="button-page">
-        {price.button}
-      </button>
-    </Link>
+      <ButtonPrimary text={price.button} locate={'https://app.pos.al/'} width={'w-1/2 lg:w-1/4'}/>
+
       </div>
 
       <FirstAd />

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ButtonPrimary from "../General/ButtonPrimary";
 
 const BlogBox = ({offerData}) => {
   return (
@@ -28,7 +29,7 @@ const BlogBox = ({offerData}) => {
           
           <div className="w-full  lg:w-1/5 mt-6 lg:mt-0 lg:px-4 text-center md:text-left">
             <Link href={offerData.location} target="_blank">
-            <button className="roboto700   bg-white hover:bg-primaryYellow hover:text-white border-2 border-black border-grey  px-2 lg:px-0 lg:w-full  py-2">{offerData.button}</button>
+              <ButtonPrimary text={offerData.button} width={'w-fit'} fontStyle={'text-sm roboto400'}/>
             </Link>
           </div>
         </div>

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { AiFillCheckCircle, AiFillThunderbolt } from "react-icons/ai";
 import Link from "next/link";
+import ButtonPrimary from "../General/ButtonPrimary";
 const PriceBox = ({ dt ,isModule }) => {
   return (
     <div className= "   w-70  h-405  mt-8  bg-white border-2  relative border-gray-500 rounded-lg mx-auto cursor-default flex flex-col gap-y-2 ">
@@ -64,9 +65,7 @@ const PriceBox = ({ dt ,isModule }) => {
         href={`/modules`}
         className={`${isModule ? "block" : "hidden"} text-center absolute bottom-0 w-full  `}
       >
-        <button className="bg-primaryYellow  mx-auto text-center  mb-2  border-2 left-7 border-black  p-1 w-4/5">
-          {dt.button}
-        </button>
+        <ButtonPrimary text={dt.button} width={'w-1/2 mb-3'}/>
       </Link>
 
     </div>

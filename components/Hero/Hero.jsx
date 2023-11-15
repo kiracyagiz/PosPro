@@ -17,7 +17,7 @@ const Hero = () => {
         <div className="text-center items-center flex flex-col gap-y-4 mt-6"> 
         <p className="roboto700 text-3xl ">{hero.title}</p>
         <TextPrimary text={hero.desc} font={'text-2xl'} fontStyle={'font-bold'}/>
-        <ButtonPrimary text={hero.heroButton} fontStyle={"font-bold "} locate={'https://app.pos.al/'}/>
+        <ButtonPrimary text={hero.heroButton} fontStyle={"font-bold "} locate={'https://app.pos.al/'} width={'w-fit'}/>
 
       </div>
         <div className=" py-14  items-center flex justify-center">
