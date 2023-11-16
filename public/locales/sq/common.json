@@ -50,7 +50,7 @@
       "desc": "1 person",
       "priceButton": "Provoni Pos",
       "price": "5.900",
-      "priceExtra": "5,000 ALL/Vit POS \n 900 ALL/Vit Fiskalizim",
+      "priceExtra": "5,000 ALL/Vit POS \n 900 ALL/Vit Fiskalizimi",
       "service": "Shërbimi Pos",
       "note": "Detaje të cmimit"
     },
@@ -59,7 +59,7 @@
       "header": "Small",
       "desc": "3 person.",
       "price": "7.800",
-      "priceExtra": "6,800 ALL/Vit POS \n 1000  ALL/Vit Fiskalizim",
+      "priceExtra": "6,800 ALL/Vit POS \n 1000  ALL/Vit Fiskalizimi",
       "priceButton": "Provoni Pos",
       "service": "Shërbimi Pos",
       "note": "Detaje të cmimit"
@@ -72,7 +72,7 @@
       "desc": "9 person.",
       "price": "9.800",
       "priceButton": "Provoni Pos",
-      "priceExtra" : "8,600 ALL/Vit POS \n 1,200 ALL/Vit Fiskalizim",
+      "priceExtra" : "8,600 ALL/Vit POS \n 1,200 ALL/Vit Fiskalizimi",
       "service": "Shërbimi Pos",
       "note": "Detaje të cmimit"
 
@@ -84,7 +84,7 @@
       "title": "Çfarë përfshihet",
       "desc": "10 person.",
       "price": "11.900",
-      "priceExtra": "10,000 ALL/Vit POS \n 1,900 ALL/Vit Fiskalizim",
+      "priceExtra": "10,000 ALL/Vit POS \n 1,900 ALL/Vit Fiskalizimi",
       "priceButton": "Provoni Pos",
       "service": "Shërbimi Pos",
       "extra": "Përdorues shtesë(500ALL/ për përdorues)",
