@@ -8,7 +8,7 @@ const SecondAd = () => {
   const {t} = useTranslation("common");
   const secondAd= t("SecondAd",{returnObjects:true})
   return (
-    <div className="flex flex-col md:flex-row mt-14">
+    <div className="flex flex-col md:flex-row mt-14 ">
       <div className="w-8/12 hidden lg:block ">
         <Image src={section2}  alt="programme-per-restoran"/>
       </div>
