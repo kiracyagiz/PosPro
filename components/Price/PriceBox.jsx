@@ -61,12 +61,17 @@ const PriceBox = ({ dt ,isModule }) => {
         <p className={`px-8  py-4  text-sm roboto400 `}>{dt.desc}</p>
       </div>
 
-      <Link
-        href={`/modules`}
-        className={`${isModule ? "block" : "hidden"} text-center absolute bottom-0 w-full  `}
+
+      <div 
+      
+      className={`${isModule ? "block" : "hidden"} text-center absolute bottom-0 w-full  `}
+      
       >
-        <ButtonPrimary text={dt.button} width={'w-1/2 mb-3'}/>
-      </Link>
+        <ButtonPrimary text={dt.button} width={'w-1/2 mb-3'} locate={'/modules'}/>
+        
+      </div>
+     
+
 
     </div>
   );

@@ -28,9 +28,7 @@ const BlogBox = ({offerData}) => {
           </div>
           
           <div className="w-full  lg:w-1/5 mt-6 lg:mt-0 lg:px-4 text-center md:text-left">
-            <Link href={offerData.location} target="_blank">
-              <ButtonPrimary text={offerData.button} width={'w-fit'} fontStyle={'text-sm roboto400'}/>
-            </Link>
+              <ButtonPrimary text={offerData.button} width={'w-fit'} locate={offerData.location} fontStyle={'text-sm roboto400'}/>
           </div>
         </div>
       </div>
