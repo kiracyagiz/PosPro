@@ -19,21 +19,21 @@ const FeaturesCard = ({ dt }) => {
             height={800}
           ></Image>
         </div>
-        <div className="flex flex-col  my-10 lg:my-0">
-          <p className="text-featuresH font-bold  mx-auto lg:mx-0   max-w-sm roboto700  mb-6">
+        <div className="flex flex-col m-auto w-2/3 lg:m-0 lg:w-fit  my-10  lg:my-0">
+          <p className="text-featuresH font-bold  lg:mx-0   max-w-sm roboto700  mb-6">
             {dt.desc}
           </p>
-          <div className=" gap-y-10 flex flex-col  lg:flex-row mx-auto lg:mx-0  gap-x-10 lg:gap-x-8">
+          <div className=" gap-y-10 flex flex-col  lg:flex-row  lg:mx-0  gap-x-10 lg:gap-x-8">
             <FeaturesDesc title={dt.extraTitle} desc={dt.extraDesc}  />
             <FeaturesDesc title={dt.secondTitle} desc={dt.secondDesc} />
             
             <Link href={dt.locate} target="_blank" className="block lg:hidden"  >
-            <BsBoxArrowUpRight size={25} className="mt-2" s/>
+            <BsBoxArrowUpRight size={25} className="mt-2" />
           </Link>
           </div>
 
           <Link href={dt.locate} target="_blank" className="hidden lg:block"  >
-            <BsBoxArrowUpRight size={25} className="mt-8" s/>
+            <BsBoxArrowUpRight size={25} className="mt-8" />
           </Link>
         </div>
       </div>
