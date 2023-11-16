@@ -13,10 +13,19 @@ const HamburgerMenu = ({ togglePanel, panelOpen,setPanelOpen }) => {
       }
     };
 
+    const handleScroll = () => {
+      if (panelOpen) {
+        setPanelOpen(false);
+      }
+    };
+
     document.addEventListener('mousedown', handleOutsideClick);
+    window.addEventListener('scroll',handleScroll)
 
     return () => {
       document.removeEventListener('mousedown', handleOutsideClick);
+      window.removeEventListener('scroll', handleScroll);
+
     };
   }, [panelOpen]);
 
