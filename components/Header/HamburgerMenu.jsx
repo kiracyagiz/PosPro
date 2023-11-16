@@ -8,16 +8,13 @@ const HamburgerMenu = ({ togglePanel, panelOpen,setPanelOpen }) => {
 
   useEffect(() => {
     const handleOutsideClick = (event) => {
-      // Tıklanan öğe sidebar içinde değilse ve panel açıksa, sidebar'ı kapat
       if (panelOpen && sidebarRef.current && !sidebarRef.current.contains(event.target)) {
         setPanelOpen(false);
       }
     };
 
-    // Dışarı tıklamaları dinle
     document.addEventListener('mousedown', handleOutsideClick);
 
-    // useEffect temizleme fonksiyonu
     return () => {
       document.removeEventListener('mousedown', handleOutsideClick);
     };
