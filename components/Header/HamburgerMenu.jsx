@@ -1,8 +1,31 @@
 "use client";
 
-const HamburgerMenu = ({ togglePanel, panelOpen }) => {
+import { useEffect, useRef } from "react";
+
+const HamburgerMenu = ({ togglePanel, panelOpen,setPanelOpen }) => {
+
+  const sidebarRef = useRef();
+
+  useEffect(() => {
+    const handleOutsideClick = (event) => {
+      // Tıklanan öğe sidebar içinde değilse ve panel açıksa, sidebar'ı kapat
+      if (panelOpen && sidebarRef.current && !sidebarRef.current.contains(event.target)) {
+        setPanelOpen(false);
+      }
+    };
+
+    // Dışarı tıklamaları dinle
+    document.addEventListener('mousedown', handleOutsideClick);
+
+    // useEffect temizleme fonksiyonu
+    return () => {
+      document.removeEventListener('mousedown', handleOutsideClick);
+    };
+  }, [panelOpen]);
+
+  
   return (
-    <div className="mx-8 mb-4">
+    <div className="mx-8 mb-4" ref={sidebarRef}>
       <div>
         <div
           onClick={togglePanel}

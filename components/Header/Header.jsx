@@ -49,7 +49,7 @@ const Header = (props) => {
         </nav>
       </div>
 
-      <HamburgerMenu togglePanel={togglePanel} panelOpen={panelOpen} />
+      <HamburgerMenu togglePanel={togglePanel} panelOpen={panelOpen} setPanelOpen={setPanelOpen} />
 
       <div
         className={`${
