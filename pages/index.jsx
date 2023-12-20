@@ -1,3 +1,5 @@
+"use client"
+
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
 import Header from "../components/Header/Header";
@@ -11,6 +13,8 @@ import Footer from "../components/Footer/Footer";
 import BackToTopButton from "../components/General/BackToTopButton";
 import PosModule from "../components/PosModules/PosModule";
 import TawkMessengerReact from "@tawk.to/tawk-messenger-react";
+import { useState,useEffect } from "react";
+import Popup from "../components/Popup/Popup";
 
 const Home = () => {
   const { t, i18n } = useTranslation("common");
@@ -18,6 +22,16 @@ const Home = () => {
 
   const header = t("common:HeaderNav", { returnObjects: true });
   const headerB = t("Header", { returnObjects: true });
+  const [showPopup, setShowPopup] = useState(false);
+
+
+  useEffect(() => {
+    const popupTimer = setTimeout(() => {
+      setShowPopup(true);
+    }, 1500);
+
+    return () => clearTimeout(popupTimer);
+  }, []); 
 
 
   return (
@@ -39,6 +53,8 @@ const Home = () => {
       <Contact />
       <Footer />
       <BackToTopButton/>
+      {showPopup && <Popup setShowPopup={setShowPopup} />}
+
       <div >
             <TawkMessengerReact
                 propertyId="644403d74247f20fefed28f8"
