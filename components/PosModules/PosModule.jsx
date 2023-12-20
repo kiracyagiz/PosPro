@@ -31,7 +31,7 @@ const PosModule = () => {
 
         <div className=" hidden lg:flex justify-between lg:mx-24  md:gap-x-4  gap-y-12 ">
           {moduleData.map((dt, i) => (
-            <PriceBox key={i} dt={dt} isModule={true} isPage={false} />
+            <PriceBox key={i} dt={dt} isModule={true} locate={'/modules'} />
           ))}
           
         </div>
@@ -39,7 +39,7 @@ const PosModule = () => {
       <div className="  mx-auto p-8 md:px-40 lg:p-20 block  lg:hidden">
         <Slider {...settings}>
           {moduleData.map((dt, i) => (
-            <PriceBox dt={dt}  isPage={false} key={i} isModule={true} />
+            <PriceBox dt={dt}  locate={'/modules'} key={i} isModule={true} />
           ))}
         </Slider>
       </div>
