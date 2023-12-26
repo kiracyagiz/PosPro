@@ -79,7 +79,7 @@ const Popup = ({ setShowPopup }) => {
     
           </div>
         </div>
-            <div className="w-1/2   p-4   flex flex-col mx-auto  justify-center  lg:px-14 gap-y-8">
+            <div className="w-1/2   p-4   flex flex-col gap-y-8 justify-center mb-36 ">
               <p className="roboto700 lg:text-2xl ">Tani le të provojmë.</p>
               <p className="roboto700 lg:text-3xl  ">
                 Program shitje dhe fiskalizimi për cdo biznes
