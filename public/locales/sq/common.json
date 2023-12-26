@@ -180,7 +180,8 @@
     { "title": "FAQJA KRYESORE", "location": "/sq" },
     { "title": "TERMAT", "location": "/sq/terms" },
     { "title": "RRETH NESH", "location": "/sq/about" },
-    { "title": "FAQ", "location": "/sq/faq" }
+    { "title": "FAQ", "location": "/sq/faq" },
+    {"title": "TOOLS","location": "/sq/t"}
   ],
   "AboutPage": {
     "title": "Rreth Nesh",
@@ -434,7 +435,7 @@
     {
       "image": "/teamviewer.svg",
       "header" : "TeamViewer",
-      "desc": "Programi është i certifikuar nga AKSHI dhe DPT për lëshimin e faturave fiskale, si me para edhe pa para në dorë, regjistrimet e arkës, faturën elektronike, etj. Programi kryen këto procese automatikisht dhe shumë shpejt.",
+      "desc": "",
       "button": "Dowland",
       "locate" : "https://www.teamviewer.com/en"
 
@@ -442,7 +443,7 @@
     {
       "image": "/anydesk.svg",
       "header" : "AnyDesk",
-      "desc": "Ky modul mundëson regjistrimin automatik të veprimeve të arkës, sapo një shitje regjistrohet. Ndërkohe, mund të shtoni dokumenta arketime/pagesa manualisht dhe të caktoni faturën që po likuidoni.",
+      "desc": "",
       "button": "Dowland",
       "locate": "https://anydesk.com/en"
 
@@ -450,7 +451,7 @@
     {
       "image": "/rustdesk.svg",
       "header" : "RustDesk",
-      "desc": "Për informacion analitik dhe më të detajuar, programi është i pajisur me modulin e raporteve. Aty mund të gjeni raporte dhe analiza për shitjet, detyrimet, klientët, artikujt dhe shumë të tjera.",
+      "desc": "",
       "button": "Dowland",
       "locate": "https://rustdesk.com/"
 
@@ -458,7 +459,7 @@
     {
       "image": "/yellowThunder.svg",
       "header" : "Pos Driver",
-      "desc": "Programi thjeshton regjistrimin e shitjeve dhe pershtatet me çdo lloj biznesi si market, dyqan, bar, restorant, shërbime dhe shumë të tjera.",
+      "desc": "",
       "button": "Windows",
       "locate": "/POSPrintDrive.exe",
       "buttonSecond": "IOS",

@@ -25,7 +25,7 @@ const Dependency = () => {
 
         <div className="flex flex-col lg:flex lg:flex-row  justify-between lg:mx-24  md:gap-x-4  gap-y-12 ">
           {moduleData.map((dt, i) => (
-            <PriceBox key={i} dt={dt} isModule={true} locate={dt.locate} secondOption={true}/>
+              <PriceBox key={i} dt={dt} isModule={true} locate={dt.locate} secondOption={true} isTool={true}/>
           ))}
           
         </div>

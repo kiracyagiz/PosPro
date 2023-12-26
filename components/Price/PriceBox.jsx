@@ -2,9 +2,9 @@ import Image from "next/image";
 import { AiFillCheckCircle, AiFillThunderbolt } from "react-icons/ai";
 import Link from "next/link";
 import ButtonPrimary from "../General/ButtonPrimary";
-const PriceBox = ({ dt ,isModule ,locate,secondOption}) => {
+const PriceBox = ({ dt ,isModule ,locate,secondOption,isTool}) => {
   return (
-    <div className= "   w-70  h-405  mt-8  bg-white border-2  relative border-gray-500 rounded-lg mx-auto cursor-default flex flex-col gap-y-2 ">
+    <div className={` w-70 ${isTool ? ' h-64' : 'h-405'}    mt-8  bg-white border-2  relative border-gray-500 rounded-lg mx-auto  cursor-default flex flex-col gap-y-2 `}>
      <div className={`${isModule ? 'hidden' : 'block'}`}>
      <AiFillThunderbolt
         className={`${
