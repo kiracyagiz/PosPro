@@ -4,7 +4,7 @@ import React from 'react'
 
 import Image from 'next/image'
 import ButtonPrimary from '../components/General/ButtonPrimary'
-const notfound = () => {
+const NotFoundPage  = () => {
   return (
     <div className='text-center justify-center items-center flex flex-col gap-y-10 p-20'>
     <Image src={'/notfound.png'} width={200} height={200}></Image>
@@ -15,4 +15,4 @@ const notfound = () => {
   )
 }
 
-export default notfound
+export default NotFoundPage 

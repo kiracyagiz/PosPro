@@ -15,7 +15,7 @@ import PosModule from "../components/PosModules/PosModule";
 import TawkMessengerReact from "@tawk.to/tawk-messenger-react";
 import { useState,useEffect } from "react";
 import Popup from "../components/Popup/Popup";
-
+import { useRouter } from "next/router";
 const Home = () => {
   const { t, i18n } = useTranslation("common");
   const currentLocale = i18n.language;
@@ -24,16 +24,21 @@ const Home = () => {
   const headerB = t("Header", { returnObjects: true });
   const [showPopup, setShowPopup] = useState(false);
   const popupData = t("Popup", { returnObjects: true });
-
+  const router = useRouter();
 
 
   useEffect(() => {
+
+    if(!router.query.params && !router.query.params == ''){
+      router.push('/404')
+    }
+
     const popupTimer = setTimeout(() => {
       setShowPopup(true);
     }, 1500);
 
     return () => clearTimeout(popupTimer);
-  }, []); 
+  }, [router]); 
 
 
   return (
