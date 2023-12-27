@@ -10,8 +10,17 @@ status = 404
 from = "/en/*"
 to = "en/not-found"
 status = 404
+
+
 [[redirects]]
 
 from = "/tr/*"
 to = "tr/not-found"
+status = 404
+
+
+[[redirects]]
+
+from = "/*"
+to = "/not-found"
 status = 404
