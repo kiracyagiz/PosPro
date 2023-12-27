@@ -69,7 +69,7 @@ const PriceBox = ({ dt ,isModule ,locate,secondOption,isTool}) => {
       >
         <ButtonPrimary text={dt.button} width={'w-1/2 mb-3'} locate={locate}/>
         {dt.buttonSecond &&
-                 <ButtonPrimary text={dt.buttonSecond} width={'w-1/2 mb-3'} locate={dt.secondLocate}/>
+                 <ButtonPrimary text={dt.buttonSecond} width={'w-1/2  mb-3'} locate={dt.secondLocate}/>
 
         }
       </div>
