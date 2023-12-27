@@ -19,10 +19,7 @@ to = "tr/404"
 status = 404
 
 
-[[redirects]]
-from = "/*"
-to = "/"
-status = 200
+
 
 [[redirects]]
 from = "/*"
