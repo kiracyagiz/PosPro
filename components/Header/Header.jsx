@@ -5,6 +5,8 @@ import HamburgerMenu from "./HamburgerMenu";
 import ButtonPrimary from "../General/ButtonPrimary";
 import Language from "./Language";
 import Link from "next/link";
+import { useRef } from "react";
+
 const Header = (props) => {
   const { header, headerB, locale, href, isMain } = props;
   const [panelOpen, setPanelOpen] = useState(false);
@@ -13,6 +15,7 @@ const Header = (props) => {
     setPanelOpen(!panelOpen);
   };
 
+  const sidebarRef = useRef();
 
 
   return (
@@ -49,7 +52,8 @@ const Header = (props) => {
         </nav>
       </div>
 
-      <HamburgerMenu togglePanel={togglePanel} panelOpen={panelOpen} setPanelOpen={setPanelOpen} />
+<div ref={sidebarRef}>
+<HamburgerMenu togglePanel={togglePanel} panelOpen={panelOpen} setPanelOpen={setPanelOpen} sidebarRef={sidebarRef} />
 
       <div
         className={`${
@@ -59,7 +63,7 @@ const Header = (props) => {
         <div className="flex flex-col roboto700   text-xl text-center items-center mt-32 gap-y-8">
           <div onClick={togglePanel} className="flex flex-col gap-y-8">
             {header.map((dt, id) => (
-              <a href={`${locale + dt.id}`} key={id}>
+              <a href={`${'/'+ locale + dt.id}`} key={id}>
                 {dt.title}
               </a>
             ))}
@@ -75,6 +79,8 @@ const Header = (props) => {
           />
         </div>
       </div>
+</div>
+      
     </header>
   );
 };

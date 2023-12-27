@@ -2,9 +2,8 @@
 
 import { useEffect, useRef } from "react";
 
-const HamburgerMenu = ({ togglePanel, panelOpen,setPanelOpen }) => {
+const HamburgerMenu = ({ togglePanel, panelOpen,setPanelOpen,sidebarRef }) => {
 
-  const sidebarRef = useRef();
 
   useEffect(() => {
     const handleOutsideClick = (event) => {
