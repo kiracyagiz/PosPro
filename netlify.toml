@@ -1,20 +1,20 @@
 [[redirects]]
 
 from = "/sq/*"
-to = "sq/not-found"
+to = "sq/404"
 status = 404
 
 
 [[redirects]]
 
 from = "/en/*"
-to = "en/not-found"
+to = "en/404"
 status = 404
 
 
 [[redirects]]
 
 from = "/tr/*"
-to = "tr/not-found"
+to = "tr/404"
 status = 404
 
