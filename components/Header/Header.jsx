@@ -63,9 +63,9 @@ const Header = (props) => {
         <div className="flex flex-col roboto700   text-xl text-center items-center mt-32 gap-y-8">
           <div onClick={togglePanel} className="flex flex-col gap-y-8">
             {header.map((dt, id) => (
-              <a href={`${ dt.onPage ? '/'+ locale + dt.id : dt.id}`} key={id}>
+              <Link href={`${ dt.onPage ? '/'+ locale + dt.id : dt.id}`} key={id}>
                 {dt.title}
-              </a>
+              </Link>
             ))}
           </div>
 
