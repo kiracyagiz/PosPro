@@ -44,7 +44,7 @@ const Blog = () => {
         <h3 className="text-lg roboto700 text-primaryYellow">{offerData.header}</h3>
         <h2 className="text-3xl mt-2 roboto700">{offerData.title}</h2>
         </div>
-        <h3 className="text-sm font-semibold md:text-lg ">{offerData.desc}</h3>
+        <h3 className="text-sm p-4  font-semibold md:text-lg ">{offerData.desc}</h3>
       </div>
       <div className=" px-4 lg:p-0  lg:mx-auto" >
       <Slider {...settings}>
