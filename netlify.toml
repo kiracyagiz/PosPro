@@ -2,3 +2,4 @@
 
 from = "/sq/*"
 to = "sq/not-found"
+status = 404
