@@ -17,6 +17,8 @@ status = 404
 from = "/tr/*"
 to = "tr/404"
 status = 404
+
+
 [[redirects]]
 from = "/"
 to = "/404"
