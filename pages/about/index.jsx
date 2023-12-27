@@ -12,7 +12,7 @@ const About = () => {
   const about = t("AboutPage",{returnObjects: true})
 
   return (
-    <div className=" bg-gray-100">
+    <div className=" bg-gray-100 flex flex-col justify-between h-fit">
       <Header
         header={header}
         headerB={headerB}

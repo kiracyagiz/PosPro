@@ -38,7 +38,7 @@ const Popup = ({ setShowPopup, popupData }) => {
       {/* Modal */}
       <div className="fixed inset-0 flex items-center p-2 justify-center z-50 ">
         <div
-          className="bg-white w-4/5  lg:w-1/2 pb-2  lg:rounded-lg shadow-md relative"
+          className="bg-white w-4/5  lg:w-1/2 pb-2 h-fit  lg:rounded-lg shadow-md relative"
           ref={modalRef}
         >
           <div
@@ -49,7 +49,7 @@ const Popup = ({ setShowPopup, popupData }) => {
           </div>
 
           <div className="flex p-8  lg:p-0">
-            <div className="hidden relative  lg:block w-1/2 h-[65vh] bg-white overflow-hidden">
+            <div className="hidden relative  lg:block w-1/2 h-[450px]  rounded-t-2xl bg-white overflow-hidden">
               <div
                 aria-hidden="true"
                 className="absolute w-[512px] h-[512px] bg-primaryYellow rounded-full -top-20 -right-56"

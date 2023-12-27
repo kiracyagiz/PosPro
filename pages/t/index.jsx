@@ -13,7 +13,7 @@ const Dependency = () => {
     const moduleData = t("common:Dependency", { returnObjects: true });
 
   return (
-    <div  >
+    <div  className='flex flex-col justify-between h-screen' >
       
       <Header
         header={header}
@@ -22,7 +22,7 @@ const Dependency = () => {
         href={"/"}
         isMain={false}
       />
-         <div className="h-fit p-8 mb-[93px] pt-16" >
+         <div className="h-fit p-8  pt-16" >
 
         <div className="flex flex-col lg:flex lg:flex-row  justify-between lg:mx-24  md:gap-x-4  gap-y-12 ">
           {moduleData.map((dt, i) => (
