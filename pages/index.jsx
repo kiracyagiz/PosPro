@@ -23,6 +23,8 @@ const Home = () => {
   const header = t("common:HeaderNav", { returnObjects: true });
   const headerB = t("Header", { returnObjects: true });
   const [showPopup, setShowPopup] = useState(false);
+  const popupData = t("Popup", { returnObjects: true });
+
 
 
   useEffect(() => {
@@ -53,7 +55,7 @@ const Home = () => {
       <Contact />
       <Footer />
       <BackToTopButton/>
-      {showPopup && <Popup setShowPopup={setShowPopup} />}
+      {showPopup && <Popup setShowPopup={setShowPopup} popupData={popupData} />}
 
       <div >
             <TawkMessengerReact

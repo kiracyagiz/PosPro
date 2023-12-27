@@ -47,8 +47,8 @@
       "monthly": "Year.",
       "header": "Single",
       "desc": "1 person",
-      "price": "5.900",
-      "priceExtra": "5,000 ALL/Year POS \n 900 ALL/Year Fiscalization",
+      "price": "6.900",
+      "priceExtra": "6,000 ALL/Year POS \n 900 ALL/Year Fiscalization",
       "service": "Pos Service",
       "note": "Detail of price"
 
@@ -447,5 +447,11 @@
 
 
     }
-  ]
+  ],
+  "Popup": 
+  {
+    "header": "Lets try it.",
+    "desc": "Sales program and fiscalization for every business",
+    "button": "Go to app"
+  }
 }

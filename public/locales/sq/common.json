@@ -28,7 +28,7 @@
   "Hero": {
     "title": "Program POS dhe fiskalizimi",
     "desc": "Program shitje dhe fiskalizimi për cdo biznes",
-    "heroButton": "Provo Pos.."
+    "heroButton": "Hap aplikacionin"
   },
   "AboutSection": {
     "header": "Rreth Nesh",
@@ -40,7 +40,7 @@
   },
   "Price": {
     "title": "Cmimet dhe paketat",
-    "button": "Provo Pos"
+    "button": "Hap aplikacionin"
   },
  
   "PriceInfo": [
@@ -49,8 +49,8 @@
       "header": "Single",
       "desc": "1 person",
       "priceButton": "Provoni Pos",
-      "price": "5.900",
-      "priceExtra": "5,000 ALL/Vit POS \n 900 ALL/Vit Fiskalizimi",
+      "price": "6.900",
+      "priceExtra": "6,000 ALL/Vit POS \n 900 ALL/Vit Fiskalizimi",
       "service": "Shërbimi Pos",
       "note": "Detaje të cmimit"
     },
@@ -467,5 +467,12 @@
 
 
     }
-  ]
+  ],
+  "Popup": 
+    {
+      "header": "Tani le të provojmë.",
+      "desc": "Program shitje dhe fiskalizimi për cdo biznes",
+      "button": "Hap aplikacionin"
+    }
+  
 }

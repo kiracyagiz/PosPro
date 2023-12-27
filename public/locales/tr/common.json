@@ -43,8 +43,8 @@
       "monthly": "Yıllık.",
       "header": "Single",
       "desc": "1 Kişi",
-      "price": "5.900",
-      "priceExtra": "5,000 ALL/Yıllık POS \n 900 ALL/Yıllık Fikalizasyon",
+      "price": "6.900",
+      "priceExtra": "6,000 ALL/Yıllık POS \n 900 ALL/Yıllık Fikalizasyon",
       "service": "Pos Hizmeti",
       "note": "Fiyat detayları"
 
@@ -445,5 +445,11 @@
 
 
     }
-  ]
+  ],
+  "Popup": 
+  {
+    "header": "Şimdi dene",
+    "desc": "Her işletme için satış programı ve fiskalizasyon",
+    "button": "Uygulamaya git"
+  }
 }
