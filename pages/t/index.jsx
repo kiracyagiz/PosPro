@@ -4,6 +4,7 @@ import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
 import BlogBox from '../../components/Blog/BlogBox';
 import PriceBox from '../../components/Price/PriceBox';
+import Footer from '../../components/Footer/Footer';
 const Dependency = () => {
     const { t, i18n } = useTranslation("common");
     const header = t("HeaderNav", { returnObjects: true });
@@ -12,7 +13,7 @@ const Dependency = () => {
     const moduleData = t("common:Dependency", { returnObjects: true });
 
   return (
-    <div>
+    <div  >
       
       <Header
         header={header}
@@ -21,7 +22,7 @@ const Dependency = () => {
         href={"/"}
         isMain={false}
       />
-         <div className="h-fit p-8 pt-16" >
+         <div className="h-fit p-8 mb-[93px] pt-16" >
 
         <div className="flex flex-col lg:flex lg:flex-row  justify-between lg:mx-24  md:gap-x-4  gap-y-12 ">
           {moduleData.map((dt, i) => (
@@ -30,6 +31,8 @@ const Dependency = () => {
           
         </div>
       </div>
+      <Footer/>
+
     </div>
   )
 }
