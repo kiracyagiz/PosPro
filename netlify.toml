@@ -1,0 +1,4 @@
+[[redirects]]
+
+from = "/sq/*"
+to = "sq/not-found"
