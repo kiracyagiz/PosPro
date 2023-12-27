@@ -71,7 +71,7 @@ const Popup = ({ setShowPopup, popupData }) => {
             <div className="lg:w-1/2   p-4   flex flex-col gap-y-8 justify-center ">
               <p className=" text-xl font-semibold lg:roboto700  lg:text-2xl ">{popupData.header}</p>
               <p className=" text-3xl font-bold lg:roboto700 lg:text-3xl  ">{popupData.desc}</p>
-              <ButtonPrimary text={popupData.button} locate={"https://pos.al/login"} />
+              <ButtonPrimary text={popupData.button} locate={"https://app.pos.al/"} />
             </div>
           </div>
         </div>
