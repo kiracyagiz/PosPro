@@ -4,7 +4,7 @@ import Link from "next/link";
 import ButtonPrimary from "../General/ButtonPrimary";
 const PriceBox = ({ dt ,isModule ,locate,secondOption,isTool}) => {
   return (
-    <div className={` w-70 ${isTool ? ' h-64' : 'h-405'}    mt-8  bg-white border-2  relative border-gray-500 rounded-lg mx-auto  cursor-default flex flex-col gap-y-2 `}>
+    <div className={` w-70 ${isTool ? ' h-72' : 'h-405'}    mt-8  bg-white border-2   border-gray-500 rounded-lg mx-auto  cursor-default flex flex-col gap-y-2 `}>
      <div className={`${isModule ? 'hidden' : 'block'}`}>
      <AiFillThunderbolt
         className={`${
@@ -64,7 +64,7 @@ const PriceBox = ({ dt ,isModule ,locate,secondOption,isTool}) => {
 
       <div 
       
-      className={`${isModule ? "flex flex-col" : "hidden"} text-center  absolute bottom-0 w-full  `}
+      className={`${isModule ? "flex flex-col" : "hidden"} text-center  w-full   `}
       
       >
         <ButtonPrimary text={dt.button} width={'w-1/2 mb-3'} locate={locate}/>
