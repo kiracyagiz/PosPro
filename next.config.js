@@ -4,10 +4,6 @@
   const nextConfig = {
     reactStrictMode: true,
     i18n,
-    experimental: {
-      forceSwcTransforms: true,
-    }
-   
   };
 
   module.exports = nextConfig;
