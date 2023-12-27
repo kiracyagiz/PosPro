@@ -4,10 +4,6 @@ from = "/sq/*"
 to = "sq/not-found"
 status = 404
 
-[[redirects]]
-from = "/*"
-to = "/not-found"
-status= 404
 
 [[redirects]]
 
