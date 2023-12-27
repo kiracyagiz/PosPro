@@ -29,9 +29,6 @@ const Home = () => {
 
   useEffect(() => {
 
-    if(!router.query.params && !router.query.params == ''){
-      router.push('/404')
-    }
 
     const popupTimer = setTimeout(() => {
       setShowPopup(true);
