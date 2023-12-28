@@ -21,17 +21,6 @@ from = "/tr/*"
 to = "tr/404"
 status = 404
 
-[[redirects]]
-  from = "/non-existent-path/*"
-  to = "/404"
-  status = 404
-
-  
-[[redirects]]
-  from = "/*"
-  to = "/"
-  status = 302
-  conditions = {Role = ["Everyone"]}
 
   
   
