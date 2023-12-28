@@ -30,12 +30,12 @@ status = 404
   status = 302
   conditions = {Role = ["Everyone"]}
 
-  
-[[redirects]]
+  [[redirects]]
   from = "/*"
-  to = "/:*"
-  status = 302
+  to = "/505"
+  status = 505
   conditions = {Role = ["Everyone"]}
+
 
 
     
