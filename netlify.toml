@@ -38,7 +38,7 @@ status = 302
 
 from = "/*"
 to = "/sq/404"
-status = 302
+status = 404
 
 
 
