@@ -21,11 +21,11 @@ from = "/tr/*"
 to = "tr/404"
 status = 404
 
-
 [[redirects]]
-  from = "/*"
-  to = "/sq"
+  from = "/_next/*"
+  to = "/:splat"
   status = 200
+  conditions = {Role = ["Everyone"]}
 
 
 
