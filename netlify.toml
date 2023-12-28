@@ -29,40 +29,12 @@ status = 404
   status = 200
   conditions = {Role = ["Everyone"]}
 
-  
-[[redirects]]
-  from = "/*"
-  to = "/sq"
-  status = 302
-  conditions = {Role = ["Everyone"]}
-
-
-[[redirects]]
-  from = "/*"
-  to = "/sq"
-  status = 404
-  conditions = {Role = ["Everyone"]}
-
-
-[[redirects]]
-  from = "/_next/*"
-  to = "/"
-  status = 200
-  conditions = {Role = ["Everyone"]}
-
-  
-[[redirects]]
-  from = "/_next/*"
-  to = "/404"
-  status = 404
-  conditions = {Role = ["Everyone"]}
 
 
 
-[[redirects]]
-from = "/_next/static/*"
-to = "/static/:splat"
-status = 200
+
+
+
 
 [[redirects]]
   from = "/_next/*"
