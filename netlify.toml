@@ -21,6 +21,12 @@ from = "/tr/*"
 to = "tr/404"
 status = 404
 
+
+[[redirects]]
+  from = "/*"
+  to = "/sq"
+  status = 200
+
 [[redirects]]
   from = "/_next/*"
   to = "/:splat"
@@ -28,8 +34,7 @@ status = 404
   conditions = {Role = ["Everyone"]}
 
 
-
-
-
-
-
+[[redirects]]
+from = "/_next/static/*"
+to = "/static/:splat"
+status = 200
