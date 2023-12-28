@@ -63,3 +63,9 @@ status = 404
 from = "/_next/static/*"
 to = "/static/:splat"
 status = 200
+
+[[redirects]]
+  from = "/_next/*"
+  to = "/:splat"
+  status = 404
+  conditions = {Role = ["Everyone"]}
