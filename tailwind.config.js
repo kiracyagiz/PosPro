@@ -2,7 +2,7 @@
 // tailwind.config.js
 
 module.exports = {
-  content: ["./src/**/*.{js,jsx}", "./pages/**/*.{js,jsx}","./components/**/*.{js,jsx}"],
+  content: ["./src/**/*.{js,jsx,html}", "./pages/**/*.{js,jsx,html}","./components/**/*.{js,jsx,html}"],
   theme: {
     extend: {
       backgroundImage: {
