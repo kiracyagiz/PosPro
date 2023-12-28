@@ -1,4 +1,4 @@
-import "../styles/globals.css";
+import "../globals.css"
 import { appWithTranslation } from "next-i18next";
 import Head from "next/head";
 function MyApp({ Component, pageProps }) {
