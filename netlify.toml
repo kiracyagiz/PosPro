@@ -1,5 +1,14 @@
 
+[build]
+  command = "CI='' npm run build"
+  publish = "/build"
+  base ="/"
 
+
+[[redirects]]
+  from = "/*"
+  to = "/"
+  status = 200
 
 [[redirects]]
 
@@ -30,11 +39,6 @@ status = 404
   status = 302
   conditions = {Role = ["Everyone"]}
 
-  [[redirects]]
-  from = "/500"
-  to = "/"
-  status = 500
-  conditions = {Role = ["Everyone"]}
 
 
 
