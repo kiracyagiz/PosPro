@@ -31,7 +31,42 @@ status = 404
   conditions = {Role = ["Everyone"]}
 
   
+[[redirects]]
+  from = "/*"
+  to = "/a"
+  status = 302
+  conditions = {Role = ["Everyone"]}
   
+  [[redirects]]
+  from = "/*"
+  to = "/b"
+  status = 302
+  conditions = {Role = ["Everyone"]}
+
+  [[redirects]]
+  from = "/*"
+  to = "/c"
+  status = 302
+  conditions = {Role = ["Everyone"]}
+
+  [[redirects]]
+  from = "/*"
+  to = "/d"
+  status = 302
+  conditions = {Role = ["Everyone"]}
+
+  [[redirects]]
+  from = "/*"
+  to = "/e"
+  status = 302
+  conditions = {Role = ["Everyone"]}
+
+  [[redirects]]
+  from = "/*"
+  to = "/f"
+  status = 302
+  conditions = {Role = ["Everyone"]}
+    
 
 
 
