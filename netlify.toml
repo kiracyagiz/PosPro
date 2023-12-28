@@ -28,11 +28,5 @@ status = 404
 
 
 
-[[redirects]]
-  from = "/*"
-  to = "/sq"
-  status = 404
-  conditions = {Role = ["Everyone"]}
-
 
 
