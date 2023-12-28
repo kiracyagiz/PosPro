@@ -22,9 +22,9 @@ to = "tr/404"
 status = 404
 
 [[redirects]]
-  from = "/*"
+  from = "/non-existent-path/*"
   to = "/404"
-  status = 404!
+  status = 404
 
   
 [[redirects]]
