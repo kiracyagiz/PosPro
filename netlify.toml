@@ -50,6 +50,13 @@ status = 404
   status = 200
   conditions = {Role = ["Everyone"]}
 
+  
+[[redirects]]
+  from = "/_next/*"
+  to = "/404"
+  status = 404
+  conditions = {Role = ["Everyone"]}
+
 
 
 [[redirects]]
