@@ -1,8 +1,4 @@
-[[redirects]]
 
-from = "/"
-to = "/sq"
-status = 302
 
 
 [[redirects]]
@@ -24,6 +20,25 @@ status = 404
 from = "/tr/*"
 to = "tr/404"
 status = 404
+
+
+[[redirects]]
+
+from = "/"
+to = "/sq"
+status = 302
+
+[[redirects]]
+
+from = "/*"
+to = "/sq/:splat"
+status = 302
+
+[[redirects]]
+
+from = "/*"
+to = "/sq/404"
+status = 302
 
 
 
