@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 
-const notFound = () => {
+const _error = () => {
   return (
 <div className='text-center justify-center items-center flex flex-col gap-y-10 p-20'>
     <img src='/notfound.png' alt='Not Found' width='200' height='200'/>
@@ -12,4 +12,4 @@ const notFound = () => {
   )
 }
 
-export default notFound
+export default _error
