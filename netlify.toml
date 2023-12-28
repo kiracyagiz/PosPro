@@ -23,11 +23,7 @@ status = 404
 
 
 
-[[redirects]]
-  from = "/*"
-  to = "/sq"
-  status = 200
-  conditions = {Role = ["Everyone"]}
+
 
   
 [[redirects]]
@@ -45,8 +41,3 @@ status = 404
 
 
 
-[[redirects]]
-  from = "/_next/*"
-  to = "/:splat"
-  status = 404
-  conditions = {Role = ["Everyone"]}
