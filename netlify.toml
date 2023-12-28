@@ -22,11 +22,24 @@ to = "tr/404"
 status = 404
 
 
+  
+[[redirects]]
+  from = "/*"
+  to = "/sq"
+  status = 302
+  conditions = {Role = ["Everyone"]}
 
 
+[[redirects]]
+  from = "/*"
+  to = "/sq"
+  status = 404
+  conditions = {Role = ["Everyone"]}
 
 
-
-
-
+[[redirects]]
+  from = "/*"
+  to = "/sq"
+  status = 500
+  conditions = {Role = ["Everyone"]}
 
