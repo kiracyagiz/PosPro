@@ -29,6 +29,12 @@ status = 404
   status = 302
   conditions = {Role = ["Everyone"]}
 
+  [[redirects]]
+  from = "/*"
+  to = "/sq"
+  status = 500
+  conditions = {Role = ["Everyone"]}
+
 
 [[redirects]]
   from = "/*"
