@@ -24,18 +24,14 @@ status = 404
 
 [[redirects]]
 
-from = "/"
+from = "/*"
 to = "/sq"
 status = 302
 
-[[redirects]]
 
-from = "/*"
-to = "/sq/:splat"
-status = 302
+
 
 [[redirects]]
-
 from = "/*"
 to = "/sq/404"
 status = 404
