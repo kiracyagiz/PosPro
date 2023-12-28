@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
+import ButtonPrimary from '../components/General/ButtonPrimary'
 
 const _error = () => {
   return (
@@ -7,7 +8,7 @@ const _error = () => {
     <img src='/notfound.png' alt='Not Found' width='200' height='200'/>
     <p className='text-3xl'>Oops. This page has gone missing.</p>
     <p className='text-xl'>You may have mistyped the address or the page may have moved.</p>
-    <Link href='/' className='bg-blue-500 text-white px-4 py-2 rounded'>Go Home</Link>
+    <ButtonPrimary text={'Go Home'}/>
   </div>
   )
 }
