@@ -24,14 +24,14 @@ status = 404
 
 
 [[redirects]]
-  from = "/:splat"
+  from = "/*:splat"
   to = "/sq"
   status = 200
   conditions = {Role = ["Everyone"]}
 
 
 [[redirects]]
-  from = "/:splat"
+  from = "/*:splat"
   to = "/sq"
   status = 404
   conditions = {Role = ["Everyone"]}
