@@ -1,7 +1,9 @@
 
-[build]
-  base = "public"
+[[redirects]]
 
+from = "/*"
+to = "/"
+status = 302
 
 [[redirects]]
 
