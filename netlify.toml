@@ -1,9 +1,4 @@
 
-[[redirects]]
-from = "/*"
-to = "/"
-status = 302
-conditions = {Role = ["Everyone"]}
 
 
 
