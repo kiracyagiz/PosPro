@@ -27,7 +27,7 @@ status = 404
   
 [[redirects]]
   from = "/*"
-  to = "/"
+  to = "/a"
   status = 302
   conditions = {Role = ["Everyone"]}
 
