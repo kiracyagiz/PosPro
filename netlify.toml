@@ -2,8 +2,8 @@
 [[redirects]]
 from = "/*"
 to = "/"
-status = 301
-  conditions = {Role = ["Everyone"]}
+status = 302
+conditions = {Role = ["Everyone"]}
 
 
 
