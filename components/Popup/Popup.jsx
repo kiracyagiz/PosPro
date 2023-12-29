@@ -2,7 +2,6 @@ import { IoMdClose } from "react-icons/io";
 import ButtonPrimary from "../General/ButtonPrimary";
 import { useEffect, useRef } from "react";
 import thumbail2 from "../../public/thumb3.png";
-import sc2 from "../../public/sc2.png";
 import Image from "next/image";
 const Popup = ({ setShowPopup, popupData }) => {
   const modalRef = useRef();
@@ -54,9 +53,9 @@ const Popup = ({ setShowPopup, popupData }) => {
                 className="absolute w-[512px] h-[512px] bg-primaryYellow rounded-full -top-20 -right-56"
               ></div>
               <div className="absolute top-10 right-8">
-                <Image
+                <img
                   className="  w-80  h-52 object-fit rounded-2xl shadow-2xl rotate-3"
-                  src={sc2}
+                  src={'/sc2.png'}
                   alt="pos-video"
                 />
                 <Image
