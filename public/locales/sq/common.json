@@ -457,8 +457,8 @@
 
     },
     {
-      "image": "/yellowThunder.svg",
-      "header" : "Pos Driver",
+      "image": "/driver.svg",
+      "header" : "Driver",
       "desc": "",
       "button": "Windows",
       "locate": "/POSPrintDrive.exe",
