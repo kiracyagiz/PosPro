@@ -451,5 +451,10 @@
     "header": "Şimdi dene",
     "desc": "Her işletme için satış programı ve fiskalizasyon",
     "button": "Uygulamaya git"
+  },
+  "Error": {
+    "header": "Ooooops Bu sayfa kaybolmuş gibi gözüküyor...",
+    "desc": "Yanlış bir kelime yazmış olabilir veya var olmayan bir safayaya gitmeye çalışmış olabilirsin.",
+    "button": "Ana Sayfa'ya Git"
   }
 }

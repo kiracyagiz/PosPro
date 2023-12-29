@@ -28,7 +28,7 @@
   "Hero": {
     "title": "Program POS dhe fiskalizimi",
     "desc": "Program shitje dhe fiskalizimi për cdo biznes",
-    "heroButton": "Hap aplikacionin"
+    "heroButton": "Hap programin"
   },
   "AboutSection": {
     "header": "Rreth Nesh",
@@ -40,7 +40,7 @@
   },
   "Price": {
     "title": "Cmimet dhe paketat",
-    "button": "Hap aplikacionin"
+    "button": "Hap programin"
   },
  
   "PriceInfo": [
@@ -472,7 +472,13 @@
     {
       "header": "Tani le të provojmë.",
       "desc": "Program shitje dhe fiskalizimi për cdo biznes",
-      "button": "Hap aplikacionin"
+      "button": "Hap programin"
+    },
+    "Error": 
+    {
+      "header": "O jooo. Kjo faqe ka humbur.",
+      "desc": "Mund të keni shkruar gabim adresën ose faqja mund të jetë zhvendosur.",
+      "button": "Kthehu"
     }
   
 }

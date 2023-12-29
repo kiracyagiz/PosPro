@@ -453,5 +453,10 @@
     "header": "Lets try it.",
     "desc": "Sales program and fiscalization for every business",
     "button": "Go to app"
+  },
+  "Error": {
+    "header": "Oops. This page has gone missing.",
+    "desc": "You may have mistyped the address or the page may have moved.",
+    "button": "Go Home"
   }
 }
