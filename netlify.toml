@@ -3,7 +3,8 @@
 
 from = "/*"
 to = "/"
-status = 302
+status = 200
+force = true
 
 [[redirects]]
 
