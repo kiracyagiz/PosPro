@@ -32,7 +32,7 @@ const Home = () => {
 
     const popupTimer = setTimeout(() => {
       setShowPopup(true);
-    }, 1500);
+    }, 500);
 
     return () => clearTimeout(popupTimer);
   }, [router]); 

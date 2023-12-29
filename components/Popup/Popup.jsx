@@ -2,6 +2,8 @@ import { IoMdClose } from "react-icons/io";
 import ButtonPrimary from "../General/ButtonPrimary";
 import { useEffect, useRef } from "react";
 import thumbail2 from "../../public/thumb3.png";
+import sc2 from "../../public/sc2.png";
+
 import Image from "next/image";
 const Popup = ({ setShowPopup, popupData }) => {
   const modalRef = useRef();
@@ -47,16 +49,18 @@ const Popup = ({ setShowPopup, popupData }) => {
           </div>
 
           <div className="flex p-8  lg:p-0">
-            <div className="hidden relative  lg:block w-1/2 h-[450px]  rounded-t-2xl bg-white overflow-hidden">
+            <div className="hidden relative  lg:block w-1/2 h-[450px]   rounded-t-2xl bg-white overflow-hidden">
               <div
                 aria-hidden="true"
                 className="absolute w-[512px] h-[512px] bg-primaryYellow rounded-full -top-20 -right-56"
               ></div>
-              <div className="absolute top-10 right-8">
-                <img
-                  className="  w-80  h-52 object-fit rounded-2xl shadow-2xl rotate-3"
-                  src={'/sc2.png'}
+              <div className="absolute top-10 right-8 p-2">
+                <Image
+                  className="   w-[380px]  h-52  object-fill rounded-2xl shadow-2xl rotate-3"
+                  src={sc2}
+                
                   alt="pos-video"
+                  layout="responsive"
                 />
                 <Image
                   className="w-80  h-52 object-cover rounded-2xl shadow-2xl -rotate-3 translate-x-16 -translate-y-2"
@@ -66,10 +70,14 @@ const Popup = ({ setShowPopup, popupData }) => {
               </div>
             </div>
 
-            <div className="lg:w-1/2   p-4   flex flex-col gap-y-8 justify-center ">
+            <div className="lg:w-1/2   p-4   flex flex-col gap-y-16 justify-center ">
+              <div className="flex flex-col gap-y-4">
               <p className=" text-xl font-semibold lg:roboto700  lg:text-2xl ">{popupData.header}</p>
               <p className=" text-3xl font-bold lg:roboto700 lg:text-3xl  ">{popupData.desc}</p>
-              <ButtonPrimary text={popupData.button} locate={"https://app.pos.al/"} />
+              </div>
+              <div className="mx-auto ">
+              <ButtonPrimary text={popupData.button} locate={"https://app.pos.al/"}  />
+              </div>
             </div>
           </div>
         </div>
