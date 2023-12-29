@@ -2,14 +2,6 @@
 
 
 
-
-[[redirects]]
-
-from = "/*"
-to = "/404/404.jsx"
-status = 404
-force = true
-
 [[redirects]]
 
 from = "/sq/*"
