@@ -57,8 +57,9 @@ const Popup = ({ setShowPopup, popupData }) => {
               <div className="absolute top-10 right-8 p-2">
                 <Image
                   className="   w-[380px]  h-52  object-fill rounded-2xl shadow-2xl rotate-3"
-                  src={sc2}
-                
+                  src={'/sc2.png'}
+                  width={400}
+                  height={400}
                   alt="pos-video"
                   layout="responsive"
                 />
