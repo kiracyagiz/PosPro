@@ -2,6 +2,14 @@
 
 [[redirects]]
 
+from = "/*"
+to = "/404/404.jsx"
+status = 404
+
+
+
+[[redirects]]
+
 from = "/sq/*"
 to = "sq/404"
 status = 404
