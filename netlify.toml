@@ -1,22 +1,6 @@
 
 
 [[redirects]]
-  from = "/*"
-  to = "/sq"
-  status = 200
-
-
-[[redirects]]
-  from = "/*"
-  to = "/sq"
-  status = 301
-  
-[[redirects]]
-  from = "/*"
-  to = "/404"
-  status = 302
-
-[[redirects]]
 
 from = "/sq/*"
 to = "sq/404"
