@@ -1,10 +1,23 @@
 
+[[redirects]]
+
+from = "/*"
+to = "/index.jsx"
+status = 200
+force = true
+
+
+
+
+
+
 
 [[redirects]]
 
 from = "/*"
 to = "/404/404.jsx"
 status = 404
+force = true
 
 [[redirects]]
 
