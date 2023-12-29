@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-import ButtonPrimary from '../components/General/ButtonPrimary'
+import ButtonPrimary from '../../components/General/ButtonPrimary'
 
 const _error = () => {
   return (
