@@ -53,14 +53,14 @@ const Popup = ({ setShowPopup, popupData }) => {
                 aria-hidden="true"
                 className="absolute w-[512px] h-[512px] bg-primaryYellow rounded-full -top-20 -right-56"
               ></div>
-              <div className="absolute top-10 right-8 p-2">
+              <div className="absolute top-4 right-8 p-2">
+            
                 <Image
-                  className="   w-[380px]  h-52  object-fill rounded-2xl shadow-2xl rotate-3"
+                  className="   w-[380px]  h-52  object-cover rounded-2xl shadow-2xl "
                   src={'/sc2.png'}
                   width={400}
                   height={400}
                   alt="pos-video"
-                  layout="responsive"
                 />
                 <Image
                   className="w-80  h-52 object-cover rounded-2xl shadow-2xl -rotate-3 translate-x-16 -translate-y-2"
