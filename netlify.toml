@@ -3,7 +3,7 @@
 from = "/*"
 to = "/"
 status = 301
-
+  conditions = {Role = ["Everyone"]}
 
 
 
