@@ -2,7 +2,6 @@ import { IoMdClose } from "react-icons/io";
 import ButtonPrimary from "../General/ButtonPrimary";
 import { useEffect, useRef } from "react";
 import thumbail2 from "../../public/thumb3.png";
-import sc2 from "../../public/sc2.png";
 
 import Image from "next/image";
 const Popup = ({ setShowPopup, popupData }) => {
