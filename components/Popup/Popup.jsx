@@ -57,7 +57,7 @@ const Popup = ({ setShowPopup, popupData }) => {
             
                 <Image
                   className="   w-[380px]  h-52 mb-4  object-cover rounded-2xl shadow-2xl translate-x-4 rotate-3 "
-                  src={'/sc2.png'}
+                  src={'/papos.png'}
                   width={400}
                   height={400}
                   alt="pos-video"
