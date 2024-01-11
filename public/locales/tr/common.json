@@ -1,6 +1,7 @@
 {
   "Header": {
-    "button": "Giriş Yap"
+    "button": "Giriş Yap",
+    "terms": "Koşullar"
   },
   "Titles": {
     "features": "Özellikler",

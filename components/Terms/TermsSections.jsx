@@ -30,9 +30,9 @@ const TermsSections = ({ termsData }) => {
   return (
     <div className="md:gap-x-32 md:mx-32 py-12 flex flex-col gap-y-8 md:flex-row items-start">
       {/* Left Sidebar */}
-      <div className="w-1/4 md:sticky md:top-0 mx-auto items-center md:left-36 bg-gray-100 pt-8">
-        <p className="text-xl font-bold mb-4 roboto700">Content</p>
-        <div className="flex flex-col w-fit md:gap-y-2 roboto400">
+      <div className=" lg:w-1/4 md:sticky md:top-0  mx-auto items-center md:left-36 bg-gray-100 pt-8">
+        <p className="text-xl font-bold mb-4 roboto700 text-center lg:text-start p-8 ">Content</p>
+        <div className="flex flex-col w-fit md:gap-y-2 roboto400 p-8">
           {termsData.map((dt, i) => (
             <a
               href={`#${dt.title}`}
@@ -46,7 +46,7 @@ const TermsSections = ({ termsData }) => {
       </div>
 
       {/* Main Content */}
-      <div className="w-4/5 mx-auto items-center flex flex-col gap-y-8 bg-white p-8 mb-24">
+      <div className="lg:w-4/5 lg:mx-auto items-center flex flex-col gap-y-8 bg-white p-8 mb-24">
         {termsData.map((dt, i) => (
           <section id={dt.title} className="flex flex-col gap-y-2" key={i}>
             <h1 className="robot-bold text-2xl">{dt.title}</h1>

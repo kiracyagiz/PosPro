@@ -1,6 +1,7 @@
 {
   "Header": {
-    "button": "Login"
+    "button": "Login",
+    "terms": "TERMS"
   },
   "Titles": {
     "features": "Features",

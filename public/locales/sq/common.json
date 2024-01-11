@@ -3,8 +3,8 @@
     "button": "Hyr",
     "sq": "/sq.png",
     "tr": "/turkey.png",
-    "en": "/en.png"
-
+    "en": "/en.png",
+    "terms": "TERMAT"
   },
   "Titles": {
     "features": "Sipas llojit te biznesit",
@@ -334,6 +334,8 @@
       "button": "Vizitoni Tani"
     }
   ],
+
+
   "PosModulesLanding": [
    
     {

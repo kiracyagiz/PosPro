@@ -11,6 +11,7 @@ const Terms = () => {
   const headerB = t("Header", { returnObjects: true });
   const currentLocale = i18n.language;
   const termsData = t("Terms", { returnObjects: true });
+  
   return (
     <div>
       <Header
@@ -20,7 +21,7 @@ const Terms = () => {
         href={""}
         isMain={false}
       />
-      <TermsPage termsData={termsData}/>
+      <TermsPage termsData={termsData} headerB={headerB}/>
       <Footer />
       <BackToTopButton/>
     </div>
