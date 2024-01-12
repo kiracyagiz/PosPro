@@ -41,24 +41,24 @@ const PriceBox = ({ dt ,isModule ,locate,secondOption,isTool}) => {
       </div>
 
       <div className={`${isModule ? ' hidden' : 'flex flex-col p-4 gap-y-6"'}`}>
-        <div className="flex items-center gap-x-2 text-sm font-bold my-2">
+        <div className="flex items-center gap-x-2 text-xs font-bold my-2">
           <AiFillCheckCircle className="text-primaryYellow" />
           <p>{dt.desc}</p>
         </div>
-        <div className="flex items-center gap-x-2 text-sm font-bold my-2 ">
+        <div className="flex items-center gap-x-2 text-xs font-bold my-2 ">
           <AiFillCheckCircle className="text-primaryYellow" />
           <p>{dt.service}</p>
         </div>
       
-        <div className="flex items-center gap-x-2 text-sm font-bold my-2 ">
+        <div className="flex items-center gap-x-2 text-xs font-bold my-2 ">
           <AiFillCheckCircle className="text-primaryYellow" />
           <p>{dt.cash}</p>
         </div>
-        <div className="flex items-center gap-x-2 text-sm font-bold my-2 ">
+        <div className="flex items-center gap-x-2 text-xs font-bold my-2 ">
           <AiFillCheckCircle className="text-primaryYellow" />
           <p>{dt.nonCash}</p>
         </div>
-        <div className="flex items-center gap-x-2 text-sm font-bold my-2 ">
+        <div className="flex items-center gap-x-2 text-xs font-bold my-2 ">
           <AiFillCheckCircle className="text-primaryYellow" />
           <p>{dt.eInvoice}</p>
         </div>
