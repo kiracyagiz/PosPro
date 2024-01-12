@@ -51,8 +51,10 @@
       "price": "6.900",
       "priceExtra": "6,000 ALL/Year POS \n 900 ALL/Year Fiscalization",
       "service": "Pos Service",
-      "note": "Detail of price"
-
+      "note": "Detail of price",
+      "cash": "Cash Invoice",
+      "nonCash": "Non-Cash Invoice",
+      "eInvoice": "E-Invoice"
     },
     {
       "monthly": "Year.",
@@ -61,30 +63,34 @@
       "price": "7.800",
       "priceExtra": "6,800 ALL/Year POS \n 1000  ALL/Year Fiscalization",
       "service": "Pos Service",
-      "note": "Detail of price"
-
-
+      "note": "Detail of price",
+      "cash": "Cash Invoice ",
+      "nonCash": "Non-Cash Invoice",
+      "eInvoice": "E-Invoice"
     },
     {
       "monthly": "Year.",
       "header": "Medium",
       "desc": "9 person.",
-      "price": "9.800",
+      "price": "10.900",
       "priceExtra": "8,600 ALL/Year POS \n 1,200 ALL/Year Fiscalization",
       "service": "Pos Service",
-      "note": "Detail of price"
-
-
+      "note": "Detail of price",
+      "cash": "Cash Invoice ",
+      "nonCash": "Non-Cash Invoice",
+      "eInvoice": "E-Invoice"
     },
     {
       "monthly": "Year.",
       "header": "Business",
       "desc": "10 person.",
-      "price": "11.900",
+      "price": "14.900",
       "priceExtra": "10,000 ALL/Year POS \n 1,900 ALL/Year Fiscalization",
       "service": "Pos Service",
-      "note": "Detail of price" 
-
+      "note": "Detail of price",
+      "cash": "Cash Invoice ",
+      "nonCash": "Non-Cash Invoice",
+      "eInvoice": "E-Invoice"
     }
   ],
   "SecondAd": {
@@ -168,7 +174,7 @@
     { "title": "TERMS", "location": "/en/terms" },
     { "title": "ABOUT", "location": "/en/about" },
     { "title": "FAQ", "location": "/en/faq" },
-    {"title": "TOOLS", "location": "/en/t"}
+    { "title": "TOOLS", "location": "/en/t" }
   ],
   "AboutPage": {
     "title": "About Us",
@@ -323,34 +329,29 @@
   ],
 
   "PosModulesLanding": [
-   
     {
       "image": "/posfiscal.svg",
-      "header" : "Fiscalization",
+      "header": "Fiscalization",
       "desc": "The program is certified by AKSHI and DPT for issuing fiscal invoices, both with and without cash in hand, cash register recordings, electronic invoices, etc. The program performs these processes automatically and very quickly.",
       "button": "View"
-
     },
     {
       "image": "/arka.svg",
-      "header" : "Cash Register",
+      "header": "Cash Register",
       "desc": "This module enables automatic recording of cash-related actions as soon as a sale is registered. Meanwhile, you can manually add archive documents/payments and assign the invoice you are liquidating",
       "button": "View"
-
     },
     {
       "image": "/raporte.svg",
-      "header" : "Reports",
+      "header": "Reports",
       "desc": "For analytical and detailed information, the program is equipped with the reports module. Here, you can find reports and analyses for sales, obligations, customers, items, and many more",
       "button": "View"
-
     },
     {
       "image": "/shitje.svg",
-      "header" : "Sales",
+      "header": "Sales",
       "desc": "The program simplifies the recording of sales and adapts to various types of businesses such as markets, stores, bars, restaurants, services, and many others. The program is configured with several different views to accommodate these businesses.",
       "button": "View"
-
     }
   ],
   "PosModules": [
@@ -416,41 +417,34 @@
     }
   ],
   "Dependency": [
-   
     {
       "image": "/teamviewer.svg",
-      "header" : "TeamViewer",
+      "header": "TeamViewer",
       "button": "Dowland",
-      "locate" : "https://www.teamviewer.com/en"
-
+      "locate": "https://www.teamviewer.com/en"
     },
     {
       "image": "/anydesk.svg",
-      "header" : "AnyDesk",
+      "header": "AnyDesk",
       "button": "Dowland",
       "locate": "https://anydesk.com/en"
-
     },
     {
       "image": "/rustdesk.svg",
-      "header" : "RustDesk",
+      "header": "RustDesk",
       "button": "Dowland",
       "locate": "https://rustdesk.com/"
-
     },
     {
       "image": "/yellowThunder.svg",
-      "header" : "Pos Driver",
+      "header": "Pos Driver",
       "button": "Windows",
       "locate": "/POSPrintDrive.exe",
       "buttonSecond": "IOS",
       "secondLocate": "/PosPrinterIOS.pkg"
-
-
     }
   ],
-  "Popup": 
-  {
+  "Popup": {
     "header": "Lets try it.",
     "desc": "Sales program and fiscalization for every business",
     "button": "Go to app"

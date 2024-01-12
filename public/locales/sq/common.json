@@ -52,29 +52,38 @@
       "price": "6.900",
       "priceExtra": "6,000 ALL/Vit POS \n 900 ALL/Vit Fiskalizimi",
       "service": "Shërbimi Pos",
-      "note": "Detaje të cmimit"
+      "note": "Detaje të cmimit",
+      "cash": "Fatura me para ne dore (Cash)",
+      "nonCash": "Fatura pa para ne dore (Non-Cash)",
+      "eInvoice": "Fatura Elektronike (E-Invoice)"
     },
     {
       "monthly": "Vit.",
       "header": "Small",
-      "desc": "3 person.",
+      "desc": "3 persona.",
       "price": "7.800",
       "priceExtra": "6,800 ALL/Vit POS \n 1000  ALL/Vit Fiskalizimi",
       "priceButton": "Provoni Pos",
       "service": "Shërbimi Pos",
-      "note": "Detaje të cmimit"
+      "note": "Detaje të cmimit",
+      "cash": "Fatura me para ne dore (Cash)",
+      "nonCash": "Fatura pa para ne dore (Non-Cash)",
+      "eInvoice": "Fatura Elektronike (E-Invoice)"
 
 
     },
     {
       "monthly": "Vit.",
       "header": "Medium",
-      "desc": "9 person.",
-      "price": "9.800",
+      "desc": "9 persona.",
+      "price": "10.900",
       "priceButton": "Provoni Pos",
       "priceExtra" : "8,600 ALL/Vit POS \n 1,200 ALL/Vit Fiskalizimi",
       "service": "Shërbimi Pos",
-      "note": "Detaje të cmimit"
+      "note": "Detaje të cmimit",
+      "cash": "Fatura me para ne dore (Cash)",
+      "nonCash": "Fatura pa para ne dore (Non-Cash)",
+      "eInvoice": "Fatura Elektronike (E-Invoice)"
 
 
     },
@@ -82,13 +91,16 @@
       "monthly": "Vit.",
       "header": "Business",
       "title": "Çfarë përfshihet",
-      "desc": "10 person.",
-      "price": "11.900",
+      "desc": "10 persona.",
+      "price": "14.900",
       "priceExtra": "10,000 ALL/Vit POS \n 1,900 ALL/Vit Fiskalizimi",
       "priceButton": "Provoni Pos",
       "service": "Shërbimi Pos",
       "extra": "Përdorues shtesë(500ALL/ për përdorues)",
-      "note": "Detaje të cmimit"
+      "note": "Detaje të cmimit",
+      "cash": "Fatura me para ne dore (Cash)",
+      "nonCash": "Fatura pa para ne dore (Non-Cash)",
+      "eInvoice": "Fatura Elektronike (E-Invoice)"
 
 
     }

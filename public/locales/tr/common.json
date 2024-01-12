@@ -47,7 +47,10 @@
       "price": "6.900",
       "priceExtra": "6,000 ALL/Yıllık POS \n 900 ALL/Yıllık Fikalizasyon",
       "service": "Pos Hizmeti",
-      "note": "Fiyat detayları"
+      "note": "Fiyat detayları",
+      "cash": "Nakit Fatura (Cash)",
+      "nonCash": "Nakit Olmayan Fatura (Non-Cash)",
+      "eInvoice": "Elektronik Fatura (E-Fatura)"
 
     },
     {
@@ -58,7 +61,10 @@
       "priceExtra": "6,800 ALL/Yıllık POS \n 1000  ALL/Yıllık Fikalizasyon",
       "priceButton": "Provoni Pos",
       "service": "Pos Hizmeti",
-      "note": "Fiyat detayları"
+      "note": "Fiyat detayları",
+      "cash": "Nakit Fatura (Cash)",
+      "nonCash": "Nakit Olmayan Fatura (Non-Cash)",
+      "eInvoice": "Elektronik Fatura (E-Fatura)"
     
 
 
@@ -67,10 +73,13 @@
       "monthly": "Yıllık.",
       "header": "Medium",
       "desc": "9 Kişi.",
-      "price": "9.800",
+      "price": "10.900",
       "priceExtra": "8,600 ALL/Yıllık POS \n 1,200 ALL/Yıllık Fikalizasyon",
       "service": "Pos Hizmeti",
-      "note": "Fiyat detayları"
+      "note": "Fiyat detayları",
+      "cash": "Nakit Fatura (Cash)",
+      "nonCash": "Nakit Olmayan Fatura (Non-Cash)",
+      "eInvoice": "Elektronik Fatura (E-Fatura)"
     
 
 
@@ -79,10 +88,13 @@
       "monthly": "Yıllık.",
       "header": "Business",
       "desc": "10 Kişi.",
-      "price": "11.900",
+      "price": "14.900",
       "priceExtra": "10,000 ALL/Yıllık POS \n 1,900 ALL/Yıllık Fikalizasyon",
       "service": "Pos Hizmeti",
-      "note": "Fiyat detayları" 
+      "note": "Fiyat detayları" ,
+      "cash": "Nakit Fatura (Cash)",
+      "nonCash": "Nakit Olmayan Fatura (Non-Cash)",
+      "eInvoice": "Elektronik Fatura (E-Fatura)"
    
 
     }

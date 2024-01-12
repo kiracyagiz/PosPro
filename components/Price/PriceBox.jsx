@@ -4,7 +4,7 @@ import Link from "next/link";
 import ButtonPrimary from "../General/ButtonPrimary";
 const PriceBox = ({ dt ,isModule ,locate,secondOption,isTool}) => {
   return (
-    <div className={` w-70 ${isTool ? ' h-72' : 'h-405'}    mt-8  bg-white border-2   border-gray-500 rounded-lg mx-auto  cursor-default flex flex-col gap-y-2 `}>
+    <div className={` w-70 ${isTool ? ' h-72' : 'h-405 max-h-fit'}    mt-8  bg-white border-2   border-gray-500 rounded-lg mx-auto  cursor-default flex flex-col gap-y-2 `}>
      <div className={`${isModule ? 'hidden' : 'block'}`}>
      <AiFillThunderbolt
         className={`${
@@ -40,21 +40,29 @@ const PriceBox = ({ dt ,isModule ,locate,secondOption,isTool}) => {
         <p className=" text-primaryYellow font-bold lowercase mt-6">/{dt.monthly}</p>
       </div>
 
-      <div className={`${isModule ? ' hidden' : 'flex flex-col p-4 gap-y-2"'}`}>
-        <div className="flex items-center gap-x-2 text-sm font-bold">
+      <div className={`${isModule ? ' hidden' : 'flex flex-col p-4 gap-y-6"'}`}>
+        <div className="flex items-center gap-x-2 text-sm font-bold my-2">
           <AiFillCheckCircle className="text-primaryYellow" />
           <p>{dt.desc}</p>
         </div>
-        <div className="flex items-center gap-x-2 text-sm font-bold ">
+        <div className="flex items-center gap-x-2 text-sm font-bold my-2 ">
           <AiFillCheckCircle className="text-primaryYellow" />
           <p>{dt.service}</p>
         </div>
-        <div className="flex flex-col  gap-x-2 text-[10px] text-gray-600 mt-20">
-          <p className="mb-2">{dt.note}</p>
-          <p className=" whitespace-pre-line">
-            {dt.priceExtra?.replace(/\n/g, "\n")}
-          </p>
+      
+        <div className="flex items-center gap-x-2 text-sm font-bold my-2 ">
+          <AiFillCheckCircle className="text-primaryYellow" />
+          <p>{dt.cash}</p>
         </div>
+        <div className="flex items-center gap-x-2 text-sm font-bold my-2 ">
+          <AiFillCheckCircle className="text-primaryYellow" />
+          <p>{dt.nonCash}</p>
+        </div>
+        <div className="flex items-center gap-x-2 text-sm font-bold my-2 ">
+          <AiFillCheckCircle className="text-primaryYellow" />
+          <p>{dt.eInvoice}</p>
+        </div>
+     
       </div>
 
       <div className={isModule ? 'block': 'hidden'}>
