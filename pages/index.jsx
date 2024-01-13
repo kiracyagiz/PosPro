@@ -35,7 +35,7 @@ const Home = () => {
     }, 500);
 
     return () => clearTimeout(popupTimer);
-  }, [router]); 
+  }, []); 
 
 
   return (
@@ -47,6 +47,7 @@ const Home = () => {
         locale={currentLocale}
         href={"/"}
         isMain={false}
+        isPage={true}
       />
       <Hero />
       <Price />

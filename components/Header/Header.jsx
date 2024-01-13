@@ -8,7 +8,7 @@ import Link from "next/link";
 import { useRef } from "react";
 
 const Header = (props) => {
-  const { header, headerB, locale, href, isMain } = props;
+  const { header, headerB, locale, href, isPage } = props;
   const [panelOpen, setPanelOpen] = useState(false);
 
   const togglePanel = () => {
@@ -29,7 +29,7 @@ const Header = (props) => {
         <nav className="items-center hidden md:hidden lg:flex justify-between  list-none roboto700 font-bold  gap-x-10 text-xl">
         
           {header.map((dt, i) => (
-            <Link href={dt.onPage ? `${locale}${dt.id}` : dt.id} key={i} >
+            <Link href={  dt.onPage ? `${locale}${dt.id}` : dt.id} key={i} >
               {dt.title}
               <div className="w-0 bg-black h-under opacity-0 group-hover:w-full group-hover:opacity-100 transition-all duration-300" />
             </Link>

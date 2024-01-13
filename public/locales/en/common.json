@@ -436,8 +436,8 @@
       "locate": "https://rustdesk.com/"
     },
     {
-      "image": "/yellowThunder.svg",
-      "header": "Pos Driver",
+      "image": "/driver.svg",
+      "header": "Print Drivers",
       "button": "Windows",
       "locate": "/POSPrintDrive.exe",
       "buttonSecond": "IOS",

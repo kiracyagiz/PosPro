@@ -472,7 +472,7 @@
     },
     {
       "image": "/driver.svg",
-      "header" : "Driver",
+      "header" : "Print Drivers",
       "desc": "",
       "button": "Windows",
       "locate": "/POSPrintDrive.exe",
