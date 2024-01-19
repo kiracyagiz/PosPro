@@ -450,7 +450,7 @@
       "image": "/teamviewer.svg",
       "header" : "TeamViewer",
       "desc": "",
-      "button": "Dowland",
+      "button": "Download",
       "locate" : "https://www.teamviewer.com/en"
 
     },
@@ -458,7 +458,7 @@
       "image": "/anydesk.svg",
       "header" : "AnyDesk",
       "desc": "",
-      "button": "Dowland",
+      "button": "Download",
       "locate": "https://anydesk.com/en"
 
     },
@@ -466,7 +466,7 @@
       "image": "/rustdesk.svg",
       "header" : "RustDesk",
       "desc": "",
-      "button": "Dowland",
+      "button": "Download",
       "locate": "https://rustdesk.com/"
 
     },
