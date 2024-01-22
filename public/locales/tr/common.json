@@ -430,21 +430,21 @@
     {
       "image": "/teamviewer.svg",
       "header" : "TeamViewer",
-      "button": "Dowland",
+      "button": "Download",
       "locate" : "https://www.teamviewer.com/en"
 
     },
     {
       "image": "/anydesk.svg",
       "header" : "AnyDesk",
-      "button": "Dowland",
+      "button": "Download",
       "locate": "https://anydesk.com/en"
 
     },
     {
       "image": "/rustdesk.svg",
       "header" : "RustDesk",
-      "button": "Dowland",
+      "button": "Download",
       "locate": "https://rustdesk.com/"
 
     },
