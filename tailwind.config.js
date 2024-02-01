@@ -23,7 +23,7 @@ module.exports = {
       },
       height: {
         100: "100px",
-        405: "405px",
+        405: "420px",
         300: "300px",
         under: "3px",
       },

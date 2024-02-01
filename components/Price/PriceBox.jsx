@@ -4,7 +4,7 @@ import Link from "next/link";
 import ButtonPrimary from "../General/ButtonPrimary";
 const PriceBox = ({ dt ,isModule ,locate,secondOption,isTool}) => {
   return (
-    <div className={` w-70 ${isTool ? ' h-72' : 'h-405 max-h-fit'}    mt-8  bg-white border-2   border-gray-500 rounded-lg mx-auto  cursor-default flex flex-col gap-y-2 `}>
+    <div className={` w-70 ${isTool ? ' h-72' : ' h-405 max-h-fit'}    mt-8  bg-white border-2   border-gray-500 rounded-lg mx-auto  cursor-default flex flex-col gap-y-2 `}>
      <div className={`${isModule ? 'hidden' : 'block'}`}>
      <AiFillThunderbolt
         className={`${
@@ -28,11 +28,11 @@ const PriceBox = ({ dt ,isModule ,locate,secondOption,isTool}) => {
           {dt.header}
         </p>
       </div>
-
+    
       <div
         className={`${
        
-             isModule ? 'hidden' : 'flex justify-center gap-x-1 mt-2 text-center items-center'
+           dt.isBusiness ? "hidden" :  isModule ? 'hidden' : 'flex justify-center gap-x-1 mt-2 text-center items-center'
         }`}
       >
         <p className="text-xs mb-4 font-bold ">Leke</p>
@@ -40,7 +40,8 @@ const PriceBox = ({ dt ,isModule ,locate,secondOption,isTool}) => {
         <p className=" text-primaryYellow font-bold lowercase mt-6">/{dt.monthly}</p>
       </div>
 
-      <div className={`${isModule ? ' hidden' : 'flex flex-col p-4 gap-y-6"'}`}>
+      <div className={`${
+             isModule ? ' hidden' : 'flex flex-col p-4 "'}`}>
         <div className="flex items-center gap-x-2 text-xs font-bold my-2">
           <AiFillCheckCircle className="text-primaryYellow" />
           <p>{dt.desc}</p>
@@ -58,11 +59,18 @@ const PriceBox = ({ dt ,isModule ,locate,secondOption,isTool}) => {
           <AiFillCheckCircle className="text-primaryYellow" />
           <p>{dt.nonCash}</p>
         </div>
+        <div className={`${dt.isBusiness ? 'hidden' : "flex"} items-center gap-x-2 text-xs font-bold my-2`}>
+          <AiFillCheckCircle className="text-primaryYellow" />
+          <p>{dt.inventory}</p>
+        </div>
         <div className="flex items-center gap-x-2 text-xs font-bold my-2 ">
           <AiFillCheckCircle className="text-primaryYellow" />
-          <p>{dt.eInvoice}</p>
+          <p>{dt.device}</p>
         </div>
-     
+      </div>
+
+      <div className={`${dt.isBusiness ? 'block text-center' : 'hidden'}`}>
+         <ButtonPrimary text={dt.button}/>
       </div>
 
       <div className={isModule ? 'block': 'hidden'}>

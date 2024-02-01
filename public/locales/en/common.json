@@ -54,43 +54,52 @@
       "note": "Detail of price",
       "cash": "Cash Invoice",
       "nonCash": "Non-Cash Invoice",
-      "eInvoice": "E-Invoice"
+      "eInvoice": "E-Invoice",
+          "inventory": "Don't include the inventory",
+      "device": "You can access from every device"
     },
     {
       "monthly": "Year.",
       "header": "Small",
       "desc": "3 person.",
-      "price": "7.800",
+      "price": "10.900",
       "priceExtra": "6,800 ALL/Year POS \n 1000  ALL/Year Fiscalization",
       "service": "Pos Service",
       "note": "Detail of price",
       "cash": "Cash Invoice ",
       "nonCash": "Non-Cash Invoice",
-      "eInvoice": "E-Invoice"
+      "eInvoice": "E-Invoice",
+          "inventory": "Don't include the inventory",
+      "device": "You can access from every device"
     },
     {
       "monthly": "Year.",
       "header": "Medium",
       "desc": "9 person.",
-      "price": "10.900",
+      "price": "14.900",
       "priceExtra": "8,600 ALL/Year POS \n 1,200 ALL/Year Fiscalization",
       "service": "Pos Service",
       "note": "Detail of price",
       "cash": "Cash Invoice ",
       "nonCash": "Non-Cash Invoice",
-      "eInvoice": "E-Invoice"
+      "eInvoice": "E-Invoice",
+          "inventory": "Don't include the inventory",
+      "device": "You can access from every device"
     },
     {
       "monthly": "Year.",
       "header": "Business",
-      "desc": "10 person.",
+      "isBusiness": true,
+      "desc": "HR System",
+      "service": "Accounting System",
       "price": "14.900",
-      "priceExtra": "10,000 ALL/Year POS \n 1,900 ALL/Year Fiscalization",
-      "service": "Pos Service",
-      "note": "Detail of price",
       "cash": "Cash Invoice ",
       "nonCash": "Non-Cash Invoice",
-      "eInvoice": "E-Invoice"
+      "eInvoice": "E-Invoice",
+          "inventory": "Don't include the inventory",
+      "device": "You can access from every device",
+      "button": "Contact"
+
     }
   ],
   "SecondAd": {
