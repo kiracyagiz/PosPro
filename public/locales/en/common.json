@@ -193,11 +193,15 @@
   ],
   "AboutPage": {
     "title": "About Us",
-    "desc1": "Welcome to Pos.al! We are a leading technology company specializing in providing cutting-edge point-of-sale (POS) solutions for businesses of all sizes. With a strong commitment to innovation and customer satisfaction, we have become a trusted partner for businesses looking to streamline their sales operations and enhance customer experiences.",
-    "desc2": "Our mission is to revolutionize the way businesses manage their sales processes. We combine advanced technology with user-friendly interfaces to create this powerful POS platform that empower businesses to thrive in today's competitive market.",
-    "desc4": "Services",
-    "category1": "Versatile packages",
-    "category2": "Customer Support and Helpdesk Services"
+    "desc": [
+      {"title": "Welcome to Pos.al! We are a leading technology company specializing in providing cutting-edge point-of-sale (POS) solutions for businesses of all sizes. With a strong commitment to innovation and customer satisfaction, we have become a trusted partner for businesses looking to streamline their sales operations and enhance customer experiences."},
+      {"title": "Our mission is to revolutionize the way businesses manage their sales processes. We combine advanced technology with user-friendly interfaces to create this powerful POS platform that empower businesses to thrive in today's competitive market."}
+    ],
+    "desc3": "Services",
+    "category": [
+      {"title": "Versatile packages"},
+      {"title": "Customer Support and Helpdesk Services"}
+    ]
   },
   "Faq": [
     {

@@ -186,11 +186,15 @@
   ],
   "AboutPage": {
     "title": "Hakkımızda",
-    "desc1": "Pos.al'a hoş geldiniz! Biz, her büyüklükteki işletmeler için son teknoloji satış noktası (POS) çözümleri sunan önde gelen bir teknoloji şirketiyiz. İnovasyon ve müşteri memnuniyetine güçlü bir bağlılıkla, satış operasyonlarını düzenlemek ve müşteri deneyimlerini geliştirmek isteyen işletmeler için güvenilir bir ortak haline geldik.",
-    "desc2": "Misyonumuz, işletmelerin satış süreçlerini yönetme şeklini devrimleştirmektir. Gelişmiş teknolojiyi kullanıcı dostu arayüzlerle birleştirerek, işletmelerin bugünün rekabetçi pazarında başarılı olmalarını sağlayan güçlü bir POS platformu oluşturuyoruz.",
+    "desc": [
+      {"title": "Pos.al'a hoş geldiniz! Biz, her büyüklükteki işletmeler için son teknoloji satış noktası (POS) çözümleri sunan önde gelen bir teknoloji şirketiyiz. İnovasyon ve müşteri memnuniyetine güçlü bir bağlılıkla, satış operasyonlarını düzenlemek ve müşteri deneyimlerini geliştirmek isteyen işletmeler için güvenilir bir ortak haline geldik."},
+      {"title": "Misyonumuz, işletmelerin satış süreçlerini yönetme şeklini devrimleştirmektir. Gelişmiş teknolojiyi kullanıcı dostu arayüzlerle birleştirerek, işletmelerin bugünün rekabetçi pazarında başarılı olmalarını sağlayan güçlü bir POS platformu oluşturuyoruz."}
+    ],
     "desc3": "Hizmetler",
-    "category1": "Çeşitli paketler",
-    "category2": "Müşteri Desteği ve Canlı Yardım Hizmetleri"
+    "category": [
+      {"title": "Çeşitli paketler"},
+      {"title": "Müşteri Desteği ve Canlı Yardım Hizmetleri"}
+    ]
   },
   "Faq": [
     {

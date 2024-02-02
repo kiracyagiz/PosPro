@@ -202,11 +202,15 @@
   ],
   "AboutPage": {
     "title": "Rreth Nesh",
-    "desc1": "Mirësevini në Pos.al! Jemi një kompani teknologjie që specializohet në ofrimin e zgjidhjeve të fundit të teknologjisë mbi sistemet e shitjes (POS) për biznese të të gjitha madhësive. Me një përkushtim të fortë ndaj inovacionit dhe kënaqësisë së klientëve, jemi një partner i besueshëm për bizneset që kërkojnë të përmirësojnë operacionet e tyre të shitjes dhe të përmirësojnë përvojën e klientëve",
-    "desc2": "Misioni ynë është të revolucionarizojmë mënyrën se si bizneset menaxhojnë mbi shitjet e tyre. Kombinojmë teknologjinë e avancuar me ndërfaqe të lehtë për përdoruesit për të sjellë platformën e fuqishme POS që fuqizojnë bizneset për të shkëlqyer në tregun konkurrues të sotëm.",
-    "desc3": "Shërbimet",
-    "category1": "Paketa të Ndryshme",
-    "category2": "Shërbim për Klientët dhe Helpdesk"
+    "desc": [
+      {"title": "Mirësevini në Pos.al! Jemi një kompani teknologjie që specializohet në ofrimin e zgjidhjeve të fundit të teknologjisë mbi sistemet e shitjes (POS) për biznese të të gjitha madhësive. Me një përkushtim të fortë ndaj inovacionit dhe kënaqësisë së klientëve, jemi një partner i besueshëm për bizneset që kërkojnë të përmirësojnë operacionet e tyre të shitjes dhe të përmirësojnë përvojën e klientëve"},
+      {"title": "Misioni ynë është të revolucionarizojmë mënyrën se si bizneset menaxhojnë mbi shitjet e tyre. Kombinojmë teknologjinë e avancuar me ndërfaqe të lehtë për përdoruesit për të sjellë platformën e fuqishme POS që fuqizojnë bizneset për të shkëlqyer në tregun konkurrues të sotëm."}
+    ],
+    "category": [
+      {"title": "Paketa të Ndryshme"},
+      {"title": "Shërbim për Klientët dhe Helpdesk"}
+    ],
+    "desc3": "Shërbimet"
   },
   "Faq": [
     {
