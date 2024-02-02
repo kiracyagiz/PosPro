@@ -59,7 +59,7 @@ const PriceBox = ({ dt, isModule, locate, secondOption, isTool }) => {
         </div> */}
 
         <div className={` ${dt.isBusiness ? 'hidden' : ""} text-xs text-left text-gray-400 mt-8 `}>
-          <p><span className=" text-black mr-1">*</span>{dt.inventory}</p>
+          <p className="ml-1"><span className=" text-black mr-1">*</span>{dt.inventory}</p>
         </div>
       </div>
 
