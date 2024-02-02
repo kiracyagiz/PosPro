@@ -96,7 +96,7 @@
       "cash": "Cash Invoice ",
       "nonCash": "Non-Cash Invoice",
       "eInvoice": "E-Invoice",
-          "inventory": "Don't include the inventory",
+        "inventory": "Don't include the inventory",
       "device": "You can access from every device",
       "button": "Contact"
 
