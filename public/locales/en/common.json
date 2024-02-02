@@ -47,58 +47,64 @@
     {
       "monthly": "Year.",
       "header": "Single",
-      "desc": "1 person",
       "price": "6.900",
-      "priceExtra": "6,000 ALL/Year POS \n 900 ALL/Year Fiscalization",
-      "service": "Pos Service",
-      "note": "Detail of price",
-      "cash": "Cash Invoice",
-      "nonCash": "Non-Cash Invoice",
-      "eInvoice": "E-Invoice",
-          "inventory": "Don't include the inventory",
-      "device": "You can access from every device"
+      "inventory": "Don't include the inventory",
+
+
+      "extraInformation": [
+        {"title": "1 person"},
+        {"title": "Pos Service"},
+        {"title": "Cash Invoice"},
+        {"title": "Non-Cash Invoice"},
+        {"title": "You can access from every device"}
+      ]
     },
     {
       "monthly": "Year.",
       "header": "Small",
-      "desc": "3 person.",
+      "inventory": "Don't include the inventory",
       "price": "10.900",
-      "priceExtra": "6,800 ALL/Year POS \n 1000  ALL/Year Fiscalization",
-      "service": "Pos Service",
-      "note": "Detail of price",
-      "cash": "Cash Invoice ",
-      "nonCash": "Non-Cash Invoice",
-      "eInvoice": "E-Invoice",
-          "inventory": "Don't include the inventory",
-      "device": "You can access from every device"
+
+
+      "extraInformation":[
+        {"title": "3 person"},
+        {"title": "Pos Service"},
+        {"title": "Cash Invoice"},
+        {"title":"Non-Cash Invoice"},
+        {"title": "You can access from every device"}
+      ]
     },
     {
       "monthly": "Year.",
       "header": "Medium",
-      "desc": "9 person.",
       "price": "14.900",
-      "priceExtra": "8,600 ALL/Year POS \n 1,200 ALL/Year Fiscalization",
-      "service": "Pos Service",
-      "note": "Detail of price",
-      "cash": "Cash Invoice ",
-      "nonCash": "Non-Cash Invoice",
-      "eInvoice": "E-Invoice",
-          "inventory": "Don't include the inventory",
-      "device": "You can access from every device"
+      "inventory": "Don't include the inventory",
+
+      "extraInformation": [
+        {"title": "9 Person."},
+        {"title": "Pos Service"},
+        {"title": "Cash Invoice"},
+        {"title": "Non-Cash Invoice"},
+        {"title": "You can access from every device"}
+      ]
     },
     {
       "monthly": "Year.",
       "header": "Business",
       "isBusiness": true,
-      "desc": "HR System",
-      "service": "Accounting System",
-      "price": "14.900",
-      "cash": "Cash Invoice ",
-      "nonCash": "Non-Cash Invoice",
-      "eInvoice": "E-Invoice",
-        "inventory": "Don't include the inventory",
-      "device": "You can access from every device",
-      "button": "Contact"
+      "inventory": "Don't include the inventory",
+      "button": "Contact",
+
+
+      "extraInformation": [
+        {"title" : "HR System"},
+        {"title": "Accounting System"},
+        {"title": "Cash Invoice"},
+        {"title": "Non-Cash Invoice"},
+        {"title": "You can access from every device"}
+      ]
+
+
 
     }
   ],

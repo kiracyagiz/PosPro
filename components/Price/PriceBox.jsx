@@ -42,31 +42,19 @@ const PriceBox = ({ dt ,isModule ,locate,secondOption,isTool}) => {
 
       <div className={`${
              isModule ? ' hidden' : 'flex flex-col p-4 "'}`}>
-        <div className="flex items-center gap-x-2 text-xs font-bold my-2">
-          <AiFillCheckCircle className="text-primaryYellow" />
-          <p>{dt.desc}</p>
-        </div>
-        <div className="flex items-center gap-x-2 text-xs font-bold my-2 ">
-          <AiFillCheckCircle className="text-primaryYellow" />
-          <p>{dt.service}</p>
-        </div>
-      
-        <div className="flex items-center gap-x-2 text-xs font-bold my-2 ">
-          <AiFillCheckCircle className="text-primaryYellow" />
-          <p>{dt.cash}</p>
-        </div>
-        <div className="flex items-center gap-x-2 text-xs font-bold my-2 ">
-          <AiFillCheckCircle className="text-primaryYellow" />
-          <p>{dt.nonCash}</p>
-        </div>
+              
+       
+       {dt.extraInformation && dt.extraInformation.map((data,i) =>(
+           <div className="flex items-center gap-x-2 text-xs font-bold my-2" key={i}>
+           <AiFillCheckCircle className="text-primaryYellow" />
+           <p>{data.title}</p>
+         </div>
+        ))}
         <div className={`${dt.isBusiness ? 'hidden' : "flex"} items-center gap-x-2 text-xs font-bold my-2`}>
           <AiFillCheckCircle className="text-primaryYellow" />
           <p>{dt.inventory}</p>
         </div>
-        <div className="flex items-center gap-x-2 text-xs font-bold my-2 ">
-          <AiFillCheckCircle className="text-primaryYellow" />
-          <p>{dt.device}</p>
-        </div>
+    
       </div>
 
       <div className={`${dt.isBusiness ? 'block text-center' : 'hidden'}`}>

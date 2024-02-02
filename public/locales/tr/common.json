@@ -43,69 +43,61 @@
     {
       "monthly": "Yıllık.",
       "header": "Single",
-      "desc": "1 Kişi",
       "price": "6.900",
-      "priceExtra": "6,000 ALL/Yıllık POS \n 900 ALL/Yıllık Fikalizasyon",
-      "service": "Pos Hizmeti",
-      "note": "Fiyat detayları",
-      "cash": "Nakit Fatura (Cash)",
-      "nonCash": "Nakit Olmayan Fatura (Non-Cash)",
-      "eInvoice": "Elektronik Fatura (E-Fatura)",
       "inventory": "Envanter yönetimi içermez.",
-      "device": "Her cihazdan bağlantı sağlanılabilir."
 
+
+      "extraInformation": [
+        {"title": "1 Kişı"},
+        {"title" : "Pos Hizmeti"},
+        {"title" : "Nakit Fatura (Cash)"},
+        {"title": "Nakit Olmayan Fatura (Non-Cash)"},
+        {"title": "Her cihazdan bağlantı sağlanılabilir."}
+
+      ]
     },
     {
       "monthly": "Yıllık.",
       "header": "Small",
-      "desc": "3 Kişi.",
       "price": "10.900",
-      "priceExtra": "6,800 ALL/Yıllık POS \n 1000  ALL/Yıllık Fikalizasyon",
-      "priceButton": "Provoni Pos",
-      "service": "Pos Hizmeti",
-      "note": "Fiyat detayları",
-      "cash": "Nakit Fatura (Cash)",
-      "nonCash": "Nakit Olmayan Fatura (Non-Cash)",
-      "eInvoice": "Elektronik Fatura (E-Fatura)",
       "inventory": "Envanter yönetimi içermez.",
-      "device": "Her cihazdan bağlantı sağlanılabilir."
-    
 
-
+      "extraInformation": [
+        {"title": "3 Kişi."},
+        {"title": "Pos Hizmeti"},
+        {"title": "Nakit Fatura (Cash)"},
+        {"title" : "Nakit Olmayan Fatura (Non-Cash)"},
+        {"title": "Her cihazdan bağlantı sağlanılabilir."}
+      ]
     },
     {
       "monthly": "Yıllık.",
       "header": "Medium",
-      "desc": "9 Kişi.",
-      "price": "14.900",
-      "priceExtra": "8,600 ALL/Yıllık POS \n 1,200 ALL/Yıllık Fikalizasyon",
-      "service": "Pos Hizmeti",
-      "note": "Fiyat detayları",
-      "cash": "Nakit Fatura (Cash)",
-      "nonCash": "Nakit Olmayan Fatura (Non-Cash)",
-      "eInvoice": "Elektronik Fatura (E-Fatura)",
       "inventory": "Envanter yönetimi içermez.",
-      "device": "Her cihazdan bağlantı sağlanılabilir."
+      "price": "14.900",
 
-    
-
-
+      "extraInformation": [
+        {"title": "9 Kişi"},
+        {"title": "Pos Hizmeti"},
+        {"title": "Nakit Fatura (Cash)"},
+        {"title": "Nakit Olmayan Fatura (Non-Cash)"},
+        {"title": "Her cihazdan bağlantı sağlanılabilir."}
+      ]
     },
     {
       "monthly": "Yıllık.",
       "header": "Business",
       "price": "14.900",
-      "note": "Fiyat detayları" ,
-      "cash": "Nakit Fatura (Cash)",
-      "nonCash": "Nakit Olmayan Fatura (Non-Cash)",
-      "eInvoice": "Elektronik Fatura (E-Fatura)",
-      "device": "Her cihazdan bağlantı sağlanılabilir.",
-      "button": "İletişim",
       "isBusiness": true,
-      "desc": "HR Sistemi",
-      "service": "Muhasebe Sistemi "
-   
+      "button": "İletişim",
 
+      "extraInformation": [
+        {"title": "HR Sistemi"},
+        {"title": "Muhasebe Sistemi"},
+        {"title": "Nakit Fatura (Cash)"},
+        {"title" : "Nakit Olmayan Fatura (Non-Cash)"},
+        {"title": "Her cihazdan bağlantı sağlanılabilir."}
+      ]
     }
   ],
   "SecondAd": {

@@ -47,49 +47,49 @@
     {
       "monthly": "Vit.",
       "header": "Single",
-      "desc": "1 person",
       "priceButton": "Provoni Pos",
       "price": "6.900",
-      "priceExtra": "6,000 ALL/Vit POS \n 900 ALL/Vit Fiskalizimi",
-      "service": "Shërbimi Pos",
-      "note": "Detaje të cmimit",
-      "cash": "Fatura me para ne dore (Cash)",
-      "nonCash": "Fatura pa para ne dore (Non-Cash)",
-      "eInvoice": "Fatura Elektronike (E-Invoice)",
       "inventory": "Nuk përfshijnë inventarin",
-      "device": "Mund të hyni nga çdo pajisje"
+
+      "extraInformation": [
+        {"title": "1 person"},
+        {"title": "Shërbimi Pos"},
+        {"title": "Fatura me para ne dore (Cash)"},
+        {"title": "Fatura pa para ne dore (Non-Cash)"},
+        {"title": "Mund të hyni nga çdo pajisje"}
+      ]
+
     },
     {
       "monthly": "Vit.",
       "header": "Small",
-      "desc": "3 persona.",
       "price": "10.900",
-      "priceExtra": "9,900 ALL/Vit POS \n 1000  ALL/Vit Fiskalizimi",
       "priceButton": "Provoni Pos",
-      "service": "Shërbimi Pos",
-      "note": "Detaje të cmimit",
-      "cash": "Fatura me para ne dore (Cash)",
-      "nonCash": "Fatura pa para ne dore (Non-Cash)",
-      "eInvoice": "Fatura Elektronike (E-Invoice)",
       "inventory": "Nuk përfshijnë inventarin",
-      "device": "Mund të hyni nga çdo pajisje"
+      "extraInformation": [
+        {"title": "3 persona."},
+        {"title": "Shërbimi Pos"},
+        {"title": "Fatura me para ne dore (Cash)"},
+        {"title": "Fatura pa para ne dore (Non-Cash)"},
+        {"title": "Mund të hyni nga çdo pajisje"}
+      ]
+
 
 
     },
     {
       "monthly": "Vit.",
       "header": "Medium",
-      "desc": "9 persona.",
       "price": "14.900",
       "priceButton": "Provoni Pos",
-      "priceExtra" : "8,600 ALL/Vit POS \n 1,200 ALL/Vit Fiskalizimi",
-      "service": "Shërbimi Pos",
-      "note": "Detaje të cmimit",
-      "cash": "Fatura me para ne dore (Cash)",
-      "nonCash": "Fatura pa para ne dore (Non-Cash)",
-      "eInvoice": "Fatura Elektronike (E-Invoice)",
       "inventory": "Nuk përfshijnë inventarin",
-      "device": "Mund të hyni nga çdo pajisje"
+      "extraInformation": [
+        {"title": "9 persona."},
+        {"title": "Shërbimi Pos"},
+        {"title": "Fatura me para ne dore (Cash)"},
+        {"title": "Fatura pa para ne dore (Non-Cash)"},
+        {"title": "Mund të hyni nga çdo pajisje"}
+      ]
 
 
     },
@@ -97,18 +97,16 @@
       "monthly": "Vit.",
       "header": "Business",
       "title": "Çfarë përfshihet",
-      "isBusiness": true,
-      "desc": "Sistemi HR",
-      "service": "Sistemi Kontabilitetit",
-      "extra": "Përdorues shtesë(500ALL/ për përdorues)",
-      "note": "Detaje të cmimit",
-      "cash": "Fatura me para ne dore (Cash)",
-      "nonCash": "Fatura pa para ne dore (Non-Cash)",
-      "eInvoice": "Fatura Elektronike (E-Invoice)",
       "inventory": "Nuk përfshijnë inventarin",
-      "device": "Mund të hyni nga çdo pajisje",
-      "button": "Kontakto"
-
+      "isBusiness": true,
+      "button": "Kontakto",
+      "extraInformation":[
+        {"title": "Sistemi HR"},
+        {"title": "Sistemi Kontabilitetit"},
+        {"title": "Fatura me para ne dore (Cash)"},
+        {"title": "Fatura pa para ne dore (Non-Cash)"},
+        {"title": "Mund të hyni nga çdo pajisje"}
+      ]
 
     }
   ],
