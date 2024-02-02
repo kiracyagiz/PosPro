@@ -21,7 +21,9 @@ const AboutPage = ({ about }) => {
           </p>
           <div className="flex flex-col gap-x-2 ">
             {about.category && about.category.map((dt,i)=> (
-            <TextPrimary text={dt.title} fontStyle={"roboto400"} />
+            <div key={i}>
+               <TextPrimary text={dt.title} fontStyle={"roboto400"} />
+            </div>
 
             ))}
           </div>
