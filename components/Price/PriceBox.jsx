@@ -58,8 +58,14 @@ const PriceBox = ({ dt, isModule, locate, secondOption, isTool }) => {
           <p>{dt.inventory}</p>
         </div> */}
 
-        <div className={` ${dt.isBusiness ? 'hidden' : ""} text-xs text-left text-gray-400 mt-8 `}>
+        <div className={`  text-xs text-left text-gray-400  ${dt.note ? "mt-2" : "mt-8"}  `}>
           <p className="ml-1"><span className=" text-black mr-1">*</span>{dt.inventory}</p>
+          {
+            dt.note && 
+          <p className="ml-1"><span className=" text-black mr-1">*</span>{dt.note }</p>
+
+          }
+
         </div>
       </div>
 

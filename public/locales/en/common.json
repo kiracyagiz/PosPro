@@ -89,22 +89,18 @@
       ]
     },
     {
-      "monthly": "Year.",
+      "monthly": "Vit.",
       "header": "Business",
-      "isBusiness": true,
+      "price": "24.900",
       "inventory": "Don't include the inventory",
-      "button": "Contact",
-
-
-      "extraInformation": [
-        {"title" : "HR System"},
-        {"title": "Accounting System"},
+       "note" : "+500 Lek per user for a year",
+      "extraInformation":[
+        {"title": "≥ 10 Person"},
+        {"title": "Pos Service"},
         {"title": "Cash Invoice"},
         {"title": "Non-Cash Invoice"},
         {"title": "You can access from every device"}
       ]
-
-
 
     }
   ],
@@ -436,31 +432,50 @@
     }
   ],
   "Dependency": [
+   
     {
       "image": "/teamviewer.svg",
-      "header": "TeamViewer",
+      "header" : "TeamViewer",
+      "desc": "",
       "button": "Download",
-      "locate": "https://www.teamviewer.com/en"
+      "locate" : "https://www.teamviewer.com/en"
+
     },
     {
       "image": "/anydesk.svg",
-      "header": "AnyDesk",
+      "header" : "AnyDesk",
+      "desc": "",
       "button": "Download",
       "locate": "https://anydesk.com/en"
+
     },
     {
       "image": "/rustdesk.svg",
-      "header": "RustDesk",
+      "header" : "RustDesk",
+      "desc": "",
       "button": "Download",
       "locate": "https://rustdesk.com/"
+
     },
     {
       "image": "/driver.svg",
-      "header": "Print Drivers",
+      "header" : "Print Drivers",
+      "desc": "",
       "button": "Windows",
       "locate": "/POSPrintDrive.exe",
       "buttonSecond": "IOS",
       "secondLocate": "/PosPrinterIOS.pkg"
+
+
+    },
+    {
+      "image": "/bluetooth.svg",
+      "header" : "Bluetooth Print Drivers",
+      "desc": "",
+      "button": "Android",
+      "locate": "/Bluetooth.apk"
+
+
     }
   ],
   "Popup": {

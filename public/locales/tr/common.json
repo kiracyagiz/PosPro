@@ -85,19 +85,19 @@
       ]
     },
     {
-      "monthly": "Yıllık.",
+      "monthly": "yıllık.",
       "header": "Business",
-      "price": "14.900",
-      "isBusiness": true,
-      "button": "İletişim",
-
-      "extraInformation": [
-        {"title": "HR Sistemi"},
-        {"title": "Muhasebe Sistemi"},
+      "price": "24.900",
+      "inventory": "Envanter yönetimi içermez.",
+       "note" : "Ekstra kullanıcı başına her yıl +500 Lek",
+      "extraInformation":[
+        {"title": "≥ 10 Kişi"},
+        {"title": "Pos Hizmeti"},
         {"title": "Nakit Fatura (Cash)"},
-        {"title" : "Nakit Olmayan Fatura (Non-Cash)"},
+        {"title": "Nakit Olmayan Fatura (Non-Cash)"},
         {"title": "Her cihazdan bağlantı sağlanılabilir."}
       ]
+
     }
   ],
   "SecondAd": {
@@ -435,6 +435,7 @@
     {
       "image": "/teamviewer.svg",
       "header" : "TeamViewer",
+      "desc": "",
       "button": "Download",
       "locate" : "https://www.teamviewer.com/en"
 
@@ -442,6 +443,7 @@
     {
       "image": "/anydesk.svg",
       "header" : "AnyDesk",
+      "desc": "",
       "button": "Download",
       "locate": "https://anydesk.com/en"
 
@@ -449,6 +451,7 @@
     {
       "image": "/rustdesk.svg",
       "header" : "RustDesk",
+      "desc": "",
       "button": "Download",
       "locate": "https://rustdesk.com/"
 
@@ -456,10 +459,20 @@
     {
       "image": "/driver.svg",
       "header" : "Print Drivers",
+      "desc": "",
       "button": "Windows",
       "locate": "/POSPrintDrive.exe",
       "buttonSecond": "IOS",
       "secondLocate": "/PosPrinterIOS.pkg"
+
+
+    },
+    {
+      "image": "/bluetooth.svg",
+      "header" : "Bluetooth Print Drivers",
+      "desc": "",
+      "button": "Android",
+      "locate": "/Bluetooth.apk"
 
 
     }

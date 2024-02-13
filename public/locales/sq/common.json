@@ -96,13 +96,13 @@
     {
       "monthly": "Vit.",
       "header": "Business",
-      "title": "Çfarë përfshihet",
+      "price": "24.900",
+      "priceButton": "Provoni Pos",
       "inventory": "Nuk përfshijnë inventarin",
-      "isBusiness": true,
-      "button": "Kontakto",
+       "note" : "+500 Lek per user shtese ne vit",
       "extraInformation":[
-        {"title": "Sistemi HR"},
-        {"title": "Sistemi Kontabilitetit"},
+        {"title": "≥ 10 Persona"},
+        {"title": "Shërbimi Pos"},
         {"title": "Fatura me para ne dore (Cash)"},
         {"title": "Fatura pa para ne dore (Non-Cash)"},
         {"title": "Mund të hyni nga çdo pajisje"}
@@ -487,6 +487,15 @@
       "locate": "/POSPrintDrive.exe",
       "buttonSecond": "IOS",
       "secondLocate": "/PosPrinterIOS.pkg"
+
+
+    },
+    {
+      "image": "/bluetooth.svg",
+      "header" : "Bluetooth Print Drivers",
+      "desc": "",
+      "button": "Android",
+      "locate": "/Bluetooth.apk"
 
 
     }
