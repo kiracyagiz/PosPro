@@ -59,12 +59,13 @@ const PriceBox = ({ dt, isModule, locate, secondOption, isTool }) => {
         </div> */}
 
         <div className={`  text-xs text-left text-gray-400  ${dt.note ? "mt-2" : "mt-8"}  `}>
-          <p className="ml-1"><span className=" text-black mr-1">*</span>{dt.inventory}</p>
-          {
+        {
             dt.note && 
           <p className="ml-1"><span className=" text-black mr-1">*</span>{dt.note }</p>
 
           }
+          <p className="ml-1"><span className=" text-black mr-1">*</span>{dt.inventory}</p>
+         
 
         </div>
       </div>
